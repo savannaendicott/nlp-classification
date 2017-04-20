@@ -27,10 +27,21 @@ Usage:
 5.	At the end of the program, type anything and hit enter to restart.
 
 Important Files:
-CorpusDB.java
-Corpus.java
-naivebayes.java
-bagOfWords.java
+- CorpusDB.java
+- Corpus.java
+- naivebayes.java
+- bagOfWords.java
 
 Note:
 The text files in this project are important - used to create the corpus of information. These cannot be removed without consequences.
+
+References:
+- Standford CoreNLP list of stopwords   
+  https://github.com/stanfordnlp/CoreNLP/blob/master/data/edu/stanford/nlp/patterns/surface/stopwords.txt
+
+- Shimodaira, Hiroshi,  “Text Classification using Naïve Bayes”, Informatics 2B(2015)
+  http://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note07-2up.pdf
+
+- B. J. Oommen, R. Khoury and A. Schmidt, “Text Classification Using Novel Anti-Bayesian Techniques”, ICCCI-7 (2015).
+
+- D. Shen, R. Pan, J.-T. Sun, J.J. Pan, K. Wu, J. Yin, and Q. Yang. “Q2C@UST: our winning solution to query classification in KDDCUP      2005”, ACM SIGKDD, vol. 7, no. 2, pp. 100-110 (2005).
