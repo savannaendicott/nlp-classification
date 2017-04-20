@@ -1,0 +1,1457 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 02:02:27
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   fox:0               news:2              decided:0           part:2              
+   ways:0              star:2              host:3              following:0         
+   allegations:0       sexual:0            harassment:0        network:0           
+   statement:0         thorough:0          careful:0           review:0            
+   company:0           agreed:3            returning:0         channel:0           
+   decision:1          coming:1            advertisers:0       begun:0             
+   flee:0              show:0              ends:0              year:2              
+   career:2            bestselling:0       author:0            popular:0           
+   commentators:0      television:0        internal:0          memo:0              
+   employees:0         seen:0              reuters:0           rupert:0            
+   murdoch:0           called:0            accomplished:0      tv:0                
+   personalities:0      history:2           cable:0             national:0          
+   organization:0      women:0             says:1              heads:1             
+   roll:0              oreillys:0          departure:0         creates:0           
+   new:2               challenges:0        executive:0         chairman:0          
+   twentyfirst:0       century:0           wrote:0             committed:0         
+   fostering:0         work:0              environment:0       built:0             
+   values:0            trust:0             respect:0           air:1               
+   vacation:0          since:2             april:2             written:1           
+   proud:0             unprecedented:0      success:1           tremendously:0      
+   disheartening:0      due:2               completely:0        unfounded:0         
+   claims:0            unfortunate:0       reality:0           many:1              
+   public:0            eye:0               must:0              live:0              
+   today:1             emailed:0           crisis:0            communications:0      
+   expert:0            fabiani:0           foxoreilly:0        demonstrators:0      
+   outside:0           corporation:0       headquarters:0      city:0              
+   firing:0            day:4               severed:0           ties:0              
+   mike:0              segarreuters:0      replaced:0          primetime:0         
+   lineup:1            tucker:0            carlson:0           carlsons:0          
+   moved:0             earlier:0           replace:0           kelly:0             
+   file:0              megyn:0             another:1           left:2              
+   kasowitz:0          lawyer:0            subjected:0         brutal:0            
+   campaign:1          character:0         assassination:0      postmccarthyist:0      
+   watched:0           program:0           vatican:0           photograph:0        
+   showed:0            shaking:0           hands:0             pope:0              
+   general:0           audience:0          clear:0             knew:1              
+   times:0             reported:0          veteran:1           conservative:0      
+   paid:0              total:0             million:0           settle:0            
+   received:0          settlements:0       either:0            worked:0            
+   appeared:0          guests:0            according:1         story:1             
+   time:8              settled:0           spare:0             children:0          
+   controversy:0       investigate:0       ditch:0             foxs:0              
+   factor:0            highestrated:0      first:2             quarter:0           
+   averaging:0         viewers:0           nielsen:0           adtracking:0        
+   firm:0              kantar:0            media:0             brought:0           
+   advertising:0       revenue:1           last:2              fiscal:0            
+   ended:0             june:0              billion:0           report:0            
+   including:0         bmw:0               north:1             allstate:0          
+   corp:0              french:0            pharmaceuticals:0      maker:0             
+   sanofi:0            sa:0                rowe:0              price:0             
+   pulled:0            tvfox:0             newsthe:0           latest:0            
+   follows:0           former:2            roger:0             ailes:0             
+   right:1             contributor:0       julie:0             roginsky:0          
+   lawsuit:0           richard:0           drew:0              charles:0           
+   sykesassociated:0      press:2             exit:0              forced:0            
+   resign:0            july:0              accused:0           misconduct:0        
+   number:1            anchor:0            gretchen:0          repeatedly:0        
+   denied:0            wrongdoing:0        tapped:0            law:0               
+   paul:0              weiss:0             rifkind:0           wharton:0           
+   garrison:0          looked:0            conduct:0           investors:0         
+   unruffled:0         seemed:0            take:0              stride:0            
+   shares:0            less:0              per:0               cent:0              
+   afternoon:0         trading:0           effect:0            overall:2           
+   profitability:0      brian:0             wieser:0            analyst:0           
+   pivotal:0           research:0          mogul:0             son:0               
+   lachlan:0           coexecutive:0       chairmen:0          james:0             
+   chief:0             officer:0           literally:0         go:2                
+   dark:1              airs:0              still:1             profitable:0        
+   bigger:0            issue:0             murdochs:0          prevent:0           
+   headlines:0         just:4              months:4            now:4               
+   cultural:0          big:0               
+
+Category: Travel
+   fox:0               news:0              
+   decided:0           part:1              ways:0              star:0              
+   host:0              following:0         allegations:0       sexual:0            
+   harassment:0        network:0           statement:0         thorough:0          
+   careful:0           review:0            company:0           agreed:0            
+   returning:0         channel:0           decision:0          coming:0            
+   advertisers:0       begun:0             flee:0              show:1              
+   ends:0              year:2              career:0            bestselling:0       
+   author:1            popular:4           commentators:0      television:0        
+   internal:0          memo:0              employees:0         seen:0              
+   reuters:0           rupert:0            murdoch:0           called:0            
+   accomplished:0      tv:0                personalities:0      history:0           
+   cable:0             national:3          organization:0      women:0             
+   says:3              heads:0             roll:0              oreillys:0          
+   departure:0         creates:0           new:4               challenges:0        
+   executive:0         chairman:0          twentyfirst:0       century:0           
+   wrote:0             committed:0         fostering:0         work:1              
+   environment:0       built:0             values:0            trust:1             
+   respect:0           air:0               vacation:0          since:1             
+   april:1             written:0           proud:0             unprecedented:0      
+   success:0           tremendously:0      disheartening:0      due:0               
+   completely:0        unfounded:0         claims:0            unfortunate:0       
+   reality:0           many:4              public:0            eye:0               
+   must:1              live:0              today:0             emailed:0           
+   crisis:0            communications:0      expert:0            fabiani:0           
+   foxoreilly:0        demonstrators:0      outside:1           corporation:0       
+   headquarters:0      city:2              firing:0            day:2               
+   severed:0           ties:0              mike:0              segarreuters:0      
+   replaced:0          primetime:0         lineup:0            tucker:0            
+   carlson:0           carlsons:0          moved:0             earlier:0           
+   replace:0           kelly:0             file:0              megyn:0             
+   another:0           left:1              kasowitz:0          lawyer:0            
+   subjected:0         brutal:0            campaign:0          character:0         
+   assassination:0      postmccarthyist:0      watched:0           program:0           
+   vatican:0           photograph:0        showed:0            shaking:0           
+   hands:0             pope:0              general:0           audience:0          
+   clear:0             knew:0              times:0             reported:0          
+   veteran:0           conservative:0      paid:1              total:0             
+   million:0           settle:0            received:0          settlements:0       
+   either:2            worked:0            appeared:0          guests:0            
+   according:0         story:0             time:10             settled:0           
+   spare:0             children:0          controversy:0       investigate:0       
+   ditch:0             foxs:0              factor:0            highestrated:0      
+   first:2             quarter:0           averaging:0         viewers:0           
+   nielsen:0           adtracking:0        firm:0              kantar:0            
+   media:0             brought:0           advertising:0       revenue:0           
+   last:1              fiscal:0            ended:0             june:0              
+   billion:0           report:0            including:1         bmw:0               
+   north:4             allstate:0          corp:0              french:0            
+   pharmaceuticals:0      maker:0             sanofi:0            sa:0                
+   rowe:0              price:0             pulled:0            tvfox:0             
+   newsthe:0           latest:0            follows:0           former:0            
+   roger:0             ailes:0             right:1             contributor:0       
+   julie:0             roginsky:0          lawsuit:0           richard:0           
+   drew:0              charles:0           sykesassociated:0      press:0             
+   exit:0              forced:0            resign:0            july:0              
+   accused:0           misconduct:0        number:0            anchor:0            
+   gretchen:0          repeatedly:0        denied:0            wrongdoing:0        
+   tapped:0            law:0               paul:0              weiss:0             
+   rifkind:0           wharton:0           garrison:0          looked:0            
+   conduct:0           investors:0         unruffled:0         seemed:0            
+   take:4              stride:0            shares:0            less:1              
+   per:0               cent:0              afternoon:1         trading:0           
+   effect:0            overall:1           profitability:0      brian:0             
+   wieser:0            analyst:0           pivotal:0           research:0          
+   mogul:0             son:0               lachlan:0           coexecutive:0       
+   chairmen:0          james:0             chief:1             officer:0           
+   literally:0         go:2                dark:0              airs:0              
+   still:1             profitable:0        bigger:0            issue:0             
+   murdochs:0          prevent:0           headlines:0         just:4              
+   months:0            now:0               cultural:0          big:0               
+   
+
+Category: Entertainment
+   fox:0               news:0              decided:0           part:1              
+   ways:0              star:4              host:1              following:0         
+   allegations:0       sexual:0            harassment:0        network:0           
+   statement:1         thorough:0          careful:0           review:0            
+   company:2           agreed:0            returning:2         channel:0           
+   decision:0          coming:1            advertisers:0       begun:0             
+   flee:0              show:3              ends:0              year:1              
+   career:0            bestselling:0       author:0            popular:0           
+   commentators:0      television:0        internal:0          memo:0              
+   employees:0         seen:1              reuters:0           rupert:0            
+   murdoch:0           called:0            accomplished:0      tv:0                
+   personalities:0      history:0           cable:0             national:0          
+   organization:0      women:1             says:1              heads:0             
+   roll:0              oreillys:0          departure:0         creates:0           
+   new:2               challenges:0        executive:0         chairman:0          
+   twentyfirst:0       century:0           wrote:0             committed:0         
+   fostering:0         work:1              environment:0       built:0             
+   values:0            trust:0             respect:0           air:0               
+   vacation:0          since:2             april:0             written:1           
+   proud:1             unprecedented:0      success:1           tremendously:0      
+   disheartening:0      due:0               completely:0        unfounded:0         
+   claims:0            unfortunate:0       reality:0           many:4              
+   public:0            eye:0               must:0              live:0              
+   today:0             emailed:0           crisis:0            communications:0      
+   expert:0            fabiani:0           foxoreilly:0        demonstrators:1      
+   outside:0           corporation:0       headquarters:0      city:0              
+   firing:0            day:2               severed:0           ties:0              
+   mike:0              segarreuters:0      replaced:0          primetime:1         
+   lineup:0            tucker:0            carlson:0           carlsons:0          
+   moved:0             earlier:1           replace:0           kelly:0             
+   file:0              megyn:0             another:0           left:2              
+   kasowitz:0          lawyer:0            subjected:0         brutal:0            
+   campaign:0          character:1         assassination:0      postmccarthyist:0      
+   watched:0           program:0           vatican:0           photograph:0        
+   showed:1            shaking:0           hands:1             pope:0              
+   general:0           audience:2          clear:0             knew:1              
+   times:0             reported:0          veteran:1           conservative:0      
+   paid:1              total:1             million:0           settle:0            
+   received:1          settlements:0       either:0            worked:0            
+   appeared:0          guests:0            according:0         story:1             
+   time:3              settled:0           spare:0             children:0          
+   controversy:0       investigate:0       ditch:0             foxs:0              
+   factor:0            highestrated:0      first:1             quarter:0           
+   averaging:0         viewers:0           nielsen:0           adtracking:0        
+   firm:0              kantar:0            media:1             brought:1           
+   advertising:1       revenue:0           last:2              fiscal:0            
+   ended:0             june:0              billion:0           report:0            
+   including:4         bmw:0               north:2             allstate:0          
+   corp:0              french:0            pharmaceuticals:0      maker:0             
+   sanofi:0            sa:0                rowe:0              price:0             
+   pulled:2            tvfox:0             newsthe:0           latest:0            
+   follows:1           former:1            roger:0             ailes:0             
+   right:0             contributor:0       julie:0             roginsky:0          
+   lawsuit:0           richard:1           drew:1              charles:0           
+   sykesassociated:0      press:0             exit:0              forced:0            
+   resign:0            july:2              accused:1           misconduct:0        
+   number:0            anchor:0            gretchen:0          repeatedly:0        
+   denied:0            wrongdoing:0        tapped:0            law:0               
+   paul:0              weiss:0             rifkind:0           wharton:0           
+   garrison:0          looked:0            conduct:0           investors:0         
+   unruffled:0         seemed:0            take:2              stride:0            
+   shares:0            less:1              per:0               cent:0              
+   afternoon:0         trading:0           effect:0            overall:0           
+   profitability:0      brian:0             wieser:0            analyst:0           
+   pivotal:0           research:0          mogul:0             son:2               
+   lachlan:0           coexecutive:0       chairmen:0          james:0             
+   chief:0             officer:1           literally:0         go:0                
+   dark:0              airs:0              still:0             profitable:0        
+   bigger:1            issue:0             murdochs:0          prevent:0           
+   headlines:0         just:2              months:0            now:1               
+   cultural:0          big:8               
+
+Category: World News
+   fox:0               news:2              
+   decided:0           part:1              ways:0              star:0              
+   host:0              following:2         allegations:0       sexual:0            
+   harassment:0        network:0           statement:2         thorough:0          
+   careful:0           review:0            company:0           agreed:0            
+   returning:0         channel:0           decision:2          coming:1            
+   advertisers:0       begun:0             flee:1              show:0              
+   ends:0              year:4              career:0            bestselling:0       
+   author:0            popular:0           commentators:0      television:1        
+   internal:0          memo:0              employees:0         seen:2              
+   reuters:5           rupert:0            murdoch:0           called:4            
+   accomplished:0      tv:4                personalities:0      history:1           
+   cable:0             national:2          organization:0      women:1             
+   says:1              heads:0             roll:1              oreillys:0          
+   departure:0         creates:0           new:1               challenges:0        
+   executive:0         chairman:0          twentyfirst:0       century:0           
+   wrote:2             committed:0         fostering:0         work:0              
+   environment:0       built:0             values:0            trust:0             
+   respect:0           air:0               vacation:0          since:2             
+   april:5             written:0           proud:0             unprecedented:0      
+   success:1           tremendously:0      disheartening:0      due:1               
+   completely:0        unfounded:0         claims:0            unfortunate:0       
+   reality:0           many:4              public:0            eye:0               
+   must:2              live:0              today:0             emailed:0           
+   crisis:0            communications:0      expert:0            fabiani:0           
+   foxoreilly:0        demonstrators:0      outside:2           corporation:0       
+   headquarters:1      city:2              firing:0            day:1               
+   severed:0           ties:0              mike:0              segarreuters:0      
+   replaced:0          primetime:0         lineup:0            tucker:0            
+   carlson:0           carlsons:0          moved:1             earlier:0           
+   replace:0           kelly:0             file:0              megyn:0             
+   another:4           left:2              kasowitz:0          lawyer:0            
+   subjected:0         brutal:0            campaign:2          character:0         
+   assassination:0      postmccarthyist:0      watched:0           program:1           
+   vatican:0           photograph:0        showed:2            shaking:0           
+   hands:0             pope:6              general:0           audience:0          
+   clear:4             knew:0              times:1             reported:2          
+   veteran:0           conservative:0      paid:0              total:0             
+   million:0           settle:0            received:0          settlements:1       
+   either:0            worked:1            appeared:2          guests:0            
+   according:1         story:0             time:2              settled:0           
+   spare:0             children:2          controversy:0       investigate:0       
+   ditch:0             foxs:0              factor:0            highestrated:0      
+   first:2             quarter:0           averaging:0         viewers:0           
+   nielsen:0           adtracking:0        firm:0              kantar:0            
+   media:2             brought:1           advertising:0       revenue:0           
+   last:10             fiscal:0            ended:1             june:0              
+   billion:0           report:0            including:2         bmw:0               
+   north:1             allstate:0          corp:0              french:0            
+   pharmaceuticals:0      maker:0             sanofi:0            sa:0                
+   rowe:0              price:0             pulled:0            tvfox:0             
+   newsthe:0           latest:0            follows:0           former:0            
+   roger:0             ailes:0             right:1             contributor:0       
+   julie:0             roginsky:0          lawsuit:0           richard:0           
+   drew:0              charles:0           sykesassociated:0      press:3             
+   exit:0              forced:0            resign:0            july:0              
+   accused:1           misconduct:0        number:0            anchor:0            
+   gretchen:0          repeatedly:0        denied:0            wrongdoing:0        
+   tapped:0            law:0               paul:0              weiss:0             
+   rifkind:0           wharton:0           garrison:0          looked:0            
+   conduct:0           investors:0         unruffled:0         seemed:0            
+   take:4              stride:0            shares:0            less:4              
+   per:0               cent:0              afternoon:0         trading:0           
+   effect:1            overall:0           profitability:0      brian:0             
+   wieser:0            analyst:0           pivotal:0           research:0          
+   mogul:0             son:0               lachlan:0           coexecutive:0       
+   chairmen:0          james:0             chief:0             officer:1           
+   literally:0         go:2                dark:2              airs:0              
+   still:1             profitable:0        bigger:0            issue:1             
+   murdochs:0          prevent:0           headlines:0         just:2              
+   months:1            now:2               cultural:0          big:2               
+   
+
+Word likely-hoods: 
+   P(fox | Sports) :          0/3.0
+   P(news | Sports) :         2/3.0
+   P(decided | Sports) :      0/3.0
+   P(part | Sports) :         2/3.0
+   P(ways | Sports) :         0/3.0
+   P(star | Sports) :         2/3.0
+   P(host | Sports) :         3/3.0
+   P(following | Sports) :    0/3.0
+   P(allegations | Sports) :  0/3.0
+   P(sexual | Sports) :       0/3.0
+   P(harassment | Sports) :   0/3.0
+   P(network | Sports) :      0/3.0
+   P(statement | Sports) :    0/3.0
+   P(thorough | Sports) :     0/3.0
+   P(careful | Sports) :      0/3.0
+   P(review | Sports) :       0/3.0
+   P(company | Sports) :      0/3.0
+   P(agreed | Sports) :       3/3.0
+   P(returning | Sports) :    0/3.0
+   P(channel | Sports) :      0/3.0
+   P(decision | Sports) :     1/3.0
+   P(coming | Sports) :       1/3.0
+   P(advertisers | Sports) :  0/3.0
+   P(begun | Sports) :        0/3.0
+   P(flee | Sports) :         0/3.0
+   P(show | Sports) :         0/3.0
+   P(ends | Sports) :         0/3.0
+   P(year | Sports) :         2/3.0
+   P(career | Sports) :       2/3.0
+   P(bestselling | Sports) :  0/3.0
+   P(author | Sports) :       0/3.0
+   P(popular | Sports) :      0/3.0
+   P(commentators | Sports) : 0/3.0
+   P(television | Sports) :   0/3.0
+   P(internal | Sports) :     0/3.0
+   P(memo | Sports) :         0/3.0
+   P(employees | Sports) :    0/3.0
+   P(seen | Sports) :         0/3.0
+   P(reuters | Sports) :      0/3.0
+   P(rupert | Sports) :       0/3.0
+   P(murdoch | Sports) :      0/3.0
+   P(called | Sports) :       0/3.0
+   P(accomplished | Sports) : 0/3.0
+   P(tv | Sports) :           0/3.0
+   P(personalities | Sports) : 0/3.0
+   P(history | Sports) :      2/3.0
+   P(cable | Sports) :        0/3.0
+   P(national | Sports) :     0/3.0
+   P(organization | Sports) : 0/3.0
+   P(women | Sports) :        0/3.0
+   P(says | Sports) :         1/3.0
+   P(heads | Sports) :        1/3.0
+   P(roll | Sports) :         0/3.0
+   P(oreillys | Sports) :     0/3.0
+   P(departure | Sports) :    0/3.0
+   P(creates | Sports) :      0/3.0
+   P(new | Sports) :          2/3.0
+   P(challenges | Sports) :   0/3.0
+   P(executive | Sports) :    0/3.0
+   P(chairman | Sports) :     0/3.0
+   P(twentyfirst | Sports) :  0/3.0
+   P(century | Sports) :      0/3.0
+   P(wrote | Sports) :        0/3.0
+   P(committed | Sports) :    0/3.0
+   P(fostering | Sports) :    0/3.0
+   P(work | Sports) :         0/3.0
+   P(environment | Sports) :  0/3.0
+   P(built | Sports) :        0/3.0
+   P(values | Sports) :       0/3.0
+   P(trust | Sports) :        0/3.0
+   P(respect | Sports) :      0/3.0
+   P(air | Sports) :          1/3.0
+   P(vacation | Sports) :     0/3.0
+   P(since | Sports) :        2/3.0
+   P(april | Sports) :        2/3.0
+   P(written | Sports) :      1/3.0
+   P(proud | Sports) :        0/3.0
+   P(unprecedented | Sports) : 0/3.0
+   P(success | Sports) :      1/3.0
+   P(tremendously | Sports) : 0/3.0
+   P(disheartening | Sports) : 0/3.0
+   P(due | Sports) :          2/3.0
+   P(completely | Sports) :   0/3.0
+   P(unfounded | Sports) :    0/3.0
+   P(claims | Sports) :       0/3.0
+   P(unfortunate | Sports) :  0/3.0
+   P(reality | Sports) :      0/3.0
+   P(many | Sports) :         1/3.0
+   P(public | Sports) :       0/3.0
+   P(eye | Sports) :          0/3.0
+   P(must | Sports) :         0/3.0
+   P(live | Sports) :         0/3.0
+   P(today | Sports) :        1/3.0
+   P(emailed | Sports) :      0/3.0
+   P(crisis | Sports) :       0/3.0
+   P(communications | Sports) : 0/3.0
+   P(expert | Sports) :       0/3.0
+   P(fabiani | Sports) :      0/3.0
+   P(foxoreilly | Sports) :   0/3.0
+   P(demonstrators | Sports) : 0/3.0
+   P(outside | Sports) :      0/3.0
+   P(corporation | Sports) :  0/3.0
+   P(headquarters | Sports) : 0/3.0
+   P(city | Sports) :         0/3.0
+   P(firing | Sports) :       0/3.0
+   P(day | Sports) :          4/3.0
+   P(severed | Sports) :      0/3.0
+   P(ties | Sports) :         0/3.0
+   P(mike | Sports) :         0/3.0
+   P(segarreuters | Sports) : 0/3.0
+   P(replaced | Sports) :     0/3.0
+   P(primetime | Sports) :    0/3.0
+   P(lineup | Sports) :       1/3.0
+   P(tucker | Sports) :       0/3.0
+   P(carlson | Sports) :      0/3.0
+   P(carlsons | Sports) :     0/3.0
+   P(moved | Sports) :        0/3.0
+   P(earlier | Sports) :      0/3.0
+   P(replace | Sports) :      0/3.0
+   P(kelly | Sports) :        0/3.0
+   P(file | Sports) :         0/3.0
+   P(megyn | Sports) :        0/3.0
+   P(another | Sports) :      1/3.0
+   P(left | Sports) :         2/3.0
+   P(kasowitz | Sports) :     0/3.0
+   P(lawyer | Sports) :       0/3.0
+   P(subjected | Sports) :    0/3.0
+   P(brutal | Sports) :       0/3.0
+   P(campaign | Sports) :     1/3.0
+   P(character | Sports) :    0/3.0
+   P(assassination | Sports) : 0/3.0
+   P(postmccarthyist | Sports) : 0/3.0
+   P(watched | Sports) :      0/3.0
+   P(program | Sports) :      0/3.0
+   P(vatican | Sports) :      0/3.0
+   P(photograph | Sports) :   0/3.0
+   P(showed | Sports) :       0/3.0
+   P(shaking | Sports) :      0/3.0
+   P(hands | Sports) :        0/3.0
+   P(pope | Sports) :         0/3.0
+   P(general | Sports) :      0/3.0
+   P(audience | Sports) :     0/3.0
+   P(clear | Sports) :        0/3.0
+   P(knew | Sports) :         1/3.0
+   P(times | Sports) :        0/3.0
+   P(reported | Sports) :     0/3.0
+   P(veteran | Sports) :      1/3.0
+   P(conservative | Sports) : 0/3.0
+   P(paid | Sports) :         0/3.0
+   P(total | Sports) :        0/3.0
+   P(million | Sports) :      0/3.0
+   P(settle | Sports) :       0/3.0
+   P(received | Sports) :     0/3.0
+   P(settlements | Sports) :  0/3.0
+   P(either | Sports) :       0/3.0
+   P(worked | Sports) :       0/3.0
+   P(appeared | Sports) :     0/3.0
+   P(guests | Sports) :       0/3.0
+   P(according | Sports) :    1/3.0
+   P(story | Sports) :        1/3.0
+   P(time | Sports) :         8/3.0
+   P(settled | Sports) :      0/3.0
+   P(spare | Sports) :        0/3.0
+   P(children | Sports) :     0/3.0
+   P(controversy | Sports) :  0/3.0
+   P(investigate | Sports) :  0/3.0
+   P(ditch | Sports) :        0/3.0
+   P(foxs | Sports) :         0/3.0
+   P(factor | Sports) :       0/3.0
+   P(highestrated | Sports) : 0/3.0
+   P(first | Sports) :        2/3.0
+   P(quarter | Sports) :      0/3.0
+   P(averaging | Sports) :    0/3.0
+   P(viewers | Sports) :      0/3.0
+   P(nielsen | Sports) :      0/3.0
+   P(adtracking | Sports) :   0/3.0
+   P(firm | Sports) :         0/3.0
+   P(kantar | Sports) :       0/3.0
+   P(media | Sports) :        0/3.0
+   P(brought | Sports) :      0/3.0
+   P(advertising | Sports) :  0/3.0
+   P(revenue | Sports) :      1/3.0
+   P(last | Sports) :         2/3.0
+   P(fiscal | Sports) :       0/3.0
+   P(ended | Sports) :        0/3.0
+   P(june | Sports) :         0/3.0
+   P(billion | Sports) :      0/3.0
+   P(report | Sports) :       0/3.0
+   P(including | Sports) :    0/3.0
+   P(bmw | Sports) :          0/3.0
+   P(north | Sports) :        1/3.0
+   P(allstate | Sports) :     0/3.0
+   P(corp | Sports) :         0/3.0
+   P(french | Sports) :       0/3.0
+   P(pharmaceuticals | Sports) : 0/3.0
+   P(maker | Sports) :        0/3.0
+   P(sanofi | Sports) :       0/3.0
+   P(sa | Sports) :           0/3.0
+   P(rowe | Sports) :         0/3.0
+   P(price | Sports) :        0/3.0
+   P(pulled | Sports) :       0/3.0
+   P(tvfox | Sports) :        0/3.0
+   P(newsthe | Sports) :      0/3.0
+   P(latest | Sports) :       0/3.0
+   P(follows | Sports) :      0/3.0
+   P(former | Sports) :       2/3.0
+   P(roger | Sports) :        0/3.0
+   P(ailes | Sports) :        0/3.0
+   P(right | Sports) :        1/3.0
+   P(contributor | Sports) :  0/3.0
+   P(julie | Sports) :        0/3.0
+   P(roginsky | Sports) :     0/3.0
+   P(lawsuit | Sports) :      0/3.0
+   P(richard | Sports) :      0/3.0
+   P(drew | Sports) :         0/3.0
+   P(charles | Sports) :      0/3.0
+   P(sykesassociated | Sports) : 0/3.0
+   P(press | Sports) :        2/3.0
+   P(exit | Sports) :         0/3.0
+   P(forced | Sports) :       0/3.0
+   P(resign | Sports) :       0/3.0
+   P(july | Sports) :         0/3.0
+   P(accused | Sports) :      0/3.0
+   P(misconduct | Sports) :   0/3.0
+   P(number | Sports) :       1/3.0
+   P(anchor | Sports) :       0/3.0
+   P(gretchen | Sports) :     0/3.0
+   P(repeatedly | Sports) :   0/3.0
+   P(denied | Sports) :       0/3.0
+   P(wrongdoing | Sports) :   0/3.0
+   P(tapped | Sports) :       0/3.0
+   P(law | Sports) :          0/3.0
+   P(paul | Sports) :         0/3.0
+   P(weiss | Sports) :        0/3.0
+   P(rifkind | Sports) :      0/3.0
+   P(wharton | Sports) :      0/3.0
+   P(garrison | Sports) :     0/3.0
+   P(looked | Sports) :       0/3.0
+   P(conduct | Sports) :      0/3.0
+   P(investors | Sports) :    0/3.0
+   P(unruffled | Sports) :    0/3.0
+   P(seemed | Sports) :       0/3.0
+   P(take | Sports) :         0/3.0
+   P(stride | Sports) :       0/3.0
+   P(shares | Sports) :       0/3.0
+   P(less | Sports) :         0/3.0
+   P(per | Sports) :          0/3.0
+   P(cent | Sports) :         0/3.0
+   P(afternoon | Sports) :    0/3.0
+   P(trading | Sports) :      0/3.0
+   P(effect | Sports) :       0/3.0
+   P(overall | Sports) :      2/3.0
+   P(profitability | Sports) : 0/3.0
+   P(brian | Sports) :        0/3.0
+   P(wieser | Sports) :       0/3.0
+   P(analyst | Sports) :      0/3.0
+   P(pivotal | Sports) :      0/3.0
+   P(research | Sports) :     0/3.0
+   P(mogul | Sports) :        0/3.0
+   P(son | Sports) :          0/3.0
+   P(lachlan | Sports) :      0/3.0
+   P(coexecutive | Sports) :  0/3.0
+   P(chairmen | Sports) :     0/3.0
+   P(james | Sports) :        0/3.0
+   P(chief | Sports) :        0/3.0
+   P(officer | Sports) :      0/3.0
+   P(literally | Sports) :    0/3.0
+   P(go | Sports) :           2/3.0
+   P(dark | Sports) :         1/3.0
+   P(airs | Sports) :         0/3.0
+   P(still | Sports) :        1/3.0
+   P(profitable | Sports) :   0/3.0
+   P(bigger | Sports) :       0/3.0
+   P(issue | Sports) :        0/3.0
+   P(murdochs | Sports) :     0/3.0
+   P(prevent | Sports) :      0/3.0
+   P(headlines | Sports) :    0/3.0
+   P(just | Sports) :         4/3.0
+   P(months | Sports) :       4/3.0
+   P(now | Sports) :          4/3.0
+   P(cultural | Sports) :     0/3.0
+   P(big | Sports) :          0/3.0
+
+   P(fox | Travel) :          0/3.0
+   P(news | Travel) :         0/3.0
+   P(decided | Travel) :      0/3.0
+   P(part | Travel) :         1/3.0
+   P(ways | Travel) :         0/3.0
+   P(star | Travel) :         0/3.0
+   P(host | Travel) :         0/3.0
+   P(following | Travel) :    0/3.0
+   P(allegations | Travel) :  0/3.0
+   P(sexual | Travel) :       0/3.0
+   P(harassment | Travel) :   0/3.0
+   P(network | Travel) :      0/3.0
+   P(statement | Travel) :    0/3.0
+   P(thorough | Travel) :     0/3.0
+   P(careful | Travel) :      0/3.0
+   P(review | Travel) :       0/3.0
+   P(company | Travel) :      0/3.0
+   P(agreed | Travel) :       0/3.0
+   P(returning | Travel) :    0/3.0
+   P(channel | Travel) :      0/3.0
+   P(decision | Travel) :     0/3.0
+   P(coming | Travel) :       0/3.0
+   P(advertisers | Travel) :  0/3.0
+   P(begun | Travel) :        0/3.0
+   P(flee | Travel) :         0/3.0
+   P(show | Travel) :         1/3.0
+   P(ends | Travel) :         0/3.0
+   P(year | Travel) :         2/3.0
+   P(career | Travel) :       0/3.0
+   P(bestselling | Travel) :  0/3.0
+   P(author | Travel) :       1/3.0
+   P(popular | Travel) :      4/3.0
+   P(commentators | Travel) : 0/3.0
+   P(television | Travel) :   0/3.0
+   P(internal | Travel) :     0/3.0
+   P(memo | Travel) :         0/3.0
+   P(employees | Travel) :    0/3.0
+   P(seen | Travel) :         0/3.0
+   P(reuters | Travel) :      0/3.0
+   P(rupert | Travel) :       0/3.0
+   P(murdoch | Travel) :      0/3.0
+   P(called | Travel) :       0/3.0
+   P(accomplished | Travel) : 0/3.0
+   P(tv | Travel) :           0/3.0
+   P(personalities | Travel) : 0/3.0
+   P(history | Travel) :      0/3.0
+   P(cable | Travel) :        0/3.0
+   P(national | Travel) :     3/3.0
+   P(organization | Travel) : 0/3.0
+   P(women | Travel) :        0/3.0
+   P(says | Travel) :         3/3.0
+   P(heads | Travel) :        0/3.0
+   P(roll | Travel) :         0/3.0
+   P(oreillys | Travel) :     0/3.0
+   P(departure | Travel) :    0/3.0
+   P(creates | Travel) :      0/3.0
+   P(new | Travel) :          4/3.0
+   P(challenges | Travel) :   0/3.0
+   P(executive | Travel) :    0/3.0
+   P(chairman | Travel) :     0/3.0
+   P(twentyfirst | Travel) :  0/3.0
+   P(century | Travel) :      0/3.0
+   P(wrote | Travel) :        0/3.0
+   P(committed | Travel) :    0/3.0
+   P(fostering | Travel) :    0/3.0
+   P(work | Travel) :         1/3.0
+   P(environment | Travel) :  0/3.0
+   P(built | Travel) :        0/3.0
+   P(values | Travel) :       0/3.0
+   P(trust | Travel) :        1/3.0
+   P(respect | Travel) :      0/3.0
+   P(air | Travel) :          0/3.0
+   P(vacation | Travel) :     0/3.0
+   P(since | Travel) :        1/3.0
+   P(april | Travel) :        1/3.0
+   P(written | Travel) :      0/3.0
+   P(proud | Travel) :        0/3.0
+   P(unprecedented | Travel) : 0/3.0
+   P(success | Travel) :      0/3.0
+   P(tremendously | Travel) : 0/3.0
+   P(disheartening | Travel) : 0/3.0
+   P(due | Travel) :          0/3.0
+   P(completely | Travel) :   0/3.0
+   P(unfounded | Travel) :    0/3.0
+   P(claims | Travel) :       0/3.0
+   P(unfortunate | Travel) :  0/3.0
+   P(reality | Travel) :      0/3.0
+   P(many | Travel) :         4/3.0
+   P(public | Travel) :       0/3.0
+   P(eye | Travel) :          0/3.0
+   P(must | Travel) :         1/3.0
+   P(live | Travel) :         0/3.0
+   P(today | Travel) :        0/3.0
+   P(emailed | Travel) :      0/3.0
+   P(crisis | Travel) :       0/3.0
+   P(communications | Travel) : 0/3.0
+   P(expert | Travel) :       0/3.0
+   P(fabiani | Travel) :      0/3.0
+   P(foxoreilly | Travel) :   0/3.0
+   P(demonstrators | Travel) : 0/3.0
+   P(outside | Travel) :      1/3.0
+   P(corporation | Travel) :  0/3.0
+   P(headquarters | Travel) : 0/3.0
+   P(city | Travel) :         2/3.0
+   P(firing | Travel) :       0/3.0
+   P(day | Travel) :          2/3.0
+   P(severed | Travel) :      0/3.0
+   P(ties | Travel) :         0/3.0
+   P(mike | Travel) :         0/3.0
+   P(segarreuters | Travel) : 0/3.0
+   P(replaced | Travel) :     0/3.0
+   P(primetime | Travel) :    0/3.0
+   P(lineup | Travel) :       0/3.0
+   P(tucker | Travel) :       0/3.0
+   P(carlson | Travel) :      0/3.0
+   P(carlsons | Travel) :     0/3.0
+   P(moved | Travel) :        0/3.0
+   P(earlier | Travel) :      0/3.0
+   P(replace | Travel) :      0/3.0
+   P(kelly | Travel) :        0/3.0
+   P(file | Travel) :         0/3.0
+   P(megyn | Travel) :        0/3.0
+   P(another | Travel) :      0/3.0
+   P(left | Travel) :         1/3.0
+   P(kasowitz | Travel) :     0/3.0
+   P(lawyer | Travel) :       0/3.0
+   P(subjected | Travel) :    0/3.0
+   P(brutal | Travel) :       0/3.0
+   P(campaign | Travel) :     0/3.0
+   P(character | Travel) :    0/3.0
+   P(assassination | Travel) : 0/3.0
+   P(postmccarthyist | Travel) : 0/3.0
+   P(watched | Travel) :      0/3.0
+   P(program | Travel) :      0/3.0
+   P(vatican | Travel) :      0/3.0
+   P(photograph | Travel) :   0/3.0
+   P(showed | Travel) :       0/3.0
+   P(shaking | Travel) :      0/3.0
+   P(hands | Travel) :        0/3.0
+   P(pope | Travel) :         0/3.0
+   P(general | Travel) :      0/3.0
+   P(audience | Travel) :     0/3.0
+   P(clear | Travel) :        0/3.0
+   P(knew | Travel) :         0/3.0
+   P(times | Travel) :        0/3.0
+   P(reported | Travel) :     0/3.0
+   P(veteran | Travel) :      0/3.0
+   P(conservative | Travel) : 0/3.0
+   P(paid | Travel) :         1/3.0
+   P(total | Travel) :        0/3.0
+   P(million | Travel) :      0/3.0
+   P(settle | Travel) :       0/3.0
+   P(received | Travel) :     0/3.0
+   P(settlements | Travel) :  0/3.0
+   P(either | Travel) :       2/3.0
+   P(worked | Travel) :       0/3.0
+   P(appeared | Travel) :     0/3.0
+   P(guests | Travel) :       0/3.0
+   P(according | Travel) :    0/3.0
+   P(story | Travel) :        0/3.0
+   P(time | Travel) :         10/3.0
+   P(settled | Travel) :      0/3.0
+   P(spare | Travel) :        0/3.0
+   P(children | Travel) :     0/3.0
+   P(controversy | Travel) :  0/3.0
+   P(investigate | Travel) :  0/3.0
+   P(ditch | Travel) :        0/3.0
+   P(foxs | Travel) :         0/3.0
+   P(factor | Travel) :       0/3.0
+   P(highestrated | Travel) : 0/3.0
+   P(first | Travel) :        2/3.0
+   P(quarter | Travel) :      0/3.0
+   P(averaging | Travel) :    0/3.0
+   P(viewers | Travel) :      0/3.0
+   P(nielsen | Travel) :      0/3.0
+   P(adtracking | Travel) :   0/3.0
+   P(firm | Travel) :         0/3.0
+   P(kantar | Travel) :       0/3.0
+   P(media | Travel) :        0/3.0
+   P(brought | Travel) :      0/3.0
+   P(advertising | Travel) :  0/3.0
+   P(revenue | Travel) :      0/3.0
+   P(last | Travel) :         1/3.0
+   P(fiscal | Travel) :       0/3.0
+   P(ended | Travel) :        0/3.0
+   P(june | Travel) :         0/3.0
+   P(billion | Travel) :      0/3.0
+   P(report | Travel) :       0/3.0
+   P(including | Travel) :    1/3.0
+   P(bmw | Travel) :          0/3.0
+   P(north | Travel) :        4/3.0
+   P(allstate | Travel) :     0/3.0
+   P(corp | Travel) :         0/3.0
+   P(french | Travel) :       0/3.0
+   P(pharmaceuticals | Travel) : 0/3.0
+   P(maker | Travel) :        0/3.0
+   P(sanofi | Travel) :       0/3.0
+   P(sa | Travel) :           0/3.0
+   P(rowe | Travel) :         0/3.0
+   P(price | Travel) :        0/3.0
+   P(pulled | Travel) :       0/3.0
+   P(tvfox | Travel) :        0/3.0
+   P(newsthe | Travel) :      0/3.0
+   P(latest | Travel) :       0/3.0
+   P(follows | Travel) :      0/3.0
+   P(former | Travel) :       0/3.0
+   P(roger | Travel) :        0/3.0
+   P(ailes | Travel) :        0/3.0
+   P(right | Travel) :        1/3.0
+   P(contributor | Travel) :  0/3.0
+   P(julie | Travel) :        0/3.0
+   P(roginsky | Travel) :     0/3.0
+   P(lawsuit | Travel) :      0/3.0
+   P(richard | Travel) :      0/3.0
+   P(drew | Travel) :         0/3.0
+   P(charles | Travel) :      0/3.0
+   P(sykesassociated | Travel) : 0/3.0
+   P(press | Travel) :        0/3.0
+   P(exit | Travel) :         0/3.0
+   P(forced | Travel) :       0/3.0
+   P(resign | Travel) :       0/3.0
+   P(july | Travel) :         0/3.0
+   P(accused | Travel) :      0/3.0
+   P(misconduct | Travel) :   0/3.0
+   P(number | Travel) :       0/3.0
+   P(anchor | Travel) :       0/3.0
+   P(gretchen | Travel) :     0/3.0
+   P(repeatedly | Travel) :   0/3.0
+   P(denied | Travel) :       0/3.0
+   P(wrongdoing | Travel) :   0/3.0
+   P(tapped | Travel) :       0/3.0
+   P(law | Travel) :          0/3.0
+   P(paul | Travel) :         0/3.0
+   P(weiss | Travel) :        0/3.0
+   P(rifkind | Travel) :      0/3.0
+   P(wharton | Travel) :      0/3.0
+   P(garrison | Travel) :     0/3.0
+   P(looked | Travel) :       0/3.0
+   P(conduct | Travel) :      0/3.0
+   P(investors | Travel) :    0/3.0
+   P(unruffled | Travel) :    0/3.0
+   P(seemed | Travel) :       0/3.0
+   P(take | Travel) :         4/3.0
+   P(stride | Travel) :       0/3.0
+   P(shares | Travel) :       0/3.0
+   P(less | Travel) :         1/3.0
+   P(per | Travel) :          0/3.0
+   P(cent | Travel) :         0/3.0
+   P(afternoon | Travel) :    1/3.0
+   P(trading | Travel) :      0/3.0
+   P(effect | Travel) :       0/3.0
+   P(overall | Travel) :      1/3.0
+   P(profitability | Travel) : 0/3.0
+   P(brian | Travel) :        0/3.0
+   P(wieser | Travel) :       0/3.0
+   P(analyst | Travel) :      0/3.0
+   P(pivotal | Travel) :      0/3.0
+   P(research | Travel) :     0/3.0
+   P(mogul | Travel) :        0/3.0
+   P(son | Travel) :          0/3.0
+   P(lachlan | Travel) :      0/3.0
+   P(coexecutive | Travel) :  0/3.0
+   P(chairmen | Travel) :     0/3.0
+   P(james | Travel) :        0/3.0
+   P(chief | Travel) :        1/3.0
+   P(officer | Travel) :      0/3.0
+   P(literally | Travel) :    0/3.0
+   P(go | Travel) :           2/3.0
+   P(dark | Travel) :         0/3.0
+   P(airs | Travel) :         0/3.0
+   P(still | Travel) :        1/3.0
+   P(profitable | Travel) :   0/3.0
+   P(bigger | Travel) :       0/3.0
+   P(issue | Travel) :        0/3.0
+   P(murdochs | Travel) :     0/3.0
+   P(prevent | Travel) :      0/3.0
+   P(headlines | Travel) :    0/3.0
+   P(just | Travel) :         4/3.0
+   P(months | Travel) :       0/3.0
+   P(now | Travel) :          0/3.0
+   P(cultural | Travel) :     0/3.0
+   P(big | Travel) :          0/3.0
+
+   P(fox | Entertainment) :   0/3.0
+   P(news | Entertainment) :  0/3.0
+   P(decided | Entertainment) : 0/3.0
+   P(part | Entertainment) :  1/3.0
+   P(ways | Entertainment) :  0/3.0
+   P(star | Entertainment) :  4/3.0
+   P(host | Entertainment) :  1/3.0
+   P(following | Entertainment) : 0/3.0
+   P(allegations | Entertainment) : 0/3.0
+   P(sexual | Entertainment) : 0/3.0
+   P(harassment | Entertainment) : 0/3.0
+   P(network | Entertainment) : 0/3.0
+   P(statement | Entertainment) : 1/3.0
+   P(thorough | Entertainment) : 0/3.0
+   P(careful | Entertainment) : 0/3.0
+   P(review | Entertainment) : 0/3.0
+   P(company | Entertainment) : 2/3.0
+   P(agreed | Entertainment) : 0/3.0
+   P(returning | Entertainment) : 2/3.0
+   P(channel | Entertainment) : 0/3.0
+   P(decision | Entertainment) : 0/3.0
+   P(coming | Entertainment) : 1/3.0
+   P(advertisers | Entertainment) : 0/3.0
+   P(begun | Entertainment) : 0/3.0
+   P(flee | Entertainment) :  0/3.0
+   P(show | Entertainment) :  3/3.0
+   P(ends | Entertainment) :  0/3.0
+   P(year | Entertainment) :  1/3.0
+   P(career | Entertainment) : 0/3.0
+   P(bestselling | Entertainment) : 0/3.0
+   P(author | Entertainment) : 0/3.0
+   P(popular | Entertainment) : 0/3.0
+   P(commentators | Entertainment) : 0/3.0
+   P(television | Entertainment) : 0/3.0
+   P(internal | Entertainment) : 0/3.0
+   P(memo | Entertainment) :  0/3.0
+   P(employees | Entertainment) : 0/3.0
+   P(seen | Entertainment) :  1/3.0
+   P(reuters | Entertainment) : 0/3.0
+   P(rupert | Entertainment) : 0/3.0
+   P(murdoch | Entertainment) : 0/3.0
+   P(called | Entertainment) : 0/3.0
+   P(accomplished | Entertainment) : 0/3.0
+   P(tv | Entertainment) :    0/3.0
+   P(personalities | Entertainment) : 0/3.0
+   P(history | Entertainment) : 0/3.0
+   P(cable | Entertainment) : 0/3.0
+   P(national | Entertainment) : 0/3.0
+   P(organization | Entertainment) : 0/3.0
+   P(women | Entertainment) : 1/3.0
+   P(says | Entertainment) :  1/3.0
+   P(heads | Entertainment) : 0/3.0
+   P(roll | Entertainment) :  0/3.0
+   P(oreillys | Entertainment) : 0/3.0
+   P(departure | Entertainment) : 0/3.0
+   P(creates | Entertainment) : 0/3.0
+   P(new | Entertainment) :   2/3.0
+   P(challenges | Entertainment) : 0/3.0
+   P(executive | Entertainment) : 0/3.0
+   P(chairman | Entertainment) : 0/3.0
+   P(twentyfirst | Entertainment) : 0/3.0
+   P(century | Entertainment) : 0/3.0
+   P(wrote | Entertainment) : 0/3.0
+   P(committed | Entertainment) : 0/3.0
+   P(fostering | Entertainment) : 0/3.0
+   P(work | Entertainment) :  1/3.0
+   P(environment | Entertainment) : 0/3.0
+   P(built | Entertainment) : 0/3.0
+   P(values | Entertainment) : 0/3.0
+   P(trust | Entertainment) : 0/3.0
+   P(respect | Entertainment) : 0/3.0
+   P(air | Entertainment) :   0/3.0
+   P(vacation | Entertainment) : 0/3.0
+   P(since | Entertainment) : 2/3.0
+   P(april | Entertainment) : 0/3.0
+   P(written | Entertainment) : 1/3.0
+   P(proud | Entertainment) : 1/3.0
+   P(unprecedented | Entertainment) : 0/3.0
+   P(success | Entertainment) : 1/3.0
+   P(tremendously | Entertainment) : 0/3.0
+   P(disheartening | Entertainment) : 0/3.0
+   P(due | Entertainment) :   0/3.0
+   P(completely | Entertainment) : 0/3.0
+   P(unfounded | Entertainment) : 0/3.0
+   P(claims | Entertainment) : 0/3.0
+   P(unfortunate | Entertainment) : 0/3.0
+   P(reality | Entertainment) : 0/3.0
+   P(many | Entertainment) :  4/3.0
+   P(public | Entertainment) : 0/3.0
+   P(eye | Entertainment) :   0/3.0
+   P(must | Entertainment) :  0/3.0
+   P(live | Entertainment) :  0/3.0
+   P(today | Entertainment) : 0/3.0
+   P(emailed | Entertainment) : 0/3.0
+   P(crisis | Entertainment) : 0/3.0
+   P(communications | Entertainment) : 0/3.0
+   P(expert | Entertainment) : 0/3.0
+   P(fabiani | Entertainment) : 0/3.0
+   P(foxoreilly | Entertainment) : 0/3.0
+   P(demonstrators | Entertainment) : 1/3.0
+   P(outside | Entertainment) : 0/3.0
+   P(corporation | Entertainment) : 0/3.0
+   P(headquarters | Entertainment) : 0/3.0
+   P(city | Entertainment) :  0/3.0
+   P(firing | Entertainment) : 0/3.0
+   P(day | Entertainment) :   2/3.0
+   P(severed | Entertainment) : 0/3.0
+   P(ties | Entertainment) :  0/3.0
+   P(mike | Entertainment) :  0/3.0
+   P(segarreuters | Entertainment) : 0/3.0
+   P(replaced | Entertainment) : 0/3.0
+   P(primetime | Entertainment) : 1/3.0
+   P(lineup | Entertainment) : 0/3.0
+   P(tucker | Entertainment) : 0/3.0
+   P(carlson | Entertainment) : 0/3.0
+   P(carlsons | Entertainment) : 0/3.0
+   P(moved | Entertainment) : 0/3.0
+   P(earlier | Entertainment) : 1/3.0
+   P(replace | Entertainment) : 0/3.0
+   P(kelly | Entertainment) : 0/3.0
+   P(file | Entertainment) :  0/3.0
+   P(megyn | Entertainment) : 0/3.0
+   P(another | Entertainment) : 0/3.0
+   P(left | Entertainment) :  2/3.0
+   P(kasowitz | Entertainment) : 0/3.0
+   P(lawyer | Entertainment) : 0/3.0
+   P(subjected | Entertainment) : 0/3.0
+   P(brutal | Entertainment) : 0/3.0
+   P(campaign | Entertainment) : 0/3.0
+   P(character | Entertainment) : 1/3.0
+   P(assassination | Entertainment) : 0/3.0
+   P(postmccarthyist | Entertainment) : 0/3.0
+   P(watched | Entertainment) : 0/3.0
+   P(program | Entertainment) : 0/3.0
+   P(vatican | Entertainment) : 0/3.0
+   P(photograph | Entertainment) : 0/3.0
+   P(showed | Entertainment) : 1/3.0
+   P(shaking | Entertainment) : 0/3.0
+   P(hands | Entertainment) : 1/3.0
+   P(pope | Entertainment) :  0/3.0
+   P(general | Entertainment) : 0/3.0
+   P(audience | Entertainment) : 2/3.0
+   P(clear | Entertainment) : 0/3.0
+   P(knew | Entertainment) :  1/3.0
+   P(times | Entertainment) : 0/3.0
+   P(reported | Entertainment) : 0/3.0
+   P(veteran | Entertainment) : 1/3.0
+   P(conservative | Entertainment) : 0/3.0
+   P(paid | Entertainment) :  1/3.0
+   P(total | Entertainment) : 1/3.0
+   P(million | Entertainment) : 0/3.0
+   P(settle | Entertainment) : 0/3.0
+   P(received | Entertainment) : 1/3.0
+   P(settlements | Entertainment) : 0/3.0
+   P(either | Entertainment) : 0/3.0
+   P(worked | Entertainment) : 0/3.0
+   P(appeared | Entertainment) : 0/3.0
+   P(guests | Entertainment) : 0/3.0
+   P(according | Entertainment) : 0/3.0
+   P(story | Entertainment) : 1/3.0
+   P(time | Entertainment) :  3/3.0
+   P(settled | Entertainment) : 0/3.0
+   P(spare | Entertainment) : 0/3.0
+   P(children | Entertainment) : 0/3.0
+   P(controversy | Entertainment) : 0/3.0
+   P(investigate | Entertainment) : 0/3.0
+   P(ditch | Entertainment) : 0/3.0
+   P(foxs | Entertainment) :  0/3.0
+   P(factor | Entertainment) : 0/3.0
+   P(highestrated | Entertainment) : 0/3.0
+   P(first | Entertainment) : 1/3.0
+   P(quarter | Entertainment) : 0/3.0
+   P(averaging | Entertainment) : 0/3.0
+   P(viewers | Entertainment) : 0/3.0
+   P(nielsen | Entertainment) : 0/3.0
+   P(adtracking | Entertainment) : 0/3.0
+   P(firm | Entertainment) :  0/3.0
+   P(kantar | Entertainment) : 0/3.0
+   P(media | Entertainment) : 1/3.0
+   P(brought | Entertainment) : 1/3.0
+   P(advertising | Entertainment) : 1/3.0
+   P(revenue | Entertainment) : 0/3.0
+   P(last | Entertainment) :  2/3.0
+   P(fiscal | Entertainment) : 0/3.0
+   P(ended | Entertainment) : 0/3.0
+   P(june | Entertainment) :  0/3.0
+   P(billion | Entertainment) : 0/3.0
+   P(report | Entertainment) : 0/3.0
+   P(including | Entertainment) : 4/3.0
+   P(bmw | Entertainment) :   0/3.0
+   P(north | Entertainment) : 2/3.0
+   P(allstate | Entertainment) : 0/3.0
+   P(corp | Entertainment) :  0/3.0
+   P(french | Entertainment) : 0/3.0
+   P(pharmaceuticals | Entertainment) : 0/3.0
+   P(maker | Entertainment) : 0/3.0
+   P(sanofi | Entertainment) : 0/3.0
+   P(sa | Entertainment) :    0/3.0
+   P(rowe | Entertainment) :  0/3.0
+   P(price | Entertainment) : 0/3.0
+   P(pulled | Entertainment) : 2/3.0
+   P(tvfox | Entertainment) : 0/3.0
+   P(newsthe | Entertainment) : 0/3.0
+   P(latest | Entertainment) : 0/3.0
+   P(follows | Entertainment) : 1/3.0
+   P(former | Entertainment) : 1/3.0
+   P(roger | Entertainment) : 0/3.0
+   P(ailes | Entertainment) : 0/3.0
+   P(right | Entertainment) : 0/3.0
+   P(contributor | Entertainment) : 0/3.0
+   P(julie | Entertainment) : 0/3.0
+   P(roginsky | Entertainment) : 0/3.0
+   P(lawsuit | Entertainment) : 0/3.0
+   P(richard | Entertainment) : 1/3.0
+   P(drew | Entertainment) :  1/3.0
+   P(charles | Entertainment) : 0/3.0
+   P(sykesassociated | Entertainment) : 0/3.0
+   P(press | Entertainment) : 0/3.0
+   P(exit | Entertainment) :  0/3.0
+   P(forced | Entertainment) : 0/3.0
+   P(resign | Entertainment) : 0/3.0
+   P(july | Entertainment) :  2/3.0
+   P(accused | Entertainment) : 1/3.0
+   P(misconduct | Entertainment) : 0/3.0
+   P(number | Entertainment) : 0/3.0
+   P(anchor | Entertainment) : 0/3.0
+   P(gretchen | Entertainment) : 0/3.0
+   P(repeatedly | Entertainment) : 0/3.0
+   P(denied | Entertainment) : 0/3.0
+   P(wrongdoing | Entertainment) : 0/3.0
+   P(tapped | Entertainment) : 0/3.0
+   P(law | Entertainment) :   0/3.0
+   P(paul | Entertainment) :  0/3.0
+   P(weiss | Entertainment) : 0/3.0
+   P(rifkind | Entertainment) : 0/3.0
+   P(wharton | Entertainment) : 0/3.0
+   P(garrison | Entertainment) : 0/3.0
+   P(looked | Entertainment) : 0/3.0
+   P(conduct | Entertainment) : 0/3.0
+   P(investors | Entertainment) : 0/3.0
+   P(unruffled | Entertainment) : 0/3.0
+   P(seemed | Entertainment) : 0/3.0
+   P(take | Entertainment) :  2/3.0
+   P(stride | Entertainment) : 0/3.0
+   P(shares | Entertainment) : 0/3.0
+   P(less | Entertainment) :  1/3.0
+   P(per | Entertainment) :   0/3.0
+   P(cent | Entertainment) :  0/3.0
+   P(afternoon | Entertainment) : 0/3.0
+   P(trading | Entertainment) : 0/3.0
+   P(effect | Entertainment) : 0/3.0
+   P(overall | Entertainment) : 0/3.0
+   P(profitability | Entertainment) : 0/3.0
+   P(brian | Entertainment) : 0/3.0
+   P(wieser | Entertainment) : 0/3.0
+   P(analyst | Entertainment) : 0/3.0
+   P(pivotal | Entertainment) : 0/3.0
+   P(research | Entertainment) : 0/3.0
+   P(mogul | Entertainment) : 0/3.0
+   P(son | Entertainment) :   2/3.0
+   P(lachlan | Entertainment) : 0/3.0
+   P(coexecutive | Entertainment) : 0/3.0
+   P(chairmen | Entertainment) : 0/3.0
+   P(james | Entertainment) : 0/3.0
+   P(chief | Entertainment) : 0/3.0
+   P(officer | Entertainment) : 1/3.0
+   P(literally | Entertainment) : 0/3.0
+   P(go | Entertainment) :    0/3.0
+   P(dark | Entertainment) :  0/3.0
+   P(airs | Entertainment) :  0/3.0
+   P(still | Entertainment) : 0/3.0
+   P(profitable | Entertainment) : 0/3.0
+   P(bigger | Entertainment) : 1/3.0
+   P(issue | Entertainment) : 0/3.0
+   P(murdochs | Entertainment) : 0/3.0
+   P(prevent | Entertainment) : 0/3.0
+   P(headlines | Entertainment) : 0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(months | Entertainment) : 0/3.0
+   P(now | Entertainment) :   1/3.0
+   P(cultural | Entertainment) : 0/3.0
+   P(big | Entertainment) :   8/3.0
+
+   P(fox | World News) :      0/3.0
+   P(news | World News) :     2/3.0
+   P(decided | World News) :  0/3.0
+   P(part | World News) :     1/3.0
+   P(ways | World News) :     0/3.0
+   P(star | World News) :     0/3.0
+   P(host | World News) :     0/3.0
+   P(following | World News) : 2/3.0
+   P(allegations | World News) : 0/3.0
+   P(sexual | World News) :   0/3.0
+   P(harassment | World News) : 0/3.0
+   P(network | World News) :  0/3.0
+   P(statement | World News) : 2/3.0
+   P(thorough | World News) : 0/3.0
+   P(careful | World News) :  0/3.0
+   P(review | World News) :   0/3.0
+   P(company | World News) :  0/3.0
+   P(agreed | World News) :   0/3.0
+   P(returning | World News) : 0/3.0
+   P(channel | World News) :  0/3.0
+   P(decision | World News) : 2/3.0
+   P(coming | World News) :   1/3.0
+   P(advertisers | World News) : 0/3.0
+   P(begun | World News) :    0/3.0
+   P(flee | World News) :     1/3.0
+   P(show | World News) :     0/3.0
+   P(ends | World News) :     0/3.0
+   P(year | World News) :     4/3.0
+   P(career | World News) :   0/3.0
+   P(bestselling | World News) : 0/3.0
+   P(author | World News) :   0/3.0
+   P(popular | World News) :  0/3.0
+   P(commentators | World News) : 0/3.0
+   P(television | World News) : 1/3.0
+   P(internal | World News) : 0/3.0
+   P(memo | World News) :     0/3.0
+   P(employees | World News) : 0/3.0
+   P(seen | World News) :     2/3.0
+   P(reuters | World News) :  5/3.0
+   P(rupert | World News) :   0/3.0
+   P(murdoch | World News) :  0/3.0
+   P(called | World News) :   4/3.0
+   P(accomplished | World News) : 0/3.0
+   P(tv | World News) :       4/3.0
+   P(personalities | World News) : 0/3.0
+   P(history | World News) :  1/3.0
+   P(cable | World News) :    0/3.0
+   P(national | World News) : 2/3.0
+   P(organization | World News) : 0/3.0
+   P(women | World News) :    1/3.0
+   P(says | World News) :     1/3.0
+   P(heads | World News) :    0/3.0
+   P(roll | World News) :     1/3.0
+   P(oreillys | World News) : 0/3.0
+   P(departure | World News) : 0/3.0
+   P(creates | World News) :  0/3.0
+   P(new | World News) :      1/3.0
+   P(challenges | World News) : 0/3.0
+   P(executive | World News) : 0/3.0
+   P(chairman | World News) : 0/3.0
+   P(twentyfirst | World News) : 0/3.0
+   P(century | World News) :  0/3.0
+   P(wrote | World News) :    2/3.0
+   P(committed | World News) : 0/3.0
+   P(fostering | World News) : 0/3.0
+   P(work | World News) :     0/3.0
+   P(environment | World News) : 0/3.0
+   P(built | World News) :    0/3.0
+   P(values | World News) :   0/3.0
+   P(trust | World News) :    0/3.0
+   P(respect | World News) :  0/3.0
+   P(air | World News) :      0/3.0
+   P(vacation | World News) : 0/3.0
+   P(since | World News) :    2/3.0
+   P(april | World News) :    5/3.0
+   P(written | World News) :  0/3.0
+   P(proud | World News) :    0/3.0
+   P(unprecedented | World News) : 0/3.0
+   P(success | World News) :  1/3.0
+   P(tremendously | World News) : 0/3.0
+   P(disheartening | World News) : 0/3.0
+   P(due | World News) :      1/3.0
+   P(completely | World News) : 0/3.0
+   P(unfounded | World News) : 0/3.0
+   P(claims | World News) :   0/3.0
+   P(unfortunate | World News) : 0/3.0
+   P(reality | World News) :  0/3.0
+   P(many | World News) :     4/3.0
+   P(public | World News) :   0/3.0
+   P(eye | World News) :      0/3.0
+   P(must | World News) :     2/3.0
+   P(live | World News) :     0/3.0
+   P(today | World News) :    0/3.0
+   P(emailed | World News) :  0/3.0
+   P(crisis | World News) :   0/3.0
+   P(communications | World News) : 0/3.0
+   P(expert | World News) :   0/3.0
+   P(fabiani | World News) :  0/3.0
+   P(foxoreilly | World News) : 0/3.0
+   P(demonstrators | World News) : 0/3.0
+   P(outside | World News) :  2/3.0
+   P(corporation | World News) : 0/3.0
+   P(headquarters | World News) : 1/3.0
+   P(city | World News) :     2/3.0
+   P(firing | World News) :   0/3.0
+   P(day | World News) :      1/3.0
+   P(severed | World News) :  0/3.0
+   P(ties | World News) :     0/3.0
+   P(mike | World News) :     0/3.0
+   P(segarreuters | World News) : 0/3.0
+   P(replaced | World News) : 0/3.0
+   P(primetime | World News) : 0/3.0
+   P(lineup | World News) :   0/3.0
+   P(tucker | World News) :   0/3.0
+   P(carlson | World News) :  0/3.0
+   P(carlsons | World News) : 0/3.0
+   P(moved | World News) :    1/3.0
+   P(earlier | World News) :  0/3.0
+   P(replace | World News) :  0/3.0
+   P(kelly | World News) :    0/3.0
+   P(file | World News) :     0/3.0
+   P(megyn | World News) :    0/3.0
+   P(another | World News) :  4/3.0
+   P(left | World News) :     2/3.0
+   P(kasowitz | World News) : 0/3.0
+   P(lawyer | World News) :   0/3.0
+   P(subjected | World News) : 0/3.0
+   P(brutal | World News) :   0/3.0
+   P(campaign | World News) : 2/3.0
+   P(character | World News) : 0/3.0
+   P(assassination | World News) : 0/3.0
+   P(postmccarthyist | World News) : 0/3.0
+   P(watched | World News) :  0/3.0
+   P(program | World News) :  1/3.0
+   P(vatican | World News) :  0/3.0
+   P(photograph | World News) : 0/3.0
+   P(showed | World News) :   2/3.0
+   P(shaking | World News) :  0/3.0
+   P(hands | World News) :    0/3.0
+   P(pope | World News) :     6/3.0
+   P(general | World News) :  0/3.0
+   P(audience | World News) : 0/3.0
+   P(clear | World News) :    4/3.0
+   P(knew | World News) :     0/3.0
+   P(times | World News) :    1/3.0
+   P(reported | World News) : 2/3.0
+   P(veteran | World News) :  0/3.0
+   P(conservative | World News) : 0/3.0
+   P(paid | World News) :     0/3.0
+   P(total | World News) :    0/3.0
+   P(million | World News) :  0/3.0
+   P(settle | World News) :   0/3.0
+   P(received | World News) : 0/3.0
+   P(settlements | World News) : 1/3.0
+   P(either | World News) :   0/3.0
+   P(worked | World News) :   1/3.0
+   P(appeared | World News) : 2/3.0
+   P(guests | World News) :   0/3.0
+   P(according | World News) : 1/3.0
+   P(story | World News) :    0/3.0
+   P(time | World News) :     2/3.0
+   P(settled | World News) :  0/3.0
+   P(spare | World News) :    0/3.0
+   P(children | World News) : 2/3.0
+   P(controversy | World News) : 0/3.0
+   P(investigate | World News) : 0/3.0
+   P(ditch | World News) :    0/3.0
+   P(foxs | World News) :     0/3.0
+   P(factor | World News) :   0/3.0
+   P(highestrated | World News) : 0/3.0
+   P(first | World News) :    2/3.0
+   P(quarter | World News) :  0/3.0
+   P(averaging | World News) : 0/3.0
+   P(viewers | World News) :  0/3.0
+   P(nielsen | World News) :  0/3.0
+   P(adtracking | World News) : 0/3.0
+   P(firm | World News) :     0/3.0
+   P(kantar | World News) :   0/3.0
+   P(media | World News) :    2/3.0
+   P(brought | World News) :  1/3.0
+   P(advertising | World News) : 0/3.0
+   P(revenue | World News) :  0/3.0
+   P(last | World News) :     10/3.0
+   P(fiscal | World News) :   0/3.0
+   P(ended | World News) :    1/3.0
+   P(june | World News) :     0/3.0
+   P(billion | World News) :  0/3.0
+   P(report | World News) :   0/3.0
+   P(including | World News) : 2/3.0
+   P(bmw | World News) :      0/3.0
+   P(north | World News) :    1/3.0
+   P(allstate | World News) : 0/3.0
+   P(corp | World News) :     0/3.0
+   P(french | World News) :   0/3.0
+   P(pharmaceuticals | World News) : 0/3.0
+   P(maker | World News) :    0/3.0
+   P(sanofi | World News) :   0/3.0
+   P(sa | World News) :       0/3.0
+   P(rowe | World News) :     0/3.0
+   P(price | World News) :    0/3.0
+   P(pulled | World News) :   0/3.0
+   P(tvfox | World News) :    0/3.0
+   P(newsthe | World News) :  0/3.0
+   P(latest | World News) :   0/3.0
+   P(follows | World News) :  0/3.0
+   P(former | World News) :   0/3.0
+   P(roger | World News) :    0/3.0
+   P(ailes | World News) :    0/3.0
+   P(right | World News) :    1/3.0
+   P(contributor | World News) : 0/3.0
+   P(julie | World News) :    0/3.0
+   P(roginsky | World News) : 0/3.0
+   P(lawsuit | World News) :  0/3.0
+   P(richard | World News) :  0/3.0
+   P(drew | World News) :     0/3.0
+   P(charles | World News) :  0/3.0
+   P(sykesassociated | World News) : 0/3.0
+   P(press | World News) :    3/3.0
+   P(exit | World News) :     0/3.0
+   P(forced | World News) :   0/3.0
+   P(resign | World News) :   0/3.0
+   P(july | World News) :     0/3.0
+   P(accused | World News) :  1/3.0
+   P(misconduct | World News) : 0/3.0
+   P(number | World News) :   0/3.0
+   P(anchor | World News) :   0/3.0
+   P(gretchen | World News) : 0/3.0
+   P(repeatedly | World News) : 0/3.0
+   P(denied | World News) :   0/3.0
+   P(wrongdoing | World News) : 0/3.0
+   P(tapped | World News) :   0/3.0
+   P(law | World News) :      0/3.0
+   P(paul | World News) :     0/3.0
+   P(weiss | World News) :    0/3.0
+   P(rifkind | World News) :  0/3.0
+   P(wharton | World News) :  0/3.0
+   P(garrison | World News) : 0/3.0
+   P(looked | World News) :   0/3.0
+   P(conduct | World News) :  0/3.0
+   P(investors | World News) : 0/3.0
+   P(unruffled | World News) : 0/3.0
+   P(seemed | World News) :   0/3.0
+   P(take | World News) :     4/3.0
+   P(stride | World News) :   0/3.0
+   P(shares | World News) :   0/3.0
+   P(less | World News) :     4/3.0
+   P(per | World News) :      0/3.0
+   P(cent | World News) :     0/3.0
+   P(afternoon | World News) : 0/3.0
+   P(trading | World News) :  0/3.0
+   P(effect | World News) :   1/3.0
+   P(overall | World News) :  0/3.0
+   P(profitability | World News) : 0/3.0
+   P(brian | World News) :    0/3.0
+   P(wieser | World News) :   0/3.0
+   P(analyst | World News) :  0/3.0
+   P(pivotal | World News) :  0/3.0
+   P(research | World News) : 0/3.0
+   P(mogul | World News) :    0/3.0
+   P(son | World News) :      0/3.0
+   P(lachlan | World News) :  0/3.0
+   P(coexecutive | World News) : 0/3.0
+   P(chairmen | World News) : 0/3.0
+   P(james | World News) :    0/3.0
+   P(chief | World News) :    0/3.0
+   P(officer | World News) :  1/3.0
+   P(literally | World News) : 0/3.0
+   P(go | World News) :       2/3.0
+   P(dark | World News) :     2/3.0
+   P(airs | World News) :     0/3.0
+   P(still | World News) :    1/3.0
+   P(profitable | World News) : 0/3.0
+   P(bigger | World News) :   0/3.0
+   P(issue | World News) :    1/3.0
+   P(murdochs | World News) : 0/3.0
+   P(prevent | World News) :  0/3.0
+   P(headlines | World News) : 0/3.0
+   P(just | World News) :     2/3.0
+   P(months | World News) :   1/3.0
+   P(now | World News) :      2/3.0
+   P(cultural | World News) : 0/3.0
+   P(big | World News) :      2/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.   P(Sports | [fox, news, decided, part, ways, star, host, following, allegations, sexual, harassment, network, statement, thorough, careful, review, company, agreed, returning, channel, decision, coming, advertisers, begun, flee, show, ends, year, career, bestselling, author, popular, commentators, television, internal, memo, employees, seen, reuters, rupert, murdoch, called, accomplished, tv, personalities, history, cable, national, organization, women, says, heads, roll, oreillys, departure, creates, new, challenges, executive, chairman, twentyfirst, century, wrote, committed, fostering, work, environment, built, values, trust, respect, air, vacation, since, april, written, proud, unprecedented, success, tremendously, disheartening, due, completely, unfounded, claims, unfortunate, reality, many, public, eye, must, live, today, emailed, crisis, communications, expert, fabiani, foxoreilly, demonstrators, outside, corporation, headquarters, city, firing, day, severed, ties, mike, segarreuters, replaced, primetime, lineup, tucker, carlson, carlsons, moved, earlier, replace, kelly, file, megyn, another, left, kasowitz, lawyer, subjected, brutal, campaign, character, assassination, postmccarthyist, watched, program, vatican, photograph, showed, shaking, hands, pope, general, audience, clear, knew, times, reported, veteran, conservative, paid, total, million, settle, received, settlements, either, worked, appeared, guests, according, story, time, settled, spare, children, controversy, investigate, ditch, foxs, factor, highestrated, first, quarter, averaging, viewers, nielsen, adtracking, firm, kantar, media, brought, advertising, revenue, last, fiscal, ended, june, billion, report, including, bmw, north, allstate, corp, french, pharmaceuticals, maker, sanofi, sa, rowe, price, pulled, tvfox, newsthe, latest, follows, former, roger, ailes, right, contributor, julie, roginsky, lawsuit, richard, drew, charles, sykesassociated, press, exit, forced, resign, july, accused, misconduct, number, anchor, gretchen, repeatedly, denied, wrongdoing, tapped, law, paul, weiss, rifkind, wharton, garrison, looked, conduct, investors, unruffled, seemed, take, stride, shares, less, per, cent, afternoon, trading, effect, overall, profitability, brian, wieser, analyst, pivotal, research, mogul, son, lachlan, coexecutive, chairmen, james, chief, officer, literally, go, dark, airs, still, profitable, bigger, issue, murdochs, prevent, headlines, just, months, now, cultural, big]) 
+= 3/12    x    ( 2/3    x  2/3    x  2/3    x  3/3    x  3/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  8/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  4/3    x  4/3    x  4/3    x  (1)   )     
+=     7247757312 / 8668893179261466708    =    8.360649003426135E-10
+   P(Travel | [fox, news, decided, part, ways, star, host, following, allegations, sexual, harassment, network, statement, thorough, careful, review, company, agreed, returning, channel, decision, coming, advertisers, begun, flee, show, ends, year, career, bestselling, author, popular, commentators, television, internal, memo, employees, seen, reuters, rupert, murdoch, called, accomplished, tv, personalities, history, cable, national, organization, women, says, heads, roll, oreillys, departure, creates, new, challenges, executive, chairman, twentyfirst, century, wrote, committed, fostering, work, environment, built, values, trust, respect, air, vacation, since, april, written, proud, unprecedented, success, tremendously, disheartening, due, completely, unfounded, claims, unfortunate, reality, many, public, eye, must, live, today, emailed, crisis, communications, expert, fabiani, foxoreilly, demonstrators, outside, corporation, headquarters, city, firing, day, severed, ties, mike, segarreuters, replaced, primetime, lineup, tucker, carlson, carlsons, moved, earlier, replace, kelly, file, megyn, another, left, kasowitz, lawyer, subjected, brutal, campaign, character, assassination, postmccarthyist, watched, program, vatican, photograph, showed, shaking, hands, pope, general, audience, clear, knew, times, reported, veteran, conservative, paid, total, million, settle, received, settlements, either, worked, appeared, guests, according, story, time, settled, spare, children, controversy, investigate, ditch, foxs, factor, highestrated, first, quarter, averaging, viewers, nielsen, adtracking, firm, kantar, media, brought, advertising, revenue, last, fiscal, ended, june, billion, report, including, bmw, north, allstate, corp, french, pharmaceuticals, maker, sanofi, sa, rowe, price, pulled, tvfox, newsthe, latest, follows, former, roger, ailes, right, contributor, julie, roginsky, lawsuit, richard, drew, charles, sykesassociated, press, exit, forced, resign, july, accused, misconduct, number, anchor, gretchen, repeatedly, denied, wrongdoing, tapped, law, paul, weiss, rifkind, wharton, garrison, looked, conduct, investors, unruffled, seemed, take, stride, shares, less, per, cent, afternoon, trading, effect, overall, profitability, brian, wieser, analyst, pivotal, research, mogul, son, lachlan, coexecutive, chairmen, james, chief, officer, literally, go, dark, airs, still, profitable, bigger, issue, murdochs, prevent, headlines, just, months, now, cultural, big]) 
+= 3/12    x    ( 1/3    x  1/3    x  2/3    x  1/3    x  4/3    x  3/3    x  3/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  10/3   x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  4/3    x  (1)   )     
+=     70778880 / 200126180395998828    =    3.5367126809669076E-10
+   P(Entertainment | [fox, news, decided, part, ways, star, host, following, allegations, sexual, harassment, network, statement, thorough, careful, review, company, agreed, returning, channel, decision, coming, advertisers, begun, flee, show, ends, year, career, bestselling, author, popular, commentators, television, internal, memo, employees, seen, reuters, rupert, murdoch, called, accomplished, tv, personalities, history, cable, national, organization, women, says, heads, roll, oreillys, departure, creates, new, challenges, executive, chairman, twentyfirst, century, wrote, committed, fostering, work, environment, built, values, trust, respect, air, vacation, since, april, written, proud, unprecedented, success, tremendously, disheartening, due, completely, unfounded, claims, unfortunate, reality, many, public, eye, must, live, today, emailed, crisis, communications, expert, fabiani, foxoreilly, demonstrators, outside, corporation, headquarters, city, firing, day, severed, ties, mike, segarreuters, replaced, primetime, lineup, tucker, carlson, carlsons, moved, earlier, replace, kelly, file, megyn, another, left, kasowitz, lawyer, subjected, brutal, campaign, character, assassination, postmccarthyist, watched, program, vatican, photograph, showed, shaking, hands, pope, general, audience, clear, knew, times, reported, veteran, conservative, paid, total, million, settle, received, settlements, either, worked, appeared, guests, according, story, time, settled, spare, children, controversy, investigate, ditch, foxs, factor, highestrated, first, quarter, averaging, viewers, nielsen, adtracking, firm, kantar, media, brought, advertising, revenue, last, fiscal, ended, june, billion, report, including, bmw, north, allstate, corp, french, pharmaceuticals, maker, sanofi, sa, rowe, price, pulled, tvfox, newsthe, latest, follows, former, roger, ailes, right, contributor, julie, roginsky, lawsuit, richard, drew, charles, sykesassociated, press, exit, forced, resign, july, accused, misconduct, number, anchor, gretchen, repeatedly, denied, wrongdoing, tapped, law, paul, weiss, rifkind, wharton, garrison, looked, conduct, investors, unruffled, seemed, take, stride, shares, less, per, cent, afternoon, trading, effect, overall, profitability, brian, wieser, analyst, pivotal, research, mogul, son, lachlan, coexecutive, chairmen, james, chief, officer, literally, go, dark, airs, still, profitable, bigger, issue, murdochs, prevent, headlines, just, months, now, cultural, big]) 
+= 3/12    x    ( 1/3    x  4/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  4/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  (8/3) )     
+=     226492416 / 4577365615419558308    =    4.9480953681529294E-11
+   P(World News | [fox, news, decided, part, ways, star, host, following, allegations, sexual, harassment, network, statement, thorough, careful, review, company, agreed, returning, channel, decision, coming, advertisers, begun, flee, show, ends, year, career, bestselling, author, popular, commentators, television, internal, memo, employees, seen, reuters, rupert, murdoch, called, accomplished, tv, personalities, history, cable, national, organization, women, says, heads, roll, oreillys, departure, creates, new, challenges, executive, chairman, twentyfirst, century, wrote, committed, fostering, work, environment, built, values, trust, respect, air, vacation, since, april, written, proud, unprecedented, success, tremendously, disheartening, due, completely, unfounded, claims, unfortunate, reality, many, public, eye, must, live, today, emailed, crisis, communications, expert, fabiani, foxoreilly, demonstrators, outside, corporation, headquarters, city, firing, day, severed, ties, mike, segarreuters, replaced, primetime, lineup, tucker, carlson, carlsons, moved, earlier, replace, kelly, file, megyn, another, left, kasowitz, lawyer, subjected, brutal, campaign, character, assassination, postmccarthyist, watched, program, vatican, photograph, showed, shaking, hands, pope, general, audience, clear, knew, times, reported, veteran, conservative, paid, total, million, settle, received, settlements, either, worked, appeared, guests, according, story, time, settled, spare, children, controversy, investigate, ditch, foxs, factor, highestrated, first, quarter, averaging, viewers, nielsen, adtracking, firm, kantar, media, brought, advertising, revenue, last, fiscal, ended, june, billion, report, including, bmw, north, allstate, corp, french, pharmaceuticals, maker, sanofi, sa, rowe, price, pulled, tvfox, newsthe, latest, follows, former, roger, ailes, right, contributor, julie, roginsky, lawsuit, richard, drew, charles, sykesassociated, press, exit, forced, resign, july, accused, misconduct, number, anchor, gretchen, repeatedly, denied, wrongdoing, tapped, law, paul, weiss, rifkind, wharton, garrison, looked, conduct, investors, unruffled, seemed, take, stride, shares, less, per, cent, afternoon, trading, effect, overall, profitability, brian, wieser, analyst, pivotal, research, mogul, son, lachlan, coexecutive, chairmen, james, chief, officer, literally, go, dark, airs, still, profitable, bigger, issue, murdochs, prevent, headlines, just, months, now, cultural, big]) 
+= 3/12    x    ( 2/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  2/3    x  5/3    x  4/3    x  4/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  5/3    x  1/3    x  1/3    x  4/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  2/3    x  2/3    x  1/3    x  2/3    x  6/3    x  4/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  2/3    x  2/3    x  1/3    x  10/3   x  1/3    x  2/3    x  1/3    x  1/3    x  3/3    x  1/3    x  4/3    x  4/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  (2/3) )     
+=     59373627899904000 / 3057426677735202764    =    0.019419477278809244
+
+
+

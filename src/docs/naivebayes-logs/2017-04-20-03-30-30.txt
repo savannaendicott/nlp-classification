@@ -1,0 +1,897 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 03:30:30
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   ryan:1              ropes:0             wins:2              straight:1          
+   game:6              associated:1        press:2             posted:0            
+   apr:0               pm:0                et:0                last:2              
+   updated:0           right:1             wing:0              left:2              
+   congratulated:0      derick:0            brassard:0          goal:0              
+   third:2             period:1            charles:0           krupathe:0          
+   cup:28              playoffs:8          full:0              tv:0                
+   schedule:0          results:0           boxscore:0          senatorsbruins:0      
+   team:2              page:0              heading:0           home:2              
+   chance:0            eliminate:0         much:1              trouble:0           
+   capitals:1          even:0              series:6            leafs:1             
+   scored:0            early:1             craig:1             stopped:1           
+   shots:0             fourth:0            career:2            postseason:0        
+   shutout:0           beat:0              night:2             lead:1              
+   firstround:0        playoff:3           ottawas:0           fifth:0             
+   win:4               dating:0            seventh:0           victory:2           
+   tries:0             away:0              season:8            capital:1           
+   worked:0            hard:1              get:0               ice:1               
+   first:2             round:2             forward:1           zach:0              
+   smith:1             nice:0              go:2                back:8              
+   potentially:0       close:0             rask:1              made:4              
+   saves:0             disallowed:0        second:6            coach:2             
+   challenged:0        replay:0            showed:0            noel:0              
+   acciari:0           offsides:0          need:0              force:0             
+   show:0              character:0         side:0              veterans:0          
+   make:4              sure:1              young:0             guys:2              
+   hang:0              heads:1             every:2             far:1               
+   bestofseven:0       settled:0           onegoal:0           margin:0            
+   including:0         backtoback:0        overtimes:0         games:2             
+   got:1               able:1              play:4              style:0             
+   going:8             brad:2              marchand:2          way:2               
+   remained:0          scoreless:0         erik:2              karlssons:0         
+   shot:0              deflected:1         stick:0             pulled:0            
+   backhand:0          forehand:0          swiped:0            zdeno:2             
+   dove:0              behind:0            crease:0            try:0               
+   knock:0             puck:0              line:0              always:0            
+   like:2              chess:0             slow:0              strategic:1         
+   moves:0             played:2            system:1            weathered:0         
+   storm:0             just:4              stuck:0             foot:0              
+   reach:0             prevent:0           attempt:0           pushed:0            
+   almost:1            minutes:0           managed:0           couple:0            
+   scoring:1           chances:0           turned:1            goaltending:0       
+   sides:0             better:1            
+
+Category: Travel
+   ryan:0              ropes:0             
+   wins:0              straight:0          game:0              associated:0        
+   press:0             posted:0            apr:0               pm:0                
+   et:0                last:1              updated:0           right:1             
+   wing:0              left:1              congratulated:0      derick:0            
+   brassard:0          goal:0              third:0             period:0            
+   charles:0           krupathe:0          cup:0               playoffs:0          
+   full:0              tv:0                schedule:0          results:0           
+   boxscore:0          senatorsbruins:0      team:0              page:0              
+   heading:0           home:3              chance:1            eliminate:0         
+   much:2              trouble:0           capitals:0          even:0              
+   series:0            leafs:0             scored:0            early:0             
+   craig:0             stopped:0           shots:0             fourth:0            
+   career:0            postseason:0        shutout:0           beat:0              
+   night:1             lead:0              firstround:0        playoff:0           
+   ottawas:0           fifth:0             win:0               dating:0            
+   seventh:0           victory:0           tries:0             away:1              
+   season:1            capital:0           worked:0            hard:2              
+   get:4               ice:1               first:2             round:1             
+   forward:0           zach:0              smith:0             nice:2              
+   go:2                back:1              potentially:0       close:1             
+   rask:0              made:0              saves:0             disallowed:0        
+   second:1            coach:0             challenged:0        replay:0            
+   showed:0            noel:0              acciari:0           offsides:0          
+   need:10             force:0             show:1              character:0         
+   side:1              veterans:0          make:2              sure:2              
+   young:0             guys:0              hang:0              heads:0             
+   every:1             far:1               bestofseven:0       settled:0           
+   onegoal:0           margin:0            including:1         backtoback:0        
+   overtimes:0         games:0             got:1               able:0              
+   play:0              style:1             going:2             brad:0              
+   marchand:0          way:2               remained:0          scoreless:0         
+   erik:0              karlssons:0         shot:0              deflected:0         
+   stick:1             pulled:0            backhand:0          forehand:0          
+   swiped:0            zdeno:0             dove:0              behind:1            
+   crease:0            try:0               knock:0             puck:0              
+   line:0              always:3            like:2              chess:0             
+   slow:1              strategic:0         moves:0             played:0            
+   system:0            weathered:0         storm:0             just:4              
+   stuck:0             foot:0              reach:0             prevent:0           
+   attempt:0           pushed:0            almost:0            minutes:1           
+   managed:0           couple:1            scoring:0           chances:0           
+   turned:0            goaltending:0       sides:0             better:1            
+   
+
+Category: Entertainment
+   ryan:0              ropes:0             wins:2              straight:0          
+   game:0              associated:0        press:0             posted:0            
+   apr:0               pm:0                et:0                last:2              
+   updated:0           right:0             wing:0              left:2              
+   congratulated:0      derick:0            brassard:0          goal:0              
+   third:0             period:0            charles:0           krupathe:0          
+   cup:0               playoffs:0          full:0              tv:0                
+   schedule:0          results:1           boxscore:0          senatorsbruins:0      
+   team:1              page:1              heading:0           home:0              
+   chance:0            eliminate:0         much:1              trouble:0           
+   capitals:0          even:1              series:0            leafs:0             
+   scored:0            early:0             craig:0             stopped:0           
+   shots:0             fourth:0            career:0            postseason:0        
+   shutout:0           beat:2              night:0             lead:1              
+   firstround:0        playoff:0           ottawas:0           fifth:0             
+   win:0               dating:0            seventh:0           victory:0           
+   tries:0             away:0              season:0            capital:0           
+   worked:0            hard:2              get:1               ice:0               
+   first:1             round:0             forward:0           zach:0              
+   smith:0             nice:0              go:0                back:0              
+   potentially:0       close:0             rask:0              made:2              
+   saves:0             disallowed:0        second:0            coach:0             
+   challenged:0        replay:0            showed:1            noel:0              
+   acciari:0           offsides:0          need:0              force:0             
+   show:3              character:1         side:0              veterans:0          
+   make:1              sure:1              young:3             guys:0              
+   hang:0              heads:0             every:1             far:0               
+   bestofseven:0       settled:0           onegoal:0           margin:0            
+   including:4         backtoback:0        overtimes:0         games:0             
+   got:0               able:0              play:11             style:0             
+   going:1             brad:0              marchand:0          way:0               
+   remained:0          scoreless:0         erik:0              karlssons:0         
+   shot:0              deflected:0         stick:0             pulled:2            
+   backhand:0          forehand:0          swiped:0            zdeno:0             
+   dove:0              behind:0            crease:0            try:0               
+   knock:0             puck:0              line:0              always:0            
+   like:4              chess:0             slow:0              strategic:0         
+   moves:0             played:1            system:0            weathered:0         
+   storm:0             just:2              stuck:0             foot:0              
+   reach:0             prevent:0           attempt:0           pushed:0            
+   almost:0            minutes:0           managed:0           couple:0            
+   scoring:0           chances:0           turned:0            goaltending:0       
+   sides:0             better:0            
+
+Category: World News
+   ryan:0              ropes:0             
+   wins:0              straight:0          game:0              associated:1        
+   press:3             posted:1            apr:0               pm:0                
+   et:0                last:10             updated:0           right:1             
+   wing:0              left:2              congratulated:0      derick:0            
+   brassard:0          goal:1              third:0             period:0            
+   charles:0           krupathe:0          cup:0               playoffs:0          
+   full:0              tv:4                schedule:0          results:0           
+   boxscore:0          senatorsbruins:0      team:0              page:0              
+   heading:0           home:0              chance:0            eliminate:0         
+   much:3              trouble:0           capitals:1          even:0              
+   series:0            leafs:0             scored:0            early:0             
+   craig:0             stopped:0           shots:0             fourth:0            
+   career:0            postseason:0        shutout:0           beat:0              
+   night:0             lead:0              firstround:0        playoff:0           
+   ottawas:0           fifth:0             win:0               dating:0            
+   seventh:1           victory:0           tries:0             away:2              
+   season:0            capital:0           worked:1            hard:2              
+   get:0               ice:0               first:2             round:0             
+   forward:0           zach:0              smith:0             nice:0              
+   go:2                back:2              potentially:0       close:0             
+   rask:0              made:0              saves:0             disallowed:0        
+   second:0            coach:0             challenged:0        replay:0            
+   showed:2            noel:0              acciari:0           offsides:0          
+   need:0              force:1             show:0              character:0         
+   side:1              veterans:0          make:2              sure:0              
+   young:0             guys:0              hang:0              heads:0             
+   every:1             far:0               bestofseven:0       settled:0           
+   onegoal:0           margin:0            including:2         backtoback:0        
+   overtimes:0         games:0             got:0               able:0              
+   play:1              style:0             going:1             brad:0              
+   marchand:0          way:0               remained:0          scoreless:0         
+   erik:0              karlssons:0         shot:0              deflected:0         
+   stick:0             pulled:0            backhand:0          forehand:0          
+   swiped:0            zdeno:0             dove:0              behind:1            
+   crease:0            try:0               knock:0             puck:0              
+   line:0              always:0            like:0              chess:0             
+   slow:0              strategic:0         moves:4             played:0            
+   system:0            weathered:0         storm:0             just:2              
+   stuck:0             foot:0              reach:0             prevent:0           
+   attempt:2           pushed:0            almost:0            minutes:0           
+   managed:0           couple:0            scoring:0           chances:0           
+   turned:1            goaltending:0       sides:0             better:1            
+   
+
+Word likely-hoods: 
+   P(ryan | Sports) :         1/3.0
+   P(ropes | Sports) :        0/3.0
+   P(wins | Sports) :         2/3.0
+   P(straight | Sports) :     1/3.0
+   P(game | Sports) :         6/3.0
+   P(associated | Sports) :   1/3.0
+   P(press | Sports) :        2/3.0
+   P(posted | Sports) :       0/3.0
+   P(apr | Sports) :          0/3.0
+   P(pm | Sports) :           0/3.0
+   P(et | Sports) :           0/3.0
+   P(last | Sports) :         2/3.0
+   P(updated | Sports) :      0/3.0
+   P(right | Sports) :        1/3.0
+   P(wing | Sports) :         0/3.0
+   P(left | Sports) :         2/3.0
+   P(congratulated | Sports) : 0/3.0
+   P(derick | Sports) :       0/3.0
+   P(brassard | Sports) :     0/3.0
+   P(goal | Sports) :         0/3.0
+   P(third | Sports) :        2/3.0
+   P(period | Sports) :       1/3.0
+   P(charles | Sports) :      0/3.0
+   P(krupathe | Sports) :     0/3.0
+   P(cup | Sports) :          28/3.0
+   P(playoffs | Sports) :     8/3.0
+   P(full | Sports) :         0/3.0
+   P(tv | Sports) :           0/3.0
+   P(schedule | Sports) :     0/3.0
+   P(results | Sports) :      0/3.0
+   P(boxscore | Sports) :     0/3.0
+   P(senatorsbruins | Sports) : 0/3.0
+   P(team | Sports) :         2/3.0
+   P(page | Sports) :         0/3.0
+   P(heading | Sports) :      0/3.0
+   P(home | Sports) :         2/3.0
+   P(chance | Sports) :       0/3.0
+   P(eliminate | Sports) :    0/3.0
+   P(much | Sports) :         1/3.0
+   P(trouble | Sports) :      0/3.0
+   P(capitals | Sports) :     1/3.0
+   P(even | Sports) :         0/3.0
+   P(series | Sports) :       6/3.0
+   P(leafs | Sports) :        1/3.0
+   P(scored | Sports) :       0/3.0
+   P(early | Sports) :        1/3.0
+   P(craig | Sports) :        1/3.0
+   P(stopped | Sports) :      1/3.0
+   P(shots | Sports) :        0/3.0
+   P(fourth | Sports) :       0/3.0
+   P(career | Sports) :       2/3.0
+   P(postseason | Sports) :   0/3.0
+   P(shutout | Sports) :      0/3.0
+   P(beat | Sports) :         0/3.0
+   P(night | Sports) :        2/3.0
+   P(lead | Sports) :         1/3.0
+   P(firstround | Sports) :   0/3.0
+   P(playoff | Sports) :      3/3.0
+   P(ottawas | Sports) :      0/3.0
+   P(fifth | Sports) :        0/3.0
+   P(win | Sports) :          4/3.0
+   P(dating | Sports) :       0/3.0
+   P(seventh | Sports) :      0/3.0
+   P(victory | Sports) :      2/3.0
+   P(tries | Sports) :        0/3.0
+   P(away | Sports) :         0/3.0
+   P(season | Sports) :       8/3.0
+   P(capital | Sports) :      1/3.0
+   P(worked | Sports) :       0/3.0
+   P(hard | Sports) :         1/3.0
+   P(get | Sports) :          0/3.0
+   P(ice | Sports) :          1/3.0
+   P(first | Sports) :        2/3.0
+   P(round | Sports) :        2/3.0
+   P(forward | Sports) :      1/3.0
+   P(zach | Sports) :         0/3.0
+   P(smith | Sports) :        1/3.0
+   P(nice | Sports) :         0/3.0
+   P(go | Sports) :           2/3.0
+   P(back | Sports) :         8/3.0
+   P(potentially | Sports) :  0/3.0
+   P(close | Sports) :        0/3.0
+   P(rask | Sports) :         1/3.0
+   P(made | Sports) :         4/3.0
+   P(saves | Sports) :        0/3.0
+   P(disallowed | Sports) :   0/3.0
+   P(second | Sports) :       6/3.0
+   P(coach | Sports) :        2/3.0
+   P(challenged | Sports) :   0/3.0
+   P(replay | Sports) :       0/3.0
+   P(showed | Sports) :       0/3.0
+   P(noel | Sports) :         0/3.0
+   P(acciari | Sports) :      0/3.0
+   P(offsides | Sports) :     0/3.0
+   P(need | Sports) :         0/3.0
+   P(force | Sports) :        0/3.0
+   P(show | Sports) :         0/3.0
+   P(character | Sports) :    0/3.0
+   P(side | Sports) :         0/3.0
+   P(veterans | Sports) :     0/3.0
+   P(make | Sports) :         4/3.0
+   P(sure | Sports) :         1/3.0
+   P(young | Sports) :        0/3.0
+   P(guys | Sports) :         2/3.0
+   P(hang | Sports) :         0/3.0
+   P(heads | Sports) :        1/3.0
+   P(every | Sports) :        2/3.0
+   P(far | Sports) :          1/3.0
+   P(bestofseven | Sports) :  0/3.0
+   P(settled | Sports) :      0/3.0
+   P(onegoal | Sports) :      0/3.0
+   P(margin | Sports) :       0/3.0
+   P(including | Sports) :    0/3.0
+   P(backtoback | Sports) :   0/3.0
+   P(overtimes | Sports) :    0/3.0
+   P(games | Sports) :        2/3.0
+   P(got | Sports) :          1/3.0
+   P(able | Sports) :         1/3.0
+   P(play | Sports) :         4/3.0
+   P(style | Sports) :        0/3.0
+   P(going | Sports) :        8/3.0
+   P(brad | Sports) :         2/3.0
+   P(marchand | Sports) :     2/3.0
+   P(way | Sports) :          2/3.0
+   P(remained | Sports) :     0/3.0
+   P(scoreless | Sports) :    0/3.0
+   P(erik | Sports) :         2/3.0
+   P(karlssons | Sports) :    0/3.0
+   P(shot | Sports) :         0/3.0
+   P(deflected | Sports) :    1/3.0
+   P(stick | Sports) :        0/3.0
+   P(pulled | Sports) :       0/3.0
+   P(backhand | Sports) :     0/3.0
+   P(forehand | Sports) :     0/3.0
+   P(swiped | Sports) :       0/3.0
+   P(zdeno | Sports) :        2/3.0
+   P(dove | Sports) :         0/3.0
+   P(behind | Sports) :       0/3.0
+   P(crease | Sports) :       0/3.0
+   P(try | Sports) :          0/3.0
+   P(knock | Sports) :        0/3.0
+   P(puck | Sports) :         0/3.0
+   P(line | Sports) :         0/3.0
+   P(always | Sports) :       0/3.0
+   P(like | Sports) :         2/3.0
+   P(chess | Sports) :        0/3.0
+   P(slow | Sports) :         0/3.0
+   P(strategic | Sports) :    1/3.0
+   P(moves | Sports) :        0/3.0
+   P(played | Sports) :       2/3.0
+   P(system | Sports) :       1/3.0
+   P(weathered | Sports) :    0/3.0
+   P(storm | Sports) :        0/3.0
+   P(just | Sports) :         4/3.0
+   P(stuck | Sports) :        0/3.0
+   P(foot | Sports) :         0/3.0
+   P(reach | Sports) :        0/3.0
+   P(prevent | Sports) :      0/3.0
+   P(attempt | Sports) :      0/3.0
+   P(pushed | Sports) :       0/3.0
+   P(almost | Sports) :       1/3.0
+   P(minutes | Sports) :      0/3.0
+   P(managed | Sports) :      0/3.0
+   P(couple | Sports) :       0/3.0
+   P(scoring | Sports) :      1/3.0
+   P(chances | Sports) :      0/3.0
+   P(turned | Sports) :       1/3.0
+   P(goaltending | Sports) :  0/3.0
+   P(sides | Sports) :        0/3.0
+   P(better | Sports) :       1/3.0
+
+   P(ryan | Travel) :         0/3.0
+   P(ropes | Travel) :        0/3.0
+   P(wins | Travel) :         0/3.0
+   P(straight | Travel) :     0/3.0
+   P(game | Travel) :         0/3.0
+   P(associated | Travel) :   0/3.0
+   P(press | Travel) :        0/3.0
+   P(posted | Travel) :       0/3.0
+   P(apr | Travel) :          0/3.0
+   P(pm | Travel) :           0/3.0
+   P(et | Travel) :           0/3.0
+   P(last | Travel) :         1/3.0
+   P(updated | Travel) :      0/3.0
+   P(right | Travel) :        1/3.0
+   P(wing | Travel) :         0/3.0
+   P(left | Travel) :         1/3.0
+   P(congratulated | Travel) : 0/3.0
+   P(derick | Travel) :       0/3.0
+   P(brassard | Travel) :     0/3.0
+   P(goal | Travel) :         0/3.0
+   P(third | Travel) :        0/3.0
+   P(period | Travel) :       0/3.0
+   P(charles | Travel) :      0/3.0
+   P(krupathe | Travel) :     0/3.0
+   P(cup | Travel) :          0/3.0
+   P(playoffs | Travel) :     0/3.0
+   P(full | Travel) :         0/3.0
+   P(tv | Travel) :           0/3.0
+   P(schedule | Travel) :     0/3.0
+   P(results | Travel) :      0/3.0
+   P(boxscore | Travel) :     0/3.0
+   P(senatorsbruins | Travel) : 0/3.0
+   P(team | Travel) :         0/3.0
+   P(page | Travel) :         0/3.0
+   P(heading | Travel) :      0/3.0
+   P(home | Travel) :         3/3.0
+   P(chance | Travel) :       1/3.0
+   P(eliminate | Travel) :    0/3.0
+   P(much | Travel) :         2/3.0
+   P(trouble | Travel) :      0/3.0
+   P(capitals | Travel) :     0/3.0
+   P(even | Travel) :         0/3.0
+   P(series | Travel) :       0/3.0
+   P(leafs | Travel) :        0/3.0
+   P(scored | Travel) :       0/3.0
+   P(early | Travel) :        0/3.0
+   P(craig | Travel) :        0/3.0
+   P(stopped | Travel) :      0/3.0
+   P(shots | Travel) :        0/3.0
+   P(fourth | Travel) :       0/3.0
+   P(career | Travel) :       0/3.0
+   P(postseason | Travel) :   0/3.0
+   P(shutout | Travel) :      0/3.0
+   P(beat | Travel) :         0/3.0
+   P(night | Travel) :        1/3.0
+   P(lead | Travel) :         0/3.0
+   P(firstround | Travel) :   0/3.0
+   P(playoff | Travel) :      0/3.0
+   P(ottawas | Travel) :      0/3.0
+   P(fifth | Travel) :        0/3.0
+   P(win | Travel) :          0/3.0
+   P(dating | Travel) :       0/3.0
+   P(seventh | Travel) :      0/3.0
+   P(victory | Travel) :      0/3.0
+   P(tries | Travel) :        0/3.0
+   P(away | Travel) :         1/3.0
+   P(season | Travel) :       1/3.0
+   P(capital | Travel) :      0/3.0
+   P(worked | Travel) :       0/3.0
+   P(hard | Travel) :         2/3.0
+   P(get | Travel) :          4/3.0
+   P(ice | Travel) :          1/3.0
+   P(first | Travel) :        2/3.0
+   P(round | Travel) :        1/3.0
+   P(forward | Travel) :      0/3.0
+   P(zach | Travel) :         0/3.0
+   P(smith | Travel) :        0/3.0
+   P(nice | Travel) :         2/3.0
+   P(go | Travel) :           2/3.0
+   P(back | Travel) :         1/3.0
+   P(potentially | Travel) :  0/3.0
+   P(close | Travel) :        1/3.0
+   P(rask | Travel) :         0/3.0
+   P(made | Travel) :         0/3.0
+   P(saves | Travel) :        0/3.0
+   P(disallowed | Travel) :   0/3.0
+   P(second | Travel) :       1/3.0
+   P(coach | Travel) :        0/3.0
+   P(challenged | Travel) :   0/3.0
+   P(replay | Travel) :       0/3.0
+   P(showed | Travel) :       0/3.0
+   P(noel | Travel) :         0/3.0
+   P(acciari | Travel) :      0/3.0
+   P(offsides | Travel) :     0/3.0
+   P(need | Travel) :         10/3.0
+   P(force | Travel) :        0/3.0
+   P(show | Travel) :         1/3.0
+   P(character | Travel) :    0/3.0
+   P(side | Travel) :         1/3.0
+   P(veterans | Travel) :     0/3.0
+   P(make | Travel) :         2/3.0
+   P(sure | Travel) :         2/3.0
+   P(young | Travel) :        0/3.0
+   P(guys | Travel) :         0/3.0
+   P(hang | Travel) :         0/3.0
+   P(heads | Travel) :        0/3.0
+   P(every | Travel) :        1/3.0
+   P(far | Travel) :          1/3.0
+   P(bestofseven | Travel) :  0/3.0
+   P(settled | Travel) :      0/3.0
+   P(onegoal | Travel) :      0/3.0
+   P(margin | Travel) :       0/3.0
+   P(including | Travel) :    1/3.0
+   P(backtoback | Travel) :   0/3.0
+   P(overtimes | Travel) :    0/3.0
+   P(games | Travel) :        0/3.0
+   P(got | Travel) :          1/3.0
+   P(able | Travel) :         0/3.0
+   P(play | Travel) :         0/3.0
+   P(style | Travel) :        1/3.0
+   P(going | Travel) :        2/3.0
+   P(brad | Travel) :         0/3.0
+   P(marchand | Travel) :     0/3.0
+   P(way | Travel) :          2/3.0
+   P(remained | Travel) :     0/3.0
+   P(scoreless | Travel) :    0/3.0
+   P(erik | Travel) :         0/3.0
+   P(karlssons | Travel) :    0/3.0
+   P(shot | Travel) :         0/3.0
+   P(deflected | Travel) :    0/3.0
+   P(stick | Travel) :        1/3.0
+   P(pulled | Travel) :       0/3.0
+   P(backhand | Travel) :     0/3.0
+   P(forehand | Travel) :     0/3.0
+   P(swiped | Travel) :       0/3.0
+   P(zdeno | Travel) :        0/3.0
+   P(dove | Travel) :         0/3.0
+   P(behind | Travel) :       1/3.0
+   P(crease | Travel) :       0/3.0
+   P(try | Travel) :          0/3.0
+   P(knock | Travel) :        0/3.0
+   P(puck | Travel) :         0/3.0
+   P(line | Travel) :         0/3.0
+   P(always | Travel) :       3/3.0
+   P(like | Travel) :         2/3.0
+   P(chess | Travel) :        0/3.0
+   P(slow | Travel) :         1/3.0
+   P(strategic | Travel) :    0/3.0
+   P(moves | Travel) :        0/3.0
+   P(played | Travel) :       0/3.0
+   P(system | Travel) :       0/3.0
+   P(weathered | Travel) :    0/3.0
+   P(storm | Travel) :        0/3.0
+   P(just | Travel) :         4/3.0
+   P(stuck | Travel) :        0/3.0
+   P(foot | Travel) :         0/3.0
+   P(reach | Travel) :        0/3.0
+   P(prevent | Travel) :      0/3.0
+   P(attempt | Travel) :      0/3.0
+   P(pushed | Travel) :       0/3.0
+   P(almost | Travel) :       0/3.0
+   P(minutes | Travel) :      1/3.0
+   P(managed | Travel) :      0/3.0
+   P(couple | Travel) :       1/3.0
+   P(scoring | Travel) :      0/3.0
+   P(chances | Travel) :      0/3.0
+   P(turned | Travel) :       0/3.0
+   P(goaltending | Travel) :  0/3.0
+   P(sides | Travel) :        0/3.0
+   P(better | Travel) :       1/3.0
+
+   P(ryan | Entertainment) :  0/3.0
+   P(ropes | Entertainment) : 0/3.0
+   P(wins | Entertainment) :  2/3.0
+   P(straight | Entertainment) : 0/3.0
+   P(game | Entertainment) :  0/3.0
+   P(associated | Entertainment) : 0/3.0
+   P(press | Entertainment) : 0/3.0
+   P(posted | Entertainment) : 0/3.0
+   P(apr | Entertainment) :   0/3.0
+   P(pm | Entertainment) :    0/3.0
+   P(et | Entertainment) :    0/3.0
+   P(last | Entertainment) :  2/3.0
+   P(updated | Entertainment) : 0/3.0
+   P(right | Entertainment) : 0/3.0
+   P(wing | Entertainment) :  0/3.0
+   P(left | Entertainment) :  2/3.0
+   P(congratulated | Entertainment) : 0/3.0
+   P(derick | Entertainment) : 0/3.0
+   P(brassard | Entertainment) : 0/3.0
+   P(goal | Entertainment) :  0/3.0
+   P(third | Entertainment) : 0/3.0
+   P(period | Entertainment) : 0/3.0
+   P(charles | Entertainment) : 0/3.0
+   P(krupathe | Entertainment) : 0/3.0
+   P(cup | Entertainment) :   0/3.0
+   P(playoffs | Entertainment) : 0/3.0
+   P(full | Entertainment) :  0/3.0
+   P(tv | Entertainment) :    0/3.0
+   P(schedule | Entertainment) : 0/3.0
+   P(results | Entertainment) : 1/3.0
+   P(boxscore | Entertainment) : 0/3.0
+   P(senatorsbruins | Entertainment) : 0/3.0
+   P(team | Entertainment) :  1/3.0
+   P(page | Entertainment) :  1/3.0
+   P(heading | Entertainment) : 0/3.0
+   P(home | Entertainment) :  0/3.0
+   P(chance | Entertainment) : 0/3.0
+   P(eliminate | Entertainment) : 0/3.0
+   P(much | Entertainment) :  1/3.0
+   P(trouble | Entertainment) : 0/3.0
+   P(capitals | Entertainment) : 0/3.0
+   P(even | Entertainment) :  1/3.0
+   P(series | Entertainment) : 0/3.0
+   P(leafs | Entertainment) : 0/3.0
+   P(scored | Entertainment) : 0/3.0
+   P(early | Entertainment) : 0/3.0
+   P(craig | Entertainment) : 0/3.0
+   P(stopped | Entertainment) : 0/3.0
+   P(shots | Entertainment) : 0/3.0
+   P(fourth | Entertainment) : 0/3.0
+   P(career | Entertainment) : 0/3.0
+   P(postseason | Entertainment) : 0/3.0
+   P(shutout | Entertainment) : 0/3.0
+   P(beat | Entertainment) :  2/3.0
+   P(night | Entertainment) : 0/3.0
+   P(lead | Entertainment) :  1/3.0
+   P(firstround | Entertainment) : 0/3.0
+   P(playoff | Entertainment) : 0/3.0
+   P(ottawas | Entertainment) : 0/3.0
+   P(fifth | Entertainment) : 0/3.0
+   P(win | Entertainment) :   0/3.0
+   P(dating | Entertainment) : 0/3.0
+   P(seventh | Entertainment) : 0/3.0
+   P(victory | Entertainment) : 0/3.0
+   P(tries | Entertainment) : 0/3.0
+   P(away | Entertainment) :  0/3.0
+   P(season | Entertainment) : 0/3.0
+   P(capital | Entertainment) : 0/3.0
+   P(worked | Entertainment) : 0/3.0
+   P(hard | Entertainment) :  2/3.0
+   P(get | Entertainment) :   1/3.0
+   P(ice | Entertainment) :   0/3.0
+   P(first | Entertainment) : 1/3.0
+   P(round | Entertainment) : 0/3.0
+   P(forward | Entertainment) : 0/3.0
+   P(zach | Entertainment) :  0/3.0
+   P(smith | Entertainment) : 0/3.0
+   P(nice | Entertainment) :  0/3.0
+   P(go | Entertainment) :    0/3.0
+   P(back | Entertainment) :  0/3.0
+   P(potentially | Entertainment) : 0/3.0
+   P(close | Entertainment) : 0/3.0
+   P(rask | Entertainment) :  0/3.0
+   P(made | Entertainment) :  2/3.0
+   P(saves | Entertainment) : 0/3.0
+   P(disallowed | Entertainment) : 0/3.0
+   P(second | Entertainment) : 0/3.0
+   P(coach | Entertainment) : 0/3.0
+   P(challenged | Entertainment) : 0/3.0
+   P(replay | Entertainment) : 0/3.0
+   P(showed | Entertainment) : 1/3.0
+   P(noel | Entertainment) :  0/3.0
+   P(acciari | Entertainment) : 0/3.0
+   P(offsides | Entertainment) : 0/3.0
+   P(need | Entertainment) :  0/3.0
+   P(force | Entertainment) : 0/3.0
+   P(show | Entertainment) :  3/3.0
+   P(character | Entertainment) : 1/3.0
+   P(side | Entertainment) :  0/3.0
+   P(veterans | Entertainment) : 0/3.0
+   P(make | Entertainment) :  1/3.0
+   P(sure | Entertainment) :  1/3.0
+   P(young | Entertainment) : 3/3.0
+   P(guys | Entertainment) :  0/3.0
+   P(hang | Entertainment) :  0/3.0
+   P(heads | Entertainment) : 0/3.0
+   P(every | Entertainment) : 1/3.0
+   P(far | Entertainment) :   0/3.0
+   P(bestofseven | Entertainment) : 0/3.0
+   P(settled | Entertainment) : 0/3.0
+   P(onegoal | Entertainment) : 0/3.0
+   P(margin | Entertainment) : 0/3.0
+   P(including | Entertainment) : 4/3.0
+   P(backtoback | Entertainment) : 0/3.0
+   P(overtimes | Entertainment) : 0/3.0
+   P(games | Entertainment) : 0/3.0
+   P(got | Entertainment) :   0/3.0
+   P(able | Entertainment) :  0/3.0
+   P(play | Entertainment) :  11/3.0
+   P(style | Entertainment) : 0/3.0
+   P(going | Entertainment) : 1/3.0
+   P(brad | Entertainment) :  0/3.0
+   P(marchand | Entertainment) : 0/3.0
+   P(way | Entertainment) :   0/3.0
+   P(remained | Entertainment) : 0/3.0
+   P(scoreless | Entertainment) : 0/3.0
+   P(erik | Entertainment) :  0/3.0
+   P(karlssons | Entertainment) : 0/3.0
+   P(shot | Entertainment) :  0/3.0
+   P(deflected | Entertainment) : 0/3.0
+   P(stick | Entertainment) : 0/3.0
+   P(pulled | Entertainment) : 2/3.0
+   P(backhand | Entertainment) : 0/3.0
+   P(forehand | Entertainment) : 0/3.0
+   P(swiped | Entertainment) : 0/3.0
+   P(zdeno | Entertainment) : 0/3.0
+   P(dove | Entertainment) :  0/3.0
+   P(behind | Entertainment) : 0/3.0
+   P(crease | Entertainment) : 0/3.0
+   P(try | Entertainment) :   0/3.0
+   P(knock | Entertainment) : 0/3.0
+   P(puck | Entertainment) :  0/3.0
+   P(line | Entertainment) :  0/3.0
+   P(always | Entertainment) : 0/3.0
+   P(like | Entertainment) :  4/3.0
+   P(chess | Entertainment) : 0/3.0
+   P(slow | Entertainment) :  0/3.0
+   P(strategic | Entertainment) : 0/3.0
+   P(moves | Entertainment) : 0/3.0
+   P(played | Entertainment) : 1/3.0
+   P(system | Entertainment) : 0/3.0
+   P(weathered | Entertainment) : 0/3.0
+   P(storm | Entertainment) : 0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(stuck | Entertainment) : 0/3.0
+   P(foot | Entertainment) :  0/3.0
+   P(reach | Entertainment) : 0/3.0
+   P(prevent | Entertainment) : 0/3.0
+   P(attempt | Entertainment) : 0/3.0
+   P(pushed | Entertainment) : 0/3.0
+   P(almost | Entertainment) : 0/3.0
+   P(minutes | Entertainment) : 0/3.0
+   P(managed | Entertainment) : 0/3.0
+   P(couple | Entertainment) : 0/3.0
+   P(scoring | Entertainment) : 0/3.0
+   P(chances | Entertainment) : 0/3.0
+   P(turned | Entertainment) : 0/3.0
+   P(goaltending | Entertainment) : 0/3.0
+   P(sides | Entertainment) : 0/3.0
+   P(better | Entertainment) : 0/3.0
+
+   P(ryan | World News) :     0/3.0
+   P(ropes | World News) :    0/3.0
+   P(wins | World News) :     0/3.0
+   P(straight | World News) : 0/3.0
+   P(game | World News) :     0/3.0
+   P(associated | World News) : 1/3.0
+   P(press | World News) :    3/3.0
+   P(posted | World News) :   1/3.0
+   P(apr | World News) :      0/3.0
+   P(pm | World News) :       0/3.0
+   P(et | World News) :       0/3.0
+   P(last | World News) :     10/3.0
+   P(updated | World News) :  0/3.0
+   P(right | World News) :    1/3.0
+   P(wing | World News) :     0/3.0
+   P(left | World News) :     2/3.0
+   P(congratulated | World News) : 0/3.0
+   P(derick | World News) :   0/3.0
+   P(brassard | World News) : 0/3.0
+   P(goal | World News) :     1/3.0
+   P(third | World News) :    0/3.0
+   P(period | World News) :   0/3.0
+   P(charles | World News) :  0/3.0
+   P(krupathe | World News) : 0/3.0
+   P(cup | World News) :      0/3.0
+   P(playoffs | World News) : 0/3.0
+   P(full | World News) :     0/3.0
+   P(tv | World News) :       4/3.0
+   P(schedule | World News) : 0/3.0
+   P(results | World News) :  0/3.0
+   P(boxscore | World News) : 0/3.0
+   P(senatorsbruins | World News) : 0/3.0
+   P(team | World News) :     0/3.0
+   P(page | World News) :     0/3.0
+   P(heading | World News) :  0/3.0
+   P(home | World News) :     0/3.0
+   P(chance | World News) :   0/3.0
+   P(eliminate | World News) : 0/3.0
+   P(much | World News) :     3/3.0
+   P(trouble | World News) :  0/3.0
+   P(capitals | World News) : 1/3.0
+   P(even | World News) :     0/3.0
+   P(series | World News) :   0/3.0
+   P(leafs | World News) :    0/3.0
+   P(scored | World News) :   0/3.0
+   P(early | World News) :    0/3.0
+   P(craig | World News) :    0/3.0
+   P(stopped | World News) :  0/3.0
+   P(shots | World News) :    0/3.0
+   P(fourth | World News) :   0/3.0
+   P(career | World News) :   0/3.0
+   P(postseason | World News) : 0/3.0
+   P(shutout | World News) :  0/3.0
+   P(beat | World News) :     0/3.0
+   P(night | World News) :    0/3.0
+   P(lead | World News) :     0/3.0
+   P(firstround | World News) : 0/3.0
+   P(playoff | World News) :  0/3.0
+   P(ottawas | World News) :  0/3.0
+   P(fifth | World News) :    0/3.0
+   P(win | World News) :      0/3.0
+   P(dating | World News) :   0/3.0
+   P(seventh | World News) :  1/3.0
+   P(victory | World News) :  0/3.0
+   P(tries | World News) :    0/3.0
+   P(away | World News) :     2/3.0
+   P(season | World News) :   0/3.0
+   P(capital | World News) :  0/3.0
+   P(worked | World News) :   1/3.0
+   P(hard | World News) :     2/3.0
+   P(get | World News) :      0/3.0
+   P(ice | World News) :      0/3.0
+   P(first | World News) :    2/3.0
+   P(round | World News) :    0/3.0
+   P(forward | World News) :  0/3.0
+   P(zach | World News) :     0/3.0
+   P(smith | World News) :    0/3.0
+   P(nice | World News) :     0/3.0
+   P(go | World News) :       2/3.0
+   P(back | World News) :     2/3.0
+   P(potentially | World News) : 0/3.0
+   P(close | World News) :    0/3.0
+   P(rask | World News) :     0/3.0
+   P(made | World News) :     0/3.0
+   P(saves | World News) :    0/3.0
+   P(disallowed | World News) : 0/3.0
+   P(second | World News) :   0/3.0
+   P(coach | World News) :    0/3.0
+   P(challenged | World News) : 0/3.0
+   P(replay | World News) :   0/3.0
+   P(showed | World News) :   2/3.0
+   P(noel | World News) :     0/3.0
+   P(acciari | World News) :  0/3.0
+   P(offsides | World News) : 0/3.0
+   P(need | World News) :     0/3.0
+   P(force | World News) :    1/3.0
+   P(show | World News) :     0/3.0
+   P(character | World News) : 0/3.0
+   P(side | World News) :     1/3.0
+   P(veterans | World News) : 0/3.0
+   P(make | World News) :     2/3.0
+   P(sure | World News) :     0/3.0
+   P(young | World News) :    0/3.0
+   P(guys | World News) :     0/3.0
+   P(hang | World News) :     0/3.0
+   P(heads | World News) :    0/3.0
+   P(every | World News) :    1/3.0
+   P(far | World News) :      0/3.0
+   P(bestofseven | World News) : 0/3.0
+   P(settled | World News) :  0/3.0
+   P(onegoal | World News) :  0/3.0
+   P(margin | World News) :   0/3.0
+   P(including | World News) : 2/3.0
+   P(backtoback | World News) : 0/3.0
+   P(overtimes | World News) : 0/3.0
+   P(games | World News) :    0/3.0
+   P(got | World News) :      0/3.0
+   P(able | World News) :     0/3.0
+   P(play | World News) :     1/3.0
+   P(style | World News) :    0/3.0
+   P(going | World News) :    1/3.0
+   P(brad | World News) :     0/3.0
+   P(marchand | World News) : 0/3.0
+   P(way | World News) :      0/3.0
+   P(remained | World News) : 0/3.0
+   P(scoreless | World News) : 0/3.0
+   P(erik | World News) :     0/3.0
+   P(karlssons | World News) : 0/3.0
+   P(shot | World News) :     0/3.0
+   P(deflected | World News) : 0/3.0
+   P(stick | World News) :    0/3.0
+   P(pulled | World News) :   0/3.0
+   P(backhand | World News) : 0/3.0
+   P(forehand | World News) : 0/3.0
+   P(swiped | World News) :   0/3.0
+   P(zdeno | World News) :    0/3.0
+   P(dove | World News) :     0/3.0
+   P(behind | World News) :   1/3.0
+   P(crease | World News) :   0/3.0
+   P(try | World News) :      0/3.0
+   P(knock | World News) :    0/3.0
+   P(puck | World News) :     0/3.0
+   P(line | World News) :     0/3.0
+   P(always | World News) :   0/3.0
+   P(like | World News) :     0/3.0
+   P(chess | World News) :    0/3.0
+   P(slow | World News) :     0/3.0
+   P(strategic | World News) : 0/3.0
+   P(moves | World News) :    4/3.0
+   P(played | World News) :   0/3.0
+   P(system | World News) :   0/3.0
+   P(weathered | World News) : 0/3.0
+   P(storm | World News) :    0/3.0
+   P(just | World News) :     2/3.0
+   P(stuck | World News) :    0/3.0
+   P(foot | World News) :     0/3.0
+   P(reach | World News) :    0/3.0
+   P(prevent | World News) :  0/3.0
+   P(attempt | World News) :  2/3.0
+   P(pushed | World News) :   0/3.0
+   P(almost | World News) :   0/3.0
+   P(minutes | World News) :  0/3.0
+   P(managed | World News) :  0/3.0
+   P(couple | World News) :   0/3.0
+   P(scoring | World News) :  0/3.0
+   P(chances | World News) :  0/3.0
+   P(turned | World News) :   1/3.0
+   P(goaltending | World News) : 0/3.0
+   P(sides | World News) :    0/3.0
+   P(better | World News) :   1/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.   P(Sports | [ryan, ropes, wins, straight, game, associated, press, posted, apr, pm, et, last, updated, right, wing, left, congratulated, derick, brassard, goal, third, period, charles, krupathe, cup, playoffs, full, tv, schedule, results, boxscore, senatorsbruins, team, page, heading, home, chance, eliminate, much, trouble, capitals, even, series, leafs, scored, early, craig, stopped, shots, fourth, career, postseason, shutout, beat, night, lead, firstround, playoff, ottawas, fifth, win, dating, seventh, victory, tries, away, season, capital, worked, hard, get, ice, first, round, forward, zach, smith, nice, go, back, potentially, close, rask, made, saves, disallowed, second, coach, challenged, replay, showed, noel, acciari, offsides, need, force, show, character, side, veterans, make, sure, young, guys, hang, heads, every, far, bestofseven, settled, onegoal, margin, including, backtoback, overtimes, games, got, able, play, style, going, brad, marchand, way, remained, scoreless, erik, karlssons, shot, deflected, stick, pulled, backhand, forehand, swiped, zdeno, dove, behind, crease, try, knock, puck, line, always, like, chess, slow, strategic, moves, played, system, weathered, storm, just, stuck, foot, reach, prevent, attempt, pushed, almost, minutes, managed, couple, scoring, chances, turned, goaltending, sides, better]) 
+= 3/12    x    ( 1/3    x  2/3    x  1/3    x  6/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  28/3   x  8/3    x  2/3    x  2/3    x  1/3    x  1/3    x  6/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  3/3    x  4/3    x  2/3    x  8/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  8/3    x  1/3    x  4/3    x  6/3    x  2/3    x  4/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  8/3    x  2/3    x  2/3    x  2/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  (1/3) )     
+=     3830311483078606848 / 3057426677735202764    =    1.2527893182105418
+   P(Travel | [ryan, ropes, wins, straight, game, associated, press, posted, apr, pm, et, last, updated, right, wing, left, congratulated, derick, brassard, goal, third, period, charles, krupathe, cup, playoffs, full, tv, schedule, results, boxscore, senatorsbruins, team, page, heading, home, chance, eliminate, much, trouble, capitals, even, series, leafs, scored, early, craig, stopped, shots, fourth, career, postseason, shutout, beat, night, lead, firstround, playoff, ottawas, fifth, win, dating, seventh, victory, tries, away, season, capital, worked, hard, get, ice, first, round, forward, zach, smith, nice, go, back, potentially, close, rask, made, saves, disallowed, second, coach, challenged, replay, showed, noel, acciari, offsides, need, force, show, character, side, veterans, make, sure, young, guys, hang, heads, every, far, bestofseven, settled, onegoal, margin, including, backtoback, overtimes, games, got, able, play, style, going, brad, marchand, way, remained, scoreless, erik, karlssons, shot, deflected, stick, pulled, backhand, forehand, swiped, zdeno, dove, behind, crease, try, knock, puck, line, always, like, chess, slow, strategic, moves, played, system, weathered, storm, just, stuck, foot, reach, prevent, attempt, pushed, almost, minutes, managed, couple, scoring, chances, turned, goaltending, sides, better]) 
+= 3/12    x    ( 1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  4/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  10/3   x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  3/3    x  2/3    x  1/3    x  4/3    x  1/3    x  1/3    x  (1/3) )     
+=     4423680 / 1681967080993267316    =    2.630063364490846E-12
+   P(Entertainment | [ryan, ropes, wins, straight, game, associated, press, posted, apr, pm, et, last, updated, right, wing, left, congratulated, derick, brassard, goal, third, period, charles, krupathe, cup, playoffs, full, tv, schedule, results, boxscore, senatorsbruins, team, page, heading, home, chance, eliminate, much, trouble, capitals, even, series, leafs, scored, early, craig, stopped, shots, fourth, career, postseason, shutout, beat, night, lead, firstround, playoff, ottawas, fifth, win, dating, seventh, victory, tries, away, season, capital, worked, hard, get, ice, first, round, forward, zach, smith, nice, go, back, potentially, close, rask, made, saves, disallowed, second, coach, challenged, replay, showed, noel, acciari, offsides, need, force, show, character, side, veterans, make, sure, young, guys, hang, heads, every, far, bestofseven, settled, onegoal, margin, including, backtoback, overtimes, games, got, able, play, style, going, brad, marchand, way, remained, scoreless, erik, karlssons, shot, deflected, stick, pulled, backhand, forehand, swiped, zdeno, dove, behind, crease, try, knock, puck, line, always, like, chess, slow, strategic, moves, played, system, weathered, storm, just, stuck, foot, reach, prevent, attempt, pushed, almost, minutes, managed, couple, scoring, chances, turned, goaltending, sides, better]) 
+= 3/12    x    ( 2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  4/3    x  11/3   x  1/3    x  2/3    x  4/3    x  1/3    x  2/3    x  (1)   )     
+=     1216512 / 274521509459532    =    4.431390466980255E-9
+   P(World News | [ryan, ropes, wins, straight, game, associated, press, posted, apr, pm, et, last, updated, right, wing, left, congratulated, derick, brassard, goal, third, period, charles, krupathe, cup, playoffs, full, tv, schedule, results, boxscore, senatorsbruins, team, page, heading, home, chance, eliminate, much, trouble, capitals, even, series, leafs, scored, early, craig, stopped, shots, fourth, career, postseason, shutout, beat, night, lead, firstround, playoff, ottawas, fifth, win, dating, seventh, victory, tries, away, season, capital, worked, hard, get, ice, first, round, forward, zach, smith, nice, go, back, potentially, close, rask, made, saves, disallowed, second, coach, challenged, replay, showed, noel, acciari, offsides, need, force, show, character, side, veterans, make, sure, young, guys, hang, heads, every, far, bestofseven, settled, onegoal, margin, including, backtoback, overtimes, games, got, able, play, style, going, brad, marchand, way, remained, scoreless, erik, karlssons, shot, deflected, stick, pulled, backhand, forehand, swiped, zdeno, dove, behind, crease, try, knock, puck, line, always, like, chess, slow, strategic, moves, played, system, weathered, storm, just, stuck, foot, reach, prevent, attempt, pushed, almost, minutes, managed, couple, scoring, chances, turned, goaltending, sides, better]) 
+= 3/12    x    ( 1/3    x  3/3    x  1/3    x  10/3   x  1/3    x  2/3    x  1/3    x  4/3    x  3/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  4/3    x  2/3    x  2/3    x  1/3    x  (1/3) )     
+=     8847360 / 7412080755407364    =    1.1936405298263313E-9
+
+
+

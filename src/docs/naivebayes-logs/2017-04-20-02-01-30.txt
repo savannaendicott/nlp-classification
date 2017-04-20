@@ -1,0 +1,1367 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 02:01:30
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   phrase:0            innocent:0          women:0             children:0          
+   sexist:0            racist:0            inaccurate:0        volunteer:0         
+   medics:0            assist:0            iraqi:0             civilian:0          
+   injured:2           fleeing:0           islamic:0           state:0             
+   groupcontrolled:0      neighbourhood:0      mosul:0             november:1          
+   photo:0             serves:0            reminder:0          victims:0           
+   nish:0              nalbandianthe:0      associated:1        press:2             
+   listen:0            stories:0           episode:0           think:2             
+   twice:0             try:0               live:0              bestlife:0          
+   fish:0              biologist:0         stopped:1           eating:0            
+   brexit:0            boon:0              universities:0      time:8              
+   let:0               motorcycles:0       drive:0             lanes:0             
+   mess:0              adultonly:0         residences:0        full:0              
+   hear:0              read:0              often:0             especially:0        
+   catastrophe:0       far:1               away:0              places:0            
+   emily:0             cousens:0           says:1              need:0              
+   rethink:0           men:0               excluded:0          use:0               
+   term:0              argues:0            undertones:0        headshot:0          
+   phd:0               student:0           researcher:0        oxford:0            
+   brookes:0           university:0        provided:0          researching:0       
+   concepts:0          vulnerability:0      feminism:0          united:0            
+   kingdom:0           joined:1            jim:0               brown:0             
+   conversation:0      oftused:0           following:0         condensed:0         
+   version:0           reminds:0           sort:0              titanichittingtheiceberg:0      
+   first:2             related:0           always:0            kind:1              
+   image:0             springs:0           mind:3              titanic:0           
+   ideathat:0          protect:0           argue:1             suggests:0          
+   actually:0          protection:0        somehow:0           apply:0             
+   war:0               saying:0            male:0              problematic:0       
+   implications:0      implies:0           rather:0            people:0            
+   protectors:0        yeah:0              context:0           maybe:0             
+   seen:0              suggest:0           might:2             sinister:0          
+   undertone:0         north:1             african:0           refugees:0          
+   example:0           vulnerable:0        perhaps:0           suggesting:0        
+   aggressors:0        worthy:0            underlying:0        assumption:0        
+   seems:0             guilty:0            talk:2              excluding:0         
+   groups:1            refugee:0           crisis:0            way:2               
+   west:0              misperceive:0       misrepresent:0      arab:0              
+   constantly:0        media:0             seeing:2            images:0            
+   terrorists:0        case:1              cologne:0           saw:1               
+   represented:0       rapists:0           constant:0          negative:0          
+   coupled:0           idea:0              count:0             human:0             
+   almost:1            hinges:0            talking:0           western:0           
+   disasters:0         attack:0            exactly:0           recent:1            
+   terror:0            theresa:0           may:4               talked:2            
+   civilians:0         population:0        just:4              highlight:0         
+   lives:0             worth:0             grieving:0          care:0              
+   lesbos:0            survivors:0         refer:0             discount:0          
+   suffering:0         become:0            contributing:0      members:1           
+   society:0           took:1              account:0           angelos:0           
+   tzortzinisafpgetty:0      included:0          implication:0       particular:0        
+   instance:0          wagers:0            yes:0               lost:1              
+   big:0               humanitarian:0      concern:0           babies:0            
+   really:0            captures:0          tugs:0              heartstrings:0      
+   populations:0       now:4               sure:1              lot:1               
+   going:8             listening:0         little:0            picky:0             
+   language:0          another:1           carefully:0         employed:0          
+   dividing:0          bad:0               chemical:0          weapons:0           
+   lots:1              extremely:0         powerful:0          changed:0           
+   countries:1         responding:0        wonder:0            whether:0           
+   largely:0           adult:0             peoples:0           tugged:0            
+   quite:0             effectively:0       support:1           means:0             
+   sympathies:0        much:1              blunted:0           comes:1             
+   next:1              politician:0        journalist:0        fair:0              
+   gendering:0         innocence:0         unfair:0            unjust:0            
+   oldfashioned:0      completely:0        irrelevant:0        used:0              
+   
+
+Category: Travel
+   phrase:0            innocent:0          women:0             children:0          
+   sexist:0            racist:0            inaccurate:0        volunteer:0         
+   medics:0            assist:0            iraqi:0             civilian:0          
+   injured:0           fleeing:0           islamic:0           state:1             
+   groupcontrolled:0      neighbourhood:0      mosul:0             november:0          
+   photo:0             serves:1            reminder:0          victims:0           
+   nish:0              nalbandianthe:0      associated:0        press:0             
+   listen:0            stories:0           episode:0           think:1             
+   twice:0             try:0               live:0              bestlife:0          
+   fish:0              biologist:0         stopped:0           eating:0            
+   brexit:0            boon:0              universities:0      time:10             
+   let:0               motorcycles:0       drive:2             lanes:0             
+   mess:0              adultonly:0         residences:0        full:0              
+   hear:0              read:0              often:1             especially:0        
+   catastrophe:0       far:1               away:1              places:0            
+   emily:0             cousens:0           says:3              need:10             
+   rethink:0           men:0               excluded:0          use:0               
+   term:0              argues:0            undertones:0        headshot:0          
+   phd:0               student:0           researcher:0        oxford:0            
+   brookes:0           university:0        provided:0          researching:0       
+   concepts:0          vulnerability:0      feminism:0          united:0            
+   kingdom:0           joined:0            jim:0               brown:0             
+   conversation:0      oftused:0           following:0         condensed:0         
+   version:1           reminds:0           sort:1              titanichittingtheiceberg:0      
+   first:2             related:0           always:3            kind:0              
+   image:0             springs:14          mind:0              titanic:0           
+   ideathat:0          protect:0           argue:0             suggests:0          
+   actually:1          protection:0        somehow:0           apply:0             
+   war:0               saying:0            male:0              problematic:0       
+   implications:0      implies:0           rather:0            people:2            
+   protectors:0        yeah:1              context:0           maybe:0             
+   seen:0              suggest:0           might:1             sinister:0          
+   undertone:0         north:4             african:0           refugees:0          
+   example:0           vulnerable:0        perhaps:0           suggesting:0        
+   aggressors:0        worthy:0            underlying:0        assumption:0        
+   seems:0             guilty:0            talk:0              excluding:0         
+   groups:0            refugee:0           crisis:0            way:2               
+   west:3              misperceive:0       misrepresent:0      arab:0              
+   constantly:0        media:0             seeing:0            images:0            
+   terrorists:0        case:0              cologne:0           saw:0               
+   represented:0       rapists:0           constant:0          negative:0          
+   coupled:0           idea:0              count:0             human:0             
+   almost:0            hinges:0            talking:0           western:0           
+   disasters:0         attack:0            exactly:0           recent:0            
+   terror:0            theresa:0           may:0               talked:0            
+   civilians:0         population:0        just:4              highlight:0         
+   lives:0             worth:2             grieving:0          care:0              
+   lesbos:0            survivors:0         refer:0             discount:1          
+   suffering:0         become:0            contributing:0      members:0           
+   society:0           took:0              account:0           angelos:0           
+   tzortzinisafpgetty:0      included:0          implication:0       particular:0        
+   instance:0          wagers:0            yes:0               lost:0              
+   big:0               humanitarian:0      concern:0           babies:0            
+   really:4            captures:0          tugs:0              heartstrings:0      
+   populations:0       now:0               sure:2              lot:1               
+   going:2             listening:0         little:2            picky:0             
+   language:0          another:0           carefully:0         employed:0          
+   dividing:0          bad:0               chemical:0          weapons:0           
+   lots:2              extremely:0         powerful:0          changed:0           
+   countries:0         responding:0        wonder:0            whether:1           
+   largely:0           adult:0             peoples:0           tugged:0            
+   quite:0             effectively:0       support:0           means:0             
+   sympathies:0        much:2              blunted:0           comes:0             
+   next:1              politician:0        journalist:0        fair:0              
+   gendering:0         innocence:0         unfair:0            unjust:0            
+   oldfashioned:0      completely:0        irrelevant:0        used:0              
+   
+
+Category: Entertainment
+   phrase:0            innocent:0          women:1             children:0          
+   sexist:0            racist:1            inaccurate:0        volunteer:0         
+   medics:0            assist:0            iraqi:0             civilian:0          
+   injured:0           fleeing:0           islamic:0           state:0             
+   groupcontrolled:0      neighbourhood:0      mosul:0             november:0          
+   photo:0             serves:0            reminder:0          victims:0           
+   nish:0              nalbandianthe:0      associated:0        press:0             
+   listen:0            stories:1           episode:0           think:1             
+   twice:0             try:0               live:0              bestlife:0          
+   fish:0              biologist:0         stopped:0           eating:0            
+   brexit:0            boon:0              universities:0      time:3              
+   let:0               motorcycles:0       drive:0             lanes:0             
+   mess:0              adultonly:0         residences:0        full:0              
+   hear:0              read:0              often:0             especially:0        
+   catastrophe:0       far:0               away:0              places:0            
+   emily:0             cousens:0           says:1              need:0              
+   rethink:0           men:0               excluded:0          use:0               
+   term:1              argues:0            undertones:0        headshot:0          
+   phd:0               student:0           researcher:0        oxford:0            
+   brookes:0           university:0        provided:0          researching:0       
+   concepts:0          vulnerability:0      feminism:0          united:0            
+   kingdom:0           joined:0            jim:0               brown:0             
+   conversation:0      oftused:0           following:0         condensed:0         
+   version:2           reminds:0           sort:0              titanichittingtheiceberg:0      
+   first:1             related:0           always:0            kind:0              
+   image:0             springs:0           mind:0              titanic:0           
+   ideathat:0          protect:0           argue:0             suggests:0          
+   actually:0          protection:0        somehow:0           apply:0             
+   war:0               saying:2            male:0              problematic:0       
+   implications:0      implies:0           rather:0            people:2            
+   protectors:0        yeah:0              context:0           maybe:0             
+   seen:1              suggest:0           might:0             sinister:0          
+   undertone:0         north:2             african:0           refugees:0          
+   example:0           vulnerable:0        perhaps:1           suggesting:0        
+   aggressors:0        worthy:0            underlying:0        assumption:0        
+   seems:0             guilty:0            talk:0              excluding:0         
+   groups:0            refugee:0           crisis:0            way:0               
+   west:1              misperceive:0       misrepresent:0      arab:0              
+   constantly:0        media:1             seeing:0            images:1            
+   terrorists:0        case:0              cologne:0           saw:1               
+   represented:0       rapists:0           constant:0          negative:0          
+   coupled:0           idea:0              count:0             human:0             
+   almost:0            hinges:0            talking:1           western:0           
+   disasters:0         attack:0            exactly:0           recent:2            
+   terror:0            theresa:0           may:1               talked:0            
+   civilians:0         population:0        just:2              highlight:0         
+   lives:1             worth:0             grieving:0          care:0              
+   lesbos:0            survivors:0         refer:0             discount:0          
+   suffering:1         become:2            contributing:0      members:0           
+   society:0           took:2              account:0           angelos:0           
+   tzortzinisafpgetty:0      included:1          implication:0       particular:0        
+   instance:1          wagers:0            yes:0               lost:0              
+   big:8               humanitarian:0      concern:0           babies:0            
+   really:0            captures:0          tugs:0              heartstrings:0      
+   populations:0       now:1               sure:1              lot:0               
+   going:1             listening:0         little:0            picky:0             
+   language:0          another:0           carefully:0         employed:0          
+   dividing:0          bad:0               chemical:0          weapons:0           
+   lots:0              extremely:1         powerful:0          changed:0           
+   countries:0         responding:0        wonder:0            whether:0           
+   largely:0           adult:2             peoples:0           tugged:0            
+   quite:0             effectively:0       support:0           means:1             
+   sympathies:0        much:1              blunted:0           comes:0             
+   next:1              politician:0        journalist:0        fair:0              
+   gendering:0         innocence:0         unfair:0            unjust:0            
+   oldfashioned:0      completely:0        irrelevant:0        used:0              
+   
+
+Category: World News
+   phrase:0            innocent:0          women:1             children:2          
+   sexist:0            racist:0            inaccurate:0        volunteer:0         
+   medics:0            assist:0            iraqi:0             civilian:0          
+   injured:0           fleeing:0           islamic:4           state:8             
+   groupcontrolled:0      neighbourhood:0      mosul:0             november:0          
+   photo:2             serves:0            reminder:0          victims:0           
+   nish:0              nalbandianthe:0      associated:1        press:3             
+   listen:0            stories:0           episode:0           think:0             
+   twice:0             try:0               live:0              bestlife:0          
+   fish:0              biologist:0         stopped:0           eating:0            
+   brexit:0            boon:0              universities:0      time:2              
+   let:0               motorcycles:0       drive:0             lanes:0             
+   mess:0              adultonly:0         residences:0        full:0              
+   hear:0              read:0              often:0             especially:0        
+   catastrophe:0       far:0               away:2              places:1            
+   emily:0             cousens:0           says:1              need:0              
+   rethink:0           men:0               excluded:0          use:0               
+   term:0              argues:0            undertones:0        headshot:0          
+   phd:0               student:0           researcher:0        oxford:0            
+   brookes:0           university:0        provided:0          researching:0       
+   concepts:0          vulnerability:0      feminism:0          united:2            
+   kingdom:0           joined:0            jim:0               brown:0             
+   conversation:0      oftused:0           following:2         condensed:0         
+   version:0           reminds:0           sort:0              titanichittingtheiceberg:0      
+   first:2             related:0           always:0            kind:0              
+   image:2             springs:0           mind:0              titanic:0           
+   ideathat:0          protect:1           argue:0             suggests:0          
+   actually:0          protection:0        somehow:0           apply:0             
+   war:2               saying:0            male:0              problematic:0       
+   implications:0      implies:0           rather:0            people:4            
+   protectors:0        yeah:0              context:0           maybe:0             
+   seen:2              suggest:0           might:1             sinister:0          
+   undertone:0         north:1             african:0           refugees:0          
+   example:0           vulnerable:0        perhaps:1           suggesting:0        
+   aggressors:0        worthy:0            underlying:0        assumption:0        
+   seems:0             guilty:0            talk:0              excluding:0         
+   groups:1            refugee:0           crisis:0            way:0               
+   west:2              misperceive:0       misrepresent:0      arab:1              
+   constantly:0        media:2             seeing:0            images:4            
+   terrorists:0        case:0              cologne:0           saw:0               
+   represented:0       rapists:0           constant:0          negative:0          
+   coupled:0           idea:0              count:0             human:1             
+   almost:0            hinges:0            talking:0           western:1           
+   disasters:0         attack:6            exactly:0           recent:1            
+   terror:0            theresa:0           may:1               talked:0            
+   civilians:2         population:0        just:2              highlight:0         
+   lives:2             worth:0             grieving:0          care:1              
+   lesbos:0            survivors:1         refer:0             discount:0          
+   suffering:1         become:2            contributing:0      members:2           
+   society:0           took:2              account:0           angelos:0           
+   tzortzinisafpgetty:0      included:1          implication:0       particular:0        
+   instance:0          wagers:0            yes:0               lost:1              
+   big:2               humanitarian:0      concern:1           babies:0            
+   really:0            captures:0          tugs:0              heartstrings:0      
+   populations:0       now:2               sure:0              lot:0               
+   going:1             listening:0         little:2            picky:0             
+   language:1          another:4           carefully:0         employed:0          
+   dividing:0          bad:0               chemical:2          weapons:2           
+   lots:0              extremely:0         powerful:0          changed:0           
+   countries:0         responding:0        wonder:0            whether:2           
+   largely:2           adult:0             peoples:0           tugged:0            
+   quite:0             effectively:0       support:1           means:0             
+   sympathies:0        much:3              blunted:0           comes:0             
+   next:1              politician:0        journalist:0        fair:0              
+   gendering:0         innocence:0         unfair:0            unjust:0            
+   oldfashioned:0      completely:0        irrelevant:0        used:0              
+   
+
+Word likely-hoods: 
+   P(phrase | Sports) :       0/3.0
+   P(innocent | Sports) :     0/3.0
+   P(women | Sports) :        0/3.0
+   P(children | Sports) :     0/3.0
+   P(sexist | Sports) :       0/3.0
+   P(racist | Sports) :       0/3.0
+   P(inaccurate | Sports) :   0/3.0
+   P(volunteer | Sports) :    0/3.0
+   P(medics | Sports) :       0/3.0
+   P(assist | Sports) :       0/3.0
+   P(iraqi | Sports) :        0/3.0
+   P(civilian | Sports) :     0/3.0
+   P(injured | Sports) :      2/3.0
+   P(fleeing | Sports) :      0/3.0
+   P(islamic | Sports) :      0/3.0
+   P(state | Sports) :        0/3.0
+   P(groupcontrolled | Sports) : 0/3.0
+   P(neighbourhood | Sports) : 0/3.0
+   P(mosul | Sports) :        0/3.0
+   P(november | Sports) :     1/3.0
+   P(photo | Sports) :        0/3.0
+   P(serves | Sports) :       0/3.0
+   P(reminder | Sports) :     0/3.0
+   P(victims | Sports) :      0/3.0
+   P(nish | Sports) :         0/3.0
+   P(nalbandianthe | Sports) : 0/3.0
+   P(associated | Sports) :   1/3.0
+   P(press | Sports) :        2/3.0
+   P(listen | Sports) :       0/3.0
+   P(stories | Sports) :      0/3.0
+   P(episode | Sports) :      0/3.0
+   P(think | Sports) :        2/3.0
+   P(twice | Sports) :        0/3.0
+   P(try | Sports) :          0/3.0
+   P(live | Sports) :         0/3.0
+   P(bestlife | Sports) :     0/3.0
+   P(fish | Sports) :         0/3.0
+   P(biologist | Sports) :    0/3.0
+   P(stopped | Sports) :      1/3.0
+   P(eating | Sports) :       0/3.0
+   P(brexit | Sports) :       0/3.0
+   P(boon | Sports) :         0/3.0
+   P(universities | Sports) : 0/3.0
+   P(time | Sports) :         8/3.0
+   P(let | Sports) :          0/3.0
+   P(motorcycles | Sports) :  0/3.0
+   P(drive | Sports) :        0/3.0
+   P(lanes | Sports) :        0/3.0
+   P(mess | Sports) :         0/3.0
+   P(adultonly | Sports) :    0/3.0
+   P(residences | Sports) :   0/3.0
+   P(full | Sports) :         0/3.0
+   P(hear | Sports) :         0/3.0
+   P(read | Sports) :         0/3.0
+   P(often | Sports) :        0/3.0
+   P(especially | Sports) :   0/3.0
+   P(catastrophe | Sports) :  0/3.0
+   P(far | Sports) :          1/3.0
+   P(away | Sports) :         0/3.0
+   P(places | Sports) :       0/3.0
+   P(emily | Sports) :        0/3.0
+   P(cousens | Sports) :      0/3.0
+   P(says | Sports) :         1/3.0
+   P(need | Sports) :         0/3.0
+   P(rethink | Sports) :      0/3.0
+   P(men | Sports) :          0/3.0
+   P(excluded | Sports) :     0/3.0
+   P(use | Sports) :          0/3.0
+   P(term | Sports) :         0/3.0
+   P(argues | Sports) :       0/3.0
+   P(undertones | Sports) :   0/3.0
+   P(headshot | Sports) :     0/3.0
+   P(phd | Sports) :          0/3.0
+   P(student | Sports) :      0/3.0
+   P(researcher | Sports) :   0/3.0
+   P(oxford | Sports) :       0/3.0
+   P(brookes | Sports) :      0/3.0
+   P(university | Sports) :   0/3.0
+   P(provided | Sports) :     0/3.0
+   P(researching | Sports) :  0/3.0
+   P(concepts | Sports) :     0/3.0
+   P(vulnerability | Sports) : 0/3.0
+   P(feminism | Sports) :     0/3.0
+   P(united | Sports) :       0/3.0
+   P(kingdom | Sports) :      0/3.0
+   P(joined | Sports) :       1/3.0
+   P(jim | Sports) :          0/3.0
+   P(brown | Sports) :        0/3.0
+   P(conversation | Sports) : 0/3.0
+   P(oftused | Sports) :      0/3.0
+   P(following | Sports) :    0/3.0
+   P(condensed | Sports) :    0/3.0
+   P(version | Sports) :      0/3.0
+   P(reminds | Sports) :      0/3.0
+   P(sort | Sports) :         0/3.0
+   P(titanichittingtheiceberg | Sports) : 0/3.0
+   P(first | Sports) :        2/3.0
+   P(related | Sports) :      0/3.0
+   P(always | Sports) :       0/3.0
+   P(kind | Sports) :         1/3.0
+   P(image | Sports) :        0/3.0
+   P(springs | Sports) :      0/3.0
+   P(mind | Sports) :         3/3.0
+   P(titanic | Sports) :      0/3.0
+   P(ideathat | Sports) :     0/3.0
+   P(protect | Sports) :      0/3.0
+   P(argue | Sports) :        1/3.0
+   P(suggests | Sports) :     0/3.0
+   P(actually | Sports) :     0/3.0
+   P(protection | Sports) :   0/3.0
+   P(somehow | Sports) :      0/3.0
+   P(apply | Sports) :        0/3.0
+   P(war | Sports) :          0/3.0
+   P(saying | Sports) :       0/3.0
+   P(male | Sports) :         0/3.0
+   P(problematic | Sports) :  0/3.0
+   P(implications | Sports) : 0/3.0
+   P(implies | Sports) :      0/3.0
+   P(rather | Sports) :       0/3.0
+   P(people | Sports) :       0/3.0
+   P(protectors | Sports) :   0/3.0
+   P(yeah | Sports) :         0/3.0
+   P(context | Sports) :      0/3.0
+   P(maybe | Sports) :        0/3.0
+   P(seen | Sports) :         0/3.0
+   P(suggest | Sports) :      0/3.0
+   P(might | Sports) :        2/3.0
+   P(sinister | Sports) :     0/3.0
+   P(undertone | Sports) :    0/3.0
+   P(north | Sports) :        1/3.0
+   P(african | Sports) :      0/3.0
+   P(refugees | Sports) :     0/3.0
+   P(example | Sports) :      0/3.0
+   P(vulnerable | Sports) :   0/3.0
+   P(perhaps | Sports) :      0/3.0
+   P(suggesting | Sports) :   0/3.0
+   P(aggressors | Sports) :   0/3.0
+   P(worthy | Sports) :       0/3.0
+   P(underlying | Sports) :   0/3.0
+   P(assumption | Sports) :   0/3.0
+   P(seems | Sports) :        0/3.0
+   P(guilty | Sports) :       0/3.0
+   P(talk | Sports) :         2/3.0
+   P(excluding | Sports) :    0/3.0
+   P(groups | Sports) :       1/3.0
+   P(refugee | Sports) :      0/3.0
+   P(crisis | Sports) :       0/3.0
+   P(way | Sports) :          2/3.0
+   P(west | Sports) :         0/3.0
+   P(misperceive | Sports) :  0/3.0
+   P(misrepresent | Sports) : 0/3.0
+   P(arab | Sports) :         0/3.0
+   P(constantly | Sports) :   0/3.0
+   P(media | Sports) :        0/3.0
+   P(seeing | Sports) :       2/3.0
+   P(images | Sports) :       0/3.0
+   P(terrorists | Sports) :   0/3.0
+   P(case | Sports) :         1/3.0
+   P(cologne | Sports) :      0/3.0
+   P(saw | Sports) :          1/3.0
+   P(represented | Sports) :  0/3.0
+   P(rapists | Sports) :      0/3.0
+   P(constant | Sports) :     0/3.0
+   P(negative | Sports) :     0/3.0
+   P(coupled | Sports) :      0/3.0
+   P(idea | Sports) :         0/3.0
+   P(count | Sports) :        0/3.0
+   P(human | Sports) :        0/3.0
+   P(almost | Sports) :       1/3.0
+   P(hinges | Sports) :       0/3.0
+   P(talking | Sports) :      0/3.0
+   P(western | Sports) :      0/3.0
+   P(disasters | Sports) :    0/3.0
+   P(attack | Sports) :       0/3.0
+   P(exactly | Sports) :      0/3.0
+   P(recent | Sports) :       1/3.0
+   P(terror | Sports) :       0/3.0
+   P(theresa | Sports) :      0/3.0
+   P(may | Sports) :          4/3.0
+   P(talked | Sports) :       2/3.0
+   P(civilians | Sports) :    0/3.0
+   P(population | Sports) :   0/3.0
+   P(just | Sports) :         4/3.0
+   P(highlight | Sports) :    0/3.0
+   P(lives | Sports) :        0/3.0
+   P(worth | Sports) :        0/3.0
+   P(grieving | Sports) :     0/3.0
+   P(care | Sports) :         0/3.0
+   P(lesbos | Sports) :       0/3.0
+   P(survivors | Sports) :    0/3.0
+   P(refer | Sports) :        0/3.0
+   P(discount | Sports) :     0/3.0
+   P(suffering | Sports) :    0/3.0
+   P(become | Sports) :       0/3.0
+   P(contributing | Sports) : 0/3.0
+   P(members | Sports) :      1/3.0
+   P(society | Sports) :      0/3.0
+   P(took | Sports) :         1/3.0
+   P(account | Sports) :      0/3.0
+   P(angelos | Sports) :      0/3.0
+   P(tzortzinisafpgetty | Sports) : 0/3.0
+   P(included | Sports) :     0/3.0
+   P(implication | Sports) :  0/3.0
+   P(particular | Sports) :   0/3.0
+   P(instance | Sports) :     0/3.0
+   P(wagers | Sports) :       0/3.0
+   P(yes | Sports) :          0/3.0
+   P(lost | Sports) :         1/3.0
+   P(big | Sports) :          0/3.0
+   P(humanitarian | Sports) : 0/3.0
+   P(concern | Sports) :      0/3.0
+   P(babies | Sports) :       0/3.0
+   P(really | Sports) :       0/3.0
+   P(captures | Sports) :     0/3.0
+   P(tugs | Sports) :         0/3.0
+   P(heartstrings | Sports) : 0/3.0
+   P(populations | Sports) :  0/3.0
+   P(now | Sports) :          4/3.0
+   P(sure | Sports) :         1/3.0
+   P(lot | Sports) :          1/3.0
+   P(going | Sports) :        8/3.0
+   P(listening | Sports) :    0/3.0
+   P(little | Sports) :       0/3.0
+   P(picky | Sports) :        0/3.0
+   P(language | Sports) :     0/3.0
+   P(another | Sports) :      1/3.0
+   P(carefully | Sports) :    0/3.0
+   P(employed | Sports) :     0/3.0
+   P(dividing | Sports) :     0/3.0
+   P(bad | Sports) :          0/3.0
+   P(chemical | Sports) :     0/3.0
+   P(weapons | Sports) :      0/3.0
+   P(lots | Sports) :         1/3.0
+   P(extremely | Sports) :    0/3.0
+   P(powerful | Sports) :     0/3.0
+   P(changed | Sports) :      0/3.0
+   P(countries | Sports) :    1/3.0
+   P(responding | Sports) :   0/3.0
+   P(wonder | Sports) :       0/3.0
+   P(whether | Sports) :      0/3.0
+   P(largely | Sports) :      0/3.0
+   P(adult | Sports) :        0/3.0
+   P(peoples | Sports) :      0/3.0
+   P(tugged | Sports) :       0/3.0
+   P(quite | Sports) :        0/3.0
+   P(effectively | Sports) :  0/3.0
+   P(support | Sports) :      1/3.0
+   P(means | Sports) :        0/3.0
+   P(sympathies | Sports) :   0/3.0
+   P(much | Sports) :         1/3.0
+   P(blunted | Sports) :      0/3.0
+   P(comes | Sports) :        1/3.0
+   P(next | Sports) :         1/3.0
+   P(politician | Sports) :   0/3.0
+   P(journalist | Sports) :   0/3.0
+   P(fair | Sports) :         0/3.0
+   P(gendering | Sports) :    0/3.0
+   P(innocence | Sports) :    0/3.0
+   P(unfair | Sports) :       0/3.0
+   P(unjust | Sports) :       0/3.0
+   P(oldfashioned | Sports) : 0/3.0
+   P(completely | Sports) :   0/3.0
+   P(irrelevant | Sports) :   0/3.0
+   P(used | Sports) :         0/3.0
+
+   P(phrase | Travel) :       0/3.0
+   P(innocent | Travel) :     0/3.0
+   P(women | Travel) :        0/3.0
+   P(children | Travel) :     0/3.0
+   P(sexist | Travel) :       0/3.0
+   P(racist | Travel) :       0/3.0
+   P(inaccurate | Travel) :   0/3.0
+   P(volunteer | Travel) :    0/3.0
+   P(medics | Travel) :       0/3.0
+   P(assist | Travel) :       0/3.0
+   P(iraqi | Travel) :        0/3.0
+   P(civilian | Travel) :     0/3.0
+   P(injured | Travel) :      0/3.0
+   P(fleeing | Travel) :      0/3.0
+   P(islamic | Travel) :      0/3.0
+   P(state | Travel) :        1/3.0
+   P(groupcontrolled | Travel) : 0/3.0
+   P(neighbourhood | Travel) : 0/3.0
+   P(mosul | Travel) :        0/3.0
+   P(november | Travel) :     0/3.0
+   P(photo | Travel) :        0/3.0
+   P(serves | Travel) :       1/3.0
+   P(reminder | Travel) :     0/3.0
+   P(victims | Travel) :      0/3.0
+   P(nish | Travel) :         0/3.0
+   P(nalbandianthe | Travel) : 0/3.0
+   P(associated | Travel) :   0/3.0
+   P(press | Travel) :        0/3.0
+   P(listen | Travel) :       0/3.0
+   P(stories | Travel) :      0/3.0
+   P(episode | Travel) :      0/3.0
+   P(think | Travel) :        1/3.0
+   P(twice | Travel) :        0/3.0
+   P(try | Travel) :          0/3.0
+   P(live | Travel) :         0/3.0
+   P(bestlife | Travel) :     0/3.0
+   P(fish | Travel) :         0/3.0
+   P(biologist | Travel) :    0/3.0
+   P(stopped | Travel) :      0/3.0
+   P(eating | Travel) :       0/3.0
+   P(brexit | Travel) :       0/3.0
+   P(boon | Travel) :         0/3.0
+   P(universities | Travel) : 0/3.0
+   P(time | Travel) :         10/3.0
+   P(let | Travel) :          0/3.0
+   P(motorcycles | Travel) :  0/3.0
+   P(drive | Travel) :        2/3.0
+   P(lanes | Travel) :        0/3.0
+   P(mess | Travel) :         0/3.0
+   P(adultonly | Travel) :    0/3.0
+   P(residences | Travel) :   0/3.0
+   P(full | Travel) :         0/3.0
+   P(hear | Travel) :         0/3.0
+   P(read | Travel) :         0/3.0
+   P(often | Travel) :        1/3.0
+   P(especially | Travel) :   0/3.0
+   P(catastrophe | Travel) :  0/3.0
+   P(far | Travel) :          1/3.0
+   P(away | Travel) :         1/3.0
+   P(places | Travel) :       0/3.0
+   P(emily | Travel) :        0/3.0
+   P(cousens | Travel) :      0/3.0
+   P(says | Travel) :         3/3.0
+   P(need | Travel) :         10/3.0
+   P(rethink | Travel) :      0/3.0
+   P(men | Travel) :          0/3.0
+   P(excluded | Travel) :     0/3.0
+   P(use | Travel) :          0/3.0
+   P(term | Travel) :         0/3.0
+   P(argues | Travel) :       0/3.0
+   P(undertones | Travel) :   0/3.0
+   P(headshot | Travel) :     0/3.0
+   P(phd | Travel) :          0/3.0
+   P(student | Travel) :      0/3.0
+   P(researcher | Travel) :   0/3.0
+   P(oxford | Travel) :       0/3.0
+   P(brookes | Travel) :      0/3.0
+   P(university | Travel) :   0/3.0
+   P(provided | Travel) :     0/3.0
+   P(researching | Travel) :  0/3.0
+   P(concepts | Travel) :     0/3.0
+   P(vulnerability | Travel) : 0/3.0
+   P(feminism | Travel) :     0/3.0
+   P(united | Travel) :       0/3.0
+   P(kingdom | Travel) :      0/3.0
+   P(joined | Travel) :       0/3.0
+   P(jim | Travel) :          0/3.0
+   P(brown | Travel) :        0/3.0
+   P(conversation | Travel) : 0/3.0
+   P(oftused | Travel) :      0/3.0
+   P(following | Travel) :    0/3.0
+   P(condensed | Travel) :    0/3.0
+   P(version | Travel) :      1/3.0
+   P(reminds | Travel) :      0/3.0
+   P(sort | Travel) :         1/3.0
+   P(titanichittingtheiceberg | Travel) : 0/3.0
+   P(first | Travel) :        2/3.0
+   P(related | Travel) :      0/3.0
+   P(always | Travel) :       3/3.0
+   P(kind | Travel) :         0/3.0
+   P(image | Travel) :        0/3.0
+   P(springs | Travel) :      14/3.0
+   P(mind | Travel) :         0/3.0
+   P(titanic | Travel) :      0/3.0
+   P(ideathat | Travel) :     0/3.0
+   P(protect | Travel) :      0/3.0
+   P(argue | Travel) :        0/3.0
+   P(suggests | Travel) :     0/3.0
+   P(actually | Travel) :     1/3.0
+   P(protection | Travel) :   0/3.0
+   P(somehow | Travel) :      0/3.0
+   P(apply | Travel) :        0/3.0
+   P(war | Travel) :          0/3.0
+   P(saying | Travel) :       0/3.0
+   P(male | Travel) :         0/3.0
+   P(problematic | Travel) :  0/3.0
+   P(implications | Travel) : 0/3.0
+   P(implies | Travel) :      0/3.0
+   P(rather | Travel) :       0/3.0
+   P(people | Travel) :       2/3.0
+   P(protectors | Travel) :   0/3.0
+   P(yeah | Travel) :         1/3.0
+   P(context | Travel) :      0/3.0
+   P(maybe | Travel) :        0/3.0
+   P(seen | Travel) :         0/3.0
+   P(suggest | Travel) :      0/3.0
+   P(might | Travel) :        1/3.0
+   P(sinister | Travel) :     0/3.0
+   P(undertone | Travel) :    0/3.0
+   P(north | Travel) :        4/3.0
+   P(african | Travel) :      0/3.0
+   P(refugees | Travel) :     0/3.0
+   P(example | Travel) :      0/3.0
+   P(vulnerable | Travel) :   0/3.0
+   P(perhaps | Travel) :      0/3.0
+   P(suggesting | Travel) :   0/3.0
+   P(aggressors | Travel) :   0/3.0
+   P(worthy | Travel) :       0/3.0
+   P(underlying | Travel) :   0/3.0
+   P(assumption | Travel) :   0/3.0
+   P(seems | Travel) :        0/3.0
+   P(guilty | Travel) :       0/3.0
+   P(talk | Travel) :         0/3.0
+   P(excluding | Travel) :    0/3.0
+   P(groups | Travel) :       0/3.0
+   P(refugee | Travel) :      0/3.0
+   P(crisis | Travel) :       0/3.0
+   P(way | Travel) :          2/3.0
+   P(west | Travel) :         3/3.0
+   P(misperceive | Travel) :  0/3.0
+   P(misrepresent | Travel) : 0/3.0
+   P(arab | Travel) :         0/3.0
+   P(constantly | Travel) :   0/3.0
+   P(media | Travel) :        0/3.0
+   P(seeing | Travel) :       0/3.0
+   P(images | Travel) :       0/3.0
+   P(terrorists | Travel) :   0/3.0
+   P(case | Travel) :         0/3.0
+   P(cologne | Travel) :      0/3.0
+   P(saw | Travel) :          0/3.0
+   P(represented | Travel) :  0/3.0
+   P(rapists | Travel) :      0/3.0
+   P(constant | Travel) :     0/3.0
+   P(negative | Travel) :     0/3.0
+   P(coupled | Travel) :      0/3.0
+   P(idea | Travel) :         0/3.0
+   P(count | Travel) :        0/3.0
+   P(human | Travel) :        0/3.0
+   P(almost | Travel) :       0/3.0
+   P(hinges | Travel) :       0/3.0
+   P(talking | Travel) :      0/3.0
+   P(western | Travel) :      0/3.0
+   P(disasters | Travel) :    0/3.0
+   P(attack | Travel) :       0/3.0
+   P(exactly | Travel) :      0/3.0
+   P(recent | Travel) :       0/3.0
+   P(terror | Travel) :       0/3.0
+   P(theresa | Travel) :      0/3.0
+   P(may | Travel) :          0/3.0
+   P(talked | Travel) :       0/3.0
+   P(civilians | Travel) :    0/3.0
+   P(population | Travel) :   0/3.0
+   P(just | Travel) :         4/3.0
+   P(highlight | Travel) :    0/3.0
+   P(lives | Travel) :        0/3.0
+   P(worth | Travel) :        2/3.0
+   P(grieving | Travel) :     0/3.0
+   P(care | Travel) :         0/3.0
+   P(lesbos | Travel) :       0/3.0
+   P(survivors | Travel) :    0/3.0
+   P(refer | Travel) :        0/3.0
+   P(discount | Travel) :     1/3.0
+   P(suffering | Travel) :    0/3.0
+   P(become | Travel) :       0/3.0
+   P(contributing | Travel) : 0/3.0
+   P(members | Travel) :      0/3.0
+   P(society | Travel) :      0/3.0
+   P(took | Travel) :         0/3.0
+   P(account | Travel) :      0/3.0
+   P(angelos | Travel) :      0/3.0
+   P(tzortzinisafpgetty | Travel) : 0/3.0
+   P(included | Travel) :     0/3.0
+   P(implication | Travel) :  0/3.0
+   P(particular | Travel) :   0/3.0
+   P(instance | Travel) :     0/3.0
+   P(wagers | Travel) :       0/3.0
+   P(yes | Travel) :          0/3.0
+   P(lost | Travel) :         0/3.0
+   P(big | Travel) :          0/3.0
+   P(humanitarian | Travel) : 0/3.0
+   P(concern | Travel) :      0/3.0
+   P(babies | Travel) :       0/3.0
+   P(really | Travel) :       4/3.0
+   P(captures | Travel) :     0/3.0
+   P(tugs | Travel) :         0/3.0
+   P(heartstrings | Travel) : 0/3.0
+   P(populations | Travel) :  0/3.0
+   P(now | Travel) :          0/3.0
+   P(sure | Travel) :         2/3.0
+   P(lot | Travel) :          1/3.0
+   P(going | Travel) :        2/3.0
+   P(listening | Travel) :    0/3.0
+   P(little | Travel) :       2/3.0
+   P(picky | Travel) :        0/3.0
+   P(language | Travel) :     0/3.0
+   P(another | Travel) :      0/3.0
+   P(carefully | Travel) :    0/3.0
+   P(employed | Travel) :     0/3.0
+   P(dividing | Travel) :     0/3.0
+   P(bad | Travel) :          0/3.0
+   P(chemical | Travel) :     0/3.0
+   P(weapons | Travel) :      0/3.0
+   P(lots | Travel) :         2/3.0
+   P(extremely | Travel) :    0/3.0
+   P(powerful | Travel) :     0/3.0
+   P(changed | Travel) :      0/3.0
+   P(countries | Travel) :    0/3.0
+   P(responding | Travel) :   0/3.0
+   P(wonder | Travel) :       0/3.0
+   P(whether | Travel) :      1/3.0
+   P(largely | Travel) :      0/3.0
+   P(adult | Travel) :        0/3.0
+   P(peoples | Travel) :      0/3.0
+   P(tugged | Travel) :       0/3.0
+   P(quite | Travel) :        0/3.0
+   P(effectively | Travel) :  0/3.0
+   P(support | Travel) :      0/3.0
+   P(means | Travel) :        0/3.0
+   P(sympathies | Travel) :   0/3.0
+   P(much | Travel) :         2/3.0
+   P(blunted | Travel) :      0/3.0
+   P(comes | Travel) :        0/3.0
+   P(next | Travel) :         1/3.0
+   P(politician | Travel) :   0/3.0
+   P(journalist | Travel) :   0/3.0
+   P(fair | Travel) :         0/3.0
+   P(gendering | Travel) :    0/3.0
+   P(innocence | Travel) :    0/3.0
+   P(unfair | Travel) :       0/3.0
+   P(unjust | Travel) :       0/3.0
+   P(oldfashioned | Travel) : 0/3.0
+   P(completely | Travel) :   0/3.0
+   P(irrelevant | Travel) :   0/3.0
+   P(used | Travel) :         0/3.0
+
+   P(phrase | Entertainment) : 0/3.0
+   P(innocent | Entertainment) : 0/3.0
+   P(women | Entertainment) : 1/3.0
+   P(children | Entertainment) : 0/3.0
+   P(sexist | Entertainment) : 0/3.0
+   P(racist | Entertainment) : 1/3.0
+   P(inaccurate | Entertainment) : 0/3.0
+   P(volunteer | Entertainment) : 0/3.0
+   P(medics | Entertainment) : 0/3.0
+   P(assist | Entertainment) : 0/3.0
+   P(iraqi | Entertainment) : 0/3.0
+   P(civilian | Entertainment) : 0/3.0
+   P(injured | Entertainment) : 0/3.0
+   P(fleeing | Entertainment) : 0/3.0
+   P(islamic | Entertainment) : 0/3.0
+   P(state | Entertainment) : 0/3.0
+   P(groupcontrolled | Entertainment) : 0/3.0
+   P(neighbourhood | Entertainment) : 0/3.0
+   P(mosul | Entertainment) : 0/3.0
+   P(november | Entertainment) : 0/3.0
+   P(photo | Entertainment) : 0/3.0
+   P(serves | Entertainment) : 0/3.0
+   P(reminder | Entertainment) : 0/3.0
+   P(victims | Entertainment) : 0/3.0
+   P(nish | Entertainment) :  0/3.0
+   P(nalbandianthe | Entertainment) : 0/3.0
+   P(associated | Entertainment) : 0/3.0
+   P(press | Entertainment) : 0/3.0
+   P(listen | Entertainment) : 0/3.0
+   P(stories | Entertainment) : 1/3.0
+   P(episode | Entertainment) : 0/3.0
+   P(think | Entertainment) : 1/3.0
+   P(twice | Entertainment) : 0/3.0
+   P(try | Entertainment) :   0/3.0
+   P(live | Entertainment) :  0/3.0
+   P(bestlife | Entertainment) : 0/3.0
+   P(fish | Entertainment) :  0/3.0
+   P(biologist | Entertainment) : 0/3.0
+   P(stopped | Entertainment) : 0/3.0
+   P(eating | Entertainment) : 0/3.0
+   P(brexit | Entertainment) : 0/3.0
+   P(boon | Entertainment) :  0/3.0
+   P(universities | Entertainment) : 0/3.0
+   P(time | Entertainment) :  3/3.0
+   P(let | Entertainment) :   0/3.0
+   P(motorcycles | Entertainment) : 0/3.0
+   P(drive | Entertainment) : 0/3.0
+   P(lanes | Entertainment) : 0/3.0
+   P(mess | Entertainment) :  0/3.0
+   P(adultonly | Entertainment) : 0/3.0
+   P(residences | Entertainment) : 0/3.0
+   P(full | Entertainment) :  0/3.0
+   P(hear | Entertainment) :  0/3.0
+   P(read | Entertainment) :  0/3.0
+   P(often | Entertainment) : 0/3.0
+   P(especially | Entertainment) : 0/3.0
+   P(catastrophe | Entertainment) : 0/3.0
+   P(far | Entertainment) :   0/3.0
+   P(away | Entertainment) :  0/3.0
+   P(places | Entertainment) : 0/3.0
+   P(emily | Entertainment) : 0/3.0
+   P(cousens | Entertainment) : 0/3.0
+   P(says | Entertainment) :  1/3.0
+   P(need | Entertainment) :  0/3.0
+   P(rethink | Entertainment) : 0/3.0
+   P(men | Entertainment) :   0/3.0
+   P(excluded | Entertainment) : 0/3.0
+   P(use | Entertainment) :   0/3.0
+   P(term | Entertainment) :  1/3.0
+   P(argues | Entertainment) : 0/3.0
+   P(undertones | Entertainment) : 0/3.0
+   P(headshot | Entertainment) : 0/3.0
+   P(phd | Entertainment) :   0/3.0
+   P(student | Entertainment) : 0/3.0
+   P(researcher | Entertainment) : 0/3.0
+   P(oxford | Entertainment) : 0/3.0
+   P(brookes | Entertainment) : 0/3.0
+   P(university | Entertainment) : 0/3.0
+   P(provided | Entertainment) : 0/3.0
+   P(researching | Entertainment) : 0/3.0
+   P(concepts | Entertainment) : 0/3.0
+   P(vulnerability | Entertainment) : 0/3.0
+   P(feminism | Entertainment) : 0/3.0
+   P(united | Entertainment) : 0/3.0
+   P(kingdom | Entertainment) : 0/3.0
+   P(joined | Entertainment) : 0/3.0
+   P(jim | Entertainment) :   0/3.0
+   P(brown | Entertainment) : 0/3.0
+   P(conversation | Entertainment) : 0/3.0
+   P(oftused | Entertainment) : 0/3.0
+   P(following | Entertainment) : 0/3.0
+   P(condensed | Entertainment) : 0/3.0
+   P(version | Entertainment) : 2/3.0
+   P(reminds | Entertainment) : 0/3.0
+   P(sort | Entertainment) :  0/3.0
+   P(titanichittingtheiceberg | Entertainment) : 0/3.0
+   P(first | Entertainment) : 1/3.0
+   P(related | Entertainment) : 0/3.0
+   P(always | Entertainment) : 0/3.0
+   P(kind | Entertainment) :  0/3.0
+   P(image | Entertainment) : 0/3.0
+   P(springs | Entertainment) : 0/3.0
+   P(mind | Entertainment) :  0/3.0
+   P(titanic | Entertainment) : 0/3.0
+   P(ideathat | Entertainment) : 0/3.0
+   P(protect | Entertainment) : 0/3.0
+   P(argue | Entertainment) : 0/3.0
+   P(suggests | Entertainment) : 0/3.0
+   P(actually | Entertainment) : 0/3.0
+   P(protection | Entertainment) : 0/3.0
+   P(somehow | Entertainment) : 0/3.0
+   P(apply | Entertainment) : 0/3.0
+   P(war | Entertainment) :   0/3.0
+   P(saying | Entertainment) : 2/3.0
+   P(male | Entertainment) :  0/3.0
+   P(problematic | Entertainment) : 0/3.0
+   P(implications | Entertainment) : 0/3.0
+   P(implies | Entertainment) : 0/3.0
+   P(rather | Entertainment) : 0/3.0
+   P(people | Entertainment) : 2/3.0
+   P(protectors | Entertainment) : 0/3.0
+   P(yeah | Entertainment) :  0/3.0
+   P(context | Entertainment) : 0/3.0
+   P(maybe | Entertainment) : 0/3.0
+   P(seen | Entertainment) :  1/3.0
+   P(suggest | Entertainment) : 0/3.0
+   P(might | Entertainment) : 0/3.0
+   P(sinister | Entertainment) : 0/3.0
+   P(undertone | Entertainment) : 0/3.0
+   P(north | Entertainment) : 2/3.0
+   P(african | Entertainment) : 0/3.0
+   P(refugees | Entertainment) : 0/3.0
+   P(example | Entertainment) : 0/3.0
+   P(vulnerable | Entertainment) : 0/3.0
+   P(perhaps | Entertainment) : 1/3.0
+   P(suggesting | Entertainment) : 0/3.0
+   P(aggressors | Entertainment) : 0/3.0
+   P(worthy | Entertainment) : 0/3.0
+   P(underlying | Entertainment) : 0/3.0
+   P(assumption | Entertainment) : 0/3.0
+   P(seems | Entertainment) : 0/3.0
+   P(guilty | Entertainment) : 0/3.0
+   P(talk | Entertainment) :  0/3.0
+   P(excluding | Entertainment) : 0/3.0
+   P(groups | Entertainment) : 0/3.0
+   P(refugee | Entertainment) : 0/3.0
+   P(crisis | Entertainment) : 0/3.0
+   P(way | Entertainment) :   0/3.0
+   P(west | Entertainment) :  1/3.0
+   P(misperceive | Entertainment) : 0/3.0
+   P(misrepresent | Entertainment) : 0/3.0
+   P(arab | Entertainment) :  0/3.0
+   P(constantly | Entertainment) : 0/3.0
+   P(media | Entertainment) : 1/3.0
+   P(seeing | Entertainment) : 0/3.0
+   P(images | Entertainment) : 1/3.0
+   P(terrorists | Entertainment) : 0/3.0
+   P(case | Entertainment) :  0/3.0
+   P(cologne | Entertainment) : 0/3.0
+   P(saw | Entertainment) :   1/3.0
+   P(represented | Entertainment) : 0/3.0
+   P(rapists | Entertainment) : 0/3.0
+   P(constant | Entertainment) : 0/3.0
+   P(negative | Entertainment) : 0/3.0
+   P(coupled | Entertainment) : 0/3.0
+   P(idea | Entertainment) :  0/3.0
+   P(count | Entertainment) : 0/3.0
+   P(human | Entertainment) : 0/3.0
+   P(almost | Entertainment) : 0/3.0
+   P(hinges | Entertainment) : 0/3.0
+   P(talking | Entertainment) : 1/3.0
+   P(western | Entertainment) : 0/3.0
+   P(disasters | Entertainment) : 0/3.0
+   P(attack | Entertainment) : 0/3.0
+   P(exactly | Entertainment) : 0/3.0
+   P(recent | Entertainment) : 2/3.0
+   P(terror | Entertainment) : 0/3.0
+   P(theresa | Entertainment) : 0/3.0
+   P(may | Entertainment) :   1/3.0
+   P(talked | Entertainment) : 0/3.0
+   P(civilians | Entertainment) : 0/3.0
+   P(population | Entertainment) : 0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(highlight | Entertainment) : 0/3.0
+   P(lives | Entertainment) : 1/3.0
+   P(worth | Entertainment) : 0/3.0
+   P(grieving | Entertainment) : 0/3.0
+   P(care | Entertainment) :  0/3.0
+   P(lesbos | Entertainment) : 0/3.0
+   P(survivors | Entertainment) : 0/3.0
+   P(refer | Entertainment) : 0/3.0
+   P(discount | Entertainment) : 0/3.0
+   P(suffering | Entertainment) : 1/3.0
+   P(become | Entertainment) : 2/3.0
+   P(contributing | Entertainment) : 0/3.0
+   P(members | Entertainment) : 0/3.0
+   P(society | Entertainment) : 0/3.0
+   P(took | Entertainment) :  2/3.0
+   P(account | Entertainment) : 0/3.0
+   P(angelos | Entertainment) : 0/3.0
+   P(tzortzinisafpgetty | Entertainment) : 0/3.0
+   P(included | Entertainment) : 1/3.0
+   P(implication | Entertainment) : 0/3.0
+   P(particular | Entertainment) : 0/3.0
+   P(instance | Entertainment) : 1/3.0
+   P(wagers | Entertainment) : 0/3.0
+   P(yes | Entertainment) :   0/3.0
+   P(lost | Entertainment) :  0/3.0
+   P(big | Entertainment) :   8/3.0
+   P(humanitarian | Entertainment) : 0/3.0
+   P(concern | Entertainment) : 0/3.0
+   P(babies | Entertainment) : 0/3.0
+   P(really | Entertainment) : 0/3.0
+   P(captures | Entertainment) : 0/3.0
+   P(tugs | Entertainment) :  0/3.0
+   P(heartstrings | Entertainment) : 0/3.0
+   P(populations | Entertainment) : 0/3.0
+   P(now | Entertainment) :   1/3.0
+   P(sure | Entertainment) :  1/3.0
+   P(lot | Entertainment) :   0/3.0
+   P(going | Entertainment) : 1/3.0
+   P(listening | Entertainment) : 0/3.0
+   P(little | Entertainment) : 0/3.0
+   P(picky | Entertainment) : 0/3.0
+   P(language | Entertainment) : 0/3.0
+   P(another | Entertainment) : 0/3.0
+   P(carefully | Entertainment) : 0/3.0
+   P(employed | Entertainment) : 0/3.0
+   P(dividing | Entertainment) : 0/3.0
+   P(bad | Entertainment) :   0/3.0
+   P(chemical | Entertainment) : 0/3.0
+   P(weapons | Entertainment) : 0/3.0
+   P(lots | Entertainment) :  0/3.0
+   P(extremely | Entertainment) : 1/3.0
+   P(powerful | Entertainment) : 0/3.0
+   P(changed | Entertainment) : 0/3.0
+   P(countries | Entertainment) : 0/3.0
+   P(responding | Entertainment) : 0/3.0
+   P(wonder | Entertainment) : 0/3.0
+   P(whether | Entertainment) : 0/3.0
+   P(largely | Entertainment) : 0/3.0
+   P(adult | Entertainment) : 2/3.0
+   P(peoples | Entertainment) : 0/3.0
+   P(tugged | Entertainment) : 0/3.0
+   P(quite | Entertainment) : 0/3.0
+   P(effectively | Entertainment) : 0/3.0
+   P(support | Entertainment) : 0/3.0
+   P(means | Entertainment) : 1/3.0
+   P(sympathies | Entertainment) : 0/3.0
+   P(much | Entertainment) :  1/3.0
+   P(blunted | Entertainment) : 0/3.0
+   P(comes | Entertainment) : 0/3.0
+   P(next | Entertainment) :  1/3.0
+   P(politician | Entertainment) : 0/3.0
+   P(journalist | Entertainment) : 0/3.0
+   P(fair | Entertainment) :  0/3.0
+   P(gendering | Entertainment) : 0/3.0
+   P(innocence | Entertainment) : 0/3.0
+   P(unfair | Entertainment) : 0/3.0
+   P(unjust | Entertainment) : 0/3.0
+   P(oldfashioned | Entertainment) : 0/3.0
+   P(completely | Entertainment) : 0/3.0
+   P(irrelevant | Entertainment) : 0/3.0
+   P(used | Entertainment) :  0/3.0
+
+   P(phrase | World News) :   0/3.0
+   P(innocent | World News) : 0/3.0
+   P(women | World News) :    1/3.0
+   P(children | World News) : 2/3.0
+   P(sexist | World News) :   0/3.0
+   P(racist | World News) :   0/3.0
+   P(inaccurate | World News) : 0/3.0
+   P(volunteer | World News) : 0/3.0
+   P(medics | World News) :   0/3.0
+   P(assist | World News) :   0/3.0
+   P(iraqi | World News) :    0/3.0
+   P(civilian | World News) : 0/3.0
+   P(injured | World News) :  0/3.0
+   P(fleeing | World News) :  0/3.0
+   P(islamic | World News) :  4/3.0
+   P(state | World News) :    8/3.0
+   P(groupcontrolled | World News) : 0/3.0
+   P(neighbourhood | World News) : 0/3.0
+   P(mosul | World News) :    0/3.0
+   P(november | World News) : 0/3.0
+   P(photo | World News) :    2/3.0
+   P(serves | World News) :   0/3.0
+   P(reminder | World News) : 0/3.0
+   P(victims | World News) :  0/3.0
+   P(nish | World News) :     0/3.0
+   P(nalbandianthe | World News) : 0/3.0
+   P(associated | World News) : 1/3.0
+   P(press | World News) :    3/3.0
+   P(listen | World News) :   0/3.0
+   P(stories | World News) :  0/3.0
+   P(episode | World News) :  0/3.0
+   P(think | World News) :    0/3.0
+   P(twice | World News) :    0/3.0
+   P(try | World News) :      0/3.0
+   P(live | World News) :     0/3.0
+   P(bestlife | World News) : 0/3.0
+   P(fish | World News) :     0/3.0
+   P(biologist | World News) : 0/3.0
+   P(stopped | World News) :  0/3.0
+   P(eating | World News) :   0/3.0
+   P(brexit | World News) :   0/3.0
+   P(boon | World News) :     0/3.0
+   P(universities | World News) : 0/3.0
+   P(time | World News) :     2/3.0
+   P(let | World News) :      0/3.0
+   P(motorcycles | World News) : 0/3.0
+   P(drive | World News) :    0/3.0
+   P(lanes | World News) :    0/3.0
+   P(mess | World News) :     0/3.0
+   P(adultonly | World News) : 0/3.0
+   P(residences | World News) : 0/3.0
+   P(full | World News) :     0/3.0
+   P(hear | World News) :     0/3.0
+   P(read | World News) :     0/3.0
+   P(often | World News) :    0/3.0
+   P(especially | World News) : 0/3.0
+   P(catastrophe | World News) : 0/3.0
+   P(far | World News) :      0/3.0
+   P(away | World News) :     2/3.0
+   P(places | World News) :   1/3.0
+   P(emily | World News) :    0/3.0
+   P(cousens | World News) :  0/3.0
+   P(says | World News) :     1/3.0
+   P(need | World News) :     0/3.0
+   P(rethink | World News) :  0/3.0
+   P(men | World News) :      0/3.0
+   P(excluded | World News) : 0/3.0
+   P(use | World News) :      0/3.0
+   P(term | World News) :     0/3.0
+   P(argues | World News) :   0/3.0
+   P(undertones | World News) : 0/3.0
+   P(headshot | World News) : 0/3.0
+   P(phd | World News) :      0/3.0
+   P(student | World News) :  0/3.0
+   P(researcher | World News) : 0/3.0
+   P(oxford | World News) :   0/3.0
+   P(brookes | World News) :  0/3.0
+   P(university | World News) : 0/3.0
+   P(provided | World News) : 0/3.0
+   P(researching | World News) : 0/3.0
+   P(concepts | World News) : 0/3.0
+   P(vulnerability | World News) : 0/3.0
+   P(feminism | World News) : 0/3.0
+   P(united | World News) :   2/3.0
+   P(kingdom | World News) :  0/3.0
+   P(joined | World News) :   0/3.0
+   P(jim | World News) :      0/3.0
+   P(brown | World News) :    0/3.0
+   P(conversation | World News) : 0/3.0
+   P(oftused | World News) :  0/3.0
+   P(following | World News) : 2/3.0
+   P(condensed | World News) : 0/3.0
+   P(version | World News) :  0/3.0
+   P(reminds | World News) :  0/3.0
+   P(sort | World News) :     0/3.0
+   P(titanichittingtheiceberg | World News) : 0/3.0
+   P(first | World News) :    2/3.0
+   P(related | World News) :  0/3.0
+   P(always | World News) :   0/3.0
+   P(kind | World News) :     0/3.0
+   P(image | World News) :    2/3.0
+   P(springs | World News) :  0/3.0
+   P(mind | World News) :     0/3.0
+   P(titanic | World News) :  0/3.0
+   P(ideathat | World News) : 0/3.0
+   P(protect | World News) :  1/3.0
+   P(argue | World News) :    0/3.0
+   P(suggests | World News) : 0/3.0
+   P(actually | World News) : 0/3.0
+   P(protection | World News) : 0/3.0
+   P(somehow | World News) :  0/3.0
+   P(apply | World News) :    0/3.0
+   P(war | World News) :      2/3.0
+   P(saying | World News) :   0/3.0
+   P(male | World News) :     0/3.0
+   P(problematic | World News) : 0/3.0
+   P(implications | World News) : 0/3.0
+   P(implies | World News) :  0/3.0
+   P(rather | World News) :   0/3.0
+   P(people | World News) :   4/3.0
+   P(protectors | World News) : 0/3.0
+   P(yeah | World News) :     0/3.0
+   P(context | World News) :  0/3.0
+   P(maybe | World News) :    0/3.0
+   P(seen | World News) :     2/3.0
+   P(suggest | World News) :  0/3.0
+   P(might | World News) :    1/3.0
+   P(sinister | World News) : 0/3.0
+   P(undertone | World News) : 0/3.0
+   P(north | World News) :    1/3.0
+   P(african | World News) :  0/3.0
+   P(refugees | World News) : 0/3.0
+   P(example | World News) :  0/3.0
+   P(vulnerable | World News) : 0/3.0
+   P(perhaps | World News) :  1/3.0
+   P(suggesting | World News) : 0/3.0
+   P(aggressors | World News) : 0/3.0
+   P(worthy | World News) :   0/3.0
+   P(underlying | World News) : 0/3.0
+   P(assumption | World News) : 0/3.0
+   P(seems | World News) :    0/3.0
+   P(guilty | World News) :   0/3.0
+   P(talk | World News) :     0/3.0
+   P(excluding | World News) : 0/3.0
+   P(groups | World News) :   1/3.0
+   P(refugee | World News) :  0/3.0
+   P(crisis | World News) :   0/3.0
+   P(way | World News) :      0/3.0
+   P(west | World News) :     2/3.0
+   P(misperceive | World News) : 0/3.0
+   P(misrepresent | World News) : 0/3.0
+   P(arab | World News) :     1/3.0
+   P(constantly | World News) : 0/3.0
+   P(media | World News) :    2/3.0
+   P(seeing | World News) :   0/3.0
+   P(images | World News) :   4/3.0
+   P(terrorists | World News) : 0/3.0
+   P(case | World News) :     0/3.0
+   P(cologne | World News) :  0/3.0
+   P(saw | World News) :      0/3.0
+   P(represented | World News) : 0/3.0
+   P(rapists | World News) :  0/3.0
+   P(constant | World News) : 0/3.0
+   P(negative | World News) : 0/3.0
+   P(coupled | World News) :  0/3.0
+   P(idea | World News) :     0/3.0
+   P(count | World News) :    0/3.0
+   P(human | World News) :    1/3.0
+   P(almost | World News) :   0/3.0
+   P(hinges | World News) :   0/3.0
+   P(talking | World News) :  0/3.0
+   P(western | World News) :  1/3.0
+   P(disasters | World News) : 0/3.0
+   P(attack | World News) :   6/3.0
+   P(exactly | World News) :  0/3.0
+   P(recent | World News) :   1/3.0
+   P(terror | World News) :   0/3.0
+   P(theresa | World News) :  0/3.0
+   P(may | World News) :      1/3.0
+   P(talked | World News) :   0/3.0
+   P(civilians | World News) : 2/3.0
+   P(population | World News) : 0/3.0
+   P(just | World News) :     2/3.0
+   P(highlight | World News) : 0/3.0
+   P(lives | World News) :    2/3.0
+   P(worth | World News) :    0/3.0
+   P(grieving | World News) : 0/3.0
+   P(care | World News) :     1/3.0
+   P(lesbos | World News) :   0/3.0
+   P(survivors | World News) : 1/3.0
+   P(refer | World News) :    0/3.0
+   P(discount | World News) : 0/3.0
+   P(suffering | World News) : 1/3.0
+   P(become | World News) :   2/3.0
+   P(contributing | World News) : 0/3.0
+   P(members | World News) :  2/3.0
+   P(society | World News) :  0/3.0
+   P(took | World News) :     2/3.0
+   P(account | World News) :  0/3.0
+   P(angelos | World News) :  0/3.0
+   P(tzortzinisafpgetty | World News) : 0/3.0
+   P(included | World News) : 1/3.0
+   P(implication | World News) : 0/3.0
+   P(particular | World News) : 0/3.0
+   P(instance | World News) : 0/3.0
+   P(wagers | World News) :   0/3.0
+   P(yes | World News) :      0/3.0
+   P(lost | World News) :     1/3.0
+   P(big | World News) :      2/3.0
+   P(humanitarian | World News) : 0/3.0
+   P(concern | World News) :  1/3.0
+   P(babies | World News) :   0/3.0
+   P(really | World News) :   0/3.0
+   P(captures | World News) : 0/3.0
+   P(tugs | World News) :     0/3.0
+   P(heartstrings | World News) : 0/3.0
+   P(populations | World News) : 0/3.0
+   P(now | World News) :      2/3.0
+   P(sure | World News) :     0/3.0
+   P(lot | World News) :      0/3.0
+   P(going | World News) :    1/3.0
+   P(listening | World News) : 0/3.0
+   P(little | World News) :   2/3.0
+   P(picky | World News) :    0/3.0
+   P(language | World News) : 1/3.0
+   P(another | World News) :  4/3.0
+   P(carefully | World News) : 0/3.0
+   P(employed | World News) : 0/3.0
+   P(dividing | World News) : 0/3.0
+   P(bad | World News) :      0/3.0
+   P(chemical | World News) : 2/3.0
+   P(weapons | World News) :  2/3.0
+   P(lots | World News) :     0/3.0
+   P(extremely | World News) : 0/3.0
+   P(powerful | World News) : 0/3.0
+   P(changed | World News) :  0/3.0
+   P(countries | World News) : 0/3.0
+   P(responding | World News) : 0/3.0
+   P(wonder | World News) :   0/3.0
+   P(whether | World News) :  2/3.0
+   P(largely | World News) :  2/3.0
+   P(adult | World News) :    0/3.0
+   P(peoples | World News) :  0/3.0
+   P(tugged | World News) :   0/3.0
+   P(quite | World News) :    0/3.0
+   P(effectively | World News) : 0/3.0
+   P(support | World News) :  1/3.0
+   P(means | World News) :    0/3.0
+   P(sympathies | World News) : 0/3.0
+   P(much | World News) :     3/3.0
+   P(blunted | World News) :  0/3.0
+   P(comes | World News) :    0/3.0
+   P(next | World News) :     1/3.0
+   P(politician | World News) : 0/3.0
+   P(journalist | World News) : 0/3.0
+   P(fair | World News) :     0/3.0
+   P(gendering | World News) : 0/3.0
+   P(innocence | World News) : 0/3.0
+   P(unfair | World News) :   0/3.0
+   P(unjust | World News) :   0/3.0
+   P(oldfashioned | World News) : 0/3.0
+   P(completely | World News) : 0/3.0
+   P(irrelevant | World News) : 0/3.0
+   P(used | World News) :     0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.   P(Sports | [phrase, innocent, women, children, sexist, racist, inaccurate, volunteer, medics, assist, iraqi, civilian, injured, fleeing, islamic, state, groupcontrolled, neighbourhood, mosul, november, photo, serves, reminder, victims, nish, nalbandianthe, associated, press, listen, stories, episode, think, twice, try, live, bestlife, fish, biologist, stopped, eating, brexit, boon, universities, time, let, motorcycles, drive, lanes, mess, adultonly, residences, full, hear, read, often, especially, catastrophe, far, away, places, emily, cousens, says, need, rethink, men, excluded, use, term, argues, undertones, headshot, phd, student, researcher, oxford, brookes, university, provided, researching, concepts, vulnerability, feminism, united, kingdom, joined, jim, brown, conversation, oftused, following, condensed, version, reminds, sort, titanichittingtheiceberg, first, related, always, kind, image, springs, mind, titanic, ideathat, protect, argue, suggests, actually, protection, somehow, apply, war, saying, male, problematic, implications, implies, rather, people, protectors, yeah, context, maybe, seen, suggest, might, sinister, undertone, north, african, refugees, example, vulnerable, perhaps, suggesting, aggressors, worthy, underlying, assumption, seems, guilty, talk, excluding, groups, refugee, crisis, way, west, misperceive, misrepresent, arab, constantly, media, seeing, images, terrorists, case, cologne, saw, represented, rapists, constant, negative, coupled, idea, count, human, almost, hinges, talking, western, disasters, attack, exactly, recent, terror, theresa, may, talked, civilians, population, just, highlight, lives, worth, grieving, care, lesbos, survivors, refer, discount, suffering, become, contributing, members, society, took, account, angelos, tzortzinisafpgetty, included, implication, particular, instance, wagers, yes, lost, big, humanitarian, concern, babies, really, captures, tugs, heartstrings, populations, now, sure, lot, going, listening, little, picky, language, another, carefully, employed, dividing, bad, chemical, weapons, lots, extremely, powerful, changed, countries, responding, wonder, whether, largely, adult, peoples, tugged, quite, effectively, support, means, sympathies, much, blunted, comes, next, politician, journalist, fair, gendering, innocence, unfair, unjust, oldfashioned, completely, irrelevant, used]) 
+= 3/12    x    ( 2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  8/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  3/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  2/3    x  4/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  8/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     18874368 / 5045901242979801948    =    3.740534562831425E-12
+   P(Travel | [phrase, innocent, women, children, sexist, racist, inaccurate, volunteer, medics, assist, iraqi, civilian, injured, fleeing, islamic, state, groupcontrolled, neighbourhood, mosul, november, photo, serves, reminder, victims, nish, nalbandianthe, associated, press, listen, stories, episode, think, twice, try, live, bestlife, fish, biologist, stopped, eating, brexit, boon, universities, time, let, motorcycles, drive, lanes, mess, adultonly, residences, full, hear, read, often, especially, catastrophe, far, away, places, emily, cousens, says, need, rethink, men, excluded, use, term, argues, undertones, headshot, phd, student, researcher, oxford, brookes, university, provided, researching, concepts, vulnerability, feminism, united, kingdom, joined, jim, brown, conversation, oftused, following, condensed, version, reminds, sort, titanichittingtheiceberg, first, related, always, kind, image, springs, mind, titanic, ideathat, protect, argue, suggests, actually, protection, somehow, apply, war, saying, male, problematic, implications, implies, rather, people, protectors, yeah, context, maybe, seen, suggest, might, sinister, undertone, north, african, refugees, example, vulnerable, perhaps, suggesting, aggressors, worthy, underlying, assumption, seems, guilty, talk, excluding, groups, refugee, crisis, way, west, misperceive, misrepresent, arab, constantly, media, seeing, images, terrorists, case, cologne, saw, represented, rapists, constant, negative, coupled, idea, count, human, almost, hinges, talking, western, disasters, attack, exactly, recent, terror, theresa, may, talked, civilians, population, just, highlight, lives, worth, grieving, care, lesbos, survivors, refer, discount, suffering, become, contributing, members, society, took, account, angelos, tzortzinisafpgetty, included, implication, particular, instance, wagers, yes, lost, big, humanitarian, concern, babies, really, captures, tugs, heartstrings, populations, now, sure, lot, going, listening, little, picky, language, another, carefully, employed, dividing, bad, chemical, weapons, lots, extremely, powerful, changed, countries, responding, wonder, whether, largely, adult, peoples, tugged, quite, effectively, support, means, sympathies, much, blunted, comes, next, politician, journalist, fair, gendering, innocence, unfair, unjust, oldfashioned, completely, irrelevant, used]) 
+= 3/12    x    ( 1/3    x  1/3    x  1/3    x  10/3   x  2/3    x  1/3    x  1/3    x  1/3    x  3/3    x  10/3   x  1/3    x  1/3    x  2/3    x  3/3    x  14/3   x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  2/3    x  3/3    x  4/3    x  2/3    x  1/3    x  4/3    x  2/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  (1)   )     
+=     7431782400 / 200126180395998828    =    3.713548315015253E-8
+   P(Entertainment | [phrase, innocent, women, children, sexist, racist, inaccurate, volunteer, medics, assist, iraqi, civilian, injured, fleeing, islamic, state, groupcontrolled, neighbourhood, mosul, november, photo, serves, reminder, victims, nish, nalbandianthe, associated, press, listen, stories, episode, think, twice, try, live, bestlife, fish, biologist, stopped, eating, brexit, boon, universities, time, let, motorcycles, drive, lanes, mess, adultonly, residences, full, hear, read, often, especially, catastrophe, far, away, places, emily, cousens, says, need, rethink, men, excluded, use, term, argues, undertones, headshot, phd, student, researcher, oxford, brookes, university, provided, researching, concepts, vulnerability, feminism, united, kingdom, joined, jim, brown, conversation, oftused, following, condensed, version, reminds, sort, titanichittingtheiceberg, first, related, always, kind, image, springs, mind, titanic, ideathat, protect, argue, suggests, actually, protection, somehow, apply, war, saying, male, problematic, implications, implies, rather, people, protectors, yeah, context, maybe, seen, suggest, might, sinister, undertone, north, african, refugees, example, vulnerable, perhaps, suggesting, aggressors, worthy, underlying, assumption, seems, guilty, talk, excluding, groups, refugee, crisis, way, west, misperceive, misrepresent, arab, constantly, media, seeing, images, terrorists, case, cologne, saw, represented, rapists, constant, negative, coupled, idea, count, human, almost, hinges, talking, western, disasters, attack, exactly, recent, terror, theresa, may, talked, civilians, population, just, highlight, lives, worth, grieving, care, lesbos, survivors, refer, discount, suffering, become, contributing, members, society, took, account, angelos, tzortzinisafpgetty, included, implication, particular, instance, wagers, yes, lost, big, humanitarian, concern, babies, really, captures, tugs, heartstrings, populations, now, sure, lot, going, listening, little, picky, language, another, carefully, employed, dividing, bad, chemical, weapons, lots, extremely, powerful, changed, countries, responding, wonder, whether, largely, adult, peoples, tugged, quite, effectively, support, means, sympathies, much, blunted, comes, next, politician, journalist, fair, gendering, innocence, unfair, unjust, oldfashioned, completely, irrelevant, used]) 
+= 3/12    x    ( 1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  8/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     36864 / 5403406870691968356    =    6.822362424704683E-15
+   P(World News | [phrase, innocent, women, children, sexist, racist, inaccurate, volunteer, medics, assist, iraqi, civilian, injured, fleeing, islamic, state, groupcontrolled, neighbourhood, mosul, november, photo, serves, reminder, victims, nish, nalbandianthe, associated, press, listen, stories, episode, think, twice, try, live, bestlife, fish, biologist, stopped, eating, brexit, boon, universities, time, let, motorcycles, drive, lanes, mess, adultonly, residences, full, hear, read, often, especially, catastrophe, far, away, places, emily, cousens, says, need, rethink, men, excluded, use, term, argues, undertones, headshot, phd, student, researcher, oxford, brookes, university, provided, researching, concepts, vulnerability, feminism, united, kingdom, joined, jim, brown, conversation, oftused, following, condensed, version, reminds, sort, titanichittingtheiceberg, first, related, always, kind, image, springs, mind, titanic, ideathat, protect, argue, suggests, actually, protection, somehow, apply, war, saying, male, problematic, implications, implies, rather, people, protectors, yeah, context, maybe, seen, suggest, might, sinister, undertone, north, african, refugees, example, vulnerable, perhaps, suggesting, aggressors, worthy, underlying, assumption, seems, guilty, talk, excluding, groups, refugee, crisis, way, west, misperceive, misrepresent, arab, constantly, media, seeing, images, terrorists, case, cologne, saw, represented, rapists, constant, negative, coupled, idea, count, human, almost, hinges, talking, western, disasters, attack, exactly, recent, terror, theresa, may, talked, civilians, population, just, highlight, lives, worth, grieving, care, lesbos, survivors, refer, discount, suffering, become, contributing, members, society, took, account, angelos, tzortzinisafpgetty, included, implication, particular, instance, wagers, yes, lost, big, humanitarian, concern, babies, really, captures, tugs, heartstrings, populations, now, sure, lot, going, listening, little, picky, language, another, carefully, employed, dividing, bad, chemical, weapons, lots, extremely, powerful, changed, countries, responding, wonder, whether, largely, adult, peoples, tugged, quite, effectively, support, means, sympathies, much, blunted, comes, next, politician, journalist, fair, gendering, innocence, unfair, unjust, oldfashioned, completely, irrelevant, used]) 
+= 3/12    x    ( 1/3    x  2/3    x  4/3    x  8/3    x  2/3    x  1/3    x  3/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  2/3    x  1/3    x  2/3    x  4/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  4/3    x  1/3    x  1/3    x  6/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  4/3    x  2/3    x  2/3    x  2/3    x  2/3    x  1/3    x  3/3    x  1/3    x  (1)   )     
+=     11132555231232 / 4577365615419558308    =    2.4320878353545278E-6
+
+
+

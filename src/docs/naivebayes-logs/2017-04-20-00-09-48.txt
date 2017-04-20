@@ -1,0 +1,555 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 00:09:49
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   west:0              coast:0             probably:0          know:3              
+   cbc:0               life:0              march:1             uncharacteristically:0      
+   long:2              cold:0              snowy:0             winter:0            
+   hiking:0            season:8            finally:0           just:4              
+   around:1            corner:0            many:1              lotus:0             
+   landers:0           gearing:0           hit:0               muchneeded:0        
+   dose:0              nature:0            question:0          escape:0            
+   crowds:0            marquee:0           like:2              grouse:0            
+   grind:0             north:1             chief:0             squamish:0          
+   guaranteed:0        packed:0            eager:0             outdoor:0           
+   enthusiasts:0       nows:0              time:8              look:2              
+   farther:0           afield:0            discover:0          hidden:0            
+   gems:0              local:0             writer:0            photographer:0      
+   columnist:0         vancouverisawesomecom:0      author:0            forthcoming:0       
+   guidebook:0         asked:0             help:1              seek:0              
+   offtheradar:0       wilderness:0        adventures:0        spring:0            
+   triangle:0          lake:0              sunshine:0          tourism:0           
+   located:0           sechelt:0           trail:0             mountain:0          
+   bikers:0            whizzing:0          past:2              kicking:0           
+   dust:0              disturbing:0        zen:0               gorgeous:0          
+   mossdrenched:0      forest:0            approximately:0      hours:0             
+   km:0                round:2             trip:0              likely:0            
+   spot:0              deer:0              along:1             way:2               
+   hike:0              definitely:0        radar:0             says:1              
+   plenty:0            people:0            lower:0             heard:0             
+   
+
+Category: Travel
+   west:3              coast:15            probably:4          know:1              
+   cbc:1               life:1              march:1             uncharacteristically:1      
+   long:1              cold:1              snowy:2             winter:1            
+   hiking:5            season:1            finally:2           just:4              
+   around:6            corner:1            many:4              lotus:1             
+   landers:1           gearing:1           hit:1               muchneeded:1        
+   dose:1              nature:2            question:1          escape:2            
+   crowds:2            marquee:1           like:4              grouse:1            
+   grind:2             north:4             chief:1             squamish:1          
+   guaranteed:1        packed:1            eager:1             outdoor:2           
+   enthusiasts:2       nows:1              time:10             look:2              
+   farther:1           afield:1            discover:2          hidden:1            
+   gems:1              local:5             writer:1            photographer:1      
+   columnist:1         vancouverisawesomecom:1      author:1            forthcoming:1       
+   guidebook:1         asked:1             help:3              seek:1              
+   offtheradar:1       wilderness:1        adventures:1        spring:18           
+   triangle:2          lake:9              sunshine:5          tourism:1           
+   located:6           sechelt:1           trail:15            mountain:2          
+   bikers:1            whizzing:1          past:1              kicking:1           
+   dust:1              disturbing:1        zen:1               gorgeous:1          
+   mossdrenched:1      forest:2            approximately:1      hours:0             
+   km:5                round:1             trip:4              likely:2            
+   spot:5              deer:1              along:2             way:2               
+   hike:17             definitely:4        radar:1             says:3              
+   plenty:1            people:2            lower:3             heard:1             
+   
+
+Category: Entertainment
+   west:1              coast:0             probably:0          know:0              
+   cbc:1               life:2              march:0             uncharacteristically:0      
+   long:1              cold:0              snowy:0             winter:0            
+   hiking:0            season:0            finally:0           just:2              
+   around:0            corner:0            many:4              lotus:0             
+   landers:0           gearing:0           hit:1               muchneeded:0        
+   dose:0              nature:0            question:0          escape:0            
+   crowds:0            marquee:0           like:4              grouse:0            
+   grind:0             north:2             chief:0             squamish:0          
+   guaranteed:0        packed:0            eager:0             outdoor:0           
+   enthusiasts:0       nows:0              time:3              look:1              
+   farther:0           afield:0            discover:0          hidden:0            
+   gems:0              local:0             writer:0            photographer:0      
+   columnist:0         vancouverisawesomecom:0      author:0            forthcoming:0       
+   guidebook:0         asked:0             help:0              seek:0              
+   offtheradar:0       wilderness:0        adventures:1        spring:0            
+   triangle:0          lake:0              sunshine:1          tourism:0           
+   located:0           sechelt:0           trail:0             mountain:1          
+   bikers:0            whizzing:0          past:0              kicking:0           
+   dust:0              disturbing:0        zen:0               gorgeous:0          
+   mossdrenched:0      forest:0            approximately:0      hours:1             
+   km:0                round:0             trip:0              likely:0            
+   spot:0              deer:0              along:0             way:0               
+   hike:0              definitely:0        radar:0             says:1              
+   plenty:0            people:2            lower:0             heard:0             
+   
+
+Category: World News
+   west:2              coast:0             probably:0          know:1              
+   cbc:0               life:0              march:6             uncharacteristically:0      
+   long:2              cold:0              snowy:0             winter:0            
+   hiking:0            season:0            finally:0           just:2              
+   around:3            corner:0            many:4              lotus:0             
+   landers:0           gearing:0           hit:0               muchneeded:0        
+   dose:0              nature:0            question:2          escape:0            
+   crowds:0            marquee:0           like:0              grouse:0            
+   grind:0             north:1             chief:0             squamish:0          
+   guaranteed:0        packed:1            eager:0             outdoor:0           
+   enthusiasts:0       nows:0              time:3              look:0              
+   farther:0           afield:0            discover:0          hidden:0            
+   gems:0              local:0             writer:0            photographer:0      
+   columnist:0         vancouverisawesomecom:0      author:0            forthcoming:0       
+   guidebook:0         asked:0             help:0              seek:1              
+   offtheradar:0       wilderness:0        adventures:0        spring:0            
+   triangle:0          lake:0              sunshine:0          tourism:1           
+   located:0           sechelt:0           trail:0             mountain:0          
+   bikers:0            whizzing:0          past:4              kicking:0           
+   dust:0              disturbing:0        zen:0               gorgeous:0          
+   mossdrenched:0      forest:0            approximately:0      hours:1             
+   km:0                round:0             trip:0              likely:1            
+   spot:1              deer:0              along:0             way:0               
+   hike:0              definitely:0        radar:0             says:1              
+   plenty:0            people:4            lower:0             heard:0             
+   
+
+Word likely-hoods: 
+   P(west | Sports) :         0/3.0
+   P(coast | Sports) :        0/3.0
+   P(probably | Sports) :     0/3.0
+   P(know | Sports) :         3/3.0
+   P(cbc | Sports) :          0/3.0
+   P(life | Sports) :         0/3.0
+   P(march | Sports) :        1/3.0
+   P(uncharacteristically | Sports) : 0/3.0
+   P(long | Sports) :         2/3.0
+   P(cold | Sports) :         0/3.0
+   P(snowy | Sports) :        0/3.0
+   P(winter | Sports) :       0/3.0
+   P(hiking | Sports) :       0/3.0
+   P(season | Sports) :       8/3.0
+   P(finally | Sports) :      0/3.0
+   P(just | Sports) :         4/3.0
+   P(around | Sports) :       1/3.0
+   P(corner | Sports) :       0/3.0
+   P(many | Sports) :         1/3.0
+   P(lotus | Sports) :        0/3.0
+   P(landers | Sports) :      0/3.0
+   P(gearing | Sports) :      0/3.0
+   P(hit | Sports) :          0/3.0
+   P(muchneeded | Sports) :   0/3.0
+   P(dose | Sports) :         0/3.0
+   P(nature | Sports) :       0/3.0
+   P(question | Sports) :     0/3.0
+   P(escape | Sports) :       0/3.0
+   P(crowds | Sports) :       0/3.0
+   P(marquee | Sports) :      0/3.0
+   P(like | Sports) :         2/3.0
+   P(grouse | Sports) :       0/3.0
+   P(grind | Sports) :        0/3.0
+   P(north | Sports) :        1/3.0
+   P(chief | Sports) :        0/3.0
+   P(squamish | Sports) :     0/3.0
+   P(guaranteed | Sports) :   0/3.0
+   P(packed | Sports) :       0/3.0
+   P(eager | Sports) :        0/3.0
+   P(outdoor | Sports) :      0/3.0
+   P(enthusiasts | Sports) :  0/3.0
+   P(nows | Sports) :         0/3.0
+   P(time | Sports) :         8/3.0
+   P(look | Sports) :         2/3.0
+   P(farther | Sports) :      0/3.0
+   P(afield | Sports) :       0/3.0
+   P(discover | Sports) :     0/3.0
+   P(hidden | Sports) :       0/3.0
+   P(gems | Sports) :         0/3.0
+   P(local | Sports) :        0/3.0
+   P(writer | Sports) :       0/3.0
+   P(photographer | Sports) : 0/3.0
+   P(columnist | Sports) :    0/3.0
+   P(vancouverisawesomecom | Sports) : 0/3.0
+   P(author | Sports) :       0/3.0
+   P(forthcoming | Sports) :  0/3.0
+   P(guidebook | Sports) :    0/3.0
+   P(asked | Sports) :        0/3.0
+   P(help | Sports) :         1/3.0
+   P(seek | Sports) :         0/3.0
+   P(offtheradar | Sports) :  0/3.0
+   P(wilderness | Sports) :   0/3.0
+   P(adventures | Sports) :   0/3.0
+   P(spring | Sports) :       0/3.0
+   P(triangle | Sports) :     0/3.0
+   P(lake | Sports) :         0/3.0
+   P(sunshine | Sports) :     0/3.0
+   P(tourism | Sports) :      0/3.0
+   P(located | Sports) :      0/3.0
+   P(sechelt | Sports) :      0/3.0
+   P(trail | Sports) :        0/3.0
+   P(mountain | Sports) :     0/3.0
+   P(bikers | Sports) :       0/3.0
+   P(whizzing | Sports) :     0/3.0
+   P(past | Sports) :         2/3.0
+   P(kicking | Sports) :      0/3.0
+   P(dust | Sports) :         0/3.0
+   P(disturbing | Sports) :   0/3.0
+   P(zen | Sports) :          0/3.0
+   P(gorgeous | Sports) :     0/3.0
+   P(mossdrenched | Sports) : 0/3.0
+   P(forest | Sports) :       0/3.0
+   P(approximately | Sports) : 0/3.0
+   P(hours | Sports) :        0/3.0
+   P(km | Sports) :           0/3.0
+   P(round | Sports) :        2/3.0
+   P(trip | Sports) :         0/3.0
+   P(likely | Sports) :       0/3.0
+   P(spot | Sports) :         0/3.0
+   P(deer | Sports) :         0/3.0
+   P(along | Sports) :        1/3.0
+   P(way | Sports) :          2/3.0
+   P(hike | Sports) :         0/3.0
+   P(definitely | Sports) :   0/3.0
+   P(radar | Sports) :        0/3.0
+   P(says | Sports) :         1/3.0
+   P(plenty | Sports) :       0/3.0
+   P(people | Sports) :       0/3.0
+   P(lower | Sports) :        0/3.0
+   P(heard | Sports) :        0/3.0
+
+   P(west | Travel) :         3/3.0
+   P(coast | Travel) :        15/3.0
+   P(probably | Travel) :     4/3.0
+   P(know | Travel) :         1/3.0
+   P(cbc | Travel) :          1/3.0
+   P(life | Travel) :         1/3.0
+   P(march | Travel) :        1/3.0
+   P(uncharacteristically | Travel) : 1/3.0
+   P(long | Travel) :         1/3.0
+   P(cold | Travel) :         1/3.0
+   P(snowy | Travel) :        2/3.0
+   P(winter | Travel) :       1/3.0
+   P(hiking | Travel) :       5/3.0
+   P(season | Travel) :       1/3.0
+   P(finally | Travel) :      2/3.0
+   P(just | Travel) :         4/3.0
+   P(around | Travel) :       6/3.0
+   P(corner | Travel) :       1/3.0
+   P(many | Travel) :         4/3.0
+   P(lotus | Travel) :        1/3.0
+   P(landers | Travel) :      1/3.0
+   P(gearing | Travel) :      1/3.0
+   P(hit | Travel) :          1/3.0
+   P(muchneeded | Travel) :   1/3.0
+   P(dose | Travel) :         1/3.0
+   P(nature | Travel) :       2/3.0
+   P(question | Travel) :     1/3.0
+   P(escape | Travel) :       2/3.0
+   P(crowds | Travel) :       2/3.0
+   P(marquee | Travel) :      1/3.0
+   P(like | Travel) :         4/3.0
+   P(grouse | Travel) :       1/3.0
+   P(grind | Travel) :        2/3.0
+   P(north | Travel) :        4/3.0
+   P(chief | Travel) :        1/3.0
+   P(squamish | Travel) :     1/3.0
+   P(guaranteed | Travel) :   1/3.0
+   P(packed | Travel) :       1/3.0
+   P(eager | Travel) :        1/3.0
+   P(outdoor | Travel) :      2/3.0
+   P(enthusiasts | Travel) :  2/3.0
+   P(nows | Travel) :         1/3.0
+   P(time | Travel) :         10/3.0
+   P(look | Travel) :         2/3.0
+   P(farther | Travel) :      1/3.0
+   P(afield | Travel) :       1/3.0
+   P(discover | Travel) :     2/3.0
+   P(hidden | Travel) :       1/3.0
+   P(gems | Travel) :         1/3.0
+   P(local | Travel) :        5/3.0
+   P(writer | Travel) :       1/3.0
+   P(photographer | Travel) : 1/3.0
+   P(columnist | Travel) :    1/3.0
+   P(vancouverisawesomecom | Travel) : 1/3.0
+   P(author | Travel) :       1/3.0
+   P(forthcoming | Travel) :  1/3.0
+   P(guidebook | Travel) :    1/3.0
+   P(asked | Travel) :        1/3.0
+   P(help | Travel) :         3/3.0
+   P(seek | Travel) :         1/3.0
+   P(offtheradar | Travel) :  1/3.0
+   P(wilderness | Travel) :   1/3.0
+   P(adventures | Travel) :   1/3.0
+   P(spring | Travel) :       18/3.0
+   P(triangle | Travel) :     2/3.0
+   P(lake | Travel) :         9/3.0
+   P(sunshine | Travel) :     5/3.0
+   P(tourism | Travel) :      1/3.0
+   P(located | Travel) :      6/3.0
+   P(sechelt | Travel) :      1/3.0
+   P(trail | Travel) :        15/3.0
+   P(mountain | Travel) :     2/3.0
+   P(bikers | Travel) :       1/3.0
+   P(whizzing | Travel) :     1/3.0
+   P(past | Travel) :         1/3.0
+   P(kicking | Travel) :      1/3.0
+   P(dust | Travel) :         1/3.0
+   P(disturbing | Travel) :   1/3.0
+   P(zen | Travel) :          1/3.0
+   P(gorgeous | Travel) :     1/3.0
+   P(mossdrenched | Travel) : 1/3.0
+   P(forest | Travel) :       2/3.0
+   P(approximately | Travel) : 1/3.0
+   P(hours | Travel) :        0/3.0
+   P(km | Travel) :           5/3.0
+   P(round | Travel) :        1/3.0
+   P(trip | Travel) :         4/3.0
+   P(likely | Travel) :       2/3.0
+   P(spot | Travel) :         5/3.0
+   P(deer | Travel) :         1/3.0
+   P(along | Travel) :        2/3.0
+   P(way | Travel) :          2/3.0
+   P(hike | Travel) :         17/3.0
+   P(definitely | Travel) :   4/3.0
+   P(radar | Travel) :        1/3.0
+   P(says | Travel) :         3/3.0
+   P(plenty | Travel) :       1/3.0
+   P(people | Travel) :       2/3.0
+   P(lower | Travel) :        3/3.0
+   P(heard | Travel) :        1/3.0
+
+   P(west | Entertainment) :  1/3.0
+   P(coast | Entertainment) : 0/3.0
+   P(probably | Entertainment) : 0/3.0
+   P(know | Entertainment) :  0/3.0
+   P(cbc | Entertainment) :   1/3.0
+   P(life | Entertainment) :  2/3.0
+   P(march | Entertainment) : 0/3.0
+   P(uncharacteristically | Entertainment) : 0/3.0
+   P(long | Entertainment) :  1/3.0
+   P(cold | Entertainment) :  0/3.0
+   P(snowy | Entertainment) : 0/3.0
+   P(winter | Entertainment) : 0/3.0
+   P(hiking | Entertainment) : 0/3.0
+   P(season | Entertainment) : 0/3.0
+   P(finally | Entertainment) : 0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(around | Entertainment) : 0/3.0
+   P(corner | Entertainment) : 0/3.0
+   P(many | Entertainment) :  4/3.0
+   P(lotus | Entertainment) : 0/3.0
+   P(landers | Entertainment) : 0/3.0
+   P(gearing | Entertainment) : 0/3.0
+   P(hit | Entertainment) :   1/3.0
+   P(muchneeded | Entertainment) : 0/3.0
+   P(dose | Entertainment) :  0/3.0
+   P(nature | Entertainment) : 0/3.0
+   P(question | Entertainment) : 0/3.0
+   P(escape | Entertainment) : 0/3.0
+   P(crowds | Entertainment) : 0/3.0
+   P(marquee | Entertainment) : 0/3.0
+   P(like | Entertainment) :  4/3.0
+   P(grouse | Entertainment) : 0/3.0
+   P(grind | Entertainment) : 0/3.0
+   P(north | Entertainment) : 2/3.0
+   P(chief | Entertainment) : 0/3.0
+   P(squamish | Entertainment) : 0/3.0
+   P(guaranteed | Entertainment) : 0/3.0
+   P(packed | Entertainment) : 0/3.0
+   P(eager | Entertainment) : 0/3.0
+   P(outdoor | Entertainment) : 0/3.0
+   P(enthusiasts | Entertainment) : 0/3.0
+   P(nows | Entertainment) :  0/3.0
+   P(time | Entertainment) :  3/3.0
+   P(look | Entertainment) :  1/3.0
+   P(farther | Entertainment) : 0/3.0
+   P(afield | Entertainment) : 0/3.0
+   P(discover | Entertainment) : 0/3.0
+   P(hidden | Entertainment) : 0/3.0
+   P(gems | Entertainment) :  0/3.0
+   P(local | Entertainment) : 0/3.0
+   P(writer | Entertainment) : 0/3.0
+   P(photographer | Entertainment) : 0/3.0
+   P(columnist | Entertainment) : 0/3.0
+   P(vancouverisawesomecom | Entertainment) : 0/3.0
+   P(author | Entertainment) : 0/3.0
+   P(forthcoming | Entertainment) : 0/3.0
+   P(guidebook | Entertainment) : 0/3.0
+   P(asked | Entertainment) : 0/3.0
+   P(help | Entertainment) :  0/3.0
+   P(seek | Entertainment) :  0/3.0
+   P(offtheradar | Entertainment) : 0/3.0
+   P(wilderness | Entertainment) : 0/3.0
+   P(adventures | Entertainment) : 1/3.0
+   P(spring | Entertainment) : 0/3.0
+   P(triangle | Entertainment) : 0/3.0
+   P(lake | Entertainment) :  0/3.0
+   P(sunshine | Entertainment) : 1/3.0
+   P(tourism | Entertainment) : 0/3.0
+   P(located | Entertainment) : 0/3.0
+   P(sechelt | Entertainment) : 0/3.0
+   P(trail | Entertainment) : 0/3.0
+   P(mountain | Entertainment) : 1/3.0
+   P(bikers | Entertainment) : 0/3.0
+   P(whizzing | Entertainment) : 0/3.0
+   P(past | Entertainment) :  0/3.0
+   P(kicking | Entertainment) : 0/3.0
+   P(dust | Entertainment) :  0/3.0
+   P(disturbing | Entertainment) : 0/3.0
+   P(zen | Entertainment) :   0/3.0
+   P(gorgeous | Entertainment) : 0/3.0
+   P(mossdrenched | Entertainment) : 0/3.0
+   P(forest | Entertainment) : 0/3.0
+   P(approximately | Entertainment) : 0/3.0
+   P(hours | Entertainment) : 1/3.0
+   P(km | Entertainment) :    0/3.0
+   P(round | Entertainment) : 0/3.0
+   P(trip | Entertainment) :  0/3.0
+   P(likely | Entertainment) : 0/3.0
+   P(spot | Entertainment) :  0/3.0
+   P(deer | Entertainment) :  0/3.0
+   P(along | Entertainment) : 0/3.0
+   P(way | Entertainment) :   0/3.0
+   P(hike | Entertainment) :  0/3.0
+   P(definitely | Entertainment) : 0/3.0
+   P(radar | Entertainment) : 0/3.0
+   P(says | Entertainment) :  1/3.0
+   P(plenty | Entertainment) : 0/3.0
+   P(people | Entertainment) : 2/3.0
+   P(lower | Entertainment) : 0/3.0
+   P(heard | Entertainment) : 0/3.0
+
+   P(west | World News) :     2/3.0
+   P(coast | World News) :    0/3.0
+   P(probably | World News) : 0/3.0
+   P(know | World News) :     1/3.0
+   P(cbc | World News) :      0/3.0
+   P(life | World News) :     0/3.0
+   P(march | World News) :    6/3.0
+   P(uncharacteristically | World News) : 0/3.0
+   P(long | World News) :     2/3.0
+   P(cold | World News) :     0/3.0
+   P(snowy | World News) :    0/3.0
+   P(winter | World News) :   0/3.0
+   P(hiking | World News) :   0/3.0
+   P(season | World News) :   0/3.0
+   P(finally | World News) :  0/3.0
+   P(just | World News) :     2/3.0
+   P(around | World News) :   3/3.0
+   P(corner | World News) :   0/3.0
+   P(many | World News) :     4/3.0
+   P(lotus | World News) :    0/3.0
+   P(landers | World News) :  0/3.0
+   P(gearing | World News) :  0/3.0
+   P(hit | World News) :      0/3.0
+   P(muchneeded | World News) : 0/3.0
+   P(dose | World News) :     0/3.0
+   P(nature | World News) :   0/3.0
+   P(question | World News) : 2/3.0
+   P(escape | World News) :   0/3.0
+   P(crowds | World News) :   0/3.0
+   P(marquee | World News) :  0/3.0
+   P(like | World News) :     0/3.0
+   P(grouse | World News) :   0/3.0
+   P(grind | World News) :    0/3.0
+   P(north | World News) :    1/3.0
+   P(chief | World News) :    0/3.0
+   P(squamish | World News) : 0/3.0
+   P(guaranteed | World News) : 0/3.0
+   P(packed | World News) :   1/3.0
+   P(eager | World News) :    0/3.0
+   P(outdoor | World News) :  0/3.0
+   P(enthusiasts | World News) : 0/3.0
+   P(nows | World News) :     0/3.0
+   P(time | World News) :     3/3.0
+   P(look | World News) :     0/3.0
+   P(farther | World News) :  0/3.0
+   P(afield | World News) :   0/3.0
+   P(discover | World News) : 0/3.0
+   P(hidden | World News) :   0/3.0
+   P(gems | World News) :     0/3.0
+   P(local | World News) :    0/3.0
+   P(writer | World News) :   0/3.0
+   P(photographer | World News) : 0/3.0
+   P(columnist | World News) : 0/3.0
+   P(vancouverisawesomecom | World News) : 0/3.0
+   P(author | World News) :   0/3.0
+   P(forthcoming | World News) : 0/3.0
+   P(guidebook | World News) : 0/3.0
+   P(asked | World News) :    0/3.0
+   P(help | World News) :     0/3.0
+   P(seek | World News) :     1/3.0
+   P(offtheradar | World News) : 0/3.0
+   P(wilderness | World News) : 0/3.0
+   P(adventures | World News) : 0/3.0
+   P(spring | World News) :   0/3.0
+   P(triangle | World News) : 0/3.0
+   P(lake | World News) :     0/3.0
+   P(sunshine | World News) : 0/3.0
+   P(tourism | World News) :  1/3.0
+   P(located | World News) :  0/3.0
+   P(sechelt | World News) :  0/3.0
+   P(trail | World News) :    0/3.0
+   P(mountain | World News) : 0/3.0
+   P(bikers | World News) :   0/3.0
+   P(whizzing | World News) : 0/3.0
+   P(past | World News) :     4/3.0
+   P(kicking | World News) :  0/3.0
+   P(dust | World News) :     0/3.0
+   P(disturbing | World News) : 0/3.0
+   P(zen | World News) :      0/3.0
+   P(gorgeous | World News) : 0/3.0
+   P(mossdrenched | World News) : 0/3.0
+   P(forest | World News) :   0/3.0
+   P(approximately | World News) : 0/3.0
+   P(hours | World News) :    1/3.0
+   P(km | World News) :       0/3.0
+   P(round | World News) :    0/3.0
+   P(trip | World News) :     0/3.0
+   P(likely | World News) :   1/3.0
+   P(spot | World News) :     1/3.0
+   P(deer | World News) :     0/3.0
+   P(along | World News) :    0/3.0
+   P(way | World News) :      0/3.0
+   P(hike | World News) :     0/3.0
+   P(definitely | World News) : 0/3.0
+   P(radar | World News) :    0/3.0
+   P(says | World News) :     1/3.0
+   P(plenty | World News) :   0/3.0
+   P(people | World News) :   4/3.0
+   P(lower | World News) :    0/3.0
+   P(heard | World News) :    0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.
+
+P(Sports | words from src/docs/travel-article3.txt) 
+=    3/12    x    ( 3/3    x  1/3    x  2/3    x  8/3    x  4/3    x  1/3    x  1/3    x  2/3    x  1/3    x  8/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  (1)   )     
+=     147456 / 1549681956    =    9.51524275217153E-5
+
+
+P(Travel | words from src/docs/travel-article3.txt) 
+=    3/12    x    ( 3/3    x  15/3   x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  5/3    x  1/3    x  2/3    x  4/3    x  6/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  4/3    x  1/3    x  2/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  10/3   x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  5/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  18/3   x  2/3    x  9/3    x  5/3    x  1/3    x  6/3    x  1/3    x  15/3   x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  5/3    x  1/3    x  4/3    x  2/3    x  5/3    x  1/3    x  2/3    x  2/3    x  17/3   x  4/3    x  1/3    x  3/3    x  1/3    x  2/3    x  3/3    x  (1/3) )     
+=     7105155292442132480 / 6508252691559370564    =    1.0917147242387948
+
+
+P(Entertainment | words from src/docs/travel-article3.txt) 
+= 3/12    x    ( 1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  4/3    x  1/3    x  4/3    x  2/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  (1)   )     
+=     2304 / 1549681956    =    1.4867566800268015E-6
+
+
+P(World News | words from src/docs/travel-article3.txt) 
+= 3/12    x    ( 2/3    x  1/3    x  6/3    x  2/3    x  2/3    x  3/3    x  4/3    x  2/3    x  1/3    x  1/3    x  3/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  (1)   )     
+=     165888 / 13947137604    =    1.1894053440214412E-5
+
+
+

@@ -1,0 +1,1537 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 03:28:48
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   advice:0            planning:0          multifamily:0       getaway:0           
+   presented:0         sunwing:0           kathy:0             buckworth:0         
+   cbc:0               life:0              april:2             credit:2            
+   istockgetty:0       images:0            travel:1            fastest:0           
+   growing:0           segments:0          today:1             result:0            
+   find:0              terrific:0          options:0           suit:0              
+   every:2             generation:0        travellers:0        family:2            
+   vacation:0          soon:0              forget:1            number:1            
+   tip:0               trip:0              includes:0          generations:0       
+   within:0            start:3             early:1             locking:0           
+   dates:0             budgets:0           key:0               making:0            
+   sure:1              meet:0              everyones:0         expectations:0      
+   book:0              time:8              advantages:0        booking:0           
+   like:2              securing:0          everything:1        better:1            
+   deals:0             ideal:0             accommodations:0      group:1             
+   close:0             proximity:0         try:0               assign:0            
+   member:0            go:2                person:0            arranging:0         
+   details:0           think:2             starting:1          shared:0            
+   document:0          spreadsheet:0       keep:0              track:0             
+   moving:0            parts:1             often:0             families:0          
+   flying:0            different:1         gateway:0           destinations:0      
+   news:2              visit:0             wwwsunwingca:0      range:0             
+   flights:0           departure:0         cities:0            fit:0               
+   needs:0             members:1           across:0            country:1           
+   ease:0              first:2             stage:1             successful:1        
+   holiday:0           get:0               together:0          finding:0           
+   perfect:1           resort:0            easy:0              wide:0              
+   choices:0           available:1         additionally:0      cruising:0          
+   popular:0           multigenerational:0      always:0            lot:1               
+   things:0            ages:0              kids:0              clubs:1             
+   cool:0              restaurants:0       bars:0              adults:0            
+   many:1              anyage:0            activities:0        cruise:0            
+   free:0              msc:0               divina:0            lego:0              
+   experience:0        just:4              creative:0          opportunities:0      
+   sports:1            shows:1             games:2             arts:0              
+   crafts:0            age:0               appropriate:0       sit:0               
+   mom:0               dad:1               take:0              part:2              
+   fitness:0           classes:0           dropping:0          sauna:0             
+   steam:0             room:0              whirlpools:0        gather:0            
+   whole:0             swim:0              splash:0            waterpark:0         
+   evenings:0          special:1           teatro:0            dellopera:0         
+   theatre:0           dancing:0           byblos:0            discotheque:0       
+   young:0             old:0               alike:0             love:0              
+   water:0             maybe:0             lengths:0           memories:0          
+   punta:0             cana:0              casino:0            dominican:0         
+   republic:0          home:2              caribbeans:0        largest:0           
+   onsite:0            waterparks:0        award:1             winning:2           
+   park:0              pads:0              spraygrounds:0      tubes:0             
+   wave:0              pool:0              exciting:0          slides:0            
+   access:0            unlimited:0         addition:0          guests:0            
+   receive:0           full:0              exchange:0          privileges:0        
+   royalton:0          beautiful:0         beachfront:0        enjoy:0             
+   tennis:0            programs:0          teens:0             club:3              
+   give:0              everyone:0          break:0             designed:0          
+   mind:3              big:0               small:0             bunkbeds:0          
+   suites:0            picky:0             eaters:0            plethora:0          
+   choice:0            ensures:0           something:1         appeal:0            
+   tricky:0            jewel:0             runaway:0           bay:0               
+   beach:0             golf:0              program:0           built:0             
+   use:0               horse:0             ranch:0             laser:0             
+   tag:0               complimentary:0      green:0             fees:0              
+   championship:7      course:2            mean:0              tee:0               
+   great:0             amenities:0         back:8              quiet:0             
+   rounds:0            fantastic:0         catching:0          grandparents:0      
+   parents:0           west:0              coast:0             mexico:3            
+   sierra:0            madres:0            del:0               sur:0               
+   mountain:0          children:0          party:1             way:2               
+   teen:0              craft:0             beer:0              shade:0             
+   pacific:0           ocean:0             azul:0              ixtapa:0            
+   including:0         cuisine:0           opportunity:0       level:1             
+   yoga:0              pilates:0           aqua:0              biking:0            
+   phrase:0            overused:0          entirely:0          adding:0            
+   sunny:0             moments:0           overflowing:0       memory:0            
+   banks:0             getting:0           ready:1             next:1              
+   twice:0             lifetime:0          
+
+Category: Travel
+   advice:0            planning:2          
+   multifamily:0       getaway:4           presented:1         sunwing:2           
+   kathy:0             buckworth:0         cbc:1               life:1              
+   april:1             credit:1            istockgetty:0       images:0            
+   travel:0            fastest:0           growing:0           segments:0          
+   today:0             result:0            find:1              terrific:0          
+   options:2           suit:0              every:1             generation:0        
+   travellers:0        family:1            vacation:0          soon:0              
+   forget:0            number:0            tip:0               trip:4              
+   includes:0          generations:0       within:0            start:0             
+   early:0             locking:0           dates:0             budgets:0           
+   key:1               making:1            sure:2              meet:0              
+   everyones:0         expectations:0      book:1              time:10             
+   advantages:0        booking:1           like:2              securing:0          
+   everything:1        better:1            deals:0             ideal:1             
+   accommodations:0      group:0             close:1             proximity:0         
+   try:0               assign:0            member:0            go:2                
+   person:0            arranging:0         details:1           think:1             
+   starting:0          shared:0            document:0          spreadsheet:0       
+   keep:0              track:0             moving:1            parts:0             
+   often:1             families:0          flying:0            different:0         
+   gateway:0           destinations:1      news:0              visit:0             
+   wwwsunwingca:0      range:0             flights:0           departure:0         
+   cities:0            fit:0               needs:0             members:0           
+   across:0            country:1           ease:0              first:2             
+   stage:0             successful:0        holiday:1           get:4               
+   together:0          finding:0           perfect:1           resort:11           
+   easy:6              wide:0              choices:0           available:0         
+   additionally:0      cruising:0          popular:4           multigenerational:0      
+   always:3            lot:1               things:2            ages:0              
+   kids:0              clubs:0             cool:1              restaurants:6       
+   bars:2              adults:0            many:4              anyage:0            
+   activities:0        cruise:0            free:2              msc:0               
+   divina:0            lego:0              experience:0        just:4              
+   creative:0          opportunities:0      sports:1            shows:0             
+   games:0             arts:0              crafts:0            age:0               
+   appropriate:0       sit:0               mom:0               dad:0               
+   take:4              part:1              fitness:2           classes:1           
+   dropping:0          sauna:0             steam:0             room:2              
+   whirlpools:0        gather:0            whole:1             swim:0              
+   splash:0            waterpark:1         evenings:0          special:1           
+   teatro:0            dellopera:0         theatre:0           dancing:0           
+   byblos:0            discotheque:0       young:0             old:0               
+   alike:0             love:1              water:1             maybe:0             
+   lengths:0           memories:2          punta:0             cana:0              
+   casino:0            dominican:0         republic:0          home:3              
+   caribbeans:0        largest:1           onsite:0            waterparks:0        
+   award:0             winning:0           park:6              pads:0              
+   spraygrounds:0      tubes:0             wave:0              pool:2              
+   exciting:0          slides:0            access:2            unlimited:0         
+   addition:0          guests:0            receive:0           full:0              
+   exchange:0          privileges:0        royalton:0          beautiful:4         
+   beachfront:0        enjoy:2             tennis:0            programs:0          
+   teens:0             club:0              give:0              everyone:0          
+   break:1             designed:1          mind:0              big:0               
+   small:1             bunkbeds:0          suites:1            picky:0             
+   eaters:0            plethora:0          choice:0            ensures:0           
+   something:2         appeal:0            tricky:0            jewel:0             
+   runaway:0           bay:0               beach:2             golf:0              
+   program:0           built:0             use:0               horse:0             
+   ranch:0             laser:0             tag:0               complimentary:0      
+   green:0             fees:0              championship:0      course:4            
+   mean:1              tee:0               great:2             amenities:0         
+   back:1              quiet:0             rounds:0            fantastic:1         
+   catching:0          grandparents:0      parents:0           west:3              
+   coast:14            mexico:1            sierra:0            madres:0            
+   del:0               sur:0               mountain:1          children:0          
+   party:0             way:2               teen:0              craft:1             
+   beer:0              shade:0             pacific:1           ocean:0             
+   azul:0              ixtapa:0            including:1         cuisine:0           
+   opportunity:0       level:0             yoga:1              pilates:1           
+   aqua:0              biking:0            phrase:0            overused:0          
+   entirely:0          adding:0            sunny:0             moments:0           
+   overflowing:0       memory:0            banks:1             getting:1           
+   ready:0             next:1              twice:0             lifetime:0          
+   
+
+Category: Entertainment
+   advice:0            planning:0          multifamily:0       getaway:0           
+   presented:0         sunwing:0           kathy:0             buckworth:0         
+   cbc:1               life:2              april:0             credit:0            
+   istockgetty:0       images:1            travel:0            fastest:0           
+   growing:0           segments:0          today:0             result:0            
+   find:0              terrific:0          options:0           suit:0              
+   every:1             generation:0        travellers:0        family:0            
+   vacation:0          soon:0              forget:1            number:0            
+   tip:0               trip:0              includes:0          generations:0       
+   within:0            start:0             early:0             locking:0           
+   dates:0             budgets:0           key:0               making:0            
+   sure:1              meet:0              everyones:0         expectations:0      
+   book:0              time:3              advantages:0        booking:0           
+   like:4              securing:0          everything:0        better:0            
+   deals:0             ideal:0             accommodations:0      group:0             
+   close:0             proximity:0         try:0               assign:0            
+   member:1            go:0                person:0            arranging:0         
+   details:0           think:1             starting:0          shared:1            
+   document:0          spreadsheet:0       keep:0              track:0             
+   moving:0            parts:0             often:0             families:1          
+   flying:0            different:1         gateway:1           destinations:0      
+   news:0              visit:0             wwwsunwingca:0      range:0             
+   flights:0           departure:0         cities:0            fit:0               
+   needs:1             members:0           across:1            country:0           
+   ease:0              first:1             stage:4             successful:0        
+   holiday:0           get:1               together:1          finding:0           
+   perfect:0           resort:0            easy:0              wide:0              
+   choices:0           available:0         additionally:0      cruising:0          
+   popular:0           multigenerational:0      always:0            lot:0               
+   things:0            ages:0              kids:0              clubs:0             
+   cool:0              restaurants:0       bars:0              adults:1            
+   many:4              anyage:0            activities:0        cruise:0            
+   free:0              msc:0               divina:0            lego:0              
+   experience:0        just:2              creative:0          opportunities:0      
+   sports:0            shows:0             games:0             arts:0              
+   crafts:0            age:0               appropriate:0       sit:0               
+   mom:0               dad:0               take:2              part:1              
+   fitness:0           classes:0           dropping:0          sauna:0             
+   steam:0             room:0              whirlpools:0        gather:0            
+   whole:0             swim:0              splash:0            waterpark:0         
+   evenings:0          special:1           teatro:0            dellopera:0         
+   theatre:4           dancing:0           byblos:0            discotheque:0       
+   young:3             old:1               alike:0             love:0              
+   water:1             maybe:0             lengths:0           memories:0          
+   punta:0             cana:0              casino:0            dominican:0         
+   republic:0          home:0              caribbeans:0        largest:0           
+   onsite:0            waterparks:0        award:1             winning:0           
+   park:1              pads:0              spraygrounds:0      tubes:0             
+   wave:0              pool:0              exciting:0          slides:0            
+   access:0            unlimited:0         addition:0          guests:0            
+   receive:0           full:0              exchange:0          privileges:0        
+   royalton:0          beautiful:0         beachfront:0        enjoy:0             
+   tennis:0            programs:0          teens:0             club:0              
+   give:0              everyone:0          break:0             designed:0          
+   mind:0              big:8               small:0             bunkbeds:0          
+   suites:0            picky:0             eaters:0            plethora:0          
+   choice:0            ensures:0           something:1         appeal:0            
+   tricky:0            jewel:0             runaway:0           bay:0               
+   beach:0             golf:0              program:0           built:0             
+   use:0               horse:0             ranch:0             laser:0             
+   tag:0               complimentary:0      green:0             fees:0              
+   championship:0      course:0            mean:0              tee:0               
+   great:0             amenities:0         back:0              quiet:0             
+   rounds:0            fantastic:1         catching:0          grandparents:0      
+   parents:0           west:1              coast:0             mexico:0            
+   sierra:0            madres:0            del:0               sur:0               
+   mountain:1          children:0          party:0             way:0               
+   teen:0              craft:0             beer:0              shade:0             
+   pacific:0           ocean:0             azul:0              ixtapa:0            
+   including:4         cuisine:0           opportunity:0       level:0             
+   yoga:0              pilates:0           aqua:0              biking:0            
+   phrase:0            overused:0          entirely:0          adding:1            
+   sunny:0             moments:0           overflowing:0       memory:0            
+   banks:0             getting:1           ready:0             next:1              
+   twice:0             lifetime:0          
+
+Category: World News
+   advice:0            planning:0          
+   multifamily:0       getaway:0           presented:0         sunwing:0           
+   kathy:0             buckworth:0         cbc:0               life:0              
+   april:5             credit:0            istockgetty:0       images:4            
+   travel:0            fastest:0           growing:2           segments:0          
+   today:0             result:0            find:1              terrific:0          
+   options:0           suit:0              every:1             generation:0        
+   travellers:0        family:0            vacation:0          soon:0              
+   forget:0            number:0            tip:0               trip:0              
+   includes:0          generations:0       within:0            start:1             
+   early:0             locking:0           dates:0             budgets:0           
+   key:2               making:1            sure:0              meet:0              
+   everyones:0         expectations:1      book:0              time:2              
+   advantages:0        booking:0           like:0              securing:0          
+   everything:2        better:1            deals:0             ideal:0             
+   accommodations:0      group:6             close:0             proximity:0         
+   try:0               assign:0            member:0            go:2                
+   person:0            arranging:0         details:0           think:0             
+   starting:0          shared:0            document:0          spreadsheet:0       
+   keep:0              track:0             moving:0            parts:0             
+   often:0             families:0          flying:0            different:1         
+   gateway:0           destinations:0      news:2              visit:2             
+   wwwsunwingca:0      range:0             flights:0           departure:0         
+   cities:1            fit:0               needs:0             members:2           
+   across:1            country:2           ease:0              first:2             
+   stage:1             successful:0        holiday:0           get:0               
+   together:0          finding:0           perfect:0           resort:0            
+   easy:0              wide:0              choices:0           available:0         
+   additionally:0      cruising:0          popular:0           multigenerational:0      
+   always:0            lot:0               things:0            ages:0              
+   kids:0              clubs:0             cool:0              restaurants:0       
+   bars:0              adults:0            many:4              anyage:0            
+   activities:0        cruise:4            free:0              msc:0               
+   divina:0            lego:0              experience:0        just:2              
+   creative:0          opportunities:0      sports:0            shows:1             
+   games:0             arts:0              crafts:0            age:0               
+   appropriate:0       sit:0               mom:0               dad:0               
+   take:4              part:1              fitness:0           classes:0           
+   dropping:0          sauna:0             steam:1             room:0              
+   whirlpools:0        gather:1            whole:0             swim:0              
+   splash:0            waterpark:0         evenings:0          special:0           
+   teatro:0            dellopera:0         theatre:0           dancing:0           
+   byblos:0            discotheque:0       young:0             old:0               
+   alike:0             love:0              water:0             maybe:0             
+   lengths:0           memories:0          punta:0             cana:0              
+   casino:0            dominican:0         republic:0          home:0              
+   caribbeans:0        largest:0           onsite:0            waterparks:0        
+   award:0             winning:0           park:0              pads:0              
+   spraygrounds:0      tubes:0             wave:2              pool:0              
+   exciting:0          slides:0            access:0            unlimited:0         
+   addition:0          guests:0            receive:0           full:0              
+   exchange:0          privileges:0        royalton:0          beautiful:0         
+   beachfront:0        enjoy:0             tennis:0            programs:0          
+   teens:0             club:0              give:0              everyone:0          
+   break:0             designed:0          mind:0              big:2               
+   small:0             bunkbeds:0          suites:0            picky:0             
+   eaters:0            plethora:0          choice:0            ensures:0           
+   something:2         appeal:0            tricky:0            jewel:0             
+   runaway:0           bay:0               beach:1             golf:0              
+   program:1           built:0             use:0               horse:0             
+   ranch:0             laser:0             tag:0               complimentary:0      
+   green:0             fees:0              championship:0      course:0            
+   mean:0              tee:0               great:0             amenities:0         
+   back:2              quiet:0             rounds:0            fantastic:1         
+   catching:0          grandparents:0      parents:0           west:2              
+   coast:0             mexico:0            sierra:0            madres:0            
+   del:0               sur:0               mountain:0          children:2          
+   party:2             way:0               teen:0              craft:0             
+   beer:0              shade:0             pacific:0           ocean:0             
+   azul:0              ixtapa:0            including:2         cuisine:0           
+   opportunity:0       level:0             yoga:0              pilates:0           
+   aqua:0              biking:0            phrase:0            overused:0          
+   entirely:0          adding:1            sunny:0             moments:0           
+   overflowing:0       memory:0            banks:0             getting:0           
+   ready:0             next:1              twice:0             lifetime:0          
+   
+
+Word likely-hoods: 
+   P(advice | Sports) :       0/3.0
+   P(planning | Sports) :     0/3.0
+   P(multifamily | Sports) :  0/3.0
+   P(getaway | Sports) :      0/3.0
+   P(presented | Sports) :    0/3.0
+   P(sunwing | Sports) :      0/3.0
+   P(kathy | Sports) :        0/3.0
+   P(buckworth | Sports) :    0/3.0
+   P(cbc | Sports) :          0/3.0
+   P(life | Sports) :         0/3.0
+   P(april | Sports) :        2/3.0
+   P(credit | Sports) :       2/3.0
+   P(istockgetty | Sports) :  0/3.0
+   P(images | Sports) :       0/3.0
+   P(travel | Sports) :       1/3.0
+   P(fastest | Sports) :      0/3.0
+   P(growing | Sports) :      0/3.0
+   P(segments | Sports) :     0/3.0
+   P(today | Sports) :        1/3.0
+   P(result | Sports) :       0/3.0
+   P(find | Sports) :         0/3.0
+   P(terrific | Sports) :     0/3.0
+   P(options | Sports) :      0/3.0
+   P(suit | Sports) :         0/3.0
+   P(every | Sports) :        2/3.0
+   P(generation | Sports) :   0/3.0
+   P(travellers | Sports) :   0/3.0
+   P(family | Sports) :       2/3.0
+   P(vacation | Sports) :     0/3.0
+   P(soon | Sports) :         0/3.0
+   P(forget | Sports) :       1/3.0
+   P(number | Sports) :       1/3.0
+   P(tip | Sports) :          0/3.0
+   P(trip | Sports) :         0/3.0
+   P(includes | Sports) :     0/3.0
+   P(generations | Sports) :  0/3.0
+   P(within | Sports) :       0/3.0
+   P(start | Sports) :        3/3.0
+   P(early | Sports) :        1/3.0
+   P(locking | Sports) :      0/3.0
+   P(dates | Sports) :        0/3.0
+   P(budgets | Sports) :      0/3.0
+   P(key | Sports) :          0/3.0
+   P(making | Sports) :       0/3.0
+   P(sure | Sports) :         1/3.0
+   P(meet | Sports) :         0/3.0
+   P(everyones | Sports) :    0/3.0
+   P(expectations | Sports) : 0/3.0
+   P(book | Sports) :         0/3.0
+   P(time | Sports) :         8/3.0
+   P(advantages | Sports) :   0/3.0
+   P(booking | Sports) :      0/3.0
+   P(like | Sports) :         2/3.0
+   P(securing | Sports) :     0/3.0
+   P(everything | Sports) :   1/3.0
+   P(better | Sports) :       1/3.0
+   P(deals | Sports) :        0/3.0
+   P(ideal | Sports) :        0/3.0
+   P(accommodations | Sports) : 0/3.0
+   P(group | Sports) :        1/3.0
+   P(close | Sports) :        0/3.0
+   P(proximity | Sports) :    0/3.0
+   P(try | Sports) :          0/3.0
+   P(assign | Sports) :       0/3.0
+   P(member | Sports) :       0/3.0
+   P(go | Sports) :           2/3.0
+   P(person | Sports) :       0/3.0
+   P(arranging | Sports) :    0/3.0
+   P(details | Sports) :      0/3.0
+   P(think | Sports) :        2/3.0
+   P(starting | Sports) :     1/3.0
+   P(shared | Sports) :       0/3.0
+   P(document | Sports) :     0/3.0
+   P(spreadsheet | Sports) :  0/3.0
+   P(keep | Sports) :         0/3.0
+   P(track | Sports) :        0/3.0
+   P(moving | Sports) :       0/3.0
+   P(parts | Sports) :        1/3.0
+   P(often | Sports) :        0/3.0
+   P(families | Sports) :     0/3.0
+   P(flying | Sports) :       0/3.0
+   P(different | Sports) :    1/3.0
+   P(gateway | Sports) :      0/3.0
+   P(destinations | Sports) : 0/3.0
+   P(news | Sports) :         2/3.0
+   P(visit | Sports) :        0/3.0
+   P(wwwsunwingca | Sports) : 0/3.0
+   P(range | Sports) :        0/3.0
+   P(flights | Sports) :      0/3.0
+   P(departure | Sports) :    0/3.0
+   P(cities | Sports) :       0/3.0
+   P(fit | Sports) :          0/3.0
+   P(needs | Sports) :        0/3.0
+   P(members | Sports) :      1/3.0
+   P(across | Sports) :       0/3.0
+   P(country | Sports) :      1/3.0
+   P(ease | Sports) :         0/3.0
+   P(first | Sports) :        2/3.0
+   P(stage | Sports) :        1/3.0
+   P(successful | Sports) :   1/3.0
+   P(holiday | Sports) :      0/3.0
+   P(get | Sports) :          0/3.0
+   P(together | Sports) :     0/3.0
+   P(finding | Sports) :      0/3.0
+   P(perfect | Sports) :      1/3.0
+   P(resort | Sports) :       0/3.0
+   P(easy | Sports) :         0/3.0
+   P(wide | Sports) :         0/3.0
+   P(choices | Sports) :      0/3.0
+   P(available | Sports) :    1/3.0
+   P(additionally | Sports) : 0/3.0
+   P(cruising | Sports) :     0/3.0
+   P(popular | Sports) :      0/3.0
+   P(multigenerational | Sports) : 0/3.0
+   P(always | Sports) :       0/3.0
+   P(lot | Sports) :          1/3.0
+   P(things | Sports) :       0/3.0
+   P(ages | Sports) :         0/3.0
+   P(kids | Sports) :         0/3.0
+   P(clubs | Sports) :        1/3.0
+   P(cool | Sports) :         0/3.0
+   P(restaurants | Sports) :  0/3.0
+   P(bars | Sports) :         0/3.0
+   P(adults | Sports) :       0/3.0
+   P(many | Sports) :         1/3.0
+   P(anyage | Sports) :       0/3.0
+   P(activities | Sports) :   0/3.0
+   P(cruise | Sports) :       0/3.0
+   P(free | Sports) :         0/3.0
+   P(msc | Sports) :          0/3.0
+   P(divina | Sports) :       0/3.0
+   P(lego | Sports) :         0/3.0
+   P(experience | Sports) :   0/3.0
+   P(just | Sports) :         4/3.0
+   P(creative | Sports) :     0/3.0
+   P(opportunities | Sports) : 0/3.0
+   P(sports | Sports) :       1/3.0
+   P(shows | Sports) :        1/3.0
+   P(games | Sports) :        2/3.0
+   P(arts | Sports) :         0/3.0
+   P(crafts | Sports) :       0/3.0
+   P(age | Sports) :          0/3.0
+   P(appropriate | Sports) :  0/3.0
+   P(sit | Sports) :          0/3.0
+   P(mom | Sports) :          0/3.0
+   P(dad | Sports) :          1/3.0
+   P(take | Sports) :         0/3.0
+   P(part | Sports) :         2/3.0
+   P(fitness | Sports) :      0/3.0
+   P(classes | Sports) :      0/3.0
+   P(dropping | Sports) :     0/3.0
+   P(sauna | Sports) :        0/3.0
+   P(steam | Sports) :        0/3.0
+   P(room | Sports) :         0/3.0
+   P(whirlpools | Sports) :   0/3.0
+   P(gather | Sports) :       0/3.0
+   P(whole | Sports) :        0/3.0
+   P(swim | Sports) :         0/3.0
+   P(splash | Sports) :       0/3.0
+   P(waterpark | Sports) :    0/3.0
+   P(evenings | Sports) :     0/3.0
+   P(special | Sports) :      1/3.0
+   P(teatro | Sports) :       0/3.0
+   P(dellopera | Sports) :    0/3.0
+   P(theatre | Sports) :      0/3.0
+   P(dancing | Sports) :      0/3.0
+   P(byblos | Sports) :       0/3.0
+   P(discotheque | Sports) :  0/3.0
+   P(young | Sports) :        0/3.0
+   P(old | Sports) :          0/3.0
+   P(alike | Sports) :        0/3.0
+   P(love | Sports) :         0/3.0
+   P(water | Sports) :        0/3.0
+   P(maybe | Sports) :        0/3.0
+   P(lengths | Sports) :      0/3.0
+   P(memories | Sports) :     0/3.0
+   P(punta | Sports) :        0/3.0
+   P(cana | Sports) :         0/3.0
+   P(casino | Sports) :       0/3.0
+   P(dominican | Sports) :    0/3.0
+   P(republic | Sports) :     0/3.0
+   P(home | Sports) :         2/3.0
+   P(caribbeans | Sports) :   0/3.0
+   P(largest | Sports) :      0/3.0
+   P(onsite | Sports) :       0/3.0
+   P(waterparks | Sports) :   0/3.0
+   P(award | Sports) :        1/3.0
+   P(winning | Sports) :      2/3.0
+   P(park | Sports) :         0/3.0
+   P(pads | Sports) :         0/3.0
+   P(spraygrounds | Sports) : 0/3.0
+   P(tubes | Sports) :        0/3.0
+   P(wave | Sports) :         0/3.0
+   P(pool | Sports) :         0/3.0
+   P(exciting | Sports) :     0/3.0
+   P(slides | Sports) :       0/3.0
+   P(access | Sports) :       0/3.0
+   P(unlimited | Sports) :    0/3.0
+   P(addition | Sports) :     0/3.0
+   P(guests | Sports) :       0/3.0
+   P(receive | Sports) :      0/3.0
+   P(full | Sports) :         0/3.0
+   P(exchange | Sports) :     0/3.0
+   P(privileges | Sports) :   0/3.0
+   P(royalton | Sports) :     0/3.0
+   P(beautiful | Sports) :    0/3.0
+   P(beachfront | Sports) :   0/3.0
+   P(enjoy | Sports) :        0/3.0
+   P(tennis | Sports) :       0/3.0
+   P(programs | Sports) :     0/3.0
+   P(teens | Sports) :        0/3.0
+   P(club | Sports) :         3/3.0
+   P(give | Sports) :         0/3.0
+   P(everyone | Sports) :     0/3.0
+   P(break | Sports) :        0/3.0
+   P(designed | Sports) :     0/3.0
+   P(mind | Sports) :         3/3.0
+   P(big | Sports) :          0/3.0
+   P(small | Sports) :        0/3.0
+   P(bunkbeds | Sports) :     0/3.0
+   P(suites | Sports) :       0/3.0
+   P(picky | Sports) :        0/3.0
+   P(eaters | Sports) :       0/3.0
+   P(plethora | Sports) :     0/3.0
+   P(choice | Sports) :       0/3.0
+   P(ensures | Sports) :      0/3.0
+   P(something | Sports) :    1/3.0
+   P(appeal | Sports) :       0/3.0
+   P(tricky | Sports) :       0/3.0
+   P(jewel | Sports) :        0/3.0
+   P(runaway | Sports) :      0/3.0
+   P(bay | Sports) :          0/3.0
+   P(beach | Sports) :        0/3.0
+   P(golf | Sports) :         0/3.0
+   P(program | Sports) :      0/3.0
+   P(built | Sports) :        0/3.0
+   P(use | Sports) :          0/3.0
+   P(horse | Sports) :        0/3.0
+   P(ranch | Sports) :        0/3.0
+   P(laser | Sports) :        0/3.0
+   P(tag | Sports) :          0/3.0
+   P(complimentary | Sports) : 0/3.0
+   P(green | Sports) :        0/3.0
+   P(fees | Sports) :         0/3.0
+   P(championship | Sports) : 7/3.0
+   P(course | Sports) :       2/3.0
+   P(mean | Sports) :         0/3.0
+   P(tee | Sports) :          0/3.0
+   P(great | Sports) :        0/3.0
+   P(amenities | Sports) :    0/3.0
+   P(back | Sports) :         8/3.0
+   P(quiet | Sports) :        0/3.0
+   P(rounds | Sports) :       0/3.0
+   P(fantastic | Sports) :    0/3.0
+   P(catching | Sports) :     0/3.0
+   P(grandparents | Sports) : 0/3.0
+   P(parents | Sports) :      0/3.0
+   P(west | Sports) :         0/3.0
+   P(coast | Sports) :        0/3.0
+   P(mexico | Sports) :       3/3.0
+   P(sierra | Sports) :       0/3.0
+   P(madres | Sports) :       0/3.0
+   P(del | Sports) :          0/3.0
+   P(sur | Sports) :          0/3.0
+   P(mountain | Sports) :     0/3.0
+   P(children | Sports) :     0/3.0
+   P(party | Sports) :        1/3.0
+   P(way | Sports) :          2/3.0
+   P(teen | Sports) :         0/3.0
+   P(craft | Sports) :        0/3.0
+   P(beer | Sports) :         0/3.0
+   P(shade | Sports) :        0/3.0
+   P(pacific | Sports) :      0/3.0
+   P(ocean | Sports) :        0/3.0
+   P(azul | Sports) :         0/3.0
+   P(ixtapa | Sports) :       0/3.0
+   P(including | Sports) :    0/3.0
+   P(cuisine | Sports) :      0/3.0
+   P(opportunity | Sports) :  0/3.0
+   P(level | Sports) :        1/3.0
+   P(yoga | Sports) :         0/3.0
+   P(pilates | Sports) :      0/3.0
+   P(aqua | Sports) :         0/3.0
+   P(biking | Sports) :       0/3.0
+   P(phrase | Sports) :       0/3.0
+   P(overused | Sports) :     0/3.0
+   P(entirely | Sports) :     0/3.0
+   P(adding | Sports) :       0/3.0
+   P(sunny | Sports) :        0/3.0
+   P(moments | Sports) :      0/3.0
+   P(overflowing | Sports) :  0/3.0
+   P(memory | Sports) :       0/3.0
+   P(banks | Sports) :        0/3.0
+   P(getting | Sports) :      0/3.0
+   P(ready | Sports) :        1/3.0
+   P(next | Sports) :         1/3.0
+   P(twice | Sports) :        0/3.0
+   P(lifetime | Sports) :     0/3.0
+
+   P(advice | Travel) :       0/3.0
+   P(planning | Travel) :     2/3.0
+   P(multifamily | Travel) :  0/3.0
+   P(getaway | Travel) :      4/3.0
+   P(presented | Travel) :    1/3.0
+   P(sunwing | Travel) :      2/3.0
+   P(kathy | Travel) :        0/3.0
+   P(buckworth | Travel) :    0/3.0
+   P(cbc | Travel) :          1/3.0
+   P(life | Travel) :         1/3.0
+   P(april | Travel) :        1/3.0
+   P(credit | Travel) :       1/3.0
+   P(istockgetty | Travel) :  0/3.0
+   P(images | Travel) :       0/3.0
+   P(travel | Travel) :       0/3.0
+   P(fastest | Travel) :      0/3.0
+   P(growing | Travel) :      0/3.0
+   P(segments | Travel) :     0/3.0
+   P(today | Travel) :        0/3.0
+   P(result | Travel) :       0/3.0
+   P(find | Travel) :         1/3.0
+   P(terrific | Travel) :     0/3.0
+   P(options | Travel) :      2/3.0
+   P(suit | Travel) :         0/3.0
+   P(every | Travel) :        1/3.0
+   P(generation | Travel) :   0/3.0
+   P(travellers | Travel) :   0/3.0
+   P(family | Travel) :       1/3.0
+   P(vacation | Travel) :     0/3.0
+   P(soon | Travel) :         0/3.0
+   P(forget | Travel) :       0/3.0
+   P(number | Travel) :       0/3.0
+   P(tip | Travel) :          0/3.0
+   P(trip | Travel) :         4/3.0
+   P(includes | Travel) :     0/3.0
+   P(generations | Travel) :  0/3.0
+   P(within | Travel) :       0/3.0
+   P(start | Travel) :        0/3.0
+   P(early | Travel) :        0/3.0
+   P(locking | Travel) :      0/3.0
+   P(dates | Travel) :        0/3.0
+   P(budgets | Travel) :      0/3.0
+   P(key | Travel) :          1/3.0
+   P(making | Travel) :       1/3.0
+   P(sure | Travel) :         2/3.0
+   P(meet | Travel) :         0/3.0
+   P(everyones | Travel) :    0/3.0
+   P(expectations | Travel) : 0/3.0
+   P(book | Travel) :         1/3.0
+   P(time | Travel) :         10/3.0
+   P(advantages | Travel) :   0/3.0
+   P(booking | Travel) :      1/3.0
+   P(like | Travel) :         2/3.0
+   P(securing | Travel) :     0/3.0
+   P(everything | Travel) :   1/3.0
+   P(better | Travel) :       1/3.0
+   P(deals | Travel) :        0/3.0
+   P(ideal | Travel) :        1/3.0
+   P(accommodations | Travel) : 0/3.0
+   P(group | Travel) :        0/3.0
+   P(close | Travel) :        1/3.0
+   P(proximity | Travel) :    0/3.0
+   P(try | Travel) :          0/3.0
+   P(assign | Travel) :       0/3.0
+   P(member | Travel) :       0/3.0
+   P(go | Travel) :           2/3.0
+   P(person | Travel) :       0/3.0
+   P(arranging | Travel) :    0/3.0
+   P(details | Travel) :      1/3.0
+   P(think | Travel) :        1/3.0
+   P(starting | Travel) :     0/3.0
+   P(shared | Travel) :       0/3.0
+   P(document | Travel) :     0/3.0
+   P(spreadsheet | Travel) :  0/3.0
+   P(keep | Travel) :         0/3.0
+   P(track | Travel) :        0/3.0
+   P(moving | Travel) :       1/3.0
+   P(parts | Travel) :        0/3.0
+   P(often | Travel) :        1/3.0
+   P(families | Travel) :     0/3.0
+   P(flying | Travel) :       0/3.0
+   P(different | Travel) :    0/3.0
+   P(gateway | Travel) :      0/3.0
+   P(destinations | Travel) : 1/3.0
+   P(news | Travel) :         0/3.0
+   P(visit | Travel) :        0/3.0
+   P(wwwsunwingca | Travel) : 0/3.0
+   P(range | Travel) :        0/3.0
+   P(flights | Travel) :      0/3.0
+   P(departure | Travel) :    0/3.0
+   P(cities | Travel) :       0/3.0
+   P(fit | Travel) :          0/3.0
+   P(needs | Travel) :        0/3.0
+   P(members | Travel) :      0/3.0
+   P(across | Travel) :       0/3.0
+   P(country | Travel) :      1/3.0
+   P(ease | Travel) :         0/3.0
+   P(first | Travel) :        2/3.0
+   P(stage | Travel) :        0/3.0
+   P(successful | Travel) :   0/3.0
+   P(holiday | Travel) :      1/3.0
+   P(get | Travel) :          4/3.0
+   P(together | Travel) :     0/3.0
+   P(finding | Travel) :      0/3.0
+   P(perfect | Travel) :      1/3.0
+   P(resort | Travel) :       11/3.0
+   P(easy | Travel) :         6/3.0
+   P(wide | Travel) :         0/3.0
+   P(choices | Travel) :      0/3.0
+   P(available | Travel) :    0/3.0
+   P(additionally | Travel) : 0/3.0
+   P(cruising | Travel) :     0/3.0
+   P(popular | Travel) :      4/3.0
+   P(multigenerational | Travel) : 0/3.0
+   P(always | Travel) :       3/3.0
+   P(lot | Travel) :          1/3.0
+   P(things | Travel) :       2/3.0
+   P(ages | Travel) :         0/3.0
+   P(kids | Travel) :         0/3.0
+   P(clubs | Travel) :        0/3.0
+   P(cool | Travel) :         1/3.0
+   P(restaurants | Travel) :  6/3.0
+   P(bars | Travel) :         2/3.0
+   P(adults | Travel) :       0/3.0
+   P(many | Travel) :         4/3.0
+   P(anyage | Travel) :       0/3.0
+   P(activities | Travel) :   0/3.0
+   P(cruise | Travel) :       0/3.0
+   P(free | Travel) :         2/3.0
+   P(msc | Travel) :          0/3.0
+   P(divina | Travel) :       0/3.0
+   P(lego | Travel) :         0/3.0
+   P(experience | Travel) :   0/3.0
+   P(just | Travel) :         4/3.0
+   P(creative | Travel) :     0/3.0
+   P(opportunities | Travel) : 0/3.0
+   P(sports | Travel) :       1/3.0
+   P(shows | Travel) :        0/3.0
+   P(games | Travel) :        0/3.0
+   P(arts | Travel) :         0/3.0
+   P(crafts | Travel) :       0/3.0
+   P(age | Travel) :          0/3.0
+   P(appropriate | Travel) :  0/3.0
+   P(sit | Travel) :          0/3.0
+   P(mom | Travel) :          0/3.0
+   P(dad | Travel) :          0/3.0
+   P(take | Travel) :         4/3.0
+   P(part | Travel) :         1/3.0
+   P(fitness | Travel) :      2/3.0
+   P(classes | Travel) :      1/3.0
+   P(dropping | Travel) :     0/3.0
+   P(sauna | Travel) :        0/3.0
+   P(steam | Travel) :        0/3.0
+   P(room | Travel) :         2/3.0
+   P(whirlpools | Travel) :   0/3.0
+   P(gather | Travel) :       0/3.0
+   P(whole | Travel) :        1/3.0
+   P(swim | Travel) :         0/3.0
+   P(splash | Travel) :       0/3.0
+   P(waterpark | Travel) :    1/3.0
+   P(evenings | Travel) :     0/3.0
+   P(special | Travel) :      1/3.0
+   P(teatro | Travel) :       0/3.0
+   P(dellopera | Travel) :    0/3.0
+   P(theatre | Travel) :      0/3.0
+   P(dancing | Travel) :      0/3.0
+   P(byblos | Travel) :       0/3.0
+   P(discotheque | Travel) :  0/3.0
+   P(young | Travel) :        0/3.0
+   P(old | Travel) :          0/3.0
+   P(alike | Travel) :        0/3.0
+   P(love | Travel) :         1/3.0
+   P(water | Travel) :        1/3.0
+   P(maybe | Travel) :        0/3.0
+   P(lengths | Travel) :      0/3.0
+   P(memories | Travel) :     2/3.0
+   P(punta | Travel) :        0/3.0
+   P(cana | Travel) :         0/3.0
+   P(casino | Travel) :       0/3.0
+   P(dominican | Travel) :    0/3.0
+   P(republic | Travel) :     0/3.0
+   P(home | Travel) :         3/3.0
+   P(caribbeans | Travel) :   0/3.0
+   P(largest | Travel) :      1/3.0
+   P(onsite | Travel) :       0/3.0
+   P(waterparks | Travel) :   0/3.0
+   P(award | Travel) :        0/3.0
+   P(winning | Travel) :      0/3.0
+   P(park | Travel) :         6/3.0
+   P(pads | Travel) :         0/3.0
+   P(spraygrounds | Travel) : 0/3.0
+   P(tubes | Travel) :        0/3.0
+   P(wave | Travel) :         0/3.0
+   P(pool | Travel) :         2/3.0
+   P(exciting | Travel) :     0/3.0
+   P(slides | Travel) :       0/3.0
+   P(access | Travel) :       2/3.0
+   P(unlimited | Travel) :    0/3.0
+   P(addition | Travel) :     0/3.0
+   P(guests | Travel) :       0/3.0
+   P(receive | Travel) :      0/3.0
+   P(full | Travel) :         0/3.0
+   P(exchange | Travel) :     0/3.0
+   P(privileges | Travel) :   0/3.0
+   P(royalton | Travel) :     0/3.0
+   P(beautiful | Travel) :    4/3.0
+   P(beachfront | Travel) :   0/3.0
+   P(enjoy | Travel) :        2/3.0
+   P(tennis | Travel) :       0/3.0
+   P(programs | Travel) :     0/3.0
+   P(teens | Travel) :        0/3.0
+   P(club | Travel) :         0/3.0
+   P(give | Travel) :         0/3.0
+   P(everyone | Travel) :     0/3.0
+   P(break | Travel) :        1/3.0
+   P(designed | Travel) :     1/3.0
+   P(mind | Travel) :         0/3.0
+   P(big | Travel) :          0/3.0
+   P(small | Travel) :        1/3.0
+   P(bunkbeds | Travel) :     0/3.0
+   P(suites | Travel) :       1/3.0
+   P(picky | Travel) :        0/3.0
+   P(eaters | Travel) :       0/3.0
+   P(plethora | Travel) :     0/3.0
+   P(choice | Travel) :       0/3.0
+   P(ensures | Travel) :      0/3.0
+   P(something | Travel) :    2/3.0
+   P(appeal | Travel) :       0/3.0
+   P(tricky | Travel) :       0/3.0
+   P(jewel | Travel) :        0/3.0
+   P(runaway | Travel) :      0/3.0
+   P(bay | Travel) :          0/3.0
+   P(beach | Travel) :        2/3.0
+   P(golf | Travel) :         0/3.0
+   P(program | Travel) :      0/3.0
+   P(built | Travel) :        0/3.0
+   P(use | Travel) :          0/3.0
+   P(horse | Travel) :        0/3.0
+   P(ranch | Travel) :        0/3.0
+   P(laser | Travel) :        0/3.0
+   P(tag | Travel) :          0/3.0
+   P(complimentary | Travel) : 0/3.0
+   P(green | Travel) :        0/3.0
+   P(fees | Travel) :         0/3.0
+   P(championship | Travel) : 0/3.0
+   P(course | Travel) :       4/3.0
+   P(mean | Travel) :         1/3.0
+   P(tee | Travel) :          0/3.0
+   P(great | Travel) :        2/3.0
+   P(amenities | Travel) :    0/3.0
+   P(back | Travel) :         1/3.0
+   P(quiet | Travel) :        0/3.0
+   P(rounds | Travel) :       0/3.0
+   P(fantastic | Travel) :    1/3.0
+   P(catching | Travel) :     0/3.0
+   P(grandparents | Travel) : 0/3.0
+   P(parents | Travel) :      0/3.0
+   P(west | Travel) :         3/3.0
+   P(coast | Travel) :        14/3.0
+   P(mexico | Travel) :       1/3.0
+   P(sierra | Travel) :       0/3.0
+   P(madres | Travel) :       0/3.0
+   P(del | Travel) :          0/3.0
+   P(sur | Travel) :          0/3.0
+   P(mountain | Travel) :     1/3.0
+   P(children | Travel) :     0/3.0
+   P(party | Travel) :        0/3.0
+   P(way | Travel) :          2/3.0
+   P(teen | Travel) :         0/3.0
+   P(craft | Travel) :        1/3.0
+   P(beer | Travel) :         0/3.0
+   P(shade | Travel) :        0/3.0
+   P(pacific | Travel) :      1/3.0
+   P(ocean | Travel) :        0/3.0
+   P(azul | Travel) :         0/3.0
+   P(ixtapa | Travel) :       0/3.0
+   P(including | Travel) :    1/3.0
+   P(cuisine | Travel) :      0/3.0
+   P(opportunity | Travel) :  0/3.0
+   P(level | Travel) :        0/3.0
+   P(yoga | Travel) :         1/3.0
+   P(pilates | Travel) :      1/3.0
+   P(aqua | Travel) :         0/3.0
+   P(biking | Travel) :       0/3.0
+   P(phrase | Travel) :       0/3.0
+   P(overused | Travel) :     0/3.0
+   P(entirely | Travel) :     0/3.0
+   P(adding | Travel) :       0/3.0
+   P(sunny | Travel) :        0/3.0
+   P(moments | Travel) :      0/3.0
+   P(overflowing | Travel) :  0/3.0
+   P(memory | Travel) :       0/3.0
+   P(banks | Travel) :        1/3.0
+   P(getting | Travel) :      1/3.0
+   P(ready | Travel) :        0/3.0
+   P(next | Travel) :         1/3.0
+   P(twice | Travel) :        0/3.0
+   P(lifetime | Travel) :     0/3.0
+
+   P(advice | Entertainment) : 0/3.0
+   P(planning | Entertainment) : 0/3.0
+   P(multifamily | Entertainment) : 0/3.0
+   P(getaway | Entertainment) : 0/3.0
+   P(presented | Entertainment) : 0/3.0
+   P(sunwing | Entertainment) : 0/3.0
+   P(kathy | Entertainment) : 0/3.0
+   P(buckworth | Entertainment) : 0/3.0
+   P(cbc | Entertainment) :   1/3.0
+   P(life | Entertainment) :  2/3.0
+   P(april | Entertainment) : 0/3.0
+   P(credit | Entertainment) : 0/3.0
+   P(istockgetty | Entertainment) : 0/3.0
+   P(images | Entertainment) : 1/3.0
+   P(travel | Entertainment) : 0/3.0
+   P(fastest | Entertainment) : 0/3.0
+   P(growing | Entertainment) : 0/3.0
+   P(segments | Entertainment) : 0/3.0
+   P(today | Entertainment) : 0/3.0
+   P(result | Entertainment) : 0/3.0
+   P(find | Entertainment) :  0/3.0
+   P(terrific | Entertainment) : 0/3.0
+   P(options | Entertainment) : 0/3.0
+   P(suit | Entertainment) :  0/3.0
+   P(every | Entertainment) : 1/3.0
+   P(generation | Entertainment) : 0/3.0
+   P(travellers | Entertainment) : 0/3.0
+   P(family | Entertainment) : 0/3.0
+   P(vacation | Entertainment) : 0/3.0
+   P(soon | Entertainment) :  0/3.0
+   P(forget | Entertainment) : 1/3.0
+   P(number | Entertainment) : 0/3.0
+   P(tip | Entertainment) :   0/3.0
+   P(trip | Entertainment) :  0/3.0
+   P(includes | Entertainment) : 0/3.0
+   P(generations | Entertainment) : 0/3.0
+   P(within | Entertainment) : 0/3.0
+   P(start | Entertainment) : 0/3.0
+   P(early | Entertainment) : 0/3.0
+   P(locking | Entertainment) : 0/3.0
+   P(dates | Entertainment) : 0/3.0
+   P(budgets | Entertainment) : 0/3.0
+   P(key | Entertainment) :   0/3.0
+   P(making | Entertainment) : 0/3.0
+   P(sure | Entertainment) :  1/3.0
+   P(meet | Entertainment) :  0/3.0
+   P(everyones | Entertainment) : 0/3.0
+   P(expectations | Entertainment) : 0/3.0
+   P(book | Entertainment) :  0/3.0
+   P(time | Entertainment) :  3/3.0
+   P(advantages | Entertainment) : 0/3.0
+   P(booking | Entertainment) : 0/3.0
+   P(like | Entertainment) :  4/3.0
+   P(securing | Entertainment) : 0/3.0
+   P(everything | Entertainment) : 0/3.0
+   P(better | Entertainment) : 0/3.0
+   P(deals | Entertainment) : 0/3.0
+   P(ideal | Entertainment) : 0/3.0
+   P(accommodations | Entertainment) : 0/3.0
+   P(group | Entertainment) : 0/3.0
+   P(close | Entertainment) : 0/3.0
+   P(proximity | Entertainment) : 0/3.0
+   P(try | Entertainment) :   0/3.0
+   P(assign | Entertainment) : 0/3.0
+   P(member | Entertainment) : 1/3.0
+   P(go | Entertainment) :    0/3.0
+   P(person | Entertainment) : 0/3.0
+   P(arranging | Entertainment) : 0/3.0
+   P(details | Entertainment) : 0/3.0
+   P(think | Entertainment) : 1/3.0
+   P(starting | Entertainment) : 0/3.0
+   P(shared | Entertainment) : 1/3.0
+   P(document | Entertainment) : 0/3.0
+   P(spreadsheet | Entertainment) : 0/3.0
+   P(keep | Entertainment) :  0/3.0
+   P(track | Entertainment) : 0/3.0
+   P(moving | Entertainment) : 0/3.0
+   P(parts | Entertainment) : 0/3.0
+   P(often | Entertainment) : 0/3.0
+   P(families | Entertainment) : 1/3.0
+   P(flying | Entertainment) : 0/3.0
+   P(different | Entertainment) : 1/3.0
+   P(gateway | Entertainment) : 1/3.0
+   P(destinations | Entertainment) : 0/3.0
+   P(news | Entertainment) :  0/3.0
+   P(visit | Entertainment) : 0/3.0
+   P(wwwsunwingca | Entertainment) : 0/3.0
+   P(range | Entertainment) : 0/3.0
+   P(flights | Entertainment) : 0/3.0
+   P(departure | Entertainment) : 0/3.0
+   P(cities | Entertainment) : 0/3.0
+   P(fit | Entertainment) :   0/3.0
+   P(needs | Entertainment) : 1/3.0
+   P(members | Entertainment) : 0/3.0
+   P(across | Entertainment) : 1/3.0
+   P(country | Entertainment) : 0/3.0
+   P(ease | Entertainment) :  0/3.0
+   P(first | Entertainment) : 1/3.0
+   P(stage | Entertainment) : 4/3.0
+   P(successful | Entertainment) : 0/3.0
+   P(holiday | Entertainment) : 0/3.0
+   P(get | Entertainment) :   1/3.0
+   P(together | Entertainment) : 1/3.0
+   P(finding | Entertainment) : 0/3.0
+   P(perfect | Entertainment) : 0/3.0
+   P(resort | Entertainment) : 0/3.0
+   P(easy | Entertainment) :  0/3.0
+   P(wide | Entertainment) :  0/3.0
+   P(choices | Entertainment) : 0/3.0
+   P(available | Entertainment) : 0/3.0
+   P(additionally | Entertainment) : 0/3.0
+   P(cruising | Entertainment) : 0/3.0
+   P(popular | Entertainment) : 0/3.0
+   P(multigenerational | Entertainment) : 0/3.0
+   P(always | Entertainment) : 0/3.0
+   P(lot | Entertainment) :   0/3.0
+   P(things | Entertainment) : 0/3.0
+   P(ages | Entertainment) :  0/3.0
+   P(kids | Entertainment) :  0/3.0
+   P(clubs | Entertainment) : 0/3.0
+   P(cool | Entertainment) :  0/3.0
+   P(restaurants | Entertainment) : 0/3.0
+   P(bars | Entertainment) :  0/3.0
+   P(adults | Entertainment) : 1/3.0
+   P(many | Entertainment) :  4/3.0
+   P(anyage | Entertainment) : 0/3.0
+   P(activities | Entertainment) : 0/3.0
+   P(cruise | Entertainment) : 0/3.0
+   P(free | Entertainment) :  0/3.0
+   P(msc | Entertainment) :   0/3.0
+   P(divina | Entertainment) : 0/3.0
+   P(lego | Entertainment) :  0/3.0
+   P(experience | Entertainment) : 0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(creative | Entertainment) : 0/3.0
+   P(opportunities | Entertainment) : 0/3.0
+   P(sports | Entertainment) : 0/3.0
+   P(shows | Entertainment) : 0/3.0
+   P(games | Entertainment) : 0/3.0
+   P(arts | Entertainment) :  0/3.0
+   P(crafts | Entertainment) : 0/3.0
+   P(age | Entertainment) :   0/3.0
+   P(appropriate | Entertainment) : 0/3.0
+   P(sit | Entertainment) :   0/3.0
+   P(mom | Entertainment) :   0/3.0
+   P(dad | Entertainment) :   0/3.0
+   P(take | Entertainment) :  2/3.0
+   P(part | Entertainment) :  1/3.0
+   P(fitness | Entertainment) : 0/3.0
+   P(classes | Entertainment) : 0/3.0
+   P(dropping | Entertainment) : 0/3.0
+   P(sauna | Entertainment) : 0/3.0
+   P(steam | Entertainment) : 0/3.0
+   P(room | Entertainment) :  0/3.0
+   P(whirlpools | Entertainment) : 0/3.0
+   P(gather | Entertainment) : 0/3.0
+   P(whole | Entertainment) : 0/3.0
+   P(swim | Entertainment) :  0/3.0
+   P(splash | Entertainment) : 0/3.0
+   P(waterpark | Entertainment) : 0/3.0
+   P(evenings | Entertainment) : 0/3.0
+   P(special | Entertainment) : 1/3.0
+   P(teatro | Entertainment) : 0/3.0
+   P(dellopera | Entertainment) : 0/3.0
+   P(theatre | Entertainment) : 4/3.0
+   P(dancing | Entertainment) : 0/3.0
+   P(byblos | Entertainment) : 0/3.0
+   P(discotheque | Entertainment) : 0/3.0
+   P(young | Entertainment) : 3/3.0
+   P(old | Entertainment) :   1/3.0
+   P(alike | Entertainment) : 0/3.0
+   P(love | Entertainment) :  0/3.0
+   P(water | Entertainment) : 1/3.0
+   P(maybe | Entertainment) : 0/3.0
+   P(lengths | Entertainment) : 0/3.0
+   P(memories | Entertainment) : 0/3.0
+   P(punta | Entertainment) : 0/3.0
+   P(cana | Entertainment) :  0/3.0
+   P(casino | Entertainment) : 0/3.0
+   P(dominican | Entertainment) : 0/3.0
+   P(republic | Entertainment) : 0/3.0
+   P(home | Entertainment) :  0/3.0
+   P(caribbeans | Entertainment) : 0/3.0
+   P(largest | Entertainment) : 0/3.0
+   P(onsite | Entertainment) : 0/3.0
+   P(waterparks | Entertainment) : 0/3.0
+   P(award | Entertainment) : 1/3.0
+   P(winning | Entertainment) : 0/3.0
+   P(park | Entertainment) :  1/3.0
+   P(pads | Entertainment) :  0/3.0
+   P(spraygrounds | Entertainment) : 0/3.0
+   P(tubes | Entertainment) : 0/3.0
+   P(wave | Entertainment) :  0/3.0
+   P(pool | Entertainment) :  0/3.0
+   P(exciting | Entertainment) : 0/3.0
+   P(slides | Entertainment) : 0/3.0
+   P(access | Entertainment) : 0/3.0
+   P(unlimited | Entertainment) : 0/3.0
+   P(addition | Entertainment) : 0/3.0
+   P(guests | Entertainment) : 0/3.0
+   P(receive | Entertainment) : 0/3.0
+   P(full | Entertainment) :  0/3.0
+   P(exchange | Entertainment) : 0/3.0
+   P(privileges | Entertainment) : 0/3.0
+   P(royalton | Entertainment) : 0/3.0
+   P(beautiful | Entertainment) : 0/3.0
+   P(beachfront | Entertainment) : 0/3.0
+   P(enjoy | Entertainment) : 0/3.0
+   P(tennis | Entertainment) : 0/3.0
+   P(programs | Entertainment) : 0/3.0
+   P(teens | Entertainment) : 0/3.0
+   P(club | Entertainment) :  0/3.0
+   P(give | Entertainment) :  0/3.0
+   P(everyone | Entertainment) : 0/3.0
+   P(break | Entertainment) : 0/3.0
+   P(designed | Entertainment) : 0/3.0
+   P(mind | Entertainment) :  0/3.0
+   P(big | Entertainment) :   8/3.0
+   P(small | Entertainment) : 0/3.0
+   P(bunkbeds | Entertainment) : 0/3.0
+   P(suites | Entertainment) : 0/3.0
+   P(picky | Entertainment) : 0/3.0
+   P(eaters | Entertainment) : 0/3.0
+   P(plethora | Entertainment) : 0/3.0
+   P(choice | Entertainment) : 0/3.0
+   P(ensures | Entertainment) : 0/3.0
+   P(something | Entertainment) : 1/3.0
+   P(appeal | Entertainment) : 0/3.0
+   P(tricky | Entertainment) : 0/3.0
+   P(jewel | Entertainment) : 0/3.0
+   P(runaway | Entertainment) : 0/3.0
+   P(bay | Entertainment) :   0/3.0
+   P(beach | Entertainment) : 0/3.0
+   P(golf | Entertainment) :  0/3.0
+   P(program | Entertainment) : 0/3.0
+   P(built | Entertainment) : 0/3.0
+   P(use | Entertainment) :   0/3.0
+   P(horse | Entertainment) : 0/3.0
+   P(ranch | Entertainment) : 0/3.0
+   P(laser | Entertainment) : 0/3.0
+   P(tag | Entertainment) :   0/3.0
+   P(complimentary | Entertainment) : 0/3.0
+   P(green | Entertainment) : 0/3.0
+   P(fees | Entertainment) :  0/3.0
+   P(championship | Entertainment) : 0/3.0
+   P(course | Entertainment) : 0/3.0
+   P(mean | Entertainment) :  0/3.0
+   P(tee | Entertainment) :   0/3.0
+   P(great | Entertainment) : 0/3.0
+   P(amenities | Entertainment) : 0/3.0
+   P(back | Entertainment) :  0/3.0
+   P(quiet | Entertainment) : 0/3.0
+   P(rounds | Entertainment) : 0/3.0
+   P(fantastic | Entertainment) : 1/3.0
+   P(catching | Entertainment) : 0/3.0
+   P(grandparents | Entertainment) : 0/3.0
+   P(parents | Entertainment) : 0/3.0
+   P(west | Entertainment) :  1/3.0
+   P(coast | Entertainment) : 0/3.0
+   P(mexico | Entertainment) : 0/3.0
+   P(sierra | Entertainment) : 0/3.0
+   P(madres | Entertainment) : 0/3.0
+   P(del | Entertainment) :   0/3.0
+   P(sur | Entertainment) :   0/3.0
+   P(mountain | Entertainment) : 1/3.0
+   P(children | Entertainment) : 0/3.0
+   P(party | Entertainment) : 0/3.0
+   P(way | Entertainment) :   0/3.0
+   P(teen | Entertainment) :  0/3.0
+   P(craft | Entertainment) : 0/3.0
+   P(beer | Entertainment) :  0/3.0
+   P(shade | Entertainment) : 0/3.0
+   P(pacific | Entertainment) : 0/3.0
+   P(ocean | Entertainment) : 0/3.0
+   P(azul | Entertainment) :  0/3.0
+   P(ixtapa | Entertainment) : 0/3.0
+   P(including | Entertainment) : 4/3.0
+   P(cuisine | Entertainment) : 0/3.0
+   P(opportunity | Entertainment) : 0/3.0
+   P(level | Entertainment) : 0/3.0
+   P(yoga | Entertainment) :  0/3.0
+   P(pilates | Entertainment) : 0/3.0
+   P(aqua | Entertainment) :  0/3.0
+   P(biking | Entertainment) : 0/3.0
+   P(phrase | Entertainment) : 0/3.0
+   P(overused | Entertainment) : 0/3.0
+   P(entirely | Entertainment) : 0/3.0
+   P(adding | Entertainment) : 1/3.0
+   P(sunny | Entertainment) : 0/3.0
+   P(moments | Entertainment) : 0/3.0
+   P(overflowing | Entertainment) : 0/3.0
+   P(memory | Entertainment) : 0/3.0
+   P(banks | Entertainment) : 0/3.0
+   P(getting | Entertainment) : 1/3.0
+   P(ready | Entertainment) : 0/3.0
+   P(next | Entertainment) :  1/3.0
+   P(twice | Entertainment) : 0/3.0
+   P(lifetime | Entertainment) : 0/3.0
+
+   P(advice | World News) :   0/3.0
+   P(planning | World News) : 0/3.0
+   P(multifamily | World News) : 0/3.0
+   P(getaway | World News) :  0/3.0
+   P(presented | World News) : 0/3.0
+   P(sunwing | World News) :  0/3.0
+   P(kathy | World News) :    0/3.0
+   P(buckworth | World News) : 0/3.0
+   P(cbc | World News) :      0/3.0
+   P(life | World News) :     0/3.0
+   P(april | World News) :    5/3.0
+   P(credit | World News) :   0/3.0
+   P(istockgetty | World News) : 0/3.0
+   P(images | World News) :   4/3.0
+   P(travel | World News) :   0/3.0
+   P(fastest | World News) :  0/3.0
+   P(growing | World News) :  2/3.0
+   P(segments | World News) : 0/3.0
+   P(today | World News) :    0/3.0
+   P(result | World News) :   0/3.0
+   P(find | World News) :     1/3.0
+   P(terrific | World News) : 0/3.0
+   P(options | World News) :  0/3.0
+   P(suit | World News) :     0/3.0
+   P(every | World News) :    1/3.0
+   P(generation | World News) : 0/3.0
+   P(travellers | World News) : 0/3.0
+   P(family | World News) :   0/3.0
+   P(vacation | World News) : 0/3.0
+   P(soon | World News) :     0/3.0
+   P(forget | World News) :   0/3.0
+   P(number | World News) :   0/3.0
+   P(tip | World News) :      0/3.0
+   P(trip | World News) :     0/3.0
+   P(includes | World News) : 0/3.0
+   P(generations | World News) : 0/3.0
+   P(within | World News) :   0/3.0
+   P(start | World News) :    1/3.0
+   P(early | World News) :    0/3.0
+   P(locking | World News) :  0/3.0
+   P(dates | World News) :    0/3.0
+   P(budgets | World News) :  0/3.0
+   P(key | World News) :      2/3.0
+   P(making | World News) :   1/3.0
+   P(sure | World News) :     0/3.0
+   P(meet | World News) :     0/3.0
+   P(everyones | World News) : 0/3.0
+   P(expectations | World News) : 1/3.0
+   P(book | World News) :     0/3.0
+   P(time | World News) :     2/3.0
+   P(advantages | World News) : 0/3.0
+   P(booking | World News) :  0/3.0
+   P(like | World News) :     0/3.0
+   P(securing | World News) : 0/3.0
+   P(everything | World News) : 2/3.0
+   P(better | World News) :   1/3.0
+   P(deals | World News) :    0/3.0
+   P(ideal | World News) :    0/3.0
+   P(accommodations | World News) : 0/3.0
+   P(group | World News) :    6/3.0
+   P(close | World News) :    0/3.0
+   P(proximity | World News) : 0/3.0
+   P(try | World News) :      0/3.0
+   P(assign | World News) :   0/3.0
+   P(member | World News) :   0/3.0
+   P(go | World News) :       2/3.0
+   P(person | World News) :   0/3.0
+   P(arranging | World News) : 0/3.0
+   P(details | World News) :  0/3.0
+   P(think | World News) :    0/3.0
+   P(starting | World News) : 0/3.0
+   P(shared | World News) :   0/3.0
+   P(document | World News) : 0/3.0
+   P(spreadsheet | World News) : 0/3.0
+   P(keep | World News) :     0/3.0
+   P(track | World News) :    0/3.0
+   P(moving | World News) :   0/3.0
+   P(parts | World News) :    0/3.0
+   P(often | World News) :    0/3.0
+   P(families | World News) : 0/3.0
+   P(flying | World News) :   0/3.0
+   P(different | World News) : 1/3.0
+   P(gateway | World News) :  0/3.0
+   P(destinations | World News) : 0/3.0
+   P(news | World News) :     2/3.0
+   P(visit | World News) :    2/3.0
+   P(wwwsunwingca | World News) : 0/3.0
+   P(range | World News) :    0/3.0
+   P(flights | World News) :  0/3.0
+   P(departure | World News) : 0/3.0
+   P(cities | World News) :   1/3.0
+   P(fit | World News) :      0/3.0
+   P(needs | World News) :    0/3.0
+   P(members | World News) :  2/3.0
+   P(across | World News) :   1/3.0
+   P(country | World News) :  2/3.0
+   P(ease | World News) :     0/3.0
+   P(first | World News) :    2/3.0
+   P(stage | World News) :    1/3.0
+   P(successful | World News) : 0/3.0
+   P(holiday | World News) :  0/3.0
+   P(get | World News) :      0/3.0
+   P(together | World News) : 0/3.0
+   P(finding | World News) :  0/3.0
+   P(perfect | World News) :  0/3.0
+   P(resort | World News) :   0/3.0
+   P(easy | World News) :     0/3.0
+   P(wide | World News) :     0/3.0
+   P(choices | World News) :  0/3.0
+   P(available | World News) : 0/3.0
+   P(additionally | World News) : 0/3.0
+   P(cruising | World News) : 0/3.0
+   P(popular | World News) :  0/3.0
+   P(multigenerational | World News) : 0/3.0
+   P(always | World News) :   0/3.0
+   P(lot | World News) :      0/3.0
+   P(things | World News) :   0/3.0
+   P(ages | World News) :     0/3.0
+   P(kids | World News) :     0/3.0
+   P(clubs | World News) :    0/3.0
+   P(cool | World News) :     0/3.0
+   P(restaurants | World News) : 0/3.0
+   P(bars | World News) :     0/3.0
+   P(adults | World News) :   0/3.0
+   P(many | World News) :     4/3.0
+   P(anyage | World News) :   0/3.0
+   P(activities | World News) : 0/3.0
+   P(cruise | World News) :   4/3.0
+   P(free | World News) :     0/3.0
+   P(msc | World News) :      0/3.0
+   P(divina | World News) :   0/3.0
+   P(lego | World News) :     0/3.0
+   P(experience | World News) : 0/3.0
+   P(just | World News) :     2/3.0
+   P(creative | World News) : 0/3.0
+   P(opportunities | World News) : 0/3.0
+   P(sports | World News) :   0/3.0
+   P(shows | World News) :    1/3.0
+   P(games | World News) :    0/3.0
+   P(arts | World News) :     0/3.0
+   P(crafts | World News) :   0/3.0
+   P(age | World News) :      0/3.0
+   P(appropriate | World News) : 0/3.0
+   P(sit | World News) :      0/3.0
+   P(mom | World News) :      0/3.0
+   P(dad | World News) :      0/3.0
+   P(take | World News) :     4/3.0
+   P(part | World News) :     1/3.0
+   P(fitness | World News) :  0/3.0
+   P(classes | World News) :  0/3.0
+   P(dropping | World News) : 0/3.0
+   P(sauna | World News) :    0/3.0
+   P(steam | World News) :    1/3.0
+   P(room | World News) :     0/3.0
+   P(whirlpools | World News) : 0/3.0
+   P(gather | World News) :   1/3.0
+   P(whole | World News) :    0/3.0
+   P(swim | World News) :     0/3.0
+   P(splash | World News) :   0/3.0
+   P(waterpark | World News) : 0/3.0
+   P(evenings | World News) : 0/3.0
+   P(special | World News) :  0/3.0
+   P(teatro | World News) :   0/3.0
+   P(dellopera | World News) : 0/3.0
+   P(theatre | World News) :  0/3.0
+   P(dancing | World News) :  0/3.0
+   P(byblos | World News) :   0/3.0
+   P(discotheque | World News) : 0/3.0
+   P(young | World News) :    0/3.0
+   P(old | World News) :      0/3.0
+   P(alike | World News) :    0/3.0
+   P(love | World News) :     0/3.0
+   P(water | World News) :    0/3.0
+   P(maybe | World News) :    0/3.0
+   P(lengths | World News) :  0/3.0
+   P(memories | World News) : 0/3.0
+   P(punta | World News) :    0/3.0
+   P(cana | World News) :     0/3.0
+   P(casino | World News) :   0/3.0
+   P(dominican | World News) : 0/3.0
+   P(republic | World News) : 0/3.0
+   P(home | World News) :     0/3.0
+   P(caribbeans | World News) : 0/3.0
+   P(largest | World News) :  0/3.0
+   P(onsite | World News) :   0/3.0
+   P(waterparks | World News) : 0/3.0
+   P(award | World News) :    0/3.0
+   P(winning | World News) :  0/3.0
+   P(park | World News) :     0/3.0
+   P(pads | World News) :     0/3.0
+   P(spraygrounds | World News) : 0/3.0
+   P(tubes | World News) :    0/3.0
+   P(wave | World News) :     2/3.0
+   P(pool | World News) :     0/3.0
+   P(exciting | World News) : 0/3.0
+   P(slides | World News) :   0/3.0
+   P(access | World News) :   0/3.0
+   P(unlimited | World News) : 0/3.0
+   P(addition | World News) : 0/3.0
+   P(guests | World News) :   0/3.0
+   P(receive | World News) :  0/3.0
+   P(full | World News) :     0/3.0
+   P(exchange | World News) : 0/3.0
+   P(privileges | World News) : 0/3.0
+   P(royalton | World News) : 0/3.0
+   P(beautiful | World News) : 0/3.0
+   P(beachfront | World News) : 0/3.0
+   P(enjoy | World News) :    0/3.0
+   P(tennis | World News) :   0/3.0
+   P(programs | World News) : 0/3.0
+   P(teens | World News) :    0/3.0
+   P(club | World News) :     0/3.0
+   P(give | World News) :     0/3.0
+   P(everyone | World News) : 0/3.0
+   P(break | World News) :    0/3.0
+   P(designed | World News) : 0/3.0
+   P(mind | World News) :     0/3.0
+   P(big | World News) :      2/3.0
+   P(small | World News) :    0/3.0
+   P(bunkbeds | World News) : 0/3.0
+   P(suites | World News) :   0/3.0
+   P(picky | World News) :    0/3.0
+   P(eaters | World News) :   0/3.0
+   P(plethora | World News) : 0/3.0
+   P(choice | World News) :   0/3.0
+   P(ensures | World News) :  0/3.0
+   P(something | World News) : 2/3.0
+   P(appeal | World News) :   0/3.0
+   P(tricky | World News) :   0/3.0
+   P(jewel | World News) :    0/3.0
+   P(runaway | World News) :  0/3.0
+   P(bay | World News) :      0/3.0
+   P(beach | World News) :    1/3.0
+   P(golf | World News) :     0/3.0
+   P(program | World News) :  1/3.0
+   P(built | World News) :    0/3.0
+   P(use | World News) :      0/3.0
+   P(horse | World News) :    0/3.0
+   P(ranch | World News) :    0/3.0
+   P(laser | World News) :    0/3.0
+   P(tag | World News) :      0/3.0
+   P(complimentary | World News) : 0/3.0
+   P(green | World News) :    0/3.0
+   P(fees | World News) :     0/3.0
+   P(championship | World News) : 0/3.0
+   P(course | World News) :   0/3.0
+   P(mean | World News) :     0/3.0
+   P(tee | World News) :      0/3.0
+   P(great | World News) :    0/3.0
+   P(amenities | World News) : 0/3.0
+   P(back | World News) :     2/3.0
+   P(quiet | World News) :    0/3.0
+   P(rounds | World News) :   0/3.0
+   P(fantastic | World News) : 1/3.0
+   P(catching | World News) : 0/3.0
+   P(grandparents | World News) : 0/3.0
+   P(parents | World News) :  0/3.0
+   P(west | World News) :     2/3.0
+   P(coast | World News) :    0/3.0
+   P(mexico | World News) :   0/3.0
+   P(sierra | World News) :   0/3.0
+   P(madres | World News) :   0/3.0
+   P(del | World News) :      0/3.0
+   P(sur | World News) :      0/3.0
+   P(mountain | World News) : 0/3.0
+   P(children | World News) : 2/3.0
+   P(party | World News) :    2/3.0
+   P(way | World News) :      0/3.0
+   P(teen | World News) :     0/3.0
+   P(craft | World News) :    0/3.0
+   P(beer | World News) :     0/3.0
+   P(shade | World News) :    0/3.0
+   P(pacific | World News) :  0/3.0
+   P(ocean | World News) :    0/3.0
+   P(azul | World News) :     0/3.0
+   P(ixtapa | World News) :   0/3.0
+   P(including | World News) : 2/3.0
+   P(cuisine | World News) :  0/3.0
+   P(opportunity | World News) : 0/3.0
+   P(level | World News) :    0/3.0
+   P(yoga | World News) :     0/3.0
+   P(pilates | World News) :  0/3.0
+   P(aqua | World News) :     0/3.0
+   P(biking | World News) :   0/3.0
+   P(phrase | World News) :   0/3.0
+   P(overused | World News) : 0/3.0
+   P(entirely | World News) : 0/3.0
+   P(adding | World News) :   1/3.0
+   P(sunny | World News) :    0/3.0
+   P(moments | World News) :  0/3.0
+   P(overflowing | World News) : 0/3.0
+   P(memory | World News) :   0/3.0
+   P(banks | World News) :    0/3.0
+   P(getting | World News) :  0/3.0
+   P(ready | World News) :    0/3.0
+   P(next | World News) :     1/3.0
+   P(twice | World News) :    0/3.0
+   P(lifetime | World News) : 0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.   P(Sports | [advice, planning, multifamily, getaway, presented, sunwing, kathy, buckworth, cbc, life, april, credit, istockgetty, images, travel, fastest, growing, segments, today, result, find, terrific, options, suit, every, generation, travellers, family, vacation, soon, forget, number, tip, trip, includes, generations, within, start, early, locking, dates, budgets, key, making, sure, meet, everyones, expectations, book, time, advantages, booking, like, securing, everything, better, deals, ideal, accommodations, group, close, proximity, try, assign, member, go, person, arranging, details, think, starting, shared, document, spreadsheet, keep, track, moving, parts, often, families, flying, different, gateway, destinations, news, visit, wwwsunwingca, range, flights, departure, cities, fit, needs, members, across, country, ease, first, stage, successful, holiday, get, together, finding, perfect, resort, easy, wide, choices, available, additionally, cruising, popular, multigenerational, always, lot, things, ages, kids, clubs, cool, restaurants, bars, adults, many, anyage, activities, cruise, free, msc, divina, lego, experience, just, creative, opportunities, sports, shows, games, arts, crafts, age, appropriate, sit, mom, dad, take, part, fitness, classes, dropping, sauna, steam, room, whirlpools, gather, whole, swim, splash, waterpark, evenings, special, teatro, dellopera, theatre, dancing, byblos, discotheque, young, old, alike, love, water, maybe, lengths, memories, punta, cana, casino, dominican, republic, home, caribbeans, largest, onsite, waterparks, award, winning, park, pads, spraygrounds, tubes, wave, pool, exciting, slides, access, unlimited, addition, guests, receive, full, exchange, privileges, royalton, beautiful, beachfront, enjoy, tennis, programs, teens, club, give, everyone, break, designed, mind, big, small, bunkbeds, suites, picky, eaters, plethora, choice, ensures, something, appeal, tricky, jewel, runaway, bay, beach, golf, program, built, use, horse, ranch, laser, tag, complimentary, green, fees, championship, course, mean, tee, great, amenities, back, quiet, rounds, fantastic, catching, grandparents, parents, west, coast, mexico, sierra, madres, del, sur, mountain, children, party, way, teen, craft, beer, shade, pacific, ocean, azul, ixtapa, including, cuisine, opportunity, level, yoga, pilates, aqua, biking, phrase, overused, entirely, adding, sunny, moments, overflowing, memory, banks, getting, ready, next, twice, lifetime]) 
+= 3/12    x    ( 2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  3/3    x  1/3    x  1/3    x  8/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  3/3    x  3/3    x  1/3    x  7/3    x  2/3    x  8/3    x  3/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     14269022208 / 5296169887935439060    =    2.6942153499464822E-9
+   P(Travel | [advice, planning, multifamily, getaway, presented, sunwing, kathy, buckworth, cbc, life, april, credit, istockgetty, images, travel, fastest, growing, segments, today, result, find, terrific, options, suit, every, generation, travellers, family, vacation, soon, forget, number, tip, trip, includes, generations, within, start, early, locking, dates, budgets, key, making, sure, meet, everyones, expectations, book, time, advantages, booking, like, securing, everything, better, deals, ideal, accommodations, group, close, proximity, try, assign, member, go, person, arranging, details, think, starting, shared, document, spreadsheet, keep, track, moving, parts, often, families, flying, different, gateway, destinations, news, visit, wwwsunwingca, range, flights, departure, cities, fit, needs, members, across, country, ease, first, stage, successful, holiday, get, together, finding, perfect, resort, easy, wide, choices, available, additionally, cruising, popular, multigenerational, always, lot, things, ages, kids, clubs, cool, restaurants, bars, adults, many, anyage, activities, cruise, free, msc, divina, lego, experience, just, creative, opportunities, sports, shows, games, arts, crafts, age, appropriate, sit, mom, dad, take, part, fitness, classes, dropping, sauna, steam, room, whirlpools, gather, whole, swim, splash, waterpark, evenings, special, teatro, dellopera, theatre, dancing, byblos, discotheque, young, old, alike, love, water, maybe, lengths, memories, punta, cana, casino, dominican, republic, home, caribbeans, largest, onsite, waterparks, award, winning, park, pads, spraygrounds, tubes, wave, pool, exciting, slides, access, unlimited, addition, guests, receive, full, exchange, privileges, royalton, beautiful, beachfront, enjoy, tennis, programs, teens, club, give, everyone, break, designed, mind, big, small, bunkbeds, suites, picky, eaters, plethora, choice, ensures, something, appeal, tricky, jewel, runaway, bay, beach, golf, program, built, use, horse, ranch, laser, tag, complimentary, green, fees, championship, course, mean, tee, great, amenities, back, quiet, rounds, fantastic, catching, grandparents, parents, west, coast, mexico, sierra, madres, del, sur, mountain, children, party, way, teen, craft, beer, shade, pacific, ocean, azul, ixtapa, including, cuisine, opportunity, level, yoga, pilates, aqua, biking, phrase, overused, entirely, adding, sunny, moments, overflowing, memory, banks, getting, ready, next, twice, lifetime]) 
+= 3/12    x    ( 2/3    x  4/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  2/3    x  1/3    x  10/3   x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  4/3    x  1/3    x  11/3   x  6/3    x  4/3    x  3/3    x  1/3    x  2/3    x  1/3    x  6/3    x  2/3    x  4/3    x  2/3    x  4/3    x  1/3    x  4/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  3/3    x  1/3    x  6/3    x  2/3    x  2/3    x  4/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  4/3    x  1/3    x  2/3    x  1/3    x  1/3    x  3/3    x  14/3   x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     7406266344234024960 / 2673201359087090412    =    2.7705605935960236
+   P(Entertainment | [advice, planning, multifamily, getaway, presented, sunwing, kathy, buckworth, cbc, life, april, credit, istockgetty, images, travel, fastest, growing, segments, today, result, find, terrific, options, suit, every, generation, travellers, family, vacation, soon, forget, number, tip, trip, includes, generations, within, start, early, locking, dates, budgets, key, making, sure, meet, everyones, expectations, book, time, advantages, booking, like, securing, everything, better, deals, ideal, accommodations, group, close, proximity, try, assign, member, go, person, arranging, details, think, starting, shared, document, spreadsheet, keep, track, moving, parts, often, families, flying, different, gateway, destinations, news, visit, wwwsunwingca, range, flights, departure, cities, fit, needs, members, across, country, ease, first, stage, successful, holiday, get, together, finding, perfect, resort, easy, wide, choices, available, additionally, cruising, popular, multigenerational, always, lot, things, ages, kids, clubs, cool, restaurants, bars, adults, many, anyage, activities, cruise, free, msc, divina, lego, experience, just, creative, opportunities, sports, shows, games, arts, crafts, age, appropriate, sit, mom, dad, take, part, fitness, classes, dropping, sauna, steam, room, whirlpools, gather, whole, swim, splash, waterpark, evenings, special, teatro, dellopera, theatre, dancing, byblos, discotheque, young, old, alike, love, water, maybe, lengths, memories, punta, cana, casino, dominican, republic, home, caribbeans, largest, onsite, waterparks, award, winning, park, pads, spraygrounds, tubes, wave, pool, exciting, slides, access, unlimited, addition, guests, receive, full, exchange, privileges, royalton, beautiful, beachfront, enjoy, tennis, programs, teens, club, give, everyone, break, designed, mind, big, small, bunkbeds, suites, picky, eaters, plethora, choice, ensures, something, appeal, tricky, jewel, runaway, bay, beach, golf, program, built, use, horse, ranch, laser, tag, complimentary, green, fees, championship, course, mean, tee, great, amenities, back, quiet, rounds, fantastic, catching, grandparents, parents, west, coast, mexico, sierra, madres, del, sur, mountain, children, party, way, teen, craft, beer, shade, pacific, ocean, azul, ixtapa, including, cuisine, opportunity, level, yoga, pilates, aqua, biking, phrase, overused, entirely, adding, sunny, moments, overflowing, memory, banks, getting, ready, next, twice, lifetime]) 
+= 3/12    x    ( 1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  4/3    x  2/3    x  2/3    x  1/3    x  1/3    x  4/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  8/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     1769472 / 5045901242979801948    =    3.506751152654461E-13
+   P(World News | [advice, planning, multifamily, getaway, presented, sunwing, kathy, buckworth, cbc, life, april, credit, istockgetty, images, travel, fastest, growing, segments, today, result, find, terrific, options, suit, every, generation, travellers, family, vacation, soon, forget, number, tip, trip, includes, generations, within, start, early, locking, dates, budgets, key, making, sure, meet, everyones, expectations, book, time, advantages, booking, like, securing, everything, better, deals, ideal, accommodations, group, close, proximity, try, assign, member, go, person, arranging, details, think, starting, shared, document, spreadsheet, keep, track, moving, parts, often, families, flying, different, gateway, destinations, news, visit, wwwsunwingca, range, flights, departure, cities, fit, needs, members, across, country, ease, first, stage, successful, holiday, get, together, finding, perfect, resort, easy, wide, choices, available, additionally, cruising, popular, multigenerational, always, lot, things, ages, kids, clubs, cool, restaurants, bars, adults, many, anyage, activities, cruise, free, msc, divina, lego, experience, just, creative, opportunities, sports, shows, games, arts, crafts, age, appropriate, sit, mom, dad, take, part, fitness, classes, dropping, sauna, steam, room, whirlpools, gather, whole, swim, splash, waterpark, evenings, special, teatro, dellopera, theatre, dancing, byblos, discotheque, young, old, alike, love, water, maybe, lengths, memories, punta, cana, casino, dominican, republic, home, caribbeans, largest, onsite, waterparks, award, winning, park, pads, spraygrounds, tubes, wave, pool, exciting, slides, access, unlimited, addition, guests, receive, full, exchange, privileges, royalton, beautiful, beachfront, enjoy, tennis, programs, teens, club, give, everyone, break, designed, mind, big, small, bunkbeds, suites, picky, eaters, plethora, choice, ensures, something, appeal, tricky, jewel, runaway, bay, beach, golf, program, built, use, horse, ranch, laser, tag, complimentary, green, fees, championship, course, mean, tee, great, amenities, back, quiet, rounds, fantastic, catching, grandparents, parents, west, coast, mexico, sierra, madres, del, sur, mountain, children, party, way, teen, craft, beer, shade, pacific, ocean, azul, ixtapa, including, cuisine, opportunity, level, yoga, pilates, aqua, biking, phrase, overused, entirely, adding, sunny, moments, overflowing, memory, banks, getting, ready, next, twice, lifetime]) 
+= 3/12    x    ( 5/3    x  4/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  6/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  4/3    x  4/3    x  2/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  (1)   )     
+=     12079595520 / 7112125044487791284    =    1.6984509474228404E-9
+
+
+

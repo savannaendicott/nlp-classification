@@ -1,0 +1,469 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for bag of words classification attempt on: 2017/04/20 03:10:40
+null
+
+Vector for category: Sports
+   pope : 0
+   leader : 0
+   held : 1
+   enters : 0
+   delta : 0
+   approach : 0
+   worshippers : 0
+   officials : 2
+   state : 0
+   press : 2
+   images : 0
+   suicide : 0
+   metal : 0
+   churches : 0
+   toward : 0
+   broadcast : 0
+   woman : 0
+   worlds : 1
+   turned : 1
+   bomber : 0
+   city : 0
+   church : 0
+   north : 1
+   another : 1
+   least : 0
+   killing : 0
+   attack : 0
+   christian : 0
+   george : 0
+   man : 0
+   cathedral : 0
+   mar : 0
+   abd : 0
+   aides : 0
+   saint : 0
+   question : 0
+   marks : 0
+   services : 0
+   kill : 0
+   people : 0
+   police : 0
+   blue : 0
+   calls : 0
+   oldest : 0
+   showed : 0
+   first : 2
+   reportedly : 0
+   officer : 0
+   bombs : 0
+   emergency : 0
+   mohamed : 0
+   main : 0
+   wounding : 0
+   bomb : 0
+   attacks : 0
+   whether : 0
+   mourns : 0
+   different : 1
+   female : 0
+   others : 1
+   area : 0
+   town : 0
+   cities : 0
+   exploded : 0
+   timing : 0
+   el : 0
+   gather : 0
+   escaped : 0
+   tawadros : 0
+   month : 1
+   channels : 0
+   outside : 0
+   pullover : 0
+   unharmed : 0
+   assassinate : 0
+   hatemassociated : 0
+   detector : 0
+   girgis : 0
+   ahmed : 0
+   away : 0
+   cctv : 0
+   around : 1
+   passes : 0
+   tore : 0
+   ghanyreuters : 0
+   twin : 0
+   carried : 0
+   wounded : 0
+   directed : 0
+   cairo : 0
+   raised : 0
+   sought : 0
+   killed : 0
+   bombings : 0
+   engulfs : 0
+   explosion : 0
+   marking : 0
+   gate : 0
+   chatting : 0
+   president : 4
+
+
+Vector for category: Travel
+   pope : 0
+   leader : 0
+   held : 0
+   enters : 0
+   delta : 0
+   approach : 0
+   worshippers : 0
+   officials : 0
+   state : 1
+   press : 0
+   images : 0
+   suicide : 0
+   metal : 0
+   churches : 0
+   toward : 0
+   broadcast : 0
+   woman : 0
+   worlds : 1
+   turned : 0
+   bomber : 0
+   city : 2
+   church : 0
+   north : 4
+   another : 0
+   least : 1
+   killing : 0
+   attack : 0
+   christian : 0
+   george : 0
+   man : 0
+   cathedral : 0
+   mar : 0
+   abd : 0
+   aides : 0
+   saint : 0
+   question : 1
+   marks : 0
+   services : 1
+   kill : 0
+   people : 2
+   police : 0
+   blue : 0
+   calls : 0
+   oldest : 0
+   showed : 0
+   first : 2
+   reportedly : 0
+   officer : 0
+   bombs : 0
+   emergency : 0
+   mohamed : 0
+   main : 1
+   wounding : 0
+   bomb : 0
+   attacks : 0
+   whether : 1
+   mourns : 0
+   different : 0
+   female : 0
+   others : 0
+   area : 6
+   town : 2
+   cities : 0
+   exploded : 0
+   timing : 0
+   el : 0
+   gather : 0
+   escaped : 0
+   tawadros : 0
+   month : 0
+   channels : 0
+   outside : 1
+   pullover : 0
+   unharmed : 0
+   assassinate : 0
+   hatemassociated : 0
+   detector : 0
+   girgis : 0
+   ahmed : 0
+   away : 1
+   cctv : 0
+   around : 6
+   passes : 0
+   tore : 0
+   ghanyreuters : 0
+   twin : 0
+   carried : 0
+   wounded : 0
+   directed : 0
+   cairo : 0
+   raised : 0
+   sought : 0
+   killed : 0
+   bombings : 0
+   engulfs : 0
+   explosion : 0
+   marking : 0
+   gate : 0
+   chatting : 0
+   president : 0
+
+
+Vector for category: Entertainment
+   pope : 0
+   leader : 0
+   held : 0
+   enters : 0
+   delta : 0
+   approach : 0
+   worshippers : 0
+   officials : 0
+   state : 0
+   press : 0
+   images : 1
+   suicide : 0
+   metal : 0
+   churches : 0
+   toward : 1
+   broadcast : 0
+   woman : 1
+   worlds : 0
+   turned : 0
+   bomber : 0
+   city : 0
+   church : 0
+   north : 2
+   another : 0
+   least : 0
+   killing : 0
+   attack : 0
+   christian : 0
+   george : 0
+   man : 2
+   cathedral : 0
+   mar : 0
+   abd : 0
+   aides : 0
+   saint : 0
+   question : 0
+   marks : 0
+   services : 1
+   kill : 0
+   people : 2
+   police : 2
+   blue : 0
+   calls : 0
+   oldest : 0
+   showed : 1
+   first : 1
+   reportedly : 0
+   officer : 1
+   bombs : 0
+   emergency : 0
+   mohamed : 0
+   main : 0
+   wounding : 0
+   bomb : 0
+   attacks : 0
+   whether : 0
+   mourns : 0
+   different : 1
+   female : 0
+   others : 0
+   area : 0
+   town : 0
+   cities : 0
+   exploded : 0
+   timing : 0
+   el : 0
+   gather : 0
+   escaped : 0
+   tawadros : 0
+   month : 0
+   channels : 0
+   outside : 0
+   pullover : 0
+   unharmed : 0
+   assassinate : 0
+   hatemassociated : 0
+   detector : 0
+   girgis : 0
+   ahmed : 0
+   away : 0
+   cctv : 0
+   around : 0
+   passes : 0
+   tore : 0
+   ghanyreuters : 0
+   twin : 0
+   carried : 0
+   wounded : 0
+   directed : 0
+   cairo : 0
+   raised : 0
+   sought : 0
+   killed : 0
+   bombings : 0
+   engulfs : 0
+   explosion : 0
+   marking : 0
+   gate : 0
+   chatting : 0
+   president : 2
+
+
+Vector for category: World News
+   pope : 6
+   leader : 4
+   held : 1
+   enters : 1
+   delta : 3
+   approach : 2
+   worshippers : 2
+   officials : 2
+   state : 8
+   press : 3
+   images : 4
+   suicide : 3
+   metal : 2
+   churches : 2
+   toward : 6
+   broadcast : 1
+   woman : 2
+   worlds : 2
+   turned : 1
+   bomber : 2
+   city : 2
+   church : 13
+   north : 1
+   another : 4
+   least : 3
+   killing : 2
+   attack : 6
+   christian : 4
+   george : 4
+   man : 4
+   cathedral : 3
+   mar : 1
+   abd : 1
+   aides : 1
+   saint : 3
+   question : 1
+   marks : 2
+   services : 2
+   kill : 1
+   people : 4
+   police : 2
+   blue : 1
+   calls : 1
+   oldest : 2
+   showed : 2
+   first : 2
+   reportedly : 1
+   officer : 1
+   bombs : 1
+   emergency : 2
+   mohamed : 1
+   main : 2
+   wounding : 2
+   bomb : 4
+   attacks : 7
+   whether : 2
+   mourns : 1
+   different : 1
+   female : 1
+   others : 1
+   area : 2
+   town : 4
+   cities : 1
+   exploded : 1
+   timing : 1
+   el : 1
+   gather : 1
+   escaped : 1
+   tawadros : 2
+   month : 2
+   channels : 1
+   outside : 2
+   pullover : 1
+   unharmed : 1
+   assassinate : 1
+   hatemassociated : 1
+   detector : 2
+   girgis : 1
+   ahmed : 2
+   away : 2
+   cctv : 1
+   around : 3
+   passes : 1
+   tore : 1
+   ghanyreuters : 1
+   twin : 1
+   carried : 2
+   wounded : 4
+   directed : 1
+   cairo : 2
+   raised : 2
+   sought : 1
+   killed : 4
+   bombings : 5
+   engulfs : 1
+   explosion : 5
+   marking : 2
+   gate : 1
+   chatting : 1
+   president : 4
+
+
+Computing Cosine Similarities
+
+
+
+Similarity for Sports...
+There are 13 words that occur from classification sample
+
+    (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 4) +0
+/   ((1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + 0) * ((4^2) +0)
+
+= 4.358898943540674 / 20.712315177207977
+
+=0.2104496241123854
+   category Sports has a cosine similarity of 0.2104496241123854 which is smaller than the current maximum 0.2104496241123854
+
+Similarity for Travel...
+There are 16 words that occur from classification sample
+
+    (1 * 1) + (1 * 1) + (1 * 2) + (1 * 4) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 6) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 6) +0
+/   ((1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + 0) * ((6^2) +0)
+
+= 5.744562646538029 / 25.612496949731394
+
+=0.2242874897286527
+   category Travel has a cosine similarity of 0.2242874897286527 which is larger than the current maximum 0.2242874897286527
+Travel now has the maximum cosine similarity.
+
+Similarity for Entertainment...
+There are 13 words that occur from classification sample
+
+    (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) +0
+/   ((1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + 0) * ((2^2) +0)
+
+= 4.242640687119285 / 17.663521732655692
+
+=0.2401922307076307
+   category Entertainment has a cosine similarity of 0.2401922307076307 which is larger than the current maximum 0.2401922307076307
+Entertainment now has the maximum cosine similarity.
+
+Similarity for World News...
+There are 100 words that occur from classification sample
+
+    (1 * 6) + (1 * 4) + (1 * 1) + (1 * 1) + (1 * 3) + (1 * 2) + (1 * 2) + (1 * 2) + (1 * 8) + (1 * 3) + (1 * 4) + (1 * 3) + (1 * 2) + (1 * 2) + (1 * 6) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 13) + (1 * 1) + (1 * 4) + (1 * 3) + (1 * 2) + (1 * 6) + (1 * 4) + (1 * 4) + (1 * 4) + (1 * 3) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 3) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 4) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 4) + (1 * 7) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 4) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 3) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 1) + (1 * 2) + (1 * 4) + (1 * 1) + (1 * 2) + (1 * 2) + (1 * 1) + (1 * 4) + (1 * 5) + (1 * 1) + (1 * 5) + (1 * 2) + (1 * 1) + (1 * 1) + (1 * 4) +0
+/   ((1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + (1)^2) + 0) * ((4^2) +0)
+
+= 15.132745950421556 / 161.55494421403512
+
+=0.0936693458936981
+   category World News has a cosine similarity of 0.0936693458936981 which is smaller than the current maximum 0.2401922307076307
+The class found through bag of words is Entertainment
+

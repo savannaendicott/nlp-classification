@@ -1,0 +1,79 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for bag of words classification attempt on: 2017/04/20 02:29:54
+null
+
+Vector for category: Sports   spring : 0
+   trail : 0
+   path : 0
+   stop : 0
+   destination : 0
+   hike : 0
+   camp : 0
+
+
+Vector for category: Travel   spring : 4
+   trail : 7
+   path : 0
+   stop : 0
+   destination : 2
+   hike : 14
+   camp : 0
+
+
+Vector for category: Entertainment   spring : 0
+   trail : 0
+   path : 0
+   stop : 0
+   destination : 0
+   hike : 0
+   camp : 0
+
+
+Vector for category: World News   spring : 0
+   trail : 0
+   path : 0
+   stop : 0
+   destination : 0
+   hike : 0
+   camp : 1
+
+
+Computing Cosine Similarities...
+
+
+   Computing similarity for Sports...
+/n   0
+/(0) * (0)
+
+= 0.0 / 0.0
+
+=NaN
+   category Sports has a cosine similarity of NaN which is smaller than the current maximum NaN
+   Computing similarity for Travel...
+/n   0
+/(0) * (0)
+
+= 0.0 / 0.0
+
+=NaN
+   category Travel has a cosine similarity of NaN which is smaller than the current maximum NaN
+   Computing similarity for Entertainment...
+/n   0
+/(0) * (0)
+
+= 0.0 / 0.0
+
+=NaN
+   category Entertainment has a cosine similarity of NaN which is smaller than the current maximum NaN
+   Computing similarity for World News...
+/n   0
+/(0) * (0)
+
+= 0.0 / 0.0
+
+=NaN
+   category World News has a cosine similarity of NaN which is smaller than the current maximum NaN
+The class found through bag of words is Sports
+

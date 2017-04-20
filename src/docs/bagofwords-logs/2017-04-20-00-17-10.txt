@@ -1,0 +1,5 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for bag of words classification attempt on: 2017/04/20 00:17:10
+

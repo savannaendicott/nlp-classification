@@ -1,0 +1,72 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 01:26:37
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   spring:0            trail:0             hike:0              path:0              
+   stop:0              
+
+Category: Travel
+   spring:4            trail:7             hike:14             
+   path:0              stop:0              
+
+Category: Entertainment
+   spring:0            trail:0             
+   hike:0              path:0              stop:0              
+
+Category: World News
+   spring:0            
+   trail:0             hike:0              path:0              stop:0              
+   
+
+Word likely-hoods: 
+   P(spring | Sports) :       0/3.0
+   P(trail | Sports) :        0/3.0
+   P(hike | Sports) :         0/3.0
+   P(path | Sports) :         0/3.0
+   P(stop | Sports) :         0/3.0
+
+   P(spring | Travel) :       4/3.0
+   P(trail | Travel) :        7/3.0
+   P(hike | Travel) :         14/3.0
+   P(path | Travel) :         0/3.0
+   P(stop | Travel) :         0/3.0
+
+   P(spring | Entertainment) : 0/3.0
+   P(trail | Entertainment) : 0/3.0
+   P(hike | Entertainment) :  0/3.0
+   P(path | Entertainment) :  0/3.0
+   P(stop | Entertainment) :  0/3.0
+
+   P(spring | World News) :   0/3.0
+   P(trail | World News) :    0/3.0
+   P(hike | World News) :     0/3.0
+   P(path | World News) :     0/3.0
+   P(stop | World News) :     0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.   P(Sports | [spring, trail, hike, path, stop]) 
+=         3/12    x    ( (1)   )     
+=     3 / 12    =    0.25
+   P(Travel | [spring, trail, hike, path, stop]) 
+=         3/12    x    ( 4/3    x  7/3    x  14/3   x  (1)   )     
+=     1176 / 324    =    3.6296296296296298
+   P(Entertainment | [spring, trail, hike, path, stop]) 
+=  3/12    x    ( (1)   )     
+=     3 / 12    =    0.25
+   P(World News | [spring, trail, hike, path, stop]) 
+=     3/12    x    ( (1)   )     
+=     3 / 12    =    0.25
+
+
+

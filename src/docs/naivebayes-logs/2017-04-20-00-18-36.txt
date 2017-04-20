@@ -1,0 +1,555 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 00:18:36
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   twin:0              church:0            kill:0              president:5         
+   month:5             state:0             emergency:0         woman:0             
+   mourns:0            outside:0           mar:0               girgis:0            
+   delta:0             town:0              north:1             cairo:0             
+   explosion:0         reportedly:0        carried:0           suicide:0           
+   bomber:0            killed:0            least:0             people:0            
+   wounded:0           others:1            mohamed:0           abd:0               
+   el:0                ghanyreuters:0      tore:0              churches:0          
+   different:1         cities:0            worshippers:0       marking:0           
+   killing:0           wounding:0          around:1            first:2             
+   attack:0            bomb:0              exploded:0          saint:0             
+   george:0            city:0              officials:2         gather:0            
+   ahmed:0             hatemassociated:0      press:2             cctv:0              
+   images:0            broadcast:0         channels:0          showed:0            
+   man:0               blue:0              pullover:0          approach:0          
+   main:0              gate:0              marks:0             turned:1            
+   away:0              directed:0          toward:0            metal:0             
+   detector:0          passes:0            female:0            police:0            
+   officer:0           chatting:0          another:1           enters:0            
+   engulfs:0           area:0              pope:0              tawadros:0          
+   held:1              services:0          cathedral:0         aides:0             
+   escaped:0           unharmed:0          timing:0            raised:0            
+   question:0          whether:0           sought:0            assassinate:0       
+   leader:0            oldest:0            christian:0         communities:0       
+   islamic:0           iraq:0              claimed:0           responsibility:0      
+   
+
+Category: Travel
+   twin:0              church:0            kill:0              president:0         
+   month:0             state:1             emergency:0         woman:0             
+   mourns:0            outside:1           mar:0               girgis:0            
+   delta:0             town:2              north:4             cairo:0             
+   explosion:0         reportedly:0        carried:0           suicide:0           
+   bomber:0            killed:0            least:1             people:2            
+   wounded:0           others:0            mohamed:0           abd:0               
+   el:0                ghanyreuters:0      tore:0              churches:0          
+   different:0         cities:0            worshippers:0       marking:0           
+   killing:0           wounding:0          around:6            first:2             
+   attack:0            bomb:0              exploded:0          saint:0             
+   george:0            city:2              officials:0         gather:0            
+   ahmed:0             hatemassociated:0      press:0             cctv:0              
+   images:0            broadcast:0         channels:0          showed:0            
+   man:0               blue:0              pullover:0          approach:0          
+   main:1              gate:0              marks:0             turned:0            
+   away:1              directed:0          toward:0            metal:0             
+   detector:0          passes:0            female:0            police:0            
+   officer:0           chatting:0          another:0           enters:0            
+   engulfs:0           area:6              pope:0              tawadros:0          
+   held:0              services:0          cathedral:0         aides:0             
+   escaped:0           unharmed:0          timing:0            raised:0            
+   question:1          whether:1           sought:0            assassinate:0       
+   leader:0            oldest:0            christian:0         communities:0       
+   islamic:0           iraq:0              claimed:0           responsibility:0      
+   
+
+Category: Entertainment
+   twin:0              church:0            kill:0              president:2         
+   month:0             state:0             emergency:0         woman:1             
+   mourns:0            outside:0           mar:0               girgis:0            
+   delta:0             town:0              north:2             cairo:0             
+   explosion:0         reportedly:0        carried:0           suicide:0           
+   bomber:0            killed:0            least:0             people:2            
+   wounded:0           others:0            mohamed:0           abd:0               
+   el:0                ghanyreuters:0      tore:0              churches:0          
+   different:1         cities:0            worshippers:0       marking:0           
+   killing:0           wounding:0          around:0            first:1             
+   attack:0            bomb:0              exploded:0          saint:0             
+   george:0            city:0              officials:0         gather:0            
+   ahmed:0             hatemassociated:0      press:0             cctv:0              
+   images:1            broadcast:0         channels:0          showed:1            
+   man:2               blue:0              pullover:0          approach:0          
+   main:0              gate:0              marks:0             turned:0            
+   away:0              directed:0          toward:2            metal:0             
+   detector:0          passes:0            female:0            police:2            
+   officer:1           chatting:0          another:0           enters:0            
+   engulfs:0           area:0              pope:0              tawadros:0          
+   held:0              services:1          cathedral:0         aides:0             
+   escaped:0           unharmed:0          timing:0            raised:0            
+   question:0          whether:0           sought:0            assassinate:0       
+   leader:0            oldest:0            christian:0         communities:0       
+   islamic:0           iraq:0              claimed:0           responsibility:0      
+   
+
+Category: World News
+   twin:1              church:13           kill:2              president:5         
+   month:3             state:15            emergency:2         woman:2             
+   mourns:1            outside:2           mar:1               girgis:1            
+   delta:3             town:4              north:1             cairo:2             
+   explosion:5         reportedly:1        carried:2           suicide:3           
+   bomber:2            killed:4            least:3             people:4            
+   wounded:4           others:1            mohamed:1           abd:1               
+   el:1                ghanyreuters:1      tore:1              churches:2          
+   different:1         cities:1            worshippers:2       marking:2           
+   killing:3           wounding:2          around:3            first:2             
+   attack:13           bomb:5              exploded:1          saint:3             
+   george:4            city:3              officials:2         gather:1            
+   ahmed:2             hatemassociated:1      press:3             cctv:1              
+   images:0            broadcast:1         channels:1          showed:2            
+   man:4               blue:1              pullover:1          approach:2          
+   main:2              gate:1              marks:2             turned:1            
+   away:2              directed:1          toward:7            metal:2             
+   detector:2          passes:1            female:1            police:2            
+   officer:1           chatting:1          another:4           enters:1            
+   engulfs:1           area:3              pope:6              tawadros:2          
+   held:1              services:0          cathedral:3         aides:1             
+   escaped:1           unharmed:1          timing:1            raised:2            
+   question:2          whether:2           sought:1            assassinate:1       
+   leader:6            oldest:2            christian:8         communities:2       
+   islamic:4           iraq:2              claimed:3           responsibility:1      
+   
+
+Word likely-hoods: 
+   P(twin | Sports) :         0/3.0
+   P(church | Sports) :       0/3.0
+   P(kill | Sports) :         0/3.0
+   P(president | Sports) :    5/3.0
+   P(month | Sports) :        5/3.0
+   P(state | Sports) :        0/3.0
+   P(emergency | Sports) :    0/3.0
+   P(woman | Sports) :        0/3.0
+   P(mourns | Sports) :       0/3.0
+   P(outside | Sports) :      0/3.0
+   P(mar | Sports) :          0/3.0
+   P(girgis | Sports) :       0/3.0
+   P(delta | Sports) :        0/3.0
+   P(town | Sports) :         0/3.0
+   P(north | Sports) :        1/3.0
+   P(cairo | Sports) :        0/3.0
+   P(explosion | Sports) :    0/3.0
+   P(reportedly | Sports) :   0/3.0
+   P(carried | Sports) :      0/3.0
+   P(suicide | Sports) :      0/3.0
+   P(bomber | Sports) :       0/3.0
+   P(killed | Sports) :       0/3.0
+   P(least | Sports) :        0/3.0
+   P(people | Sports) :       0/3.0
+   P(wounded | Sports) :      0/3.0
+   P(others | Sports) :       1/3.0
+   P(mohamed | Sports) :      0/3.0
+   P(abd | Sports) :          0/3.0
+   P(el | Sports) :           0/3.0
+   P(ghanyreuters | Sports) : 0/3.0
+   P(tore | Sports) :         0/3.0
+   P(churches | Sports) :     0/3.0
+   P(different | Sports) :    1/3.0
+   P(cities | Sports) :       0/3.0
+   P(worshippers | Sports) :  0/3.0
+   P(marking | Sports) :      0/3.0
+   P(killing | Sports) :      0/3.0
+   P(wounding | Sports) :     0/3.0
+   P(around | Sports) :       1/3.0
+   P(first | Sports) :        2/3.0
+   P(attack | Sports) :       0/3.0
+   P(bomb | Sports) :         0/3.0
+   P(exploded | Sports) :     0/3.0
+   P(saint | Sports) :        0/3.0
+   P(george | Sports) :       0/3.0
+   P(city | Sports) :         0/3.0
+   P(officials | Sports) :    2/3.0
+   P(gather | Sports) :       0/3.0
+   P(ahmed | Sports) :        0/3.0
+   P(hatemassociated | Sports) : 0/3.0
+   P(press | Sports) :        2/3.0
+   P(cctv | Sports) :         0/3.0
+   P(images | Sports) :       0/3.0
+   P(broadcast | Sports) :    0/3.0
+   P(channels | Sports) :     0/3.0
+   P(showed | Sports) :       0/3.0
+   P(man | Sports) :          0/3.0
+   P(blue | Sports) :         0/3.0
+   P(pullover | Sports) :     0/3.0
+   P(approach | Sports) :     0/3.0
+   P(main | Sports) :         0/3.0
+   P(gate | Sports) :         0/3.0
+   P(marks | Sports) :        0/3.0
+   P(turned | Sports) :       1/3.0
+   P(away | Sports) :         0/3.0
+   P(directed | Sports) :     0/3.0
+   P(toward | Sports) :       0/3.0
+   P(metal | Sports) :        0/3.0
+   P(detector | Sports) :     0/3.0
+   P(passes | Sports) :       0/3.0
+   P(female | Sports) :       0/3.0
+   P(police | Sports) :       0/3.0
+   P(officer | Sports) :      0/3.0
+   P(chatting | Sports) :     0/3.0
+   P(another | Sports) :      1/3.0
+   P(enters | Sports) :       0/3.0
+   P(engulfs | Sports) :      0/3.0
+   P(area | Sports) :         0/3.0
+   P(pope | Sports) :         0/3.0
+   P(tawadros | Sports) :     0/3.0
+   P(held | Sports) :         1/3.0
+   P(services | Sports) :     0/3.0
+   P(cathedral | Sports) :    0/3.0
+   P(aides | Sports) :        0/3.0
+   P(escaped | Sports) :      0/3.0
+   P(unharmed | Sports) :     0/3.0
+   P(timing | Sports) :       0/3.0
+   P(raised | Sports) :       0/3.0
+   P(question | Sports) :     0/3.0
+   P(whether | Sports) :      0/3.0
+   P(sought | Sports) :       0/3.0
+   P(assassinate | Sports) :  0/3.0
+   P(leader | Sports) :       0/3.0
+   P(oldest | Sports) :       0/3.0
+   P(christian | Sports) :    0/3.0
+   P(communities | Sports) :  0/3.0
+   P(islamic | Sports) :      0/3.0
+   P(iraq | Sports) :         0/3.0
+   P(claimed | Sports) :      0/3.0
+   P(responsibility | Sports) : 0/3.0
+
+   P(twin | Travel) :         0/3.0
+   P(church | Travel) :       0/3.0
+   P(kill | Travel) :         0/3.0
+   P(president | Travel) :    0/3.0
+   P(month | Travel) :        0/3.0
+   P(state | Travel) :        1/3.0
+   P(emergency | Travel) :    0/3.0
+   P(woman | Travel) :        0/3.0
+   P(mourns | Travel) :       0/3.0
+   P(outside | Travel) :      1/3.0
+   P(mar | Travel) :          0/3.0
+   P(girgis | Travel) :       0/3.0
+   P(delta | Travel) :        0/3.0
+   P(town | Travel) :         2/3.0
+   P(north | Travel) :        4/3.0
+   P(cairo | Travel) :        0/3.0
+   P(explosion | Travel) :    0/3.0
+   P(reportedly | Travel) :   0/3.0
+   P(carried | Travel) :      0/3.0
+   P(suicide | Travel) :      0/3.0
+   P(bomber | Travel) :       0/3.0
+   P(killed | Travel) :       0/3.0
+   P(least | Travel) :        1/3.0
+   P(people | Travel) :       2/3.0
+   P(wounded | Travel) :      0/3.0
+   P(others | Travel) :       0/3.0
+   P(mohamed | Travel) :      0/3.0
+   P(abd | Travel) :          0/3.0
+   P(el | Travel) :           0/3.0
+   P(ghanyreuters | Travel) : 0/3.0
+   P(tore | Travel) :         0/3.0
+   P(churches | Travel) :     0/3.0
+   P(different | Travel) :    0/3.0
+   P(cities | Travel) :       0/3.0
+   P(worshippers | Travel) :  0/3.0
+   P(marking | Travel) :      0/3.0
+   P(killing | Travel) :      0/3.0
+   P(wounding | Travel) :     0/3.0
+   P(around | Travel) :       6/3.0
+   P(first | Travel) :        2/3.0
+   P(attack | Travel) :       0/3.0
+   P(bomb | Travel) :         0/3.0
+   P(exploded | Travel) :     0/3.0
+   P(saint | Travel) :        0/3.0
+   P(george | Travel) :       0/3.0
+   P(city | Travel) :         2/3.0
+   P(officials | Travel) :    0/3.0
+   P(gather | Travel) :       0/3.0
+   P(ahmed | Travel) :        0/3.0
+   P(hatemassociated | Travel) : 0/3.0
+   P(press | Travel) :        0/3.0
+   P(cctv | Travel) :         0/3.0
+   P(images | Travel) :       0/3.0
+   P(broadcast | Travel) :    0/3.0
+   P(channels | Travel) :     0/3.0
+   P(showed | Travel) :       0/3.0
+   P(man | Travel) :          0/3.0
+   P(blue | Travel) :         0/3.0
+   P(pullover | Travel) :     0/3.0
+   P(approach | Travel) :     0/3.0
+   P(main | Travel) :         1/3.0
+   P(gate | Travel) :         0/3.0
+   P(marks | Travel) :        0/3.0
+   P(turned | Travel) :       0/3.0
+   P(away | Travel) :         1/3.0
+   P(directed | Travel) :     0/3.0
+   P(toward | Travel) :       0/3.0
+   P(metal | Travel) :        0/3.0
+   P(detector | Travel) :     0/3.0
+   P(passes | Travel) :       0/3.0
+   P(female | Travel) :       0/3.0
+   P(police | Travel) :       0/3.0
+   P(officer | Travel) :      0/3.0
+   P(chatting | Travel) :     0/3.0
+   P(another | Travel) :      0/3.0
+   P(enters | Travel) :       0/3.0
+   P(engulfs | Travel) :      0/3.0
+   P(area | Travel) :         6/3.0
+   P(pope | Travel) :         0/3.0
+   P(tawadros | Travel) :     0/3.0
+   P(held | Travel) :         0/3.0
+   P(services | Travel) :     0/3.0
+   P(cathedral | Travel) :    0/3.0
+   P(aides | Travel) :        0/3.0
+   P(escaped | Travel) :      0/3.0
+   P(unharmed | Travel) :     0/3.0
+   P(timing | Travel) :       0/3.0
+   P(raised | Travel) :       0/3.0
+   P(question | Travel) :     1/3.0
+   P(whether | Travel) :      1/3.0
+   P(sought | Travel) :       0/3.0
+   P(assassinate | Travel) :  0/3.0
+   P(leader | Travel) :       0/3.0
+   P(oldest | Travel) :       0/3.0
+   P(christian | Travel) :    0/3.0
+   P(communities | Travel) :  0/3.0
+   P(islamic | Travel) :      0/3.0
+   P(iraq | Travel) :         0/3.0
+   P(claimed | Travel) :      0/3.0
+   P(responsibility | Travel) : 0/3.0
+
+   P(twin | Entertainment) :  0/3.0
+   P(church | Entertainment) : 0/3.0
+   P(kill | Entertainment) :  0/3.0
+   P(president | Entertainment) : 2/3.0
+   P(month | Entertainment) : 0/3.0
+   P(state | Entertainment) : 0/3.0
+   P(emergency | Entertainment) : 0/3.0
+   P(woman | Entertainment) : 1/3.0
+   P(mourns | Entertainment) : 0/3.0
+   P(outside | Entertainment) : 0/3.0
+   P(mar | Entertainment) :   0/3.0
+   P(girgis | Entertainment) : 0/3.0
+   P(delta | Entertainment) : 0/3.0
+   P(town | Entertainment) :  0/3.0
+   P(north | Entertainment) : 2/3.0
+   P(cairo | Entertainment) : 0/3.0
+   P(explosion | Entertainment) : 0/3.0
+   P(reportedly | Entertainment) : 0/3.0
+   P(carried | Entertainment) : 0/3.0
+   P(suicide | Entertainment) : 0/3.0
+   P(bomber | Entertainment) : 0/3.0
+   P(killed | Entertainment) : 0/3.0
+   P(least | Entertainment) : 0/3.0
+   P(people | Entertainment) : 2/3.0
+   P(wounded | Entertainment) : 0/3.0
+   P(others | Entertainment) : 0/3.0
+   P(mohamed | Entertainment) : 0/3.0
+   P(abd | Entertainment) :   0/3.0
+   P(el | Entertainment) :    0/3.0
+   P(ghanyreuters | Entertainment) : 0/3.0
+   P(tore | Entertainment) :  0/3.0
+   P(churches | Entertainment) : 0/3.0
+   P(different | Entertainment) : 1/3.0
+   P(cities | Entertainment) : 0/3.0
+   P(worshippers | Entertainment) : 0/3.0
+   P(marking | Entertainment) : 0/3.0
+   P(killing | Entertainment) : 0/3.0
+   P(wounding | Entertainment) : 0/3.0
+   P(around | Entertainment) : 0/3.0
+   P(first | Entertainment) : 1/3.0
+   P(attack | Entertainment) : 0/3.0
+   P(bomb | Entertainment) :  0/3.0
+   P(exploded | Entertainment) : 0/3.0
+   P(saint | Entertainment) : 0/3.0
+   P(george | Entertainment) : 0/3.0
+   P(city | Entertainment) :  0/3.0
+   P(officials | Entertainment) : 0/3.0
+   P(gather | Entertainment) : 0/3.0
+   P(ahmed | Entertainment) : 0/3.0
+   P(hatemassociated | Entertainment) : 0/3.0
+   P(press | Entertainment) : 0/3.0
+   P(cctv | Entertainment) :  0/3.0
+   P(images | Entertainment) : 1/3.0
+   P(broadcast | Entertainment) : 0/3.0
+   P(channels | Entertainment) : 0/3.0
+   P(showed | Entertainment) : 1/3.0
+   P(man | Entertainment) :   2/3.0
+   P(blue | Entertainment) :  0/3.0
+   P(pullover | Entertainment) : 0/3.0
+   P(approach | Entertainment) : 0/3.0
+   P(main | Entertainment) :  0/3.0
+   P(gate | Entertainment) :  0/3.0
+   P(marks | Entertainment) : 0/3.0
+   P(turned | Entertainment) : 0/3.0
+   P(away | Entertainment) :  0/3.0
+   P(directed | Entertainment) : 0/3.0
+   P(toward | Entertainment) : 2/3.0
+   P(metal | Entertainment) : 0/3.0
+   P(detector | Entertainment) : 0/3.0
+   P(passes | Entertainment) : 0/3.0
+   P(female | Entertainment) : 0/3.0
+   P(police | Entertainment) : 2/3.0
+   P(officer | Entertainment) : 1/3.0
+   P(chatting | Entertainment) : 0/3.0
+   P(another | Entertainment) : 0/3.0
+   P(enters | Entertainment) : 0/3.0
+   P(engulfs | Entertainment) : 0/3.0
+   P(area | Entertainment) :  0/3.0
+   P(pope | Entertainment) :  0/3.0
+   P(tawadros | Entertainment) : 0/3.0
+   P(held | Entertainment) :  0/3.0
+   P(services | Entertainment) : 1/3.0
+   P(cathedral | Entertainment) : 0/3.0
+   P(aides | Entertainment) : 0/3.0
+   P(escaped | Entertainment) : 0/3.0
+   P(unharmed | Entertainment) : 0/3.0
+   P(timing | Entertainment) : 0/3.0
+   P(raised | Entertainment) : 0/3.0
+   P(question | Entertainment) : 0/3.0
+   P(whether | Entertainment) : 0/3.0
+   P(sought | Entertainment) : 0/3.0
+   P(assassinate | Entertainment) : 0/3.0
+   P(leader | Entertainment) : 0/3.0
+   P(oldest | Entertainment) : 0/3.0
+   P(christian | Entertainment) : 0/3.0
+   P(communities | Entertainment) : 0/3.0
+   P(islamic | Entertainment) : 0/3.0
+   P(iraq | Entertainment) :  0/3.0
+   P(claimed | Entertainment) : 0/3.0
+   P(responsibility | Entertainment) : 0/3.0
+
+   P(twin | World News) :     1/3.0
+   P(church | World News) :   13/3.0
+   P(kill | World News) :     2/3.0
+   P(president | World News) : 5/3.0
+   P(month | World News) :    3/3.0
+   P(state | World News) :    15/3.0
+   P(emergency | World News) : 2/3.0
+   P(woman | World News) :    2/3.0
+   P(mourns | World News) :   1/3.0
+   P(outside | World News) :  2/3.0
+   P(mar | World News) :      1/3.0
+   P(girgis | World News) :   1/3.0
+   P(delta | World News) :    3/3.0
+   P(town | World News) :     4/3.0
+   P(north | World News) :    1/3.0
+   P(cairo | World News) :    2/3.0
+   P(explosion | World News) : 5/3.0
+   P(reportedly | World News) : 1/3.0
+   P(carried | World News) :  2/3.0
+   P(suicide | World News) :  3/3.0
+   P(bomber | World News) :   2/3.0
+   P(killed | World News) :   4/3.0
+   P(least | World News) :    3/3.0
+   P(people | World News) :   4/3.0
+   P(wounded | World News) :  4/3.0
+   P(others | World News) :   1/3.0
+   P(mohamed | World News) :  1/3.0
+   P(abd | World News) :      1/3.0
+   P(el | World News) :       1/3.0
+   P(ghanyreuters | World News) : 1/3.0
+   P(tore | World News) :     1/3.0
+   P(churches | World News) : 2/3.0
+   P(different | World News) : 1/3.0
+   P(cities | World News) :   1/3.0
+   P(worshippers | World News) : 2/3.0
+   P(marking | World News) :  2/3.0
+   P(killing | World News) :  3/3.0
+   P(wounding | World News) : 2/3.0
+   P(around | World News) :   3/3.0
+   P(first | World News) :    2/3.0
+   P(attack | World News) :   13/3.0
+   P(bomb | World News) :     5/3.0
+   P(exploded | World News) : 1/3.0
+   P(saint | World News) :    3/3.0
+   P(george | World News) :   4/3.0
+   P(city | World News) :     3/3.0
+   P(officials | World News) : 2/3.0
+   P(gather | World News) :   1/3.0
+   P(ahmed | World News) :    2/3.0
+   P(hatemassociated | World News) : 1/3.0
+   P(press | World News) :    3/3.0
+   P(cctv | World News) :     1/3.0
+   P(images | World News) :   0/3.0
+   P(broadcast | World News) : 1/3.0
+   P(channels | World News) : 1/3.0
+   P(showed | World News) :   2/3.0
+   P(man | World News) :      4/3.0
+   P(blue | World News) :     1/3.0
+   P(pullover | World News) : 1/3.0
+   P(approach | World News) : 2/3.0
+   P(main | World News) :     2/3.0
+   P(gate | World News) :     1/3.0
+   P(marks | World News) :    2/3.0
+   P(turned | World News) :   1/3.0
+   P(away | World News) :     2/3.0
+   P(directed | World News) : 1/3.0
+   P(toward | World News) :   7/3.0
+   P(metal | World News) :    2/3.0
+   P(detector | World News) : 2/3.0
+   P(passes | World News) :   1/3.0
+   P(female | World News) :   1/3.0
+   P(police | World News) :   2/3.0
+   P(officer | World News) :  1/3.0
+   P(chatting | World News) : 1/3.0
+   P(another | World News) :  4/3.0
+   P(enters | World News) :   1/3.0
+   P(engulfs | World News) :  1/3.0
+   P(area | World News) :     3/3.0
+   P(pope | World News) :     6/3.0
+   P(tawadros | World News) : 2/3.0
+   P(held | World News) :     1/3.0
+   P(services | World News) : 0/3.0
+   P(cathedral | World News) : 3/3.0
+   P(aides | World News) :    1/3.0
+   P(escaped | World News) :  1/3.0
+   P(unharmed | World News) : 1/3.0
+   P(timing | World News) :   1/3.0
+   P(raised | World News) :   2/3.0
+   P(question | World News) : 2/3.0
+   P(whether | World News) :  2/3.0
+   P(sought | World News) :   1/3.0
+   P(assassinate | World News) : 1/3.0
+   P(leader | World News) :   6/3.0
+   P(oldest | World News) :   2/3.0
+   P(christian | World News) : 8/3.0
+   P(communities | World News) : 2/3.0
+   P(islamic | World News) :  4/3.0
+   P(iraq | World News) :     2/3.0
+   P(claimed | World News) :  3/3.0
+   P(responsibility | World News) : 1/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.
+
+P(Sports | words from src/docs/world-article2.txt) 
+=     3/12    x    ( 5/3    x  5/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     600 / 6377292    =    9.408382115794604E-5
+
+
+P(Travel | words from src/docs/world-article2.txt) 
+=     3/12    x    ( 1/3    x  1/3    x  2/3    x  4/3    x  1/3    x  2/3    x  6/3    x  2/3    x  2/3    x  1/3    x  1/3    x  6/3    x  1/3    x  1/3    x  (1)   )     
+=     6912 / 57395628    =    1.2042729108217093E-4
+
+
+P(Entertainment | words from src/docs/world-article2.txt) 
+= 3/12    x    ( 2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  (1)   )     
+=     192 / 19131876    =    1.0035607590180911E-5
+
+
+P(World News | words from src/docs/world-article2.txt) 
+= 3/12    x    ( 1/3    x  13/3   x  2/3    x  5/3    x  3/3    x  15/3   x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  3/3    x  4/3    x  1/3    x  2/3    x  5/3    x  1/3    x  2/3    x  3/3    x  2/3    x  4/3    x  3/3    x  4/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  3/3    x  2/3    x  3/3    x  2/3    x  13/3   x  5/3    x  1/3    x  3/3    x  4/3    x  3/3    x  2/3    x  1/3    x  2/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  2/3    x  4/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  7/3    x  2/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  3/3    x  6/3    x  2/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  6/3    x  2/3    x  8/3    x  2/3    x  4/3    x  2/3    x  3/3    x  (1/3) )     
+=     3727854591555928064 / 3979497127383393684    =    0.9367652424986355
+
+
+

@@ -1,0 +1,87 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for bag of words classification attempt on: 2017/04/20 02:38:02
+null
+
+Vector for category: Sports
+   spring : 0
+   trail : 0
+   path : 0
+   stop : 0
+   destination : 0
+   hike : 0
+   travel : 1
+
+
+Vector for category: Travel
+   spring : 4
+   trail : 7
+   path : 0
+   stop : 0
+   destination : 2
+   hike : 14
+   travel : 0
+
+
+Vector for category: Entertainment
+   spring : 0
+   trail : 0
+   path : 0
+   stop : 0
+   destination : 0
+   hike : 0
+   travel : 0
+
+
+Vector for category: World News
+   spring : 0
+   trail : 0
+   path : 0
+   stop : 0
+   destination : 0
+   hike : 0
+   travel : 0
+
+
+Computing Cosine Similarities...
+
+
+   Computing similarity for Sports...
+
+    (1 * 1) +0
+/((1)^2) + 0) * ((1^2) +0)
+
+= 1.0 / 2.9999999999999996
+
+=0.33333333333333337
+   category Sports has a cosine similarity of 0.33333333333333337 which is smaller than the current maximum 0.33333333333333337
+   Computing similarity for Travel...
+
+    (1 * 1) +0
+/((1)^2) + 0) * ((1^2) +0)
+
+= 1.0 / 2.9999999999999996
+
+=0.33333333333333337
+   category Travel has a cosine similarity of 0.33333333333333337 which is smaller than the current maximum 0.33333333333333337
+   Computing similarity for Entertainment...
+
+    (1 * 1) +0
+/((1)^2) + 0) * ((1^2) +0)
+
+= 1.0 / 2.9999999999999996
+
+=0.33333333333333337
+   category Entertainment has a cosine similarity of 0.33333333333333337 which is smaller than the current maximum 0.33333333333333337
+   Computing similarity for World News...
+
+    (1 * 1) +0
+/((1)^2) + 0) * ((1^2) +0)
+
+= 1.0 / 2.9999999999999996
+
+=0.33333333333333337
+   category World News has a cosine similarity of 0.33333333333333337 which is smaller than the current maximum 0.33333333333333337
+The class found through bag of words is Sports
+

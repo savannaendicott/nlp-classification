@@ -1,0 +1,72 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 00:22:54
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   playoffs:0          set:2               just:4              watch:1             
+   stop:0              
+
+Category: Travel
+   playoffs:0          set:1               just:4              
+   watch:0             stop:0              
+
+Category: Entertainment
+   playoffs:0          set:0               
+   just:2              watch:1             stop:0              
+
+Category: World News
+   playoffs:0          
+   set:1               just:2              watch:0             stop:0              
+   
+
+Word likely-hoods: 
+   P(playoffs | Sports) :     0/3.0
+   P(set | Sports) :          2/3.0
+   P(just | Sports) :         4/3.0
+   P(watch | Sports) :        1/3.0
+   P(stop | Sports) :         0/3.0
+
+   P(playoffs | Travel) :     0/3.0
+   P(set | Travel) :          1/3.0
+   P(just | Travel) :         4/3.0
+   P(watch | Travel) :        0/3.0
+   P(stop | Travel) :         0/3.0
+
+   P(playoffs | Entertainment) : 0/3.0
+   P(set | Entertainment) :   0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(watch | Entertainment) : 1/3.0
+   P(stop | Entertainment) :  0/3.0
+
+   P(playoffs | World News) : 0/3.0
+   P(set | World News) :      1/3.0
+   P(just | World News) :     2/3.0
+   P(watch | World News) :    0/3.0
+   P(stop | World News) :     0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.   P(Sports | [playoffs, set, just, watch, stop]) 
+=        3/12    x    ( 2/3    x  4/3    x  1/3    x  (1)   )     
+=     24 / 324    =    0.07407407407407407
+   P(Travel | [playoffs, set, just, watch, stop]) 
+=        3/12    x    ( 1/3    x  4/3    x  (1)   )     
+=     12 / 108    =    0.1111111111111111
+   P(Entertainment | [playoffs, set, just, watch, stop]) 
+= 3/12    x    ( 2/3    x  1/3    x  (1)   )     
+=     6 / 108    =    0.05555555555555555
+   P(World News | [playoffs, set, just, watch, stop]) 
+=    3/12    x    ( 1/3    x  2/3    x  (1)   )     
+=     6 / 108    =    0.05555555555555555
+
+
+

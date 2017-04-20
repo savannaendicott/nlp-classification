@@ -1,0 +1,558 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/19 17:58:41
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   lowwwwkey:0         holiday:0           ideas:0             presented:0         
+   sunwing:0           credit:2            supply:0            co:0                
+   planning:0          escape:0            grind:0             work:0              
+   think:2             luxury:0            allinclusive:0      resort:0            
+   stunning:0          peaceful:0          location:0          right:1             
+   place:2             go:2                next:1              time:8              
+   need:0              really:0            restorative:0       getaway:0           
+   lowkey:0            high:1              relaxing:0          low:0               
+   details:0           just:4              adultsonly:0        shore:0             
+   jamaicas:0          negril:0            small:0             super:0             
+   relaxed:0           beach:0             town:0              diving:0            
+   snorkeling:0        coastline:0         famous:0            unwind:0            
+   services:0          grand:0             lido:0              like:2              
+   swanky:0            suites:0            personal:0          butlers:0           
+   boutique:0          private:0           serene:0            check:0             
+   beautiful:0         secluded:0          clothing:0          optional:0          
+   aunaturel:0         pool:0              free:0              wifi:0              
+   throughout:0        want:0              disconnect:0        stress:0            
+   data:0              post:3              photos:0            show:0              
+   little:0            remote:0            trip:0              fantasy:0           
+   island:0            roatan:0            slow:0              pace:0              
+   better:1            acre:0              southern:0          coast:0             
+   honduras:0          beaches:0           access:0            second:6            
+   largest:0           barrier:0           reef:0              world:33            
+   making:0            wonderful:0         water:0             sports:1            
+   
+
+Category: Travel
+   lowwwwkey:1         holiday:1           ideas:1             presented:1         
+   sunwing:2           credit:1            supply:1            co:1                
+   planning:2          escape:2            grind:2             work:1              
+   think:1             luxury:4            allinclusive:1      resort:11           
+   stunning:4          peaceful:1          location:1          right:1             
+   place:3             go:2                next:1              time:10             
+   need:10             really:4            restorative:1       getaway:4           
+   lowkey:2            high:2              relaxing:1          low:2               
+   details:1           just:4              adultsonly:2        shore:2             
+   jamaicas:1          negril:2            small:1             super:2             
+   relaxed:1           beach:2             town:2              diving:2            
+   snorkeling:1        coastline:1         famous:1            unwind:1            
+   services:0          grand:4             lido:1              like:4              
+   swanky:2            suites:1            personal:1          butlers:1           
+   boutique:1          private:6           serene:1            check:2             
+   beautiful:4         secluded:1          clothing:1          optional:1          
+   aunaturel:1         pool:3              free:2              wifi:1              
+   throughout:1        want:2              disconnect:1        stress:1            
+   data:1              post:1              photos:1            show:1              
+   little:2            remote:1            trip:4              fantasy:1           
+   island:6            roatan:2            slow:1              pace:1              
+   better:1            acre:1              southern:1          coast:15            
+   honduras:1          beaches:1           access:2            second:1            
+   largest:1           barrier:1           reef:1              world:2             
+   making:1            wonderful:1         water:2             sports:1            
+   
+
+Category: Entertainment
+   lowwwwkey:0         holiday:0           ideas:0             presented:0         
+   sunwing:0           credit:0            supply:1            co:0                
+   planning:0          escape:0            grind:0             work:2              
+   think:3             luxury:0            allinclusive:0      resort:0            
+   stunning:0          peaceful:0          location:0          right:0             
+   place:0             go:0                next:1              time:3              
+   need:0              really:0            restorative:0       getaway:0           
+   lowkey:0            high:0              relaxing:0          low:3               
+   details:0           just:2              adultsonly:0        shore:0             
+   jamaicas:0          negril:0            small:0             super:1             
+   relaxed:0           beach:0             town:0              diving:0            
+   snorkeling:0        coastline:0         famous:1            unwind:0            
+   services:1          grand:0             lido:0              like:4              
+   swanky:0            suites:0            personal:0          butlers:0           
+   boutique:0          private:0           serene:0            check:0             
+   beautiful:0         secluded:0          clothing:0          optional:0          
+   aunaturel:0         pool:0              free:0              wifi:0              
+   throughout:0        want:0              disconnect:0        stress:0            
+   data:0              post:0              photos:0            show:3              
+   little:0            remote:0            trip:0              fantasy:0           
+   island:0            roatan:0            slow:0              pace:0              
+   better:0            acre:0              southern:0          coast:0             
+   honduras:0          beaches:0           access:0            second:0            
+   largest:0           barrier:0           reef:0              world:2             
+   making:0            wonderful:0         water:1             sports:0            
+   
+
+Category: World News
+   lowwwwkey:0         holiday:0           ideas:0             presented:0         
+   sunwing:0           credit:0            supply:0            co:0                
+   planning:0          escape:0            grind:0             work:0              
+   think:0             luxury:0            allinclusive:0      resort:0            
+   stunning:0          peaceful:1          location:0          right:2             
+   place:2             go:2                next:1              time:3              
+   need:0              really:0            restorative:0       getaway:0           
+   lowkey:0            high:3              relaxing:0          low:0               
+   details:0           just:2              adultsonly:0        shore:0             
+   jamaicas:0          negril:0            small:0             super:0             
+   relaxed:0           beach:1             town:4              diving:0            
+   snorkeling:0        coastline:0         famous:0            unwind:0            
+   services:0          grand:1             lido:0              like:0              
+   swanky:0            suites:0            personal:0          butlers:0           
+   boutique:0          private:1           serene:0            check:1             
+   beautiful:0         secluded:0          clothing:0          optional:0          
+   aunaturel:0         pool:0              free:0              wifi:0              
+   throughout:1        want:3              disconnect:0        stress:0            
+   data:0              post:1              photos:0            show:0              
+   little:2            remote:0            trip:0              fantasy:0           
+   island:0            roatan:0            slow:0              pace:0              
+   better:1            acre:0              southern:0          coast:0             
+   honduras:0          beaches:0           access:0            second:0            
+   largest:0           barrier:0           reef:0              world:4             
+   making:1            wonderful:0         water:0             sports:0            
+   
+
+Word likely-hoods: 
+   P(lowwwwkey | Sports) :    0/3.0
+   P(holiday | Sports) :      0/3.0
+   P(ideas | Sports) :        0/3.0
+   P(presented | Sports) :    0/3.0
+   P(sunwing | Sports) :      0/3.0
+   P(credit | Sports) :       2/3.0
+   P(supply | Sports) :       0/3.0
+   P(co | Sports) :           0/3.0
+   P(planning | Sports) :     0/3.0
+   P(escape | Sports) :       0/3.0
+   P(grind | Sports) :        0/3.0
+   P(work | Sports) :         0/3.0
+   P(think | Sports) :        2/3.0
+   P(luxury | Sports) :       0/3.0
+   P(allinclusive | Sports) : 0/3.0
+   P(resort | Sports) :       0/3.0
+   P(stunning | Sports) :     0/3.0
+   P(peaceful | Sports) :     0/3.0
+   P(location | Sports) :     0/3.0
+   P(right | Sports) :        1/3.0
+   P(place | Sports) :        2/3.0
+   P(go | Sports) :           2/3.0
+   P(next | Sports) :         1/3.0
+   P(time | Sports) :         8/3.0
+   P(need | Sports) :         0/3.0
+   P(really | Sports) :       0/3.0
+   P(restorative | Sports) :  0/3.0
+   P(getaway | Sports) :      0/3.0
+   P(lowkey | Sports) :       0/3.0
+   P(high | Sports) :         1/3.0
+   P(relaxing | Sports) :     0/3.0
+   P(low | Sports) :          0/3.0
+   P(details | Sports) :      0/3.0
+   P(just | Sports) :         4/3.0
+   P(adultsonly | Sports) :   0/3.0
+   P(shore | Sports) :        0/3.0
+   P(jamaicas | Sports) :     0/3.0
+   P(negril | Sports) :       0/3.0
+   P(small | Sports) :        0/3.0
+   P(super | Sports) :        0/3.0
+   P(relaxed | Sports) :      0/3.0
+   P(beach | Sports) :        0/3.0
+   P(town | Sports) :         0/3.0
+   P(diving | Sports) :       0/3.0
+   P(snorkeling | Sports) :   0/3.0
+   P(coastline | Sports) :    0/3.0
+   P(famous | Sports) :       0/3.0
+   P(unwind | Sports) :       0/3.0
+   P(services | Sports) :     0/3.0
+   P(grand | Sports) :        0/3.0
+   P(lido | Sports) :         0/3.0
+   P(like | Sports) :         2/3.0
+   P(swanky | Sports) :       0/3.0
+   P(suites | Sports) :       0/3.0
+   P(personal | Sports) :     0/3.0
+   P(butlers | Sports) :      0/3.0
+   P(boutique | Sports) :     0/3.0
+   P(private | Sports) :      0/3.0
+   P(serene | Sports) :       0/3.0
+   P(check | Sports) :        0/3.0
+   P(beautiful | Sports) :    0/3.0
+   P(secluded | Sports) :     0/3.0
+   P(clothing | Sports) :     0/3.0
+   P(optional | Sports) :     0/3.0
+   P(aunaturel | Sports) :    0/3.0
+   P(pool | Sports) :         0/3.0
+   P(free | Sports) :         0/3.0
+   P(wifi | Sports) :         0/3.0
+   P(throughout | Sports) :   0/3.0
+   P(want | Sports) :         0/3.0
+   P(disconnect | Sports) :   0/3.0
+   P(stress | Sports) :       0/3.0
+   P(data | Sports) :         0/3.0
+   P(post | Sports) :         3/3.0
+   P(photos | Sports) :       0/3.0
+   P(show | Sports) :         0/3.0
+   P(little | Sports) :       0/3.0
+   P(remote | Sports) :       0/3.0
+   P(trip | Sports) :         0/3.0
+   P(fantasy | Sports) :      0/3.0
+   P(island | Sports) :       0/3.0
+   P(roatan | Sports) :       0/3.0
+   P(slow | Sports) :         0/3.0
+   P(pace | Sports) :         0/3.0
+   P(better | Sports) :       1/3.0
+   P(acre | Sports) :         0/3.0
+   P(southern | Sports) :     0/3.0
+   P(coast | Sports) :        0/3.0
+   P(honduras | Sports) :     0/3.0
+   P(beaches | Sports) :      0/3.0
+   P(access | Sports) :       0/3.0
+   P(second | Sports) :       6/3.0
+   P(largest | Sports) :      0/3.0
+   P(barrier | Sports) :      0/3.0
+   P(reef | Sports) :         0/3.0
+   P(world | Sports) :        33/3.0
+   P(making | Sports) :       0/3.0
+   P(wonderful | Sports) :    0/3.0
+   P(water | Sports) :        0/3.0
+   P(sports | Sports) :       1/3.0
+
+   P(lowwwwkey | Travel) :    1/3.0
+   P(holiday | Travel) :      1/3.0
+   P(ideas | Travel) :        1/3.0
+   P(presented | Travel) :    1/3.0
+   P(sunwing | Travel) :      2/3.0
+   P(credit | Travel) :       1/3.0
+   P(supply | Travel) :       1/3.0
+   P(co | Travel) :           1/3.0
+   P(planning | Travel) :     2/3.0
+   P(escape | Travel) :       2/3.0
+   P(grind | Travel) :        2/3.0
+   P(work | Travel) :         1/3.0
+   P(think | Travel) :        1/3.0
+   P(luxury | Travel) :       4/3.0
+   P(allinclusive | Travel) : 1/3.0
+   P(resort | Travel) :       11/3.0
+   P(stunning | Travel) :     4/3.0
+   P(peaceful | Travel) :     1/3.0
+   P(location | Travel) :     1/3.0
+   P(right | Travel) :        1/3.0
+   P(place | Travel) :        3/3.0
+   P(go | Travel) :           2/3.0
+   P(next | Travel) :         1/3.0
+   P(time | Travel) :         10/3.0
+   P(need | Travel) :         10/3.0
+   P(really | Travel) :       4/3.0
+   P(restorative | Travel) :  1/3.0
+   P(getaway | Travel) :      4/3.0
+   P(lowkey | Travel) :       2/3.0
+   P(high | Travel) :         2/3.0
+   P(relaxing | Travel) :     1/3.0
+   P(low | Travel) :          2/3.0
+   P(details | Travel) :      1/3.0
+   P(just | Travel) :         4/3.0
+   P(adultsonly | Travel) :   2/3.0
+   P(shore | Travel) :        2/3.0
+   P(jamaicas | Travel) :     1/3.0
+   P(negril | Travel) :       2/3.0
+   P(small | Travel) :        1/3.0
+   P(super | Travel) :        2/3.0
+   P(relaxed | Travel) :      1/3.0
+   P(beach | Travel) :        2/3.0
+   P(town | Travel) :         2/3.0
+   P(diving | Travel) :       2/3.0
+   P(snorkeling | Travel) :   1/3.0
+   P(coastline | Travel) :    1/3.0
+   P(famous | Travel) :       1/3.0
+   P(unwind | Travel) :       1/3.0
+   P(services | Travel) :     0/3.0
+   P(grand | Travel) :        4/3.0
+   P(lido | Travel) :         1/3.0
+   P(like | Travel) :         4/3.0
+   P(swanky | Travel) :       2/3.0
+   P(suites | Travel) :       1/3.0
+   P(personal | Travel) :     1/3.0
+   P(butlers | Travel) :      1/3.0
+   P(boutique | Travel) :     1/3.0
+   P(private | Travel) :      6/3.0
+   P(serene | Travel) :       1/3.0
+   P(check | Travel) :        2/3.0
+   P(beautiful | Travel) :    4/3.0
+   P(secluded | Travel) :     1/3.0
+   P(clothing | Travel) :     1/3.0
+   P(optional | Travel) :     1/3.0
+   P(aunaturel | Travel) :    1/3.0
+   P(pool | Travel) :         3/3.0
+   P(free | Travel) :         2/3.0
+   P(wifi | Travel) :         1/3.0
+   P(throughout | Travel) :   1/3.0
+   P(want | Travel) :         2/3.0
+   P(disconnect | Travel) :   1/3.0
+   P(stress | Travel) :       1/3.0
+   P(data | Travel) :         1/3.0
+   P(post | Travel) :         1/3.0
+   P(photos | Travel) :       1/3.0
+   P(show | Travel) :         1/3.0
+   P(little | Travel) :       2/3.0
+   P(remote | Travel) :       1/3.0
+   P(trip | Travel) :         4/3.0
+   P(fantasy | Travel) :      1/3.0
+   P(island | Travel) :       6/3.0
+   P(roatan | Travel) :       2/3.0
+   P(slow | Travel) :         1/3.0
+   P(pace | Travel) :         1/3.0
+   P(better | Travel) :       1/3.0
+   P(acre | Travel) :         1/3.0
+   P(southern | Travel) :     1/3.0
+   P(coast | Travel) :        15/3.0
+   P(honduras | Travel) :     1/3.0
+   P(beaches | Travel) :      1/3.0
+   P(access | Travel) :       2/3.0
+   P(second | Travel) :       1/3.0
+   P(largest | Travel) :      1/3.0
+   P(barrier | Travel) :      1/3.0
+   P(reef | Travel) :         1/3.0
+   P(world | Travel) :        2/3.0
+   P(making | Travel) :       1/3.0
+   P(wonderful | Travel) :    1/3.0
+   P(water | Travel) :        2/3.0
+   P(sports | Travel) :       1/3.0
+
+   P(lowwwwkey | Entertainment) : 0/3.0
+   P(holiday | Entertainment) : 0/3.0
+   P(ideas | Entertainment) : 0/3.0
+   P(presented | Entertainment) : 0/3.0
+   P(sunwing | Entertainment) : 0/3.0
+   P(credit | Entertainment) : 0/3.0
+   P(supply | Entertainment) : 1/3.0
+   P(co | Entertainment) :    0/3.0
+   P(planning | Entertainment) : 0/3.0
+   P(escape | Entertainment) : 0/3.0
+   P(grind | Entertainment) : 0/3.0
+   P(work | Entertainment) :  2/3.0
+   P(think | Entertainment) : 3/3.0
+   P(luxury | Entertainment) : 0/3.0
+   P(allinclusive | Entertainment) : 0/3.0
+   P(resort | Entertainment) : 0/3.0
+   P(stunning | Entertainment) : 0/3.0
+   P(peaceful | Entertainment) : 0/3.0
+   P(location | Entertainment) : 0/3.0
+   P(right | Entertainment) : 0/3.0
+   P(place | Entertainment) : 0/3.0
+   P(go | Entertainment) :    0/3.0
+   P(next | Entertainment) :  1/3.0
+   P(time | Entertainment) :  3/3.0
+   P(need | Entertainment) :  0/3.0
+   P(really | Entertainment) : 0/3.0
+   P(restorative | Entertainment) : 0/3.0
+   P(getaway | Entertainment) : 0/3.0
+   P(lowkey | Entertainment) : 0/3.0
+   P(high | Entertainment) :  0/3.0
+   P(relaxing | Entertainment) : 0/3.0
+   P(low | Entertainment) :   3/3.0
+   P(details | Entertainment) : 0/3.0
+   P(just | Entertainment) :  2/3.0
+   P(adultsonly | Entertainment) : 0/3.0
+   P(shore | Entertainment) : 0/3.0
+   P(jamaicas | Entertainment) : 0/3.0
+   P(negril | Entertainment) : 0/3.0
+   P(small | Entertainment) : 0/3.0
+   P(super | Entertainment) : 1/3.0
+   P(relaxed | Entertainment) : 0/3.0
+   P(beach | Entertainment) : 0/3.0
+   P(town | Entertainment) :  0/3.0
+   P(diving | Entertainment) : 0/3.0
+   P(snorkeling | Entertainment) : 0/3.0
+   P(coastline | Entertainment) : 0/3.0
+   P(famous | Entertainment) : 1/3.0
+   P(unwind | Entertainment) : 0/3.0
+   P(services | Entertainment) : 1/3.0
+   P(grand | Entertainment) : 0/3.0
+   P(lido | Entertainment) :  0/3.0
+   P(like | Entertainment) :  4/3.0
+   P(swanky | Entertainment) : 0/3.0
+   P(suites | Entertainment) : 0/3.0
+   P(personal | Entertainment) : 0/3.0
+   P(butlers | Entertainment) : 0/3.0
+   P(boutique | Entertainment) : 0/3.0
+   P(private | Entertainment) : 0/3.0
+   P(serene | Entertainment) : 0/3.0
+   P(check | Entertainment) : 0/3.0
+   P(beautiful | Entertainment) : 0/3.0
+   P(secluded | Entertainment) : 0/3.0
+   P(clothing | Entertainment) : 0/3.0
+   P(optional | Entertainment) : 0/3.0
+   P(aunaturel | Entertainment) : 0/3.0
+   P(pool | Entertainment) :  0/3.0
+   P(free | Entertainment) :  0/3.0
+   P(wifi | Entertainment) :  0/3.0
+   P(throughout | Entertainment) : 0/3.0
+   P(want | Entertainment) :  0/3.0
+   P(disconnect | Entertainment) : 0/3.0
+   P(stress | Entertainment) : 0/3.0
+   P(data | Entertainment) :  0/3.0
+   P(post | Entertainment) :  0/3.0
+   P(photos | Entertainment) : 0/3.0
+   P(show | Entertainment) :  3/3.0
+   P(little | Entertainment) : 0/3.0
+   P(remote | Entertainment) : 0/3.0
+   P(trip | Entertainment) :  0/3.0
+   P(fantasy | Entertainment) : 0/3.0
+   P(island | Entertainment) : 0/3.0
+   P(roatan | Entertainment) : 0/3.0
+   P(slow | Entertainment) :  0/3.0
+   P(pace | Entertainment) :  0/3.0
+   P(better | Entertainment) : 0/3.0
+   P(acre | Entertainment) :  0/3.0
+   P(southern | Entertainment) : 0/3.0
+   P(coast | Entertainment) : 0/3.0
+   P(honduras | Entertainment) : 0/3.0
+   P(beaches | Entertainment) : 0/3.0
+   P(access | Entertainment) : 0/3.0
+   P(second | Entertainment) : 0/3.0
+   P(largest | Entertainment) : 0/3.0
+   P(barrier | Entertainment) : 0/3.0
+   P(reef | Entertainment) :  0/3.0
+   P(world | Entertainment) : 2/3.0
+   P(making | Entertainment) : 0/3.0
+   P(wonderful | Entertainment) : 0/3.0
+   P(water | Entertainment) : 1/3.0
+   P(sports | Entertainment) : 0/3.0
+
+   P(lowwwwkey | World News) : 0/3.0
+   P(holiday | World News) :  0/3.0
+   P(ideas | World News) :    0/3.0
+   P(presented | World News) : 0/3.0
+   P(sunwing | World News) :  0/3.0
+   P(credit | World News) :   0/3.0
+   P(supply | World News) :   0/3.0
+   P(co | World News) :       0/3.0
+   P(planning | World News) : 0/3.0
+   P(escape | World News) :   0/3.0
+   P(grind | World News) :    0/3.0
+   P(work | World News) :     0/3.0
+   P(think | World News) :    0/3.0
+   P(luxury | World News) :   0/3.0
+   P(allinclusive | World News) : 0/3.0
+   P(resort | World News) :   0/3.0
+   P(stunning | World News) : 0/3.0
+   P(peaceful | World News) : 1/3.0
+   P(location | World News) : 0/3.0
+   P(right | World News) :    2/3.0
+   P(place | World News) :    2/3.0
+   P(go | World News) :       2/3.0
+   P(next | World News) :     1/3.0
+   P(time | World News) :     3/3.0
+   P(need | World News) :     0/3.0
+   P(really | World News) :   0/3.0
+   P(restorative | World News) : 0/3.0
+   P(getaway | World News) :  0/3.0
+   P(lowkey | World News) :   0/3.0
+   P(high | World News) :     3/3.0
+   P(relaxing | World News) : 0/3.0
+   P(low | World News) :      0/3.0
+   P(details | World News) :  0/3.0
+   P(just | World News) :     2/3.0
+   P(adultsonly | World News) : 0/3.0
+   P(shore | World News) :    0/3.0
+   P(jamaicas | World News) : 0/3.0
+   P(negril | World News) :   0/3.0
+   P(small | World News) :    0/3.0
+   P(super | World News) :    0/3.0
+   P(relaxed | World News) :  0/3.0
+   P(beach | World News) :    1/3.0
+   P(town | World News) :     4/3.0
+   P(diving | World News) :   0/3.0
+   P(snorkeling | World News) : 0/3.0
+   P(coastline | World News) : 0/3.0
+   P(famous | World News) :   0/3.0
+   P(unwind | World News) :   0/3.0
+   P(services | World News) : 0/3.0
+   P(grand | World News) :    1/3.0
+   P(lido | World News) :     0/3.0
+   P(like | World News) :     0/3.0
+   P(swanky | World News) :   0/3.0
+   P(suites | World News) :   0/3.0
+   P(personal | World News) : 0/3.0
+   P(butlers | World News) :  0/3.0
+   P(boutique | World News) : 0/3.0
+   P(private | World News) :  1/3.0
+   P(serene | World News) :   0/3.0
+   P(check | World News) :    1/3.0
+   P(beautiful | World News) : 0/3.0
+   P(secluded | World News) : 0/3.0
+   P(clothing | World News) : 0/3.0
+   P(optional | World News) : 0/3.0
+   P(aunaturel | World News) : 0/3.0
+   P(pool | World News) :     0/3.0
+   P(free | World News) :     0/3.0
+   P(wifi | World News) :     0/3.0
+   P(throughout | World News) : 1/3.0
+   P(want | World News) :     3/3.0
+   P(disconnect | World News) : 0/3.0
+   P(stress | World News) :   0/3.0
+   P(data | World News) :     0/3.0
+   P(post | World News) :     1/3.0
+   P(photos | World News) :   0/3.0
+   P(show | World News) :     0/3.0
+   P(little | World News) :   2/3.0
+   P(remote | World News) :   0/3.0
+   P(trip | World News) :     0/3.0
+   P(fantasy | World News) :  0/3.0
+   P(island | World News) :   0/3.0
+   P(roatan | World News) :   0/3.0
+   P(slow | World News) :     0/3.0
+   P(pace | World News) :     0/3.0
+   P(better | World News) :   1/3.0
+   P(acre | World News) :     0/3.0
+   P(southern | World News) : 0/3.0
+   P(coast | World News) :    0/3.0
+   P(honduras | World News) : 0/3.0
+   P(beaches | World News) :  0/3.0
+   P(access | World News) :   0/3.0
+   P(second | World News) :   0/3.0
+   P(largest | World News) :  0/3.0
+   P(barrier | World News) :  0/3.0
+   P(reef | World News) :     0/3.0
+   P(world | World News) :    4/3.0
+   P(making | World News) :   1/3.0
+   P(wonderful | World News) : 0/3.0
+   P(water | World News) :    0/3.0
+   P(sports | World News) :   0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.
+
+P(Sports | words from src/docs/travel-article2.txt) 
+=    3/12    x    ( 2/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  8/3    x  1/3    x  4/3    x  2/3    x  3/3    x  1/3    x  6/3    x  33/3   x  (1/3) )     
+=     1824768 / 172186884    =    0.010597601615231041
+
+
+P(Travel | words from src/docs/travel-article2.txt) 
+=    3/12    x    ( 1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  11/3   x  4/3    x  1/3    x  1/3    x  1/3    x  3/3    x  2/3    x  1/3    x  10/3   x  10/3   x  4/3    x  1/3    x  4/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  4/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  4/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  6/3    x  1/3    x  2/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  2/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  4/3    x  1/3    x  6/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  15/3   x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  (1/3) )     
+=     3251106349752254464 / 6508252691559370564    =    0.4995359743742975
+
+
+P(Entertainment | words from src/docs/travel-article2.txt) 
+= 3/12    x    ( 1/3    x  2/3    x  3/3    x  1/3    x  3/3    x  3/3    x  2/3    x  1/3    x  1/3    x  1/3    x  4/3    x  3/3    x  2/3    x  1/3    x  (1)   )     
+=     7776 / 57395628    =    1.3548070246744229E-4
+
+
+P(World News | words from src/docs/travel-article2.txt) 
+= 3/12    x    ( 1/3    x  2/3    x  2/3    x  2/3    x  1/3    x  3/3    x  3/3    x  2/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  2/3    x  1/3    x  4/3    x  1/3    x  (1)   )     
+=     41472 / 41841412812    =    9.911711200178677E-7
+
+
+
+
+Class resulting form naive bayes classification for 100 words from src/docs/travel-article2.txt is:
+Travel

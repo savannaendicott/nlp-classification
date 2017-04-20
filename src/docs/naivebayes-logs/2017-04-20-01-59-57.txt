@@ -1,0 +1,555 @@
+
+Savanna Endicott- statistical Natural Language Processing
+
+Log for naive bayes classification attempt on: 2017/04/20 01:59:57
+
+Num docs in the Sports category : 3.0
+Num docs in the Travel category : 3.0
+Num docs in the Entertainment category : 3.0
+Num docs in the World News category : 3.0
+
+Category: Sports
+   play:4              works:0             magic:0             wins:2              
+   awards:0            cursed:0            child:3             record:0            
+   trophies:0          including:0         new:2               imagines:0          
+   fictional:0         boy:0               wizard:0            father:0            
+   continued:0         global:0            blockbuster:0       novels:0            
+   movies:0            franchise:0         won:8               lealolivasafpgetty:0      
+   images:0            bewitched:0         page:0              screen:0            
+   stage:1             sequel:0            cast:0              spell:0             
+   theatres:0          prizes:0            britains:0          equivalent:0        
+   broadways:0         tonys:0             hilariously:0       repetitive:0        
+   comedy:0            groundhog:0         day:4               named:0             
+   musical:0           plot:0              picks:0             years:2             
+   last:2              novel:0             left:2              depicts:0           
+   friends:1           adults:0            follows:0           adventures:0        
+   offspring:0         school:0            witchcraft:0        wizardry:0          
+   continues:0         saga:0              adult:0             son:0               
+   albus:0             forget:1            films:0             fantastic:0         
+   fans:1              rave:0              written:1           story:1             
+   cowritten:0         critical:0          hit:0               boxoffice:0         
+   behemoth:0          since:2             opening:1           july:0              
+   palace:0            theatre:0           plans:0             afoot:0             
+   send:0              broadway:0          next:1              year:2              
+   star:2              jamie:0             bestactor:0         prize:1             
+   playing:0           success:1           embrace:0           foregone:0          
+   conclusion:0        much:1              potential:0         cynicism:0          
+   
+
+Category: Travel
+   play:0              works:0             magic:0             wins:0              
+   awards:0            cursed:0            child:0             record:0            
+   trophies:0          including:1         new:4               imagines:0          
+   fictional:0         boy:0               wizard:0            father:0            
+   continued:0         global:0            blockbuster:0       novels:0            
+   movies:0            franchise:0         won:0               lealolivasafpgetty:0      
+   images:0            bewitched:0         page:0              screen:0            
+   stage:0             sequel:0            cast:0              spell:0             
+   theatres:0          prizes:0            britains:0          equivalent:0        
+   broadways:0         tonys:0             hilariously:0       repetitive:0        
+   comedy:0            groundhog:0         day:2               named:0             
+   musical:0           plot:0              picks:1             years:2             
+   last:1              novel:0             left:1              depicts:0           
+   friends:0           adults:0            follows:0           adventures:1        
+   offspring:0         school:0            witchcraft:0        wizardry:0          
+   continues:0         saga:0              adult:0             son:0               
+   albus:0             forget:0            films:0             fantastic:1         
+   fans:0              rave:0              written:0           story:0             
+   cowritten:0         critical:0          hit:1               boxoffice:0         
+   behemoth:0          since:1             opening:0           july:0              
+   palace:0            theatre:0           plans:0             afoot:0             
+   send:0              broadway:0          next:1              year:2              
+   star:0              jamie:0             bestactor:0         prize:0             
+   playing:0           success:0           embrace:0           foregone:0          
+   conclusion:0        much:2              potential:0         cynicism:0          
+   
+
+Category: Entertainment
+   play:11             works:1             magic:2             wins:2              
+   awards:6            cursed:6            child:7             record:3            
+   trophies:2          including:4         new:2               imagines:1          
+   fictional:1         boy:2               wizard:2            father:1            
+   continued:1         global:1            blockbuster:1       novels:1            
+   movies:1            franchise:1         won:4               lealolivasafpgetty:1      
+   images:1            bewitched:1         page:1              screen:1            
+   stage:4             sequel:1            cast:1              spell:1             
+   theatres:2          prizes:3            britains:1          equivalent:1        
+   broadways:1         tonys:1             hilariously:1       repetitive:1        
+   comedy:1            groundhog:3         day:2               named:10            
+   musical:9           plot:2              picks:1             years:2             
+   last:2              novel:1             left:2              depicts:1           
+   friends:1           adults:1            follows:1           adventures:1        
+   offspring:1         school:3            witchcraft:1        wizardry:1          
+   continues:1         saga:1              adult:2             son:2               
+   albus:1             forget:1            films:4             fantastic:1         
+   fans:2              rave:1              written:1           story:1             
+   cowritten:1         critical:1          hit:1               boxoffice:2         
+   behemoth:1          since:2             opening:10          july:2              
+   palace:1            theatre:4           plans:1             afoot:1             
+   send:1              broadway:2          next:1              year:1              
+   star:4              jamie:1             bestactor:2         prize:4             
+   playing:5           success:1           embrace:1           foregone:1          
+   conclusion:1        much:1              potential:2         cynicism:1          
+   
+
+Category: World News
+   play:1              works:0             magic:0             wins:0              
+   awards:0            cursed:0            child:0             record:0            
+   trophies:0          including:2         new:1               imagines:0          
+   fictional:0         boy:0               wizard:0            father:2            
+   continued:0         global:0            blockbuster:0       novels:0            
+   movies:0            franchise:0         won:0               lealolivasafpgetty:0      
+   images:4            bewitched:0         page:0              screen:0            
+   stage:1             sequel:0            cast:0              spell:0             
+   theatres:0          prizes:0            britains:0          equivalent:0        
+   broadways:0         tonys:0             hilariously:0       repetitive:0        
+   comedy:0            groundhog:0         day:1               named:0             
+   musical:0           plot:0              picks:0             years:4             
+   last:10             novel:0             left:2              depicts:0           
+   friends:2           adults:0            follows:0           adventures:0        
+   offspring:0         school:0            witchcraft:0        wizardry:0          
+   continues:0         saga:0              adult:0             son:0               
+   albus:0             forget:0            films:0             fantastic:1         
+   fans:0              rave:0              written:0           story:0             
+   cowritten:0         critical:0          hit:0               boxoffice:0         
+   behemoth:0          since:2             opening:0           july:0              
+   palace:0            theatre:0           plans:2             afoot:0             
+   send:0              broadway:0          next:1              year:4              
+   star:0              jamie:0             bestactor:0         prize:0             
+   playing:0           success:1           embrace:0           foregone:0          
+   conclusion:0        much:3              potential:1         cynicism:0          
+   
+
+Word likely-hoods: 
+   P(play | Sports) :         4/3.0
+   P(works | Sports) :        0/3.0
+   P(magic | Sports) :        0/3.0
+   P(wins | Sports) :         2/3.0
+   P(awards | Sports) :       0/3.0
+   P(cursed | Sports) :       0/3.0
+   P(child | Sports) :        3/3.0
+   P(record | Sports) :       0/3.0
+   P(trophies | Sports) :     0/3.0
+   P(including | Sports) :    0/3.0
+   P(new | Sports) :          2/3.0
+   P(imagines | Sports) :     0/3.0
+   P(fictional | Sports) :    0/3.0
+   P(boy | Sports) :          0/3.0
+   P(wizard | Sports) :       0/3.0
+   P(father | Sports) :       0/3.0
+   P(continued | Sports) :    0/3.0
+   P(global | Sports) :       0/3.0
+   P(blockbuster | Sports) :  0/3.0
+   P(novels | Sports) :       0/3.0
+   P(movies | Sports) :       0/3.0
+   P(franchise | Sports) :    0/3.0
+   P(won | Sports) :          8/3.0
+   P(lealolivasafpgetty | Sports) : 0/3.0
+   P(images | Sports) :       0/3.0
+   P(bewitched | Sports) :    0/3.0
+   P(page | Sports) :         0/3.0
+   P(screen | Sports) :       0/3.0
+   P(stage | Sports) :        1/3.0
+   P(sequel | Sports) :       0/3.0
+   P(cast | Sports) :         0/3.0
+   P(spell | Sports) :        0/3.0
+   P(theatres | Sports) :     0/3.0
+   P(prizes | Sports) :       0/3.0
+   P(britains | Sports) :     0/3.0
+   P(equivalent | Sports) :   0/3.0
+   P(broadways | Sports) :    0/3.0
+   P(tonys | Sports) :        0/3.0
+   P(hilariously | Sports) :  0/3.0
+   P(repetitive | Sports) :   0/3.0
+   P(comedy | Sports) :       0/3.0
+   P(groundhog | Sports) :    0/3.0
+   P(day | Sports) :          4/3.0
+   P(named | Sports) :        0/3.0
+   P(musical | Sports) :      0/3.0
+   P(plot | Sports) :         0/3.0
+   P(picks | Sports) :        0/3.0
+   P(years | Sports) :        2/3.0
+   P(last | Sports) :         2/3.0
+   P(novel | Sports) :        0/3.0
+   P(left | Sports) :         2/3.0
+   P(depicts | Sports) :      0/3.0
+   P(friends | Sports) :      1/3.0
+   P(adults | Sports) :       0/3.0
+   P(follows | Sports) :      0/3.0
+   P(adventures | Sports) :   0/3.0
+   P(offspring | Sports) :    0/3.0
+   P(school | Sports) :       0/3.0
+   P(witchcraft | Sports) :   0/3.0
+   P(wizardry | Sports) :     0/3.0
+   P(continues | Sports) :    0/3.0
+   P(saga | Sports) :         0/3.0
+   P(adult | Sports) :        0/3.0
+   P(son | Sports) :          0/3.0
+   P(albus | Sports) :        0/3.0
+   P(forget | Sports) :       1/3.0
+   P(films | Sports) :        0/3.0
+   P(fantastic | Sports) :    0/3.0
+   P(fans | Sports) :         1/3.0
+   P(rave | Sports) :         0/3.0
+   P(written | Sports) :      1/3.0
+   P(story | Sports) :        1/3.0
+   P(cowritten | Sports) :    0/3.0
+   P(critical | Sports) :     0/3.0
+   P(hit | Sports) :          0/3.0
+   P(boxoffice | Sports) :    0/3.0
+   P(behemoth | Sports) :     0/3.0
+   P(since | Sports) :        2/3.0
+   P(opening | Sports) :      1/3.0
+   P(july | Sports) :         0/3.0
+   P(palace | Sports) :       0/3.0
+   P(theatre | Sports) :      0/3.0
+   P(plans | Sports) :        0/3.0
+   P(afoot | Sports) :        0/3.0
+   P(send | Sports) :         0/3.0
+   P(broadway | Sports) :     0/3.0
+   P(next | Sports) :         1/3.0
+   P(year | Sports) :         2/3.0
+   P(star | Sports) :         2/3.0
+   P(jamie | Sports) :        0/3.0
+   P(bestactor | Sports) :    0/3.0
+   P(prize | Sports) :        1/3.0
+   P(playing | Sports) :      0/3.0
+   P(success | Sports) :      1/3.0
+   P(embrace | Sports) :      0/3.0
+   P(foregone | Sports) :     0/3.0
+   P(conclusion | Sports) :   0/3.0
+   P(much | Sports) :         1/3.0
+   P(potential | Sports) :    0/3.0
+   P(cynicism | Sports) :     0/3.0
+
+   P(play | Travel) :         0/3.0
+   P(works | Travel) :        0/3.0
+   P(magic | Travel) :        0/3.0
+   P(wins | Travel) :         0/3.0
+   P(awards | Travel) :       0/3.0
+   P(cursed | Travel) :       0/3.0
+   P(child | Travel) :        0/3.0
+   P(record | Travel) :       0/3.0
+   P(trophies | Travel) :     0/3.0
+   P(including | Travel) :    1/3.0
+   P(new | Travel) :          4/3.0
+   P(imagines | Travel) :     0/3.0
+   P(fictional | Travel) :    0/3.0
+   P(boy | Travel) :          0/3.0
+   P(wizard | Travel) :       0/3.0
+   P(father | Travel) :       0/3.0
+   P(continued | Travel) :    0/3.0
+   P(global | Travel) :       0/3.0
+   P(blockbuster | Travel) :  0/3.0
+   P(novels | Travel) :       0/3.0
+   P(movies | Travel) :       0/3.0
+   P(franchise | Travel) :    0/3.0
+   P(won | Travel) :          0/3.0
+   P(lealolivasafpgetty | Travel) : 0/3.0
+   P(images | Travel) :       0/3.0
+   P(bewitched | Travel) :    0/3.0
+   P(page | Travel) :         0/3.0
+   P(screen | Travel) :       0/3.0
+   P(stage | Travel) :        0/3.0
+   P(sequel | Travel) :       0/3.0
+   P(cast | Travel) :         0/3.0
+   P(spell | Travel) :        0/3.0
+   P(theatres | Travel) :     0/3.0
+   P(prizes | Travel) :       0/3.0
+   P(britains | Travel) :     0/3.0
+   P(equivalent | Travel) :   0/3.0
+   P(broadways | Travel) :    0/3.0
+   P(tonys | Travel) :        0/3.0
+   P(hilariously | Travel) :  0/3.0
+   P(repetitive | Travel) :   0/3.0
+   P(comedy | Travel) :       0/3.0
+   P(groundhog | Travel) :    0/3.0
+   P(day | Travel) :          2/3.0
+   P(named | Travel) :        0/3.0
+   P(musical | Travel) :      0/3.0
+   P(plot | Travel) :         0/3.0
+   P(picks | Travel) :        1/3.0
+   P(years | Travel) :        2/3.0
+   P(last | Travel) :         1/3.0
+   P(novel | Travel) :        0/3.0
+   P(left | Travel) :         1/3.0
+   P(depicts | Travel) :      0/3.0
+   P(friends | Travel) :      0/3.0
+   P(adults | Travel) :       0/3.0
+   P(follows | Travel) :      0/3.0
+   P(adventures | Travel) :   1/3.0
+   P(offspring | Travel) :    0/3.0
+   P(school | Travel) :       0/3.0
+   P(witchcraft | Travel) :   0/3.0
+   P(wizardry | Travel) :     0/3.0
+   P(continues | Travel) :    0/3.0
+   P(saga | Travel) :         0/3.0
+   P(adult | Travel) :        0/3.0
+   P(son | Travel) :          0/3.0
+   P(albus | Travel) :        0/3.0
+   P(forget | Travel) :       0/3.0
+   P(films | Travel) :        0/3.0
+   P(fantastic | Travel) :    1/3.0
+   P(fans | Travel) :         0/3.0
+   P(rave | Travel) :         0/3.0
+   P(written | Travel) :      0/3.0
+   P(story | Travel) :        0/3.0
+   P(cowritten | Travel) :    0/3.0
+   P(critical | Travel) :     0/3.0
+   P(hit | Travel) :          1/3.0
+   P(boxoffice | Travel) :    0/3.0
+   P(behemoth | Travel) :     0/3.0
+   P(since | Travel) :        1/3.0
+   P(opening | Travel) :      0/3.0
+   P(july | Travel) :         0/3.0
+   P(palace | Travel) :       0/3.0
+   P(theatre | Travel) :      0/3.0
+   P(plans | Travel) :        0/3.0
+   P(afoot | Travel) :        0/3.0
+   P(send | Travel) :         0/3.0
+   P(broadway | Travel) :     0/3.0
+   P(next | Travel) :         1/3.0
+   P(year | Travel) :         2/3.0
+   P(star | Travel) :         0/3.0
+   P(jamie | Travel) :        0/3.0
+   P(bestactor | Travel) :    0/3.0
+   P(prize | Travel) :        0/3.0
+   P(playing | Travel) :      0/3.0
+   P(success | Travel) :      0/3.0
+   P(embrace | Travel) :      0/3.0
+   P(foregone | Travel) :     0/3.0
+   P(conclusion | Travel) :   0/3.0
+   P(much | Travel) :         2/3.0
+   P(potential | Travel) :    0/3.0
+   P(cynicism | Travel) :     0/3.0
+
+   P(play | Entertainment) :  11/3.0
+   P(works | Entertainment) : 1/3.0
+   P(magic | Entertainment) : 2/3.0
+   P(wins | Entertainment) :  2/3.0
+   P(awards | Entertainment) : 6/3.0
+   P(cursed | Entertainment) : 6/3.0
+   P(child | Entertainment) : 7/3.0
+   P(record | Entertainment) : 3/3.0
+   P(trophies | Entertainment) : 2/3.0
+   P(including | Entertainment) : 4/3.0
+   P(new | Entertainment) :   2/3.0
+   P(imagines | Entertainment) : 1/3.0
+   P(fictional | Entertainment) : 1/3.0
+   P(boy | Entertainment) :   2/3.0
+   P(wizard | Entertainment) : 2/3.0
+   P(father | Entertainment) : 1/3.0
+   P(continued | Entertainment) : 1/3.0
+   P(global | Entertainment) : 1/3.0
+   P(blockbuster | Entertainment) : 1/3.0
+   P(novels | Entertainment) : 1/3.0
+   P(movies | Entertainment) : 1/3.0
+   P(franchise | Entertainment) : 1/3.0
+   P(won | Entertainment) :   4/3.0
+   P(lealolivasafpgetty | Entertainment) : 1/3.0
+   P(images | Entertainment) : 1/3.0
+   P(bewitched | Entertainment) : 1/3.0
+   P(page | Entertainment) :  1/3.0
+   P(screen | Entertainment) : 1/3.0
+   P(stage | Entertainment) : 4/3.0
+   P(sequel | Entertainment) : 1/3.0
+   P(cast | Entertainment) :  1/3.0
+   P(spell | Entertainment) : 1/3.0
+   P(theatres | Entertainment) : 2/3.0
+   P(prizes | Entertainment) : 3/3.0
+   P(britains | Entertainment) : 1/3.0
+   P(equivalent | Entertainment) : 1/3.0
+   P(broadways | Entertainment) : 1/3.0
+   P(tonys | Entertainment) : 1/3.0
+   P(hilariously | Entertainment) : 1/3.0
+   P(repetitive | Entertainment) : 1/3.0
+   P(comedy | Entertainment) : 1/3.0
+   P(groundhog | Entertainment) : 3/3.0
+   P(day | Entertainment) :   2/3.0
+   P(named | Entertainment) : 10/3.0
+   P(musical | Entertainment) : 9/3.0
+   P(plot | Entertainment) :  2/3.0
+   P(picks | Entertainment) : 1/3.0
+   P(years | Entertainment) : 2/3.0
+   P(last | Entertainment) :  2/3.0
+   P(novel | Entertainment) : 1/3.0
+   P(left | Entertainment) :  2/3.0
+   P(depicts | Entertainment) : 1/3.0
+   P(friends | Entertainment) : 1/3.0
+   P(adults | Entertainment) : 1/3.0
+   P(follows | Entertainment) : 1/3.0
+   P(adventures | Entertainment) : 1/3.0
+   P(offspring | Entertainment) : 1/3.0
+   P(school | Entertainment) : 3/3.0
+   P(witchcraft | Entertainment) : 1/3.0
+   P(wizardry | Entertainment) : 1/3.0
+   P(continues | Entertainment) : 1/3.0
+   P(saga | Entertainment) :  1/3.0
+   P(adult | Entertainment) : 2/3.0
+   P(son | Entertainment) :   2/3.0
+   P(albus | Entertainment) : 1/3.0
+   P(forget | Entertainment) : 1/3.0
+   P(films | Entertainment) : 4/3.0
+   P(fantastic | Entertainment) : 1/3.0
+   P(fans | Entertainment) :  2/3.0
+   P(rave | Entertainment) :  1/3.0
+   P(written | Entertainment) : 1/3.0
+   P(story | Entertainment) : 1/3.0
+   P(cowritten | Entertainment) : 1/3.0
+   P(critical | Entertainment) : 1/3.0
+   P(hit | Entertainment) :   1/3.0
+   P(boxoffice | Entertainment) : 2/3.0
+   P(behemoth | Entertainment) : 1/3.0
+   P(since | Entertainment) : 2/3.0
+   P(opening | Entertainment) : 10/3.0
+   P(july | Entertainment) :  2/3.0
+   P(palace | Entertainment) : 1/3.0
+   P(theatre | Entertainment) : 4/3.0
+   P(plans | Entertainment) : 1/3.0
+   P(afoot | Entertainment) : 1/3.0
+   P(send | Entertainment) :  1/3.0
+   P(broadway | Entertainment) : 2/3.0
+   P(next | Entertainment) :  1/3.0
+   P(year | Entertainment) :  1/3.0
+   P(star | Entertainment) :  4/3.0
+   P(jamie | Entertainment) : 1/3.0
+   P(bestactor | Entertainment) : 2/3.0
+   P(prize | Entertainment) : 4/3.0
+   P(playing | Entertainment) : 5/3.0
+   P(success | Entertainment) : 1/3.0
+   P(embrace | Entertainment) : 1/3.0
+   P(foregone | Entertainment) : 1/3.0
+   P(conclusion | Entertainment) : 1/3.0
+   P(much | Entertainment) :  1/3.0
+   P(potential | Entertainment) : 2/3.0
+   P(cynicism | Entertainment) : 1/3.0
+
+   P(play | World News) :     1/3.0
+   P(works | World News) :    0/3.0
+   P(magic | World News) :    0/3.0
+   P(wins | World News) :     0/3.0
+   P(awards | World News) :   0/3.0
+   P(cursed | World News) :   0/3.0
+   P(child | World News) :    0/3.0
+   P(record | World News) :   0/3.0
+   P(trophies | World News) : 0/3.0
+   P(including | World News) : 2/3.0
+   P(new | World News) :      1/3.0
+   P(imagines | World News) : 0/3.0
+   P(fictional | World News) : 0/3.0
+   P(boy | World News) :      0/3.0
+   P(wizard | World News) :   0/3.0
+   P(father | World News) :   2/3.0
+   P(continued | World News) : 0/3.0
+   P(global | World News) :   0/3.0
+   P(blockbuster | World News) : 0/3.0
+   P(novels | World News) :   0/3.0
+   P(movies | World News) :   0/3.0
+   P(franchise | World News) : 0/3.0
+   P(won | World News) :      0/3.0
+   P(lealolivasafpgetty | World News) : 0/3.0
+   P(images | World News) :   4/3.0
+   P(bewitched | World News) : 0/3.0
+   P(page | World News) :     0/3.0
+   P(screen | World News) :   0/3.0
+   P(stage | World News) :    1/3.0
+   P(sequel | World News) :   0/3.0
+   P(cast | World News) :     0/3.0
+   P(spell | World News) :    0/3.0
+   P(theatres | World News) : 0/3.0
+   P(prizes | World News) :   0/3.0
+   P(britains | World News) : 0/3.0
+   P(equivalent | World News) : 0/3.0
+   P(broadways | World News) : 0/3.0
+   P(tonys | World News) :    0/3.0
+   P(hilariously | World News) : 0/3.0
+   P(repetitive | World News) : 0/3.0
+   P(comedy | World News) :   0/3.0
+   P(groundhog | World News) : 0/3.0
+   P(day | World News) :      1/3.0
+   P(named | World News) :    0/3.0
+   P(musical | World News) :  0/3.0
+   P(plot | World News) :     0/3.0
+   P(picks | World News) :    0/3.0
+   P(years | World News) :    4/3.0
+   P(last | World News) :     10/3.0
+   P(novel | World News) :    0/3.0
+   P(left | World News) :     2/3.0
+   P(depicts | World News) :  0/3.0
+   P(friends | World News) :  2/3.0
+   P(adults | World News) :   0/3.0
+   P(follows | World News) :  0/3.0
+   P(adventures | World News) : 0/3.0
+   P(offspring | World News) : 0/3.0
+   P(school | World News) :   0/3.0
+   P(witchcraft | World News) : 0/3.0
+   P(wizardry | World News) : 0/3.0
+   P(continues | World News) : 0/3.0
+   P(saga | World News) :     0/3.0
+   P(adult | World News) :    0/3.0
+   P(son | World News) :      0/3.0
+   P(albus | World News) :    0/3.0
+   P(forget | World News) :   0/3.0
+   P(films | World News) :    0/3.0
+   P(fantastic | World News) : 1/3.0
+   P(fans | World News) :     0/3.0
+   P(rave | World News) :     0/3.0
+   P(written | World News) :  0/3.0
+   P(story | World News) :    0/3.0
+   P(cowritten | World News) : 0/3.0
+   P(critical | World News) : 0/3.0
+   P(hit | World News) :      0/3.0
+   P(boxoffice | World News) : 0/3.0
+   P(behemoth | World News) : 0/3.0
+   P(since | World News) :    2/3.0
+   P(opening | World News) :  0/3.0
+   P(july | World News) :     0/3.0
+   P(palace | World News) :   0/3.0
+   P(theatre | World News) :  0/3.0
+   P(plans | World News) :    2/3.0
+   P(afoot | World News) :    0/3.0
+   P(send | World News) :     0/3.0
+   P(broadway | World News) : 0/3.0
+   P(next | World News) :     1/3.0
+   P(year | World News) :     4/3.0
+   P(star | World News) :     0/3.0
+   P(jamie | World News) :    0/3.0
+   P(bestactor | World News) : 0/3.0
+   P(prize | World News) :    0/3.0
+   P(playing | World News) :  0/3.0
+   P(success | World News) :  1/3.0
+   P(embrace | World News) :  0/3.0
+   P(foregone | World News) : 0/3.0
+   P(conclusion | World News) : 0/3.0
+   P(much | World News) :     3/3.0
+   P(potential | World News) : 1/3.0
+   P(cynicism | World News) : 0/3.0
+
+
+
+
+POSTERIOR PRIORI FOR EACH CATEGORY
+
+   Note: if a word does not appear in a category, the 0/x is instead represented as 1 here, to avoid multiplication by 0.
+
+P(Sports | words from src/docs/entertainment-article1.txt) 
+= 3/12    x    ( 4/3    x  2/3    x  3/3    x  2/3    x  8/3    x  1/3    x  4/3    x  2/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  (1)   )     
+=     294912 / 1129718145924    =    2.6104918387301867E-7
+
+
+P(Travel | words from src/docs/entertainment-article1.txt) 
+= 3/12    x    ( 1/3    x  4/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  (1)   )     
+=     192 / 57395628    =    3.3452025300603035E-6
+
+
+P(Entertainment | words from src/docs/entertainment-article1.txt) 
+= 3/12    x    ( 11/3   x  1/3    x  2/3    x  2/3    x  6/3    x  6/3    x  7/3    x  3/3    x  2/3    x  4/3    x  2/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  2/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  2/3    x  10/3   x  9/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  3/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  2/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  2/3    x  10/3   x  2/3    x  1/3    x  4/3    x  1/3    x  1/3    x  1/3    x  2/3    x  1/3    x  1/3    x  4/3    x  1/3    x  2/3    x  4/3    x  5/3    x  1/3    x  1/3    x  1/3    x  1/3    x  1/3    x  2/3    x  (1/3) )     
+=     6529843976466333696 / 1078014000968560076    =    6.057290508842635
+
+
+P(World News | words from src/docs/entertainment-article1.txt) 
+= 3/12    x    ( 1/3    x  2/3    x  1/3    x  2/3    x  4/3    x  1/3    x  1/3    x  4/3    x  10/3   x  2/3    x  2/3    x  1/3    x  2/3    x  2/3    x  1/3    x  4/3    x  1/3    x  3/3    x  1/3    x  (1)   )     
+=     368640 / 13947137604    =    2.643122986714314E-5
+
+
+
