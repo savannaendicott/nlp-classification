@@ -8,9 +8,7 @@ It's purpose is to compare Naive bayes and Bag of Words classification technique
 
 ## Usage: 
 1.	Download from https://github.com/savannaendicott/nlp-classification
-2.	Import project to Eclipse
-      * You will need to import existing project into eclipse (file->import->General->Existing Projects Into Workspace)
-      * In the files from the project manager on the left you will see the sqlite-jdbc-3.8.11.2.jar file for SQLite. Right click this and click build-> add to build path
+2.	Import into IDE & package project with SQLite
 3.	Run (there is only one main – in naivebayes.java)
 4.	Follow the menu options
       * Select classification method (Naïve Bayes or Bag of Words)
